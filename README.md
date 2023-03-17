@@ -38,3 +38,5 @@ This repository is dedicated to summarizing papers related to large-scale langua
 [2] When does pretraining help? assessing self-supervised learning for law and the casehold dataset of 53,000+ legal holdings
 
 [3] LeCaRD: a legal case retrieval dataset for Chinese law system
+
+The survey paper is shown in [paper](http://arxiv.org/abs/2303.09136)
