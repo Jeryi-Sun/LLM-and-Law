@@ -22,6 +22,8 @@ This repository is dedicated to summarizing papers related to large-scale langua
 
 [10] Law Informs Code: A Legal Informatics Approach to Aligning Artificial Intelligence with Humans
 
+[11] ChatGPT may Pass the Bar Exam soon, but has a Long Way to Go for the LexGLUE benchmark [paper](https://arxiv.org/pdf/2304.12202v1.pdf)
+
 
 ## Legal Problems of Large Language Models
 
