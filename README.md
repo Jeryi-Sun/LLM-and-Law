@@ -33,6 +33,8 @@ This repository is dedicated to summarizing papers related to large-scale langua
 
 [3] Understanding the Capabilities, Limitations, and Societal Impact of Large Language Models
 
+[4] The Dark Side of ChatGPT: Legal and Ethical Challenges from Stochastic Parrots and Hallucination
+
 ## Data Resources for Large Language Models in Law
 
 [1] CAIL2018: A Large-Scale Legal Dataset for Judgment Prediction
