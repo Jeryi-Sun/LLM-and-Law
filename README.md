@@ -43,6 +43,8 @@ This repository is dedicated to summarizing papers related to large-scale langua
 
 [3] LeCaRD: a legal case retrieval dataset for Chinese law system
 
+[4] LeXFiles and LegalLAMA: Facilitating English Multinational Legal Language Model Development
+
 ## recent papers
 [1] SAILER: Structure-aware Pre-trained Language Model for Legal Case Retrieval [paper](https://arxiv.org/pdf/2304.11370v1.pdf)
 
