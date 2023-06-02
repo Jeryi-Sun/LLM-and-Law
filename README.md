@@ -49,6 +49,7 @@ This repository is dedicated to summarizing papers related to large-scale langua
 
 [5] Legal Extractive Summarization of U.S. Court Opinions
 
+[6] Awesome Chinese Legal Resources [github](https://github.com/pengxiao-song/awesome-chinese-legal-resources)
 
 
 ## Law LLMs
