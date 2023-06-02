@@ -49,6 +49,21 @@ This repository is dedicated to summarizing papers related to large-scale langua
 
 [5] Legal Extractive Summarization of U.S. Court Opinions
 
+
+
+## Law LLMs
+
+[1] LawGPT_zh [github](github.com/LiuHC0428/LAW-GPT)
+
+[2] LaWGPT [github](https://github.com/pengxiao-song/LaWGPT)
+
+[3] Lawyer LLaMA [github](https://github.com/AndrewZhe/lawyer-llama)
+
+[4] LexiLaw [github](https://github.com/CSHaitao/LexiLaw)
+
+
+
+
 ## recent papers
 [1] SAILER: Structure-aware Pre-trained Language Model for Legal Case Retrieval [paper](https://arxiv.org/pdf/2304.11370v1.pdf)
 
