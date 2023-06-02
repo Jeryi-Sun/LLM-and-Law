@@ -35,6 +35,8 @@ This repository is dedicated to summarizing papers related to large-scale langua
 
 [4] The Dark Side of ChatGPT: Legal and Ethical Challenges from Stochastic Parrots and Hallucination
 
+[5] The GPTJudge: Justice in a Generative AI World [paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4460184)
+
 ## Data Resources for Large Language Models in Law
 
 [1] CAIL2018: A Large-Scale Legal Dataset for Judgment Prediction
