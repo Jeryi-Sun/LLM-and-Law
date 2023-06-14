@@ -62,6 +62,10 @@ This repository is dedicated to summarizing papers related to large-scale langua
 
 [4] LexiLaw [github](https://github.com/CSHaitao/LexiLaw)
 
+[5] LexGPT 0.1: pre-trained GPT-J models with Pile of Law [paper](https://arxiv.org/pdf/2306.05431v1.pdf)
+
+[6] TOWARDS THE EXPLOITATION OF LLM-BASED CHATBOT FOR PROVIDING LEGAL SUPPORT TO PALESTINIAN COOPERATIVES [paper](https://arxiv.org/pdf/2306.05827v1.pdf)
+
 
 
 
