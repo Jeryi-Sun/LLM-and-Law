@@ -24,6 +24,7 @@ This repository is dedicated to summarizing papers related to large-scale langua
 
 [11] ChatGPT may Pass the Bar Exam soon, but has a Long Way to Go for the LexGLUE benchmark [paper](https://arxiv.org/pdf/2304.12202v1.pdf)
 
+[12] How Ready are Pre-trained Abstractive Models and LLMs for Legal Case Judgement Summarization? [paper](https://arxiv.org/pdf/2306.01248v1.pdf)
 
 ## Legal Problems of Large Language Models
 
@@ -51,6 +52,7 @@ This repository is dedicated to summarizing papers related to large-scale langua
 
 [6] Awesome Chinese Legal Resources [github](https://github.com/pengxiao-song/awesome-chinese-legal-resources)
 
+[7] MultiLegalPile: A 689GB Multilingual Legal Corpus [paper](https://arxiv.org/pdf/2306.02069v1.pdf)
 
 ## Law LLMs
 
