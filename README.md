@@ -26,6 +26,8 @@ This repository is dedicated to summarizing papers related to large-scale langua
 
 [12] How Ready are Pre-trained Abstractive Models and LLMs for Legal Case Judgement Summarization? [paper](https://arxiv.org/pdf/2306.01248v1.pdf)
 
+[13] Explaining Legal Concepts with Augmented Large Language Models (GPT-4) [paper](https://arxiv.org/pdf/2306.09525v1.pdf)
+
 ## Legal Problems of Large Language Models
 
 [1] Towards WinoQueer: Developing a Benchmark for Anti-Queer Bias in Large Language Models
