@@ -70,7 +70,7 @@ This repository is dedicated to summarizing papers related to large-scale langua
 
 [6] TOWARDS THE EXPLOITATION OF LLM-BASED CHATBOT FOR PROVIDING LEGAL SUPPORT TO PALESTINIAN COOPERATIVES [paper](https://arxiv.org/pdf/2306.05827v1.pdf)
 
-
+[7] ChatLaw: Open-Source Legal Large Language Model with Integrated External Knowledge Bases [paper](http://arxiv.org/pdf/2306.16092v1)
 
 
 ## recent papers
