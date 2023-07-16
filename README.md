@@ -28,6 +28,8 @@ This repository is dedicated to summarizing papers related to large-scale langua
 
 [13] Explaining Legal Concepts with Augmented Large Language Models (GPT-4) [paper](https://arxiv.org/pdf/2306.09525v1.pdf)
 
+[14] Garbage in, garbage out: Zero-shot detection of crime using Large Language Models [paper](http://arxiv.org/pdf/2307.06844v1)
+
 ## Legal Problems of Large Language Models
 
 [1] Towards WinoQueer: Developing a Benchmark for Anti-Queer Bias in Large Language Models
