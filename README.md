@@ -30,6 +30,8 @@ This repository is dedicated to summarizing papers related to large-scale langua
 
 [14] Garbage in, garbage out: Zero-shot detection of crime using Large Language Models [paper](http://arxiv.org/pdf/2307.06844v1)
 
+[15] Legal Summarisation through LLMs: The PRODIGIT Project  [paper](https://arxiv.org/pdf/2308.04416v1.pdf)
+
 ## Legal Problems of Large Language Models
 
 [1] Towards WinoQueer: Developing a Benchmark for Anti-Queer Bias in Large Language Models
@@ -79,3 +81,16 @@ This repository is dedicated to summarizing papers related to large-scale langua
 [1] SAILER: Structure-aware Pre-trained Language Model for Legal Case Retrieval [paper](https://arxiv.org/pdf/2304.11370v1.pdf)
 
 The survey paper is shown in [paper](http://arxiv.org/abs/2303.09136)
+
+# Acknowledgement
+Please cite the following papers as the references if you use our codes or the processed datasets.
+
+```bib
+@article{sun2023short,
+  title={A short survey of viewing large language models in legal aspect},
+  author={Sun, Zhongxiang},
+  journal={arXiv preprint arXiv:2303.09136},
+  year={2023}
+}
+```
+
