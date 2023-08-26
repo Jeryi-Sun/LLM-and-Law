@@ -1,3 +1,7 @@
+[![Awesome](https://awesome.re/badge.svg)](https://github.com/zjunlp/ModelEditingPapers) 
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+![](https://img.shields.io/github/last-commit/zjunlp/ModelEditingPapers?color=green) 
+![](https://img.shields.io/badge/PRs-Welcome-red)
 # LLM-and-Law
 This repository is dedicated to summarizing papers related to large-scale language models and the field of law
 ## Applications of Large Language Models in Legal Tasks
