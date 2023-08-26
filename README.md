@@ -3,6 +3,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 ![](https://img.shields.io/github/last-commit/Jeryi-Sun/LLM-and-Law?color=green) 
 ![](https://img.shields.io/badge/PRs-Welcome-red)
+
 This repository is dedicated to summarizing papers related to large-scale language models and the field of law
 ## Applications of Large Language Models in Legal Tasks
 
