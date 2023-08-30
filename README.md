@@ -82,8 +82,9 @@ This repository is dedicated to summarizing papers related to large-scale langua
 [7] ChatLaw: Open-Source Legal Large Language Model with Integrated External Knowledge Bases [paper](http://arxiv.org/pdf/2306.16092v1)
 
 
-## recent papers
-[1] SAILER: Structure-aware Pre-trained Language Model for Legal Case Retrieval [paper](https://arxiv.org/pdf/2304.11370v1.pdf)
+## Evaluation dataset:
+[1] Measuring Massive Multitask Chinese Understanding [paper](https://arxiv.org/pdf/2304.12986.pdf)
+
 
 The survey paper is shown in [paper](http://arxiv.org/abs/2303.09136)
 
