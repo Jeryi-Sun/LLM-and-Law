@@ -49,6 +49,8 @@ This repository is dedicated to summarizing papers related to large-scale langua
 
 [5] The GPTJudge: Justice in a Generative AI World [paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4460184)
 
+[6] Is the U.S. Legal System Ready for AI's Challenges to Human Values? [paper](http://arxiv.org/pdf/2308.15906v1)
+
 ## Data Resources for Large Language Models in Law
 
 [1] CAIL2018: A Large-Scale Legal Dataset for Judgment Prediction
