@@ -37,6 +37,8 @@ This repository is dedicated to summarizing papers related to large-scale langua
 
 [15] Legal Summarisation through LLMs: The PRODIGIT Project  [paper](https://arxiv.org/pdf/2308.04416v1.pdf)
 
+[16] Black-Box Analysis: GPTs Across Time in Legal Textual Entailment Task [paper](https://arxiv.org/pdf/2309.05501v1.pdf)
+
 ## Legal Problems of Large Language Models
 
 [1] Towards WinoQueer: Developing a Benchmark for Anti-Queer Bias in Large Language Models
