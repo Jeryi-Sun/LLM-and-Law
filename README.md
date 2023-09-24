@@ -85,6 +85,7 @@ This repository is dedicated to summarizing papers related to large-scale langua
 
 [7] ChatLaw: Open-Source Legal Large Language Model with Integrated External Knowledge Bases [paper](http://arxiv.org/pdf/2306.16092v1)
 
+[8] DISC-LawLLM [github](https://github.com/FudanDISC/DISC-LawLLM)
 
 ## Evaluation dataset:
 [1] Measuring Massive Multitask Chinese Understanding [paper](https://arxiv.org/pdf/2304.12986.pdf)
