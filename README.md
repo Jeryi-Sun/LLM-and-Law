@@ -39,6 +39,7 @@ This repository is dedicated to summarizing papers related to large-scale langua
 
 [16] Black-Box Analysis: GPTs Across Time in Legal Textual Entailment Task [paper](https://arxiv.org/pdf/2309.05501v1.pdf)
 
+[17]  PolicyGPT: Automated Analysis of Privacy Policies with Large Language Models
 ## Legal Problems of Large Language Models
 
 [1] Towards WinoQueer: Developing a Benchmark for Anti-Queer Bias in Large Language Models
@@ -69,6 +70,9 @@ This repository is dedicated to summarizing papers related to large-scale langua
 
 [7] MultiLegalPile: A 689GB Multilingual Legal Corpus [paper](https://arxiv.org/pdf/2306.02069v1.pdf)
 
+[8] The Cambridge Law Corpus: A Corpus for Legal AI Research
+
+
 ## Law LLMs
 
 [1] LawGPT_zh [github](github.com/LiuHC0428/LAW-GPT)
@@ -86,6 +90,7 @@ This repository is dedicated to summarizing papers related to large-scale langua
 [7] ChatLaw: Open-Source Legal Large Language Model with Integrated External Knowledge Bases [paper](http://arxiv.org/pdf/2306.16092v1)
 
 [8] DISC-LawLLM [github](https://github.com/FudanDISC/DISC-LawLLM)
+
 
 ## Evaluation dataset:
 [1] Measuring Massive Multitask Chinese Understanding [paper](https://arxiv.org/pdf/2304.12986.pdf)
