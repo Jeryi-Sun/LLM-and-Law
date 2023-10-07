@@ -40,6 +40,8 @@ This repository is dedicated to summarizing papers related to large-scale langua
 [16] Black-Box Analysis: GPTs Across Time in Legal Textual Entailment Task [paper](https://arxiv.org/pdf/2309.05501v1.pdf)
 
 [17]  PolicyGPT: Automated Analysis of Privacy Policies with Large Language Models
+
+[18] Reformulating Domain Adaptation of Large Language Models as Adapt-Retrieve-Revise [paper](https://browse.arxiv.org/pdf/2310.03328v1.pdf)
 ## Legal Problems of Large Language Models
 
 [1] Towards WinoQueer: Developing a Benchmark for Anti-Queer Bias in Large Language Models
