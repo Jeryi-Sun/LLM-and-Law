@@ -99,6 +99,7 @@ This repository is dedicated to summarizing papers related to large-scale langua
 
 ## Evaluation dataset:
 [1] Measuring Massive Multitask Chinese Understanding [paper](https://arxiv.org/pdf/2304.12986.pdf)
+[2] LawBench: Benchmarking Legal Knowledge of Large Language Models [github](https://github.com/open-compass/LawBench)
 
 
 The survey paper is shown in [paper](http://arxiv.org/abs/2303.09136)
