@@ -45,6 +45,8 @@ This repository is dedicated to summarizing papers related to large-scale langua
 
 [19] Precedent-Enhanced Legal Judgment Prediction with LLM and Domain-Model Collaboration [paper](https://arxiv.org/pdf/2310.09241.pdf)
 
+[20] From Text to Structure: Using Large Language Models to Support the Development of Legal Expert Systems [paper](http://arxiv.org/pdf/2311.04911v1)
+
 ## Legal Problems of Large Language Models
 
 [1] Towards WinoQueer: Developing a Benchmark for Anti-Queer Bias in Large Language Models
