@@ -101,7 +101,9 @@ This repository is dedicated to summarizing papers related to large-scale langua
 
 ## Evaluation:
 [1] Measuring Massive Multitask Chinese Understanding [paper](https://arxiv.org/pdf/2304.12986.pdf)
+
 [2] LawBench: Benchmarking Legal Knowledge of Large Language Models [github](https://github.com/open-compass/LawBench)
+
 [3] Large Language Models are legal but they are not: Making the case for a powerful LegalLLM [paper](http://arxiv.org/pdf/2311.08890v1)
 
 
