@@ -47,6 +47,8 @@ This repository is dedicated to summarizing papers related to large-scale langua
 
 [20] From Text to Structure: Using Large Language Models to Support the Development of Legal Expert Systems [paper](http://arxiv.org/pdf/2311.04911v1)
 
+[21] Boosting legal case retrieval by query content selection with large language models [paper](https://arxiv.org/pdf/2312.03494v1.pdf)
+
 ## Legal Problems of Large Language Models
 
 [1] Towards WinoQueer: Developing a Benchmark for Anti-Queer Bias in Large Language Models
