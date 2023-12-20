@@ -49,6 +49,8 @@ This repository is dedicated to summarizing papers related to large-scale langua
 
 [21] Boosting legal case retrieval by query content selection with large language models [paper](https://arxiv.org/pdf/2312.03494v1.pdf)
 
+[22] LLMediator: GPT-4 Assisted Online Dispute Resolution [paper](https://arxiv.org/pdf/2307.16732v1.pdf)
+
 ## Legal Problems of Large Language Models
 
 [1] Towards WinoQueer: Developing a Benchmark for Anti-Queer Bias in Large Language Models
