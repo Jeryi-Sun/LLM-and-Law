@@ -53,6 +53,10 @@ This repository is dedicated to summarizing papers related to large-scale langua
 
 [23] Employing Label Models on ChatGPT Answers Improves Legal Text Entailment Performance [paper](https://arxiv.org/pdf/2401.17897v1.pdf)
 
+[24] LLaMandement: Large Language Models for Summarization of French Legislative Proposals [paper](https://arxiv.org/pdf/2401.16182v1.pdf)
+
+[25] 
+
 ## Legal Problems of Large Language Models
 
 [1] Towards WinoQueer: Developing a Benchmark for Anti-Queer Bias in Large Language Models
@@ -113,6 +117,8 @@ This repository is dedicated to summarizing papers related to large-scale langua
 [2] LawBench: Benchmarking Legal Knowledge of Large Language Models [github](https://github.com/open-compass/LawBench)
 
 [3] Large Language Models are legal but they are not: Making the case for a powerful LegalLLM [paper](http://arxiv.org/pdf/2311.08890v1)
+
+[4]  Better Call GPT, Comparing Large Language Models Against Lawyers [paper](http://arxiv.org/pdf/2401.16212v1)
 
 
 The survey paper is shown in [paper](http://arxiv.org/abs/2303.09136)
