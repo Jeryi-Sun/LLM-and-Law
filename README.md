@@ -4,7 +4,7 @@
 ![](https://img.shields.io/github/last-commit/Jeryi-Sun/LLM-and-Law?color=green) 
 ![](https://img.shields.io/badge/PRs-Welcome-red)
 
-This repository is dedicated to summarizing papers related to large-scale language models and the field of law
+This repository is dedicated to summarizing papers related to large language models with the field of law
 ## Applications of Large Language Models in Legal Tasks
 
 [1] Legal Prompt Engineering for Multilingual Legal Judgement Prediction
