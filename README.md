@@ -120,6 +120,8 @@ This repository is dedicated to summarizing papers related to large-scale langua
 
 [4]  Better Call GPT, Comparing Large Language Models Against Lawyers [paper](http://arxiv.org/pdf/2401.16212v1)
 
+[5] Evaluating GPT-3.5's Awareness and Summarization Abilities for European Constitutional Texts with Shared Topics [paper](https://arxiv.org/pdf/2401.14524v1.pdf)
+
 
 The survey paper is shown in [paper](http://arxiv.org/abs/2303.09136)
 
