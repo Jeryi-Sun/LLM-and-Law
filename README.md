@@ -55,6 +55,8 @@ This repository is dedicated to summarizing papers related to large language mod
 
 [24] LLaMandement: Large Language Models for Summarization of French Legislative Proposals [paper](https://arxiv.org/pdf/2401.16182v1.pdf)
 
+[25] Logic Rules as Explanations for Legal Case Retrieval [paper](http://arxiv.org/pdf/2403.01457v1) Our new paper !!!
+
 ## Legal Agent
 [1] SimuCourt: Building Judicial Decision-Making Agents with Real-world Judgement Documents [paper](https://arxiv.org/pdf/2403.02959v1.pdf)
 
