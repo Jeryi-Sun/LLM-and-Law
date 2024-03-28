@@ -125,8 +125,9 @@ This repository is dedicated to summarizing papers related to large language mod
 
 [5] Evaluating GPT-3.5's Awareness and Summarization Abilities for European Constitutional Texts with Shared Topics [paper](https://arxiv.org/pdf/2401.14524v1.pdf)
 
+[6] Evaluation Ethics of LLMs in Legal Domain  [paper](https://arxiv.org/pdf/2401.14524v1.pdf)
 
-The survey paper is shown in [paper](http://arxiv.org/abs/2303.09136)
+The survey paper is shown in [paper](https://arxiv.org/abs/2403.11152)
 
 # Acknowledgement
 Please cite the following papers as the references if you use our codes or the processed datasets.
