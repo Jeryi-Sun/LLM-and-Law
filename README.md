@@ -55,7 +55,11 @@ This repository is dedicated to summarizing papers related to large language mod
 
 [24] LLaMandement: Large Language Models for Summarization of French Legislative Proposals [paper](https://arxiv.org/pdf/2401.16182v1.pdf)
 
-[25] **Logic Rules as Explanations for Legal Case Retrieval** [paper](http://arxiv.org/pdf/2403.01457v1) Our new paper !!!
+[25] **Logic Rules as Explanations for Legal Case Retrieval** [paper](http://arxiv.org/pdf/2403.01457v1) Our new paper, welcome to pay attention !!!
+
+[26] Enhancing Legal Document Retrieval: A Multi-Phase Approach with Large Language Models [paper](https://arxiv.org/pdf/2403.18093v1.pdf) 
+
+
 
 ## Legal Agent
 [1] SimuCourt: Building Judicial Decision-Making Agents with Real-world Judgement Documents [paper](https://arxiv.org/pdf/2403.02959v1.pdf)
@@ -126,6 +130,9 @@ This repository is dedicated to summarizing papers related to large language mod
 [5] Evaluating GPT-3.5's Awareness and Summarization Abilities for European Constitutional Texts with Shared Topics [paper](https://arxiv.org/pdf/2401.14524v1.pdf)
 
 [6] Evaluation Ethics of LLMs in Legal Domain  [paper](https://arxiv.org/pdf/2401.14524v1.pdf)
+
+[7] GPTs and Language Barrier: A Cross-Lingual Legal QA Examination [paper](https://arxiv.org/pdf/2403.18098v1.pdf)
+
 
 The survey paper is shown in [paper](https://arxiv.org/abs/2403.11152)
 
