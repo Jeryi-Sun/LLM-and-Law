@@ -59,6 +59,8 @@ This repository is dedicated to summarizing papers related to large language mod
 
 [26] Enhancing Legal Document Retrieval: A Multi-Phase Approach with Large Language Models [paper](https://arxiv.org/pdf/2403.18093v1.pdf) 
 
+[27] BLADE: Enhancing Black-box Large Language Models with Small Domain-Specific Models [paper](https://arxiv.org/abs/2403.18365)
+
 
 
 ## Legal Agent
