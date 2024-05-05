@@ -82,6 +82,8 @@ This repository is dedicated to summarizing papers related to large language mod
 
 [7] Questioning Biases in Case Judgment Summaries: Legal Datasets or Large Language Models? [paper](https://arxiv.org/pdf/2312.00554.pdf)
 
+[8] Large Legal Fictions: Profiling Legal Hallucinations in Large Language Models
+
 ## Data Resources for Large Language Models in Law
 
 [1] CAIL2018: A Large-Scale Legal Dataset for Judgment Prediction
