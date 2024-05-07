@@ -61,7 +61,7 @@ This repository is dedicated to summarizing papers related to large language mod
 
 [27] BLADE: Enhancing Black-box Large Language Models with Small Domain-Specific Models [paper](https://arxiv.org/abs/2403.18365)
 
-
+[28] A Survey on Large Language Models for Critical Societal Domains: Finance, Healthcare, and Law [paper](https://arxiv.org/pdf/2405.01769v1#page=22.45)
 
 ## Legal Agent
 [1] SimuCourt: Building Judicial Decision-Making Agents with Real-world Judgement Documents [paper](https://arxiv.org/pdf/2403.02959v1.pdf)
