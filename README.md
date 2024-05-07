@@ -84,6 +84,8 @@ This repository is dedicated to summarizing papers related to large language mod
 
 [8] Large Legal Fictions: Profiling Legal Hallucinations in Large Language Models
 
+[9]  A Legal Framework for Natural Language Processing Model Training in Portugal [paper](http://arxiv.org/pdf/2405.00536v1)
+
 ## Data Resources for Large Language Models in Law
 
 [1] CAIL2018: A Large-Scale Legal Dataset for Judgment Prediction
