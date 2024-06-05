@@ -64,6 +64,9 @@ This repository is dedicated to summarizing papers related to large language mod
 [28] A Survey on Large Language Models for Critical Societal Domains: Finance, Healthcare, and Law [paper](https://arxiv.org/pdf/2405.01769v1#page=22.45)
 
 [29] Archimedes-AUEB at SemEval-2024 Task 5: LLM explains Civil Procedure [paper](http://arxiv.org/pdf/2405.08502v1)
+
+[30] More Than Catastrophic Forgetting: Integrating General Capabilities For Domain-Specific LLMs [paper](https://arxiv.org/pdf/2405.17830v1)
+
 ## Legal Agent
 [1] SimuCourt: Building Judicial Decision-Making Agents with Real-world Judgement Documents [paper](https://arxiv.org/pdf/2403.02959v1.pdf)
 
