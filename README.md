@@ -67,6 +67,8 @@ This repository is dedicated to summarizing papers related to large language mod
 
 [30] More Than Catastrophic Forgetting: Integrating General Capabilities For Domain-Specific LLMs [paper](https://arxiv.org/pdf/2405.17830v1)
 
+[31] Legal Documents Drafting with Fine-Tuned Pre-Trained Large Language Model [paper](http://arxiv.org/pdf/2406.04202v1)
+
 ## Legal Agent
 [1] SimuCourt: Building Judicial Decision-Making Agents with Real-world Judgement Documents [paper](https://arxiv.org/pdf/2403.02959v1.pdf)
 
