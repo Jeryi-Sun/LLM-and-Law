@@ -71,6 +71,8 @@ This repository is dedicated to summarizing papers related to large language mod
 
 [32] Knowledge-Infused Legal Wisdom: Navigating LLM Consultation through the Lens of Diagnostics and Positive-Unlabeled Reinforcement Learning [paper](http://arxiv.org/pdf/2406.03600v1)
 
+[33] GOLDCOIN: Grounding Large Language Models in Privacy Laws via Contextual Integrity Theory [paper](https://arxiv.org/pdf/2406.11149)
+
 ## Legal Agent
 [1] SimuCourt: Building Judicial Decision-Making Agents with Real-world Judgement Documents [paper](https://arxiv.org/pdf/2403.02959v1.pdf)
 
