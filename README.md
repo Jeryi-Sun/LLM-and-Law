@@ -133,6 +133,8 @@ This repository is dedicated to summarizing papers related to large language mod
 
 [8] DISC-LawLLM [github](https://github.com/FudanDISC/DISC-LawLLM)
 
+[9] InternLM-Law: An Open Source Chinese Legal Large Language Model [paper](https://arxiv.org/pdf/2406.14887v1)
+
 
 ## Evaluation:
 [1] Measuring Massive Multitask Chinese Understanding [paper](https://arxiv.org/pdf/2304.12986.pdf)
@@ -149,6 +151,7 @@ This repository is dedicated to summarizing papers related to large language mod
 
 [7] GPTs and Language Barrier: A Cross-Lingual Legal QA Examination [paper](https://arxiv.org/pdf/2403.18098v1.pdf)
 
+[8] LawBench: Benchmarking Legal Knowledge of Large Language Models [paper](https://arxiv.org/abs/2309.16289)
 
 The survey paper is shown in [paper](https://arxiv.org/abs/2403.11152)
 
