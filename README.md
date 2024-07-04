@@ -73,6 +73,8 @@ This repository is dedicated to summarizing papers related to large language mod
 
 [33] GOLDCOIN: Grounding Large Language Models in Privacy Laws via Contextual Integrity Theory [paper](https://arxiv.org/pdf/2406.11149)
 
+[34]  Enabling Discriminative Reasoning in Large Language Models for Legal Judgment Prediction [paper](https://arxiv.org/abs/2407.01964)
+
 ## Legal Agent
 [1] SimuCourt: Building Judicial Decision-Making Agents with Real-world Judgement Documents [paper](https://arxiv.org/pdf/2403.02959v1.pdf)
 
