@@ -75,6 +75,8 @@ This repository is dedicated to summarizing papers related to large language mod
 
 [34]  Enabling Discriminative Reasoning in Large Language Models for Legal Judgment Prediction [paper](https://arxiv.org/abs/2407.01964)
 
+[35]  Large Language Models for Judicial Entity Extraction: A Comparative Study [paper](https://arxiv.org/abs/2407.05786)
+
 ## Legal Agent
 [1] SimuCourt: Building Judicial Decision-Making Agents with Real-world Judgement Documents [paper](https://arxiv.org/pdf/2403.02959v1.pdf)
 
