@@ -77,6 +77,8 @@ This repository is dedicated to summarizing papers related to large language mod
 
 [35]  Large Language Models for Judicial Entity Extraction: A Comparative Study [paper](https://arxiv.org/abs/2407.05786)
 
+[36] Applicability of Large Language Models and Generative Models for Legal Case Judgement Summarization [paper](https://arxiv.org/abs/2407.12848)
+
 ## Legal Agent
 [1] SimuCourt: Building Judicial Decision-Making Agents with Real-world Judgement Documents [paper](https://arxiv.org/pdf/2403.02959v1.pdf)
 
