@@ -79,6 +79,15 @@ This repository is dedicated to summarizing papers related to large language mod
 
 [36] Applicability of Large Language Models and Generative Models for Legal Case Judgement Summarization [paper](https://arxiv.org/abs/2407.12848)
 
+[37] LawLLM: Law Large Language Model for the US Legal System [paper](https://arxiv.org/pdf/2407.21065)
+
+[38] Legal syllogism prompting: Teaching large language models for legal judgment prediction [paper](https://arxiv.org/pdf/2307.08321)
+
+[39] Optimizing Numerical Estimation and Operational Efficiency in the Legal Domain through Large Language Models [paper](https://arxiv.org/pdf/2407.19041)
+
+
+
+
 ## Legal Agent
 [1] SimuCourt: Building Judicial Decision-Making Agents with Real-world Judgement Documents [paper](https://arxiv.org/pdf/2403.02959v1.pdf)
 
