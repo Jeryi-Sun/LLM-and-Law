@@ -85,7 +85,7 @@ This repository is dedicated to summarizing papers related to large language mod
 
 [39] Optimizing Numerical Estimation and Operational Efficiency in the Legal Domain through Large Language Models [paper](https://arxiv.org/pdf/2407.19041)
 
-
+[40] Hallucination-Free? Assessing the Reliability of Leading AI Legal Research Tools [paper](https://arxiv.org/pdf/2405.20362)
 
 
 ## Legal Agent
