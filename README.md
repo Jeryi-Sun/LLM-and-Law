@@ -150,6 +150,7 @@ This repository is dedicated to summarizing papers related to large language mod
 
 [9] InternLM-Law: An Open Source Chinese Legal Large Language Model [paper](https://arxiv.org/pdf/2406.14887v1)
 
+[10] SaulLM-54B & SaulLM-141B: Scaling Up Domain Adaptation for the Legal Domain [paper](https://arxiv.org/pdf/2407.19584)
 
 ## Evaluation:
 [1] Measuring Massive Multitask Chinese Understanding [paper](https://arxiv.org/pdf/2304.12986.pdf)
