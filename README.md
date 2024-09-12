@@ -111,6 +111,8 @@ This repository is dedicated to summarizing papers related to large language mod
 
 [9]  A Legal Framework for Natural Language Processing Model Training in Portugal [paper](http://arxiv.org/pdf/2405.00536v1)
 
+[10] LegalBench-RAG: A Benchmark for Retrieval-Augmented Generation in the Legal Domain [paper](https://arxiv.org/abs/2408.10343)
+
 ## Data Resources for Large Language Models in Law
 
 [1] CAIL2018: A Large-Scale Legal Dataset for Judgment Prediction
