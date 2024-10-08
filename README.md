@@ -171,6 +171,8 @@ This repository is dedicated to summarizing papers related to large language mod
 
 [8] LawBench: Benchmarking Legal Knowledge of Large Language Models [paper](https://arxiv.org/abs/2309.16289)
 
+[9] LexEval: A Comprehensive Chinese Legal Benchmark for Evaluating Large Language Models [paper](https://arxiv.org/pdf/2409.20288)
+
 The survey paper is shown in [paper](https://arxiv.org/abs/2403.11152)
 
 # Acknowledgement
