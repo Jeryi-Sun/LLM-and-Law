@@ -87,6 +87,7 @@ This repository is dedicated to summarizing papers related to large language mod
 
 [40] Hallucination-Free? Assessing the Reliability of Leading AI Legal Research Tools [paper](https://arxiv.org/pdf/2405.20362)
 
+[41] KRAG Framework for Enhancing LLMs in the Legal Domain [paper](https://arxiv.org/abs/2410.07551)
 
 ## Legal Agent
 [1] SimuCourt: Building Judicial Decision-Making Agents with Real-world Judgement Documents [paper](https://arxiv.org/pdf/2403.02959v1.pdf)
