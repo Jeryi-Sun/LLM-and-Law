@@ -89,9 +89,12 @@ This repository is dedicated to summarizing papers related to large language mod
 
 [41] KRAG Framework for Enhancing LLMs in the Legal Domain [paper](https://arxiv.org/abs/2410.07551)
 
+[42] Legal Evalutions and Challenges of Large Language Models [paper](https://arxiv.org/abs/2411.10137)
+
 ## Legal Agent
 [1] SimuCourt: Building Judicial Decision-Making Agents with Real-world Judgement Documents [paper](https://arxiv.org/pdf/2403.02959v1.pdf)
 
+[2] Can Large Language Models Grasp Legal Theories? Enhance Legal Reasoning with Insights from Multi-Agent Collaboration [paper](https://arxiv.org/abs/2410.02507)
 ## Legal Problems of Large Language Models
 
 [1] Towards WinoQueer: Developing a Benchmark for Anti-Queer Bias in Large Language Models
@@ -114,6 +117,12 @@ This repository is dedicated to summarizing papers related to large language mod
 
 [10] LegalBench-RAG: A Benchmark for Retrieval-Augmented Generation in the Legal Domain [paper](https://arxiv.org/abs/2408.10343)
 
+[11]  Bias in Large Language Models: Origin, Evaluation, and Mitigation [paper](https://arxiv.org/abs/2411.10915)
+
+[12] An Information Theoretic Approach to Operationalize Right to Data  Protection [paper](https://arxiv.org/abs/2411.08506)
+
+[13] Protecting Privacy in Multimodal Large Language Models with MLLMU-Bench [paper](https://arxiv.org/abs/2410.22108)
+
 ## Data Resources for Large Language Models in Law
 
 [1] CAIL2018: A Large-Scale Legal Dataset for Judgment Prediction
@@ -132,6 +141,13 @@ This repository is dedicated to summarizing papers related to large language mod
 
 [8] The Cambridge Law Corpus: A Corpus for Legal AI Research
 
+[9] TransformLLM: Adapting Large Language Models via LLM-Transformed Reading  Comprehension Text [paper](https://arxiv.org/abs/2410.21479)
+
+[10] Natural Language Processing for the Legal Domain: A Survey of Tasks,  Datasets, Models, and Challenges [paper](https://arxiv.org/abs/2410.21306)
+
+[11]  ChineseSafe: A Chinese Benchmark for Evaluating Safety in Large Language  Models [paper](https://arxiv.org/abs/2410.18491)
+
+[12] Augmenting Legal Decision Support Systems with LLM-based NLI for  Analyzing Social Media Evidence [paper](https://arxiv.org/abs/2410.15990)
 
 ## Law LLMs
 
