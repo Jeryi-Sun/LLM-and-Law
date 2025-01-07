@@ -153,6 +153,8 @@ This repository is dedicated to summarizing papers related to large language mod
 
 [12] Augmenting Legal Decision Support Systems with LLM-based NLI for  Analyzing Social Media Evidence [paper](https://arxiv.org/abs/2410.15990)
 
+[13] CaseSumm: A Large-Scale Dataset for Long-Context Summarization from U.S.  Supreme Court Opinions [paper](https://arxiv.org/abs/2501.00097)
+
 ## Law LLMs
 
 [1] LawGPT_zh [github](github.com/LiuHC0428/LAW-GPT)
@@ -193,6 +195,8 @@ This repository is dedicated to summarizing papers related to large language mod
 [8] LawBench: Benchmarking Legal Knowledge of Large Language Models [paper](https://arxiv.org/abs/2309.16289)
 
 [9] LexEval: A Comprehensive Chinese Legal Benchmark for Evaluating Large Language Models [paper](https://arxiv.org/pdf/2409.20288)
+
+[10] LegalAgentBench: Evaluating LLM Agents in Legal Domain [paper](https://arxiv.org/abs/2412.17259)
 
 The survey paper is shown in [paper](https://arxiv.org/abs/2403.11152)
 
