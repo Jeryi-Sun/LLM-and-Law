@@ -91,7 +91,9 @@ This repository is dedicated to summarizing papers related to large language mod
 
 [42] Legal Evalutions and Challenges of Large Language Models [paper](https://arxiv.org/abs/2411.10137)
 
-[43] Analyzing Images of Legal Documents: Toward Multi-Modal LLMs for Access to Justice (https://arxiv.org/pdf/2412.15260)
+[43] Analyzing Images of Legal Documents: Toward Multi-Modal LLMs for Access to Justice [paper](https://arxiv.org/pdf/2412.15260)
+
+[44] Automating Legal Concept Interpretation with LLMs: Retrieval,  Generation, and Evaluation  [paper](https://arxiv.org/abs/2501.01743)
 
 ## Legal Agent
 [1] SimuCourt: Building Judicial Decision-Making Agents with Real-world Judgement Documents [paper](https://arxiv.org/pdf/2403.02959v1.pdf)
