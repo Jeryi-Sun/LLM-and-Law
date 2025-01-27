@@ -95,10 +95,15 @@ This repository is dedicated to summarizing papers related to large language mod
 
 [44] Automating Legal Concept Interpretation with LLMs: Retrieval,  Generation, and Evaluation  [paper](https://arxiv.org/abs/2501.01743)
 
+[45] Domaino1s: Guiding LLM Reasoning for Explainable Answers in High-Stakes  Domains [paper](https://arxiv.org/abs/2501.14431)
+
 ## Legal Agent
 [1] SimuCourt: Building Judicial Decision-Making Agents with Real-world Judgement Documents [paper](https://arxiv.org/pdf/2403.02959v1.pdf)
 
 [2] Can Large Language Models Grasp Legal Theories? Enhance Legal Reasoning with Insights from Multi-Agent Collaboration [paper](https://arxiv.org/abs/2410.02507)
+
+
+
 ## Legal Problems of Large Language Models
 
 [1] Towards WinoQueer: Developing a Benchmark for Anti-Queer Bias in Large Language Models
