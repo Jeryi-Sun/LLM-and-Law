@@ -97,6 +97,8 @@ This repository is dedicated to summarizing papers related to large language mod
 
 [45] Domaino1s: Guiding LLM Reasoning for Explainable Answers in High-Stakes  Domains [paper](https://arxiv.org/abs/2501.14431)
 
+[46] RELexED: Retrieval-Enhanced Legal Summarization with Exemplar Diversity [paper](https://arxiv.org/abs/2501.14113)
+
 ## Legal Agent
 [1] SimuCourt: Building Judicial Decision-Making Agents with Real-world Judgement Documents [paper](https://arxiv.org/pdf/2403.02959v1.pdf)
 
