@@ -186,6 +186,8 @@ This repository is dedicated to summarizing papers related to large language mod
 
 [10] SaulLM-54B & SaulLM-141B: Scaling Up Domain Adaptation for the Legal Domain [paper](https://arxiv.org/pdf/2407.19584)
 
+[11] LAWGPT: KNOWLEDGE-GUIDED DATA GENERATION AND ITS APPLICATION TO LEGAL LLM [paper](https://arxiv.org/pdf/2502.06572)
+
 ## Evaluation:
 [1] Measuring Massive Multitask Chinese Understanding [paper](https://arxiv.org/pdf/2304.12986.pdf)
 
