@@ -101,6 +101,8 @@ This repository is dedicated to summarizing papers related to large language mod
 
 [47] Courtroom-LLM: A Legal-Inspired Multi-LLM Framework for Resolving Ambiguous Text Classifications [paper](https://aclanthology.org/2025.coling-main.493.pdf)
 
+[48] LegalViz: Legal Text Visualization by Text To Diagram Generation [paper](https://arxiv.org/abs/2502.06147)
+
 ## Legal Agent
 [1] SimuCourt: Building Judicial Decision-Making Agents with Real-world Judgement Documents [paper](https://arxiv.org/pdf/2403.02959v1.pdf)
 
