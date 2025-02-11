@@ -103,6 +103,8 @@ This repository is dedicated to summarizing papers related to large language mod
 
 [48] LegalViz: Legal Text Visualization by Text To Diagram Generation [paper](https://arxiv.org/abs/2502.06147)
 
+[49] Investigating the Shortcomings of LLMs in Step-by-Step Legal Reasoning [paper](https://arxiv.org/abs/2502.05675)
+
 ## Legal Agent
 [1] SimuCourt: Building Judicial Decision-Making Agents with Real-world Judgement Documents [paper](https://arxiv.org/pdf/2403.02959v1.pdf)
 
