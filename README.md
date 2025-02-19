@@ -220,7 +220,7 @@ This repository is dedicated to summarizing papers related to large language mod
 The survey paper is shown in [paper](https://arxiv.org/abs/2403.11152)
 
 # Acknowledgement
-Please cite the following papers as the references if you use our codes or the processed datasets.
+Please cite the following papers as references if this repository helps you (*ゝω・)ﾉThanks!
 
 ```bib
 @article{sun2023short,
