@@ -107,7 +107,14 @@ This repository is dedicated to summarizing papers related to large language mod
 
 [50] Elevating Legal LLM Responses: Harnessing Trainable Logical Structures and Semantic Knowledge with Legal Reasoning [paper](https://arxiv.org/pdf/2502.07912)
 
-[51] 
+[51] JuDGE: Benchmarking Judgment Document Generation for Chinese Legal  System [paper](https://arxiv.org/abs/2503.14258)
+
+[52]
+
+## Legal Reasoning Models
+[1] LexPro-1.0 Technical Report [paper](https://arxiv.org/pdf/2503.06949)
+
+
 
 ## Legal Agent
 [1] SimuCourt: Building Judicial Decision-Making Agents with Real-world Judgement Documents [paper](https://arxiv.org/pdf/2403.02959v1.pdf)
@@ -115,6 +122,7 @@ This repository is dedicated to summarizing papers related to large language mod
 [2] Can Large Language Models Grasp Legal Theories? Enhance Legal Reasoning with Insights from Multi-Agent Collaboration [paper](https://arxiv.org/abs/2410.02507)
 
 [3] Multi-Agent Simulator Drives Language Models for Legal Intensive  Interaction [paper](https://arxiv.org/abs/2502.06882)
+
 
 ## Legal Problems of Large Language Models
 
