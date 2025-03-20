@@ -152,6 +152,8 @@ This repository is dedicated to summarizing papers related to large language mod
 
 [13] Protecting Privacy in Multimodal Large Language Models with MLLMU-Bench [paper](https://arxiv.org/abs/2410.22108)
 
+[14] Standardizing Intelligence: Aligning Generative AI for Regulatory and  Operational Compliance [paper](https://arxiv.org/abs/2503.04736)
+
 ## Data Resources for Large Language Models in Law
 
 [1] CAIL2018: A Large-Scale Legal Dataset for Judgment Prediction
