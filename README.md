@@ -109,7 +109,7 @@ This repository is dedicated to summarizing papers related to large language mod
 
 [51] JuDGE: Benchmarking Judgment Document Generation for Chinese Legal  System [paper](https://arxiv.org/abs/2503.14258)
 
-[52]
+[52] LARGE: Legal Retrieval Augmented Generation Evaluation Tool [paper](https://arxiv.org/abs/2504.01698)
 
 ## Legal Reasoning Models
 [1] LexPro-1.0 Technical Report [paper](https://arxiv.org/pdf/2503.06949)
