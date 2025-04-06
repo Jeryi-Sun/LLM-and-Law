@@ -115,6 +115,7 @@ This repository is dedicated to summarizing papers related to large language mod
 
 ## Legal Reasoning Models
 [1] LexPro-1.0 Technical Report [paper](https://arxiv.org/pdf/2503.06949)
+
 [2] LexPam: Legal Procedure Awareness-Guided Mathematical Reasoning [paper](https://arxiv.org/pdf/2504.02590)
 
 
