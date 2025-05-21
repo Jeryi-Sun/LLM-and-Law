@@ -113,6 +113,8 @@ This repository is dedicated to summarizing papers related to large language mod
 
 [53] Tasks and Roles in Legal AI: Data Curation, Annotation, and Verification [paper](https://arxiv.org/abs/2504.01349)
 
+[54] The Hidden Structure -- Improving Legal Document Understanding Through Explicit Text Formatting [paper](https://arxiv.org/abs/2505.12837)
+
 ## Legal Reasoning Models
 [1] LexPro-1.0 Technical Report [paper](https://arxiv.org/pdf/2503.06949)
 
