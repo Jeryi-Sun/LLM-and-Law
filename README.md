@@ -120,6 +120,8 @@ This repository is dedicated to summarizing papers related to large language mod
 
 [2] LexPam: Legal Procedure Awareness-Guided Mathematical Reasoning [paper](https://arxiv.org/pdf/2504.02590)
 
+[3] Mining Hidden Thoughts from Texts: Evaluating Continual Pretraining with Synthetic Data for LLM Reasoning [paper](https://arxiv.org/abs/2505.10182)
+
 
 ## Legal Agent
 [1] SimuCourt: Building Judicial Decision-Making Agents with Real-world Judgement Documents [paper](https://arxiv.org/pdf/2403.02959v1.pdf)
