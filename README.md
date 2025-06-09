@@ -115,6 +115,8 @@ This repository is dedicated to summarizing papers related to large language mod
 
 [54] The Hidden Structure -- Improving Legal Document Understanding Through Explicit Text Formatting [paper](https://arxiv.org/abs/2505.12837)
 
+[55] Conditioning Large Language Models on Legal Systems? Detecting  Punishable Hate Speech [paper](https://arxiv.org/abs/2506.03009)
+
 ## Legal Reasoning Models
 [1] LexPro-1.0 Technical Report [paper](https://arxiv.org/pdf/2503.06949)
 
@@ -122,6 +124,7 @@ This repository is dedicated to summarizing papers related to large language mod
 
 [3] Mining Hidden Thoughts from Texts: Evaluating Continual Pretraining with Synthetic Data for LLM Reasoning [paper](https://arxiv.org/abs/2505.10182)
 
+[4] SyLeR: A Framework for Explicit Syllogistic Legal Reasoning in Large Language Models [paper](https://arxiv.org/pdf/2504.04042)
 
 ## Legal Agent
 [1] SimuCourt: Building Judicial Decision-Making Agents with Real-world Judgement Documents [paper](https://arxiv.org/pdf/2403.02959v1.pdf)
@@ -130,6 +133,9 @@ This repository is dedicated to summarizing papers related to large language mod
 
 [3] Multi-Agent Simulator Drives Language Models for Legal Intensive  Interaction [paper](https://arxiv.org/abs/2502.06882)
 
+[4]  CLAIM: An Intent-Driven Multi-Agent Framework for Analyzing Manipulation  in Courtroom Dialogues [paper](https://arxiv.org/abs/2506.04131)
+
+[5] PAKTON: A Multi-Agent Framework for Question Answering in Long Legal  Agreements [paper](https://arxiv.org/abs/2506.00608)
 
 ## Legal Problems of Large Language Models
 
@@ -189,6 +195,8 @@ This repository is dedicated to summarizing papers related to large language mod
 
 [13] CaseSumm: A Large-Scale Dataset for Long-Context Summarization from U.S.  Supreme Court Opinions [paper](https://arxiv.org/abs/2501.00097)
 
+
+
 ## Law LLMs
 
 [1] LawGPT_zh [github](github.com/LiuHC0428/LAW-GPT)
@@ -233,6 +241,17 @@ This repository is dedicated to summarizing papers related to large language mod
 [9] LexEval: A Comprehensive Chinese Legal Benchmark for Evaluating Large Language Models [paper](https://arxiv.org/pdf/2409.20288)
 
 [10] LegalAgentBench: Evaluating LLM Agents in Legal Domain [paper](https://arxiv.org/abs/2412.17259)
+
+[11] Measuring Faithfulness and Abstention: An Automated Pipeline for  Evaluating LLM-Generated 3-ply Case-Based Legal Arguments [paper](https://arxiv.org/abs/2506.00694)
+
+[12] LegalEval-Q: A New Benchmark for The Quality Evaluation of LLM-Generated  Legal Text [paper](https://arxiv.org/abs/2505.24826)
+
+[13]  When Fairness Isn't Statistical: The Limits of Machine Learning in  Evaluating Legal Reasoning [paper](https://arxiv.org/abs/2506.03913)
+
+[14] LexTime: A Benchmark for Temporal Ordering of Legal Events [paper](https://arxiv.org/abs/2506.04041)
+
+[15] LLM-based HSE Compliance Assessment: Benchmark, Performance, and  Advancements [paper](https://arxiv.org/abs/2505.22959)
+
 
 The survey paper is shown in [paper](https://arxiv.org/abs/2403.11152)
 
