@@ -117,6 +117,8 @@ This repository is dedicated to summarizing papers related to large language mod
 
 [55] Conditioning Large Language Models on Legal Systems? Detecting  Punishable Hate Speech [paper](https://arxiv.org/abs/2506.03009)
 
+[56] CORE-KG: An LLM-Driven Knowledge Graph Construction Framework for Human Smuggling Networks [paper](https://arxiv.org/abs/2506.21607)
+
 ## Legal Reasoning Models
 [1] LexPro-1.0 Technical Report [paper](https://arxiv.org/pdf/2503.06949)
 
