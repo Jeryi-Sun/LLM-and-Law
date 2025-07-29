@@ -119,6 +119,12 @@ This repository is dedicated to summarizing papers related to large language mod
 
 [56] CORE-KG: An LLM-Driven Knowledge Graph Construction Framework for Human Smuggling Networks [paper](https://arxiv.org/abs/2506.21607)
 
+[57] LLM-based Embedders for Prior Case Retrieval [paper](https://arxiv.org/abs/2507.18455)
+
+[58] Towards Automated Regulatory Compliance Verification in Financial Auditing with Large Language Models [paper](https://arxiv.org/abs/2507.16642)
+
+[59] Using Large Language Models for Legal Decision-Making in Austrian Value-Added Tax Law: An Experimental Study [paper](https://arxiv.org/abs/2507.08468)
+
 ## Legal Reasoning Models
 [1] LexPro-1.0 Technical Report [paper](https://arxiv.org/pdf/2503.06949)
 
@@ -168,6 +174,7 @@ This repository is dedicated to summarizing papers related to large language mod
 [13] Protecting Privacy in Multimodal Large Language Models with MLLMU-Bench [paper](https://arxiv.org/abs/2410.22108)
 
 [14] Standardizing Intelligence: Aligning Generative AI for Regulatory and  Operational Compliance [paper](https://arxiv.org/abs/2503.04736)
+
 
 ## Data Resources for Large Language Models in Law
 
@@ -223,6 +230,8 @@ This repository is dedicated to summarizing papers related to large language mod
 
 [11] LAWGPT: KNOWLEDGE-GUIDED DATA GENERATION AND ITS APPLICATION TO LEGAL LLM [paper](https://arxiv.org/pdf/2502.06572)
 
+[12] HKGAI-V1: Towards Regional Sovereign Large Language Model for Hong Kong [paper](https://arxiv.org/abs/2507.11502)
+
 ## Evaluation:
 [1] Measuring Massive Multitask Chinese Understanding [paper](https://arxiv.org/pdf/2304.12986.pdf)
 
@@ -253,6 +262,10 @@ This repository is dedicated to summarizing papers related to large language mod
 [14] LexTime: A Benchmark for Temporal Ordering of Legal Events [paper](https://arxiv.org/abs/2506.04041)
 
 [15] LLM-based HSE Compliance Assessment: Benchmark, Performance, and  Advancements [paper](https://arxiv.org/abs/2505.22959)
+
+[16] VLQA: The First Comprehensive, Large, and High-Quality Vietnamese Dataset for Legal Question Answering [paper](https://arxiv.org/abs/2507.19995)
+
+
 
 
 The survey paper is shown in [paper](https://arxiv.org/abs/2403.11152)
