@@ -175,6 +175,7 @@ This repository is dedicated to summarizing papers related to large language mod
 
 [14] Standardizing Intelligence: Aligning Generative AI for Regulatory and  Operational Compliance [paper](https://arxiv.org/abs/2503.04736)
 
+[15] TRIDENT: Benchmarking LLM Safety in Finance, Medicine, and Law [paper](https://arxiv.org/pdf/2507.21134)
 
 ## Data Resources for Large Language Models in Law
 
