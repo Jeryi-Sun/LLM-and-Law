@@ -205,7 +205,7 @@ This repository is dedicated to summarizing papers related to large language mod
 
 [13] CaseSumm: A Large-Scale Dataset for Long-Context Summarization from U.S.  Supreme Court Opinions [paper](https://arxiv.org/abs/2501.00097)
 
-
+[14] From Answers to Guidance: A Proactive Dialogue System for Legal Documents [paper](https://papers.cool/arxiv/2510.19723)
 
 ## Law LLMs
 
@@ -232,6 +232,8 @@ This repository is dedicated to summarizing papers related to large language mod
 [11] LAWGPT: KNOWLEDGE-GUIDED DATA GENERATION AND ITS APPLICATION TO LEGAL LLM [paper](https://arxiv.org/pdf/2502.06572)
 
 [12] HKGAI-V1: Towards Regional Sovereign Large Language Model for Hong Kong [paper](https://arxiv.org/abs/2507.11502)
+
+
 
 ## Evaluation:
 [1] Measuring Massive Multitask Chinese Understanding [paper](https://arxiv.org/pdf/2304.12986.pdf)
@@ -266,7 +268,7 @@ This repository is dedicated to summarizing papers related to large language mod
 
 [16] VLQA: The First Comprehensive, Large, and High-Quality Vietnamese Dataset for Legal Question Answering [paper](https://arxiv.org/abs/2507.19995)
 
-
+[17] The Massive Legal Embedding Benchmark (MLEB) [paper](https://papers.cool/arxiv/2510.19365)
 
 
 The survey paper is shown in [paper](https://arxiv.org/abs/2403.11152)
