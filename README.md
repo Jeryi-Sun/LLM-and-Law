@@ -125,6 +125,8 @@ This repository is dedicated to summarizing papers related to large language mod
 
 [59] Using Large Language Models for Legal Decision-Making in Austrian Value-Added Tax Law: An Experimental Study [paper](https://arxiv.org/abs/2507.08468)
 
+[60] ASVRI-Legal: Fine-Tuning LLMs with Retrieval Augmented Generation for Enhanced Legal Regulation [paper](https://arxiv.org/abs/2511.03563)
+
 ## Legal Reasoning Models
 [1] LexPro-1.0 Technical Report [paper](https://arxiv.org/pdf/2503.06949)
 
