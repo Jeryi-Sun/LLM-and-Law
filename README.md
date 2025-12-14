@@ -127,6 +127,12 @@ This repository is dedicated to summarizing papers related to large language mod
 
 [60] ASVRI-Legal: Fine-Tuning LLMs with Retrieval Augmented Generation for Enhanced Legal Regulation [paper](https://arxiv.org/abs/2511.03563)
 
+[61] LLMs in Interpreting Legal Documents [paper](https://arxiv.org/abs/2512.09830)
+
+[62] HalluGraph: Auditable Hallucination Detection for Legal RAG Systems via Knowledge Graph Alignment [paper](https://arxiv.org/abs/2512.01659)
+
+[63] Evaluating Legal Reasoning Traces with Legal Issue Tree Rubrics [paper](https://arxiv.org/abs/2512.01020)
+
 ## Legal Reasoning Models
 [1] LexPro-1.0 Technical Report [paper](https://arxiv.org/pdf/2503.06949)
 
@@ -179,6 +185,8 @@ This repository is dedicated to summarizing papers related to large language mod
 
 [15] TRIDENT: Benchmarking LLM Safety in Finance, Medicine, and Law [paper](https://arxiv.org/pdf/2507.21134)
 
+[16] Large Language Models as Search Engines: Societal Challenges [paper](https://arxiv.org/abs/2512.08946)
+
 ## Data Resources for Large Language Models in Law
 
 [1] CAIL2018: A Large-Scale Legal Dataset for Judgment Prediction
@@ -208,6 +216,8 @@ This repository is dedicated to summarizing papers related to large language mod
 [13] CaseSumm: A Large-Scale Dataset for Long-Context Summarization from U.S.  Supreme Court Opinions [paper](https://arxiv.org/abs/2501.00097)
 
 [14] From Answers to Guidance: A Proactive Dialogue System for Legal Documents [paper](https://papers.cool/arxiv/2510.19723)
+
+[15] A Greek Government Decisions Dataset for Public-Sector Analysis and Insight [paper](https://arxiv.org/abs/2512.05647(
 
 ## Law LLMs
 
@@ -271,6 +281,8 @@ This repository is dedicated to summarizing papers related to large language mod
 [16] VLQA: The First Comprehensive, Large, and High-Quality Vietnamese Dataset for Legal Question Answering [paper](https://arxiv.org/abs/2507.19995)
 
 [17] The Massive Legal Embedding Benchmark (MLEB) [paper](https://papers.cool/arxiv/2510.19365)
+
+[18] LexGenius: An Expert-Level Benchmark for Large Language Models in Legal General Intelligence [paper](https://arxiv.org/pdf/2512.04578)
 
 
 The survey paper is shown in [paper](https://arxiv.org/abs/2403.11152)
