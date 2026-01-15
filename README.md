@@ -153,6 +153,7 @@ This repository is dedicated to summarizing papers related to large language mod
 
 [5] PAKTON: A Multi-Agent Framework for Question Answering in Long Legal  Agreements [paper](https://arxiv.org/abs/2506.00608)
 
+[6] LLM Agents in Law: Taxonomy, Applications, and Challenges [paper](https://arxiv.org/pdf/2601.06216)
 ## Legal Problems of Large Language Models
 
 [1] Towards WinoQueer: Developing a Benchmark for Anti-Queer Bias in Large Language Models
