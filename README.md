@@ -135,7 +135,6 @@ This repository is dedicated to summarizing papers related to large language mod
 
 
 
-[69] Evaluating Implicit Regulatory Compliance in LLM Tool Invocation via Logic-Guided Synthesis [paper](https://papers.cool/arxiv/2601.08196)
 
 
 
@@ -170,21 +169,16 @@ This repository is dedicated to summarizing papers related to large language mod
 
 
 
-[103] IndicJR: A Judge-Free Benchmark of Jailbreak Robustness in South Asian Languages [paper](https://papers.cool/arxiv/2602.16832)
-
-
-
-[106] INSURE-Dial: A Phase-Aware Conversational Dataset \& Benchmark for Compliance Verification and Phase Detection [paper](https://papers.cool/arxiv/2602.18448)
 
 
 
 
 
-[111] IDP Accelerator: Agentic Document Intelligence from Extraction to Compliance Validation [paper](https://papers.cool/arxiv/2602.23481)
 
-[112] An Agentic LLM Framework for Adverse Media Screening in AML Compliance [paper](https://papers.cool/arxiv/2602.23373)
 
-[114] Policy Compliance of User Requests in Natural Language for AI Systems [paper](https://papers.cool/arxiv/2603.00369)
+
+
+
 
 
 ## Legal Reasoning Models
