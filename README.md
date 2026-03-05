@@ -133,109 +133,59 @@ This repository is dedicated to summarizing papers related to large language mod
 
 [63] Evaluating Legal Reasoning Traces with Legal Issue Tree Rubrics [paper](https://arxiv.org/abs/2512.01020)
 
-[64] Open World Knowledge Aided Single-Cell Foundation Model with Robust Cross-Modal Cell-Language Pre-training [paper](https://papers.cool/arxiv/2601.05648)
 
-[65] The Persona Paradox: Medical Personas as Behavioral Priors in Clinical Language Models [paper](https://papers.cool/arxiv/2601.05376)
-
-[66] PDR: A Plug-and-Play Positional Decay Framework for LLM Pre-training Data Detection [paper](https://papers.cool/arxiv/2601.06827)
-
-[67] SimLLM: Fine-Tuning Code LLMs for SimPy-Based Queueing System Simulation [paper](https://papers.cool/arxiv/2601.06543)
-
-[68] A Multi-Stage Workflow for the Review of Marketing Content with Reasoning Large Language Models [paper](https://papers.cool/arxiv/2601.06054)
 
 [69] Evaluating Implicit Regulatory Compliance in LLM Tool Invocation via Logic-Guided Synthesis [paper](https://papers.cool/arxiv/2601.08196)
 
-[70] NewsScope: Schema-Grounded Cross-Domain News Claim Extraction with Open Models [paper](https://papers.cool/arxiv/2601.08852)
 
-[71] Resisting Correction: How RLHF Makes Language Models Ignore External Safety Signals in Natural Conversation [paper](https://papers.cool/arxiv/2601.08842)
 
-[72] Representation-Aware Unlearning via Activation Signatures: From Suppression to Knowledge-Signature Erasure [paper](https://papers.cool/arxiv/2601.10566)
 
-[73] A Safety Report on GPT-5.2, Gemini 3 Pro, Qwen3-VL, Doubao 1.8, Grok 4.1 Fast, Nano Banana Pro, and Seedream 4.5 [paper](https://papers.cool/arxiv/2601.10527)
 
-[74] The Poisoned Apple Effect: Strategic Manipulation of Mediated Markets via Technology Expansion of AI Agents [paper](https://papers.cool/arxiv/2601.11496)
 
-[75] Pedagogical Alignment for Vision-Language-Action Models: A Comprehensive Framework for Data, Architecture, and Evaluation in Education [paper](https://papers.cool/arxiv/2601.13876)
 
-[76] OI-Bench: An Option Injection Benchmark for Evaluating LLM Susceptibility to Directive Interference [paper](https://papers.cool/arxiv/2601.13300)
 
-[77] Replayable Financial Agents: A Determinism-Faithfulness Assurance Harness for Tool-Using LLM Agents [paper](https://papers.cool/arxiv/2601.15322)
-
-[78] Machine-Assisted Grading of Nationwide School-Leaving Essay Exams with LLMs and Statistical NLP [paper](https://papers.cool/arxiv/2601.16314)
-
-[79] Sentipolis: Emotion-Aware Agents for Social Simulations [paper](https://papers.cool/arxiv/2601.18027)
-
-[80] Ad Insertion in LLM-Generated Responses [paper](https://papers.cool/arxiv/2601.19435)
 
 [81] Jurisdiction as Structural Barrier: How Privacy Policy Organization May Reduce Visibility of Substantive Disclosures [paper](https://papers.cool/arxiv/2601.20792)
 
-[82] When "Better" Prompts Hurt: Evaluation-Driven Iteration for LLM Applications [paper](https://papers.cool/arxiv/2601.22025)
 
-[83] FraudShield: Knowledge Graph Empowered Defense for LLMs against Fraud Attacks [paper](https://papers.cool/arxiv/2601.22485)
 
-[84] There Is More to Refusal in Large Language Models than a Single Direction [paper](https://papers.cool/arxiv/2602.02132)
 
-[85] DreamOn: Diffusion Language Models For Code Infilling Beyond Fixed-size Canvas [paper](https://papers.cool/arxiv/2602.01326)
 
-[86] Large Language Models as Students Who Think Aloud: Overly Coherent, Verbose, and Confident [paper](https://papers.cool/arxiv/2602.01015)
 
-[87] Social Catalysts, Not Moral Agents: The Illusion of Alignment in LLM Societies [paper](https://papers.cool/arxiv/2602.02598)
 
 [88] Enforcing Monotonic Progress in Legal Cross-Examination: Preventing Long-Horizon Stagnation in LLM-Based Inquiry [paper](https://papers.cool/arxiv/2602.04206)
 
-[89] Beyond Length: Context-Aware Expansion and Independence as Developmentally Sensitive Evaluation in Child Utterances [paper](https://papers.cool/arxiv/2602.05392)
 
-[90] SEMA: Simple yet Effective Learning for Multi-Turn Jailbreak Attacks [paper](https://papers.cool/arxiv/2602.06854)
 
 [91] Anchored Decoding: Provably Reducing Copyright Risk for Any Language Model [paper](https://papers.cool/arxiv/2602.07120)
 
-[92] Flexible Entropy Control in RLVR with Gradient-Preserving Perspective [paper](https://papers.cool/arxiv/2602.09782)
 
-[93] Understanding Risk and Dependency in AI Chatbot Use from User Discourse [paper](https://papers.cool/arxiv/2602.09339)
 
-[94] FM SO.P: A Progressive Task Mixture Framework with Automatic Evaluation for Cross-Domain SOP Understanding [paper](https://papers.cool/arxiv/2602.09336)
 
-[95] The CLEF-2026 FinMMEval Lab: Multilingual and Multimodal Evaluation of Financial AI Systems [paper](https://papers.cool/arxiv/2602.10886)
 
-[96] Neuro-Symbolic Synergy for Interactive World Modeling [paper](https://papers.cool/arxiv/2602.10480)
 
-[97] TestExplora: Benchmarking LLMs for Proactive Bug Discovery via Repository-Level Test Generation [paper](https://papers.cool/arxiv/2602.10471)
 
-[98] When Tables Go Crazy: Evaluating Multimodal Models on French Financial Documents [paper](https://papers.cool/arxiv/2602.10384)
-
-[99] Agent-Diff: Benchmarking LLM Agents on Enterprise API Tasks via Code Execution with State-Diff-Based Evaluation [paper](https://papers.cool/arxiv/2602.11224)
 
 [100] Synthesizing the Virtual Advocate: A Multi-Persona Speech Generation Framework for Diverse Linguistic Jurisdictions in Indic Languages [paper](https://papers.cool/arxiv/2602.11172)
 
-[101] propella-1: Multi-Property Document Annotation for LLM Data Curation at Scale [paper](https://papers.cool/arxiv/2602.12414)
 
-[102] Named Entity Recognition for Payment Data Using NLP [paper](https://papers.cool/arxiv/2602.14009)
 
 [103] IndicJR: A Judge-Free Benchmark of Jailbreak Robustness in South Asian Languages [paper](https://papers.cool/arxiv/2602.16832)
 
-[104] Decomposing Retrieval Failures in RAG for Long-Document Financial Question Answering [paper](https://papers.cool/arxiv/2602.17981)
 
-[105] Think$^{2}$: Grounded Metacognitive Reasoning in Large Language Models [paper](https://papers.cool/arxiv/2602.18806)
 
 [106] INSURE-Dial: A Phase-Aware Conversational Dataset \& Benchmark for Compliance Verification and Phase Detection [paper](https://papers.cool/arxiv/2602.18448)
 
-[107] ExpLang: Improved Exploration and Exploitation in LLM Reasoning with On-Policy Thinking Language Selection [paper](https://papers.cool/arxiv/2602.21887)
 
-[108] Distill and Align Decomposition for Enhanced Claim Verification [paper](https://papers.cool/arxiv/2602.21857)
 
-[109] Forecasting Future Language: Context Design for Mention Markets [paper](https://papers.cool/arxiv/2602.21229)
 
-[110] AuditBench: Evaluating Alignment Auditing Techniques on Models with Hidden Behaviors [paper](https://papers.cool/arxiv/2602.22755)
 
 [111] IDP Accelerator: Agentic Document Intelligence from Extraction to Compliance Validation [paper](https://papers.cool/arxiv/2602.23481)
 
 [112] An Agentic LLM Framework for Adverse Media Screening in AML Compliance [paper](https://papers.cool/arxiv/2602.23373)
 
-[113] ProtRLSearch: A Multi-Round Multimodal Protein Search Agent with Large Language Models Trained via Reinforcement Learning [paper](https://papers.cool/arxiv/2603.01464)
-
 [114] Policy Compliance of User Requests in Natural Language for AI Systems [paper](https://papers.cool/arxiv/2603.00369)
 
-[115] MUSE: A Run-Centric Platform for Multimodal Unified Safety Evaluation of Large Language Models [paper](https://papers.cool/arxiv/2603.02482)
 
 ## Legal Reasoning Models
 [1] LexPro-1.0 Technical Report [paper](https://arxiv.org/pdf/2503.06949)
@@ -268,9 +218,7 @@ This repository is dedicated to summarizing papers related to large language mod
 
 [10] LegalOne: A Family of Foundation Models for Reliable Legal Reasoning [paper](https://papers.cool/arxiv/2602.00642)
 
-[11] Can LLMs Truly Embody Human Personality? Analyzing AI and Human Behavior Alignment in Dispute Resolution [paper](https://papers.cool/arxiv/2602.07414)
 
-[12] Agentic Adversarial QA for Improving Domain-Specific LLMs [paper](https://papers.cool/arxiv/2602.18137)
 
 [13] Domain-Partitioned Hybrid RAG for Legal Reasoning: Toward Modular and Explainable Legal AI for India [paper](https://papers.cool/arxiv/2602.23371)
 
@@ -344,7 +292,6 @@ This repository is dedicated to summarizing papers related to large language mod
 
 [16] Data Augmented Pipeline for Legal Information Extraction and Reasoning [paper](https://papers.cool/arxiv/2601.05609)
 
-[17] Cross-Document Topic-Aligned Chunking for Retrieval-Augmented Generation [paper](https://papers.cool/arxiv/2601.05265)
 
 [18] Domain-Adaptation through Synthetic Data: Fine-Tuning Large Language Models for German Law [paper](https://papers.cool/arxiv/2601.14160)
 
@@ -352,7 +299,6 @@ This repository is dedicated to summarizing papers related to large language mod
 
 [20] Quecto-V1: Empirical Analysis of 8-bit Quantized Small Language Models for On-Device Legal Retrieval [paper](https://papers.cool/arxiv/2602.16640)
 
-[21] Towards Faithful Industrial RAG: A Reinforced Co-adaptation Framework for Advertising QA [paper](https://papers.cool/arxiv/2602.22584)
 
 ## Law LLMs
 
