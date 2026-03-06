@@ -181,6 +181,8 @@ This repository is dedicated to summarizing papers related to large language mod
 
 
 
+[101] AI-Assisted Moot Courts: Simulating Justice-Specific Questioning in Oral Arguments [paper](https://papers.cool/arxiv/2603.04718)
+
 ## Legal Reasoning Models
 [1] LexPro-1.0 Technical Report [paper](https://arxiv.org/pdf/2503.06949)
 
@@ -252,6 +254,8 @@ This repository is dedicated to summarizing papers related to large language mod
 
 [16] Large Language Models as Search Engines: Societal Challenges [paper](https://arxiv.org/abs/2512.08946)
 
+[17] From Unfamiliar to Familiar: Detecting Pre-training Data via Gradient Deviations in Large Language Models [paper](https://papers.cool/arxiv/2603.04828)
+
 ## Data Resources for Large Language Models in Law
 
 [1] CAIL2018: A Large-Scale Legal Dataset for Judgment Prediction
@@ -293,6 +297,8 @@ This repository is dedicated to summarizing papers related to large language mod
 
 [20] Quecto-V1: Empirical Analysis of 8-bit Quantized Small Language Models for On-Device Legal Retrieval [paper](https://papers.cool/arxiv/2602.16640)
 
+
+[21] SinhaLegal: A Benchmark Corpus for Information Extraction and Analysis in Sinhala Legislative Texts [paper](https://papers.cool/arxiv/2603.04854)
 
 ## Law LLMs
 
