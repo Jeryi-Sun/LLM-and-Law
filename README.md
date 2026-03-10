@@ -220,6 +220,8 @@ This repository is dedicated to summarizing papers related to large language mod
 
 [14] LexChronos: An Agentic Framework for Structured Event Timeline Extraction in Indian Jurisprudence [paper](https://papers.cool/arxiv/2603.01651)
 
+[15] Fanar-Sadiq: A Multi-Agent Architecture for Grounded Islamic QA [paper](https://papers.cool/arxiv/2603.08501)
+
 ## Legal Problems of Large Language Models
 
 [1] Towards WinoQueer: Developing a Benchmark for Anti-Queer Bias in Large Language Models
@@ -299,6 +301,8 @@ This repository is dedicated to summarizing papers related to large language mod
 
 
 [21] SinhaLegal: A Benchmark Corpus for Information Extraction and Analysis in Sinhala Legislative Texts [paper](https://papers.cool/arxiv/2603.04854)
+
+[22] LAMUS: A Large-Scale Corpus for Legal Argument Mining from U.S. Caselaw using LLMs [paper](https://papers.cool/arxiv/2603.08286)
 
 ## Law LLMs
 
