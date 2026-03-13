@@ -183,6 +183,8 @@ This repository is dedicated to summarizing papers related to large language mod
 
 [101] AI-Assisted Moot Courts: Simulating Justice-Specific Questioning in Oral Arguments [paper](https://papers.cool/arxiv/2603.04718)
 
+[102] LLM-Assisted Causal Structure Disambiguation and Factor Extraction for Legal Judgment Prediction [paper](https://papers.cool/arxiv/2603.11446)
+
 ## Legal Reasoning Models
 [1] LexPro-1.0 Technical Report [paper](https://arxiv.org/pdf/2503.06949)
 
@@ -368,6 +370,9 @@ This repository is dedicated to summarizing papers related to large language mod
 [17] The Massive Legal Embedding Benchmark (MLEB) [paper](https://papers.cool/arxiv/2510.19365)
 
 [18] LexGenius: An Expert-Level Benchmark for Large Language Models in Legal General Intelligence [paper](https://arxiv.org/pdf/2512.04578)
+
+
+[19] Legal-DC: Benchmarking Retrieval-Augmented Generation for Legal Documents [paper](https://papers.cool/arxiv/2603.11772)
 
 
 The survey paper is shown in [paper](https://arxiv.org/abs/2403.11152)
