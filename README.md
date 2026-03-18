@@ -5,6 +5,9 @@
 ![](https://img.shields.io/badge/PRs-Welcome-red)
 
 This repository is dedicated to summarizing papers related to large language models with the field of law
+
+> Daily update 2026-03-18 (cs.CL): scanned 25 papers, no new papers met the strict "legal task + LLM semantics" inclusion rule.
+
 ## Applications of Large Language Models in Legal Tasks
 
 [1] Legal Prompt Engineering for Multilingual Legal Judgement Prediction
