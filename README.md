@@ -6,9 +6,9 @@
 
 This repository is dedicated to summarizing papers related to large language models with the field of law
 
-> Daily update 2026-04-02 (cs.CL): scanned 100 papers (date=2026-04-02; full page via skip=0/25/50/75), no new papers met the strict "legal task + LLM semantics" inclusion rule.
+> Daily update 2026-04-03 (cs.CL): scanned 89 papers (date=2026-04-03; full page via skip=0/25/50/75), 1 new paper met the strict "legal task + LLM semantics" inclusion rule.
 >
-> Category increments today — Applications: +0, Legal Reasoning Models: +0, Legal Agent: +0, Legal Problems: +0, Data Resources: +0, Law LLMs: +0, Evaluation: +0.
+> Category increments today — Applications: +1, Legal Reasoning Models: +0, Legal Agent: +0, Legal Problems: +0, Data Resources: +0, Law LLMs: +0, Evaluation: +0.
 
 ## Applications of Large Language Models in Legal Tasks
 
@@ -189,6 +189,8 @@ This repository is dedicated to summarizing papers related to large language mod
 [101] AI-Assisted Moot Courts: Simulating Justice-Specific Questioning in Oral Arguments [paper](https://papers.cool/arxiv/2603.04718)
 
 [102] LLM-Assisted Causal Structure Disambiguation and Factor Extraction for Legal Judgment Prediction [paper](https://papers.cool/arxiv/2603.11446)
+
+[103] De Jure: Iterative LLM Self-Refinement for Structured Extraction of Regulatory Rules [paper](https://papers.cool/arxiv/2604.02276)
 
 ## Legal Reasoning Models
 [1] LexPro-1.0 Technical Report [paper](https://arxiv.org/pdf/2503.06949)
