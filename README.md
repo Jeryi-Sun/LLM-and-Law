@@ -6,9 +6,9 @@
 
 This repository is dedicated to summarizing papers related to large language models with the field of law
 
-> Daily update 2026-04-03 (cs.CL): scanned 89 papers (date=2026-04-03; full page via skip=0/25/50/75), 1 new paper met the strict "legal task + LLM semantics" inclusion rule.
+> Daily update 2026-04-04 (cs.CL): scanned 0 papers (date=2026-04-04; page shows Total: 0), 0 new paper met the strict "legal task + LLM semantics" inclusion rule.
 >
-> Category increments today — Applications: +1, Legal Reasoning Models: +0, Legal Agent: +0, Legal Problems: +0, Data Resources: +0, Law LLMs: +0, Evaluation: +0.
+> Category increments today — Applications: +0, Legal Reasoning Models: +0, Legal Agent: +0, Legal Problems: +0, Data Resources: +0, Law LLMs: +0, Evaluation: +0.
 
 ## Applications of Large Language Models in Legal Tasks
 
