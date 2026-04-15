@@ -6,9 +6,9 @@
 
 This repository is dedicated to summarizing papers related to large language models with the field of law
 
-> Daily update 2026-04-07 (cs.CL): scanned 135 papers (date=2026-04-07; full pagination with skip=0/25/50/75/100/125), 2 new papers met the strict "legal task + LLM semantics" inclusion rule.
+> Daily update 2026-04-15 (cs.CL): scanned 100 papers (date=2026-04-15; full pagination with skip=0/25/50/75), 2 new papers met the strict "legal task + LLM semantics" inclusion rule.
 >
-> Category increments today — Applications: +0, Legal Reasoning Models: +0, Legal Agent: +0, Legal Problems: +0, Data Resources: +0, Law LLMs: +1, Evaluation: +1.
+> Category increments today — Applications: +1, Legal Reasoning Models: +0, Legal Agent: +0, Legal Problems: +1, Data Resources: +0, Law LLMs: +0, Evaluation: +0.
 
 ## Applications of Large Language Models in Legal Tasks
 
@@ -192,6 +192,8 @@ This repository is dedicated to summarizing papers related to large language mod
 
 [103] De Jure: Iterative LLM Self-Refinement for Structured Extraction of Regulatory Rules [paper](https://papers.cool/arxiv/2604.02276)
 
+[104] ContextLens: Modeling Imperfect Privacy and Safety Context for Legal Compliance [paper](https://papers.cool/arxiv/2604.12308)
+
 ## Legal Reasoning Models
 [1] LexPro-1.0 Technical Report [paper](https://arxiv.org/pdf/2503.06949)
 
@@ -266,6 +268,8 @@ This repository is dedicated to summarizing papers related to large language mod
 [16] Large Language Models as Search Engines: Societal Challenges [paper](https://arxiv.org/abs/2512.08946)
 
 [17] From Unfamiliar to Familiar: Detecting Pre-training Data via Gradient Deviations in Large Language Models [paper](https://papers.cool/arxiv/2603.04828)
+
+[18] TimeMark: A Trustworthy Time Watermarking Framework for Exact Generation-Time Recovery from AIGC [paper](https://papers.cool/arxiv/2604.12216)
 
 ## Data Resources for Large Language Models in Law
 
