@@ -6,9 +6,9 @@
 
 This repository is dedicated to summarizing papers related to large language models with the field of law
 
-> Daily update 2026-04-15 (cs.CL): scanned 100 papers (date=2026-04-15; full pagination with skip=0/25/50/75), 2 new papers met the strict "legal task + LLM semantics" inclusion rule.
+> Daily update 2026-04-20 (cs.CL): scanned 83 papers (date=2026-04-20; full pagination with skip=0/25/50/75), 1 new paper met the strict "legal task + LLM semantics" inclusion rule.
 >
-> Category increments today — Applications: +1, Legal Reasoning Models: +0, Legal Agent: +0, Legal Problems: +1, Data Resources: +0, Law LLMs: +0, Evaluation: +0.
+> Category increments today — Applications: +0, Legal Reasoning Models: +0, Legal Agent: +0, Legal Problems: +0, Data Resources: +0, Law LLMs: +0, Evaluation: +1.
 
 ## Applications of Large Language Models in Legal Tasks
 
@@ -387,6 +387,8 @@ This repository is dedicated to summarizing papers related to large language mod
 [19] Legal-DC: Benchmarking Retrieval-Augmented Generation for Legal Documents [paper](https://papers.cool/arxiv/2603.11772)
 
 [20] Adaptive Cost-Efficient Evaluation for Reliable Patent Claim Validation [paper](https://papers.cool/arxiv/2604.04295)
+
+[21] From Benchmarking to Reasoning: A Dual-Aspect, Large-Scale Evaluation of LLMs on Vietnamese Legal Text [paper](https://papers.cool/arxiv/2604.16270)
 
 
 The survey paper is shown in [paper](https://arxiv.org/abs/2403.11152)
