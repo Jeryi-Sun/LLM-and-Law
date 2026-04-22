@@ -345,6 +345,8 @@ This repository is dedicated to summarizing papers related to large language mod
 
 [13] HUKUKBERT: Domain-Specific Language Model for Turkish Law [paper](https://papers.cool/arxiv/2604.04790)
 
+[14] PoliLegalLM: A Technical Report on a Large Language Model for Political and Legal Affairs [paper](https://arxiv.org/pdf/2604.17543)
+
 
 ## Evaluation:
 [1] Measuring Massive Multitask Chinese Understanding [paper](https://arxiv.org/pdf/2304.12986.pdf)
