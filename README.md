@@ -208,6 +208,8 @@ This repository is dedicated to summarizing papers related to large language mod
 [6] LePREC: Reasoning as Classification over Structured Factors for Assessing Relevance of Legal Issues [paper](https://papers.cool/arxiv/2604.19464)
 
 ## Legal Agent
+- [When Correct Isn't Usable: Improving Structured Output Reliability in Small Language Models](https://arxiv.org/abs/2605.02363)
+- [Accurate Legal Reasoning at Scale: Neuro-Symbolic Offloading and Structural Auditability for Robust Legal Adjudication](https://arxiv.org/abs/2605.02472)
 [1] SimuCourt: Building Judicial Decision-Making Agents with Real-world Judgement Documents [paper](https://arxiv.org/pdf/2403.02959v1.pdf)
 
 [2] Can Large Language Models Grasp Legal Theories? Enhance Legal Reasoning with Insights from Multi-Agent Collaboration [paper](https://arxiv.org/abs/2410.02507)
