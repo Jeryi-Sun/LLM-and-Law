@@ -6,9 +6,9 @@
 
 This repository is dedicated to summarizing papers related to large language models with the field of law
 
-> Daily update 2026-05-03 (cs.CL): scanned 0 papers (date=2026-05-03), 0 new papers met the strict "legal task + LLM semantics" inclusion rule.
+> Daily update 2026-05-15 (cs.CL): scanned 118 papers (date=2026-05-15), 5 new papers met the strict "legal task + LLM semantics" inclusion rule.
 >
-> Category increments today — Applications: +0, Legal Reasoning Models: +0, Legal Agent: +0, Legal Problems: +0, Data Resources: +0, Law LLMs: +0, Evaluation: +0.
+> Category increments today — Applications: +0, Legal Reasoning Models: +2, Legal Agent: +1, Legal Problems: +1, Data Resources: +0, Law LLMs: +0, Evaluation: +1.
 
 ## Applications of Large Language Models in Legal Tasks
 
@@ -206,6 +206,8 @@ This repository is dedicated to summarizing papers related to large language mod
 [5] Contractual Deepfakes: Can Large Language Models Generate Contracts? [paper](https://papers.cool/arxiv/2602.09384)
 
 [6] LePREC: Reasoning as Classification over Structured Factors for Assessing Relevance of Legal Issues [paper](https://papers.cool/arxiv/2604.19464)
+- [Falkor-IRAC: Graph-Constrained Generation for Verified Legal Reasoning in Indian Judicial AI](https://papers.cool/arxiv/2605.14665)
+- [Bridging Legal Interpretation and Formal Logic: Faithfulness, Assumption, and the Future of AI Legal Reasoning](https://papers.cool/arxiv/2605.14049)
 
 ## Legal Agent
 - [When Correct Isn't Usable: Improving Structured Output Reliability in Small Language Models](https://arxiv.org/abs/2605.02363)
@@ -236,6 +238,7 @@ This repository is dedicated to summarizing papers related to large language mod
 [14] LexChronos: An Agentic Framework for Structured Event Timeline Extraction in Indian Jurisprudence [paper](https://papers.cool/arxiv/2603.01651)
 
 [15] Fanar-Sadiq: A Multi-Agent Architecture for Grounded Islamic QA [paper](https://papers.cool/arxiv/2603.08501)
+- [Dual Hierarchical Dialogue Policy Learning for Legal Inquisitive Conversational Agents](https://papers.cool/arxiv/2605.14057)
 
 ## Legal Problems of Large Language Models
 
@@ -274,6 +277,7 @@ This repository is dedicated to summarizing papers related to large language mod
 [17] From Unfamiliar to Familiar: Detecting Pre-training Data via Gradient Deviations in Large Language Models [paper](https://papers.cool/arxiv/2603.04828)
 
 [18] TimeMark: A Trustworthy Time Watermarking Framework for Exact Generation-Time Recovery from AIGC [paper](https://papers.cool/arxiv/2604.12216)
+- [To See is Not to Learn: Protecting Multimodal Data from Unauthorized Fine-Tuning of Large Vision-Language Model](https://papers.cool/arxiv/2605.14291)
 
 ## Data Resources for Large Language Models in Law
 
@@ -399,7 +403,7 @@ This repository is dedicated to summarizing papers related to large language mod
 [21] From Benchmarking to Reasoning: A Dual-Aspect, Large-Scale Evaluation of LLMs on Vietnamese Legal Text [paper](https://papers.cool/arxiv/2604.16270)
 
 [22] Exploiting LLM-as-a-Judge Disposition on Free Text Legal QA via Prompt Optimization [paper](https://papers.cool/arxiv/2604.20726)
-
+- [Tokenizer Fertility and Zero-Shot Performance of Foundation Models on Ukrainian Legal Text: A Comparative Study](https://papers.cool/arxiv/2605.14890)
 
 The survey paper is shown in [paper](https://arxiv.org/abs/2403.11152)
 
