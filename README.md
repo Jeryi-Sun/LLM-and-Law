@@ -6,9 +6,9 @@
 
 This repository is dedicated to summarizing papers related to large language models with the field of law
 
-> Daily update 2026-05-17 (cs.CL): scanned 0 papers (date=2026-05-17), 0 new papers met the strict "legal task + LLM semantics" inclusion rule.
+> Daily update 2026-05-18 (cs.CL): scanned 80 papers (date=2026-05-18), 3 new papers met the strict "legal task + LLM semantics" inclusion rule.
 >
-> Category increments today — Applications: +0, Legal Reasoning Models: +0, Legal Agent: +0, Legal Problems: +0, Data Resources: +0, Law LLMs: +0, Evaluation: +0.
+> Category increments today — Applications: +1, Legal Reasoning Models: +0, Legal Agent: +0, Legal Problems: +0, Data Resources: +1, Law LLMs: +0, Evaluation: +1.
 
 ## Applications of Large Language Models in Legal Tasks
 
@@ -193,6 +193,8 @@ This repository is dedicated to summarizing papers related to large language mod
 [103] De Jure: Iterative LLM Self-Refinement for Structured Extraction of Regulatory Rules [paper](https://papers.cool/arxiv/2604.02276)
 
 [104] ContextLens: Modeling Imperfect Privacy and Safety Context for Legal Compliance [paper](https://papers.cool/arxiv/2604.12308)
+- [Eskwai for Students: Generative AI Assistant for Legal Education in Ghana](https://papers.cool/arxiv/2605.15380)
+
 
 ## Legal Reasoning Models
 [1] LexPro-1.0 Technical Report [paper](https://arxiv.org/pdf/2503.06949)
@@ -326,6 +328,8 @@ This repository is dedicated to summarizing papers related to large language mod
 [22] LAMUS: A Large-Scale Corpus for Legal Argument Mining from U.S. Caselaw using LLMs [paper](https://papers.cool/arxiv/2603.08286)
 
 [23] RoLegalGEC: Legal Domain Grammatical Error Detection and Correction Dataset for Romanian [paper](https://papers.cool/arxiv/2604.19593)
+- [Automatic Construction of a Legal Citation Graph from 100 Million Ukrainian Court Decisions: Large-Scale Extraction, Topological Analysis, and Ontology-Driven Clustering](https://papers.cool/arxiv/2605.15362)
+
 
 ## Law LLMs
 
@@ -404,6 +408,7 @@ This repository is dedicated to summarizing papers related to large language mod
 
 [22] Exploiting LLM-as-a-Judge Disposition on Free Text Legal QA via Prompt Optimization [paper](https://papers.cool/arxiv/2604.20726)
 - [Tokenizer Fertility and Zero-Shot Performance of Foundation Models on Ukrainian Legal Text: A Comparative Study](https://papers.cool/arxiv/2605.14890)
+- [Reasoners or Translators? Contamination-aware Evaluation and Neuro-Symbolic Robustness in Tax Law](https://papers.cool/arxiv/2605.16052)
 
 The survey paper is shown in [paper](https://arxiv.org/abs/2403.11152)
 
