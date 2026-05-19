@@ -6,9 +6,9 @@
 
 This repository is dedicated to summarizing papers related to large language models with the field of law
 
-> Daily update 2026-05-18 (cs.CL): scanned 80 papers (date=2026-05-18), 3 new papers met the strict "legal task + LLM semantics" inclusion rule.
+> Daily update 2026-05-19 (cs.CL): scanned 200 papers (date=2026-05-19), 5 new papers met the strict "legal task + LLM semantics" inclusion rule.
 >
-> Category increments today — Applications: +1, Legal Reasoning Models: +0, Legal Agent: +0, Legal Problems: +0, Data Resources: +1, Law LLMs: +0, Evaluation: +1.
+> Category increments today — Applications: +3, Legal Reasoning Models: +0, Legal Agent: +0, Legal Problems: +0, Data Resources: +1, Law LLMs: +0, Evaluation: +1.
 
 ## Applications of Large Language Models in Legal Tasks
 
@@ -196,6 +196,11 @@ This repository is dedicated to summarizing papers related to large language mod
 - [Eskwai for Students: Generative AI Assistant for Legal Education in Ghana](https://papers.cool/arxiv/2605.15380)
 
 
+
+- [Learning Faster with Better Tokens: Parameter-Efficient Vocabulary Adaptation for Specialized Text Summarization](https://papers.cool/arxiv/2605.17379)
+- [Exploring Lightweight Large Language Models for Court View Generation](https://papers.cool/arxiv/2605.16770)
+- [Retrieval-Based Multi-Label Legal Annotation: Extensible, Data-Efficient and Hallucination-Free](https://papers.cool/arxiv/2605.16767)
+
 ## Legal Reasoning Models
 [1] LexPro-1.0 Technical Report [paper](https://arxiv.org/pdf/2503.06949)
 
@@ -331,6 +336,9 @@ This repository is dedicated to summarizing papers related to large language mod
 - [Automatic Construction of a Legal Citation Graph from 100 Million Ukrainian Court Decisions: Large-Scale Extraction, Topological Analysis, and Ontology-Driven Clustering](https://papers.cool/arxiv/2605.15362)
 
 
+
+- [Temporal Decay of Co-Citation Predictability: A 20-Year Statute Retrieval Benchmark from 396M Ukrainian Court Citations](https://papers.cool/arxiv/2605.17639)
+
 ## Law LLMs
 
 [1] LawGPT_zh [github](github.com/LiuHC0428/LAW-GPT)
@@ -409,6 +417,9 @@ This repository is dedicated to summarizing papers related to large language mod
 [22] Exploiting LLM-as-a-Judge Disposition on Free Text Legal QA via Prompt Optimization [paper](https://papers.cool/arxiv/2604.20726)
 - [Tokenizer Fertility and Zero-Shot Performance of Foundation Models on Ukrainian Legal Text: A Comparative Study](https://papers.cool/arxiv/2605.14890)
 - [Reasoners or Translators? Contamination-aware Evaluation and Neuro-Symbolic Robustness in Tax Law](https://papers.cool/arxiv/2605.16052)
+
+
+- [Validate Your Authority: Benchmarking LLMs on Multi-Label Precedent Treatment Classification](https://papers.cool/arxiv/2605.17691)
 
 The survey paper is shown in [paper](https://arxiv.org/abs/2403.11152)
 
