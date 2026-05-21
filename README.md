@@ -6,9 +6,9 @@
 
 This repository is dedicated to summarizing papers related to large language models with the field of law
 
-> Daily update 2026-05-20 (cs.CL): scanned 103 papers (date=2026-05-20), 3 new papers met the strict "legal task + LLM semantics" inclusion rule.
+> Daily update 2026-05-21 (cs.CL): scanned 105 papers (date=2026-05-21), 2 new papers met the strict "legal task + LLM semantics" inclusion rule.
 >
-> Category increments today — Applications: +1, Legal Reasoning Models: +0, Legal Agent: +0, Legal Problems: +0, Data Resources: +1, Law LLMs: +0, Evaluation: +1.
+> Category increments today — Applications: +0, Legal Reasoning Models: +0, Legal Agent: +0, Legal Problems: +0, Data Resources: +1, Law LLMs: +0, Evaluation: +1.
 
 ## Applications of Large Language Models in Legal Tasks
 
@@ -340,6 +340,7 @@ This repository is dedicated to summarizing papers related to large language mod
 
 - [Temporal Decay of Co-Citation Predictability: A 20-Year Statute Retrieval Benchmark from 396M Ukrainian Court Citations](https://papers.cool/arxiv/2605.17639)
 - [IMLJD: A Computational Dataset for Indian Matrimonial Litigation Analysis](https://papers.cool/arxiv/2605.19346)
+- [Fine-grained Claim-level RAG Benchmark for Law](https://papers.cool/arxiv/2605.21071)
 
 ## Law LLMs
 
@@ -423,6 +424,7 @@ This repository is dedicated to summarizing papers related to large language mod
 
 - [Validate Your Authority: Benchmarking LLMs on Multi-Label Precedent Treatment Classification](https://papers.cool/arxiv/2605.17691)
 - [LP-Eval: Rubric and Dataset for Measuring the Quality of Legal Proposition Generation](https://papers.cool/arxiv/2605.19815)
+- [GradeLegal: Automated Grading for German Legal Cases](https://papers.cool/arxiv/2605.21076)
 
 The survey paper is shown in [paper](https://arxiv.org/abs/2403.11152)
 
