@@ -6,9 +6,9 @@
 
 This repository is dedicated to summarizing papers related to large language models with the field of law
 
-> Daily update 2026-05-24 (cs.CL): scanned 0 papers (date=2026-05-24), 0 new papers met the strict "legal task + LLM semantics" inclusion rule.
+> Daily update 2026-05-25 (cs.CL): scanned 85 papers (date=2026-05-25), 2 new papers met the strict "legal task + LLM semantics" inclusion rule.
 >
-> Category increments today — Applications: +0, Legal Reasoning Models: +0, Legal Agent: +0, Legal Problems: +0, Data Resources: +0, Law LLMs: +0, Evaluation: +0.
+> Category increments today — Applications: +0, Legal Reasoning Models: +0, Legal Agent: +0, Legal Problems: +0, Data Resources: +1, Law LLMs: +0, Evaluation: +1.
 
 ## Applications of Large Language Models in Legal Tasks
 
@@ -342,6 +342,8 @@ This repository is dedicated to summarizing papers related to large language mod
 - [IMLJD: A Computational Dataset for Indian Matrimonial Litigation Analysis](https://papers.cool/arxiv/2605.19346)
 - [Fine-grained Claim-level RAG Benchmark for Law](https://papers.cool/arxiv/2605.21071)
 
+- [A Reproducible Universal Dependencies-Style Pipeline for Katharevousa Greek Parliamentary Text](https://papers.cool/arxiv/2605.22978)
+
 ## Law LLMs
 
 [1] LawGPT_zh [github](github.com/LiuHC0428/LAW-GPT)
@@ -425,6 +427,8 @@ This repository is dedicated to summarizing papers related to large language mod
 - [Validate Your Authority: Benchmarking LLMs on Multi-Label Precedent Treatment Classification](https://papers.cool/arxiv/2605.17691)
 - [LP-Eval: Rubric and Dataset for Measuring the Quality of Legal Proposition Generation](https://papers.cool/arxiv/2605.19815)
 - [GradeLegal: Automated Grading for German Legal Cases](https://papers.cool/arxiv/2605.21076)
+- [Asking For An Old Friend: Diagnosing and Mitigating Temporal Failure Modes in LLM-based Statutory Question Answering](https://papers.cool/arxiv/2605.23497)
+
 
 The survey paper is shown in [paper](https://arxiv.org/abs/2403.11152)
 
@@ -445,3 +449,4 @@ Please cite the following papers as references if this repository helps you (*�
 [23] IndiaFinBench: An Evaluation Benchmark for Large Language Model Performance on Indian Financial Regulatory Text [paper](https://papers.cool/arxiv/2604.19298)
 
 [24] RARE: Redundancy-Aware Retrieval Evaluation Framework for High-Similarity Corpora [paper](https://papers.cool/arxiv/2604.19047)
+
