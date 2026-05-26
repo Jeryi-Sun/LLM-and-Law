@@ -6,9 +6,9 @@
 
 This repository is dedicated to summarizing papers related to large language models with the field of law
 
-> Daily update 2026-05-25 (cs.CL): scanned 85 papers (date=2026-05-25), 2 new papers met the strict "legal task + LLM semantics" inclusion rule.
+> Daily update 2026-05-26 (cs.CL): scanned 225 papers (date=2026-05-26), 9 new papers met the strict "legal task + LLM semantics" inclusion rule.
 >
-> Category increments today — Applications: +0, Legal Reasoning Models: +0, Legal Agent: +0, Legal Problems: +0, Data Resources: +1, Law LLMs: +0, Evaluation: +1.
+> Category increments today — Applications: +3, Legal Reasoning Models: +2, Legal Agent: +1, Legal Problems: +0, Data Resources: +1, Law LLMs: +0, Evaluation: +2.
 
 ## Applications of Large Language Models in Legal Tasks
 
@@ -201,6 +201,9 @@ This repository is dedicated to summarizing papers related to large language mod
 - [Exploring Lightweight Large Language Models for Court View Generation](https://papers.cool/arxiv/2605.16770)
 - [Retrieval-Based Multi-Label Legal Annotation: Extensible, Data-Efficient and Hallucination-Free](https://papers.cool/arxiv/2605.16767)
 - [Chunking German Legal Code](https://papers.cool/arxiv/2605.19806)
+- [Generating Legal Commentaries from Case Databases via Retrieval, Clustering, and Generation](https://papers.cool/arxiv/2605.24534)
+- [Decompose-and-Refine: Structured Legal Question Answering with Parametric Retrieval](https://papers.cool/arxiv/2605.24454)
+- [Retrieval-Augmented Detection of Potentially Abusive Clauses in Chilean Terms of Service](https://papers.cool/arxiv/2605.26019)
 
 ## Legal Reasoning Models
 [1] LexPro-1.0 Technical Report [paper](https://arxiv.org/pdf/2503.06949)
@@ -216,6 +219,8 @@ This repository is dedicated to summarizing papers related to large language mod
 [6] LePREC: Reasoning as Classification over Structured Factors for Assessing Relevance of Legal Issues [paper](https://papers.cool/arxiv/2604.19464)
 - [Falkor-IRAC: Graph-Constrained Generation for Verified Legal Reasoning in Indian Judicial AI](https://papers.cool/arxiv/2605.14665)
 - [Bridging Legal Interpretation and Formal Logic: Faithfulness, Assumption, and the Future of AI Legal Reasoning](https://papers.cool/arxiv/2605.14049)
+- [TypedCSIP: Typed Counterfactual Pretraining for Chinese Legislative Conflict Classification](https://papers.cool/arxiv/2605.25474)
+- [By Their Fruits You Will Know Them: Comparing Formalizations of Law by the Decisions They Encode](https://papers.cool/arxiv/2605.25186)
 
 ## Legal Agent
 - [When Correct Isn't Usable: Improving Structured Output Reliability in Small Language Models](https://arxiv.org/abs/2605.02363)
@@ -247,6 +252,7 @@ This repository is dedicated to summarizing papers related to large language mod
 
 [15] Fanar-Sadiq: A Multi-Agent Architecture for Grounded Islamic QA [paper](https://papers.cool/arxiv/2603.08501)
 - [Dual Hierarchical Dialogue Policy Learning for Legal Inquisitive Conversational Agents](https://papers.cool/arxiv/2605.14057)
+- [Can LLMs Time Travel? Enhancing Temporal Consistency in Legal Agentic Search through Reinforcement Learning](https://papers.cool/arxiv/2605.25920)
 
 ## Legal Problems of Large Language Models
 
@@ -343,6 +349,7 @@ This repository is dedicated to summarizing papers related to large language mod
 - [Fine-grained Claim-level RAG Benchmark for Law](https://papers.cool/arxiv/2605.21071)
 
 - [A Reproducible Universal Dependencies-Style Pipeline for Katharevousa Greek Parliamentary Text](https://papers.cool/arxiv/2605.22978)
+- [Temporal Concept Drift in Legal Judgment Prediction: Neural Baselines Across Three Epochs of Ukrainian Court Decisions](https://papers.cool/arxiv/2605.24452)
 
 ## Law LLMs
 
@@ -429,6 +436,8 @@ This repository is dedicated to summarizing papers related to large language mod
 - [GradeLegal: Automated Grading for German Legal Cases](https://papers.cool/arxiv/2605.21076)
 - [Asking For An Old Friend: Diagnosing and Mitigating Temporal Failure Modes in LLM-based Statutory Question Answering](https://papers.cool/arxiv/2605.23497)
 
+- [A Two-Phase Stability Study of LLM Judges and Bar Council Examiners on Thai Bar-Exam Free-Form Essays](https://papers.cool/arxiv/2605.25652)
+- [JudgmentBench: Comparing Rubric and Preference Evaluation for Quality Assessment](https://papers.cool/arxiv/2605.25240)
 
 The survey paper is shown in [paper](https://arxiv.org/abs/2403.11152)
 
