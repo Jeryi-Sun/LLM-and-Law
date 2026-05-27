@@ -6,9 +6,9 @@
 
 This repository is dedicated to summarizing papers related to large language models with the field of law
 
-> Daily update 2026-05-26 (cs.CL): scanned 225 papers (date=2026-05-26), 9 new papers met the strict "legal task + LLM semantics" inclusion rule.
+> Daily update 2026-05-27 (cs.CL): scanned 138 papers (date=2026-05-27), 1 new paper met the strict "legal task + LLM semantics" inclusion rule.
 >
-> Category increments today — Applications: +3, Legal Reasoning Models: +2, Legal Agent: +1, Legal Problems: +0, Data Resources: +1, Law LLMs: +0, Evaluation: +2.
+> Category increments today — Applications: +0, Legal Reasoning Models: +0, Legal Agent: +1, Legal Problems: +0, Data Resources: +0, Law LLMs: +0, Evaluation: +0.
 
 ## Applications of Large Language Models in Legal Tasks
 
@@ -253,6 +253,7 @@ This repository is dedicated to summarizing papers related to large language mod
 [15] Fanar-Sadiq: A Multi-Agent Architecture for Grounded Islamic QA [paper](https://papers.cool/arxiv/2603.08501)
 - [Dual Hierarchical Dialogue Policy Learning for Legal Inquisitive Conversational Agents](https://papers.cool/arxiv/2605.14057)
 - [Can LLMs Time Travel? Enhancing Temporal Consistency in Legal Agentic Search through Reinforcement Learning](https://papers.cool/arxiv/2605.25920)
+- [SIA: Self Improving AI with Harness & Weight Updates](https://papers.cool/arxiv/2605.27276)
 
 ## Legal Problems of Large Language Models
 
