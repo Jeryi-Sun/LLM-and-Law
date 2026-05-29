@@ -6,9 +6,9 @@
 
 This repository is dedicated to summarizing papers related to large language models with the field of law
 
-> Daily update 2026-05-28 (cs.CL): scanned 191 papers (date=2026-05-28), 3 new papers met the strict "legal task + LLM semantics" inclusion rule.
+> Daily update 2026-05-29 (cs.CL): scanned 200 papers (date=2026-05-29), 2 new papers met the strict "legal task + LLM semantics" inclusion rule.
 >
-> Category increments today — Applications: +0, Legal Reasoning Models: +0, Legal Agent: +1, Legal Problems: +0, Data Resources: +0, Law LLMs: +0, Evaluation: +2.
+> Category increments today — Applications: +0, Legal Reasoning Models: +0, Legal Agent: +0, Legal Problems: +0, Data Resources: +0, Law LLMs: +0, Evaluation: +2.
 
 ## Applications of Large Language Models in Legal Tasks
 
@@ -444,6 +444,8 @@ This repository is dedicated to summarizing papers related to large language mod
 
 - [The Cases LJP Never Sees: Prosecution Decision Prediction for More Complete Criminal Liability Assessment](https://papers.cool/arxiv/2605.28464)
 - [BenGER: Benchmarking LLM Systems on Subsumption-Based Legal Reasoning in German Law](https://papers.cool/arxiv/2605.28183)
+- [Multi-Legal-Bench: Evaluating LLMs on Legal Reasoning Across Jurisdictions, Languages, and Legal Traditions](https://papers.cool/arxiv/2605.29738)
+- [UA-Legal-Bench: A Benchmark for Evaluating Large Language Models on Ukrainian Legal Reasoning](https://papers.cool/arxiv/2605.29170)
 
 The survey paper is shown in [paper](https://arxiv.org/abs/2403.11152)
 
