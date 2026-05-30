@@ -4,448 +4,242 @@
 ![](https://img.shields.io/github/last-commit/Jeryi-Sun/LLM-and-Law?color=green) 
 ![](https://img.shields.io/badge/PRs-Welcome-red)
 
-This repository is dedicated to summarizing papers related to large language models with the field of law
+This repository tracks papers and resources about large language models (LLMs) in the legal domain.
 
 > Daily update 2026-05-30 (cs.CL): scanned 0 papers (date=2026-05-30), 0 new papers met the strict "legal task + LLM semantics" inclusion rule.
 >
 > Category increments today — Applications: +0, Legal Reasoning Models: +0, Legal Agent: +0, Legal Problems: +0, Data Resources: +0, Law LLMs: +0, Evaluation: +0.
 
+## Contents
+- [Applications of Large Language Models in Legal Tasks](#applications-of-large-language-models-in-legal-tasks)
+- [Legal Reasoning Models](#legal-reasoning-models)
+- [Legal Agent](#legal-agent)
+- [Legal Problems of Large Language Models](#legal-problems-of-large-language-models)
+- [Data Resources for Large Language Models in Law](#data-resources-for-large-language-models-in-law)
+- [Law LLMs](#law-llms)
+- [Evaluation](#evaluation)
+
 ## Applications of Large Language Models in Legal Tasks
 
-[1] Legal Prompt Engineering for Multilingual Legal Judgement Prediction
-
-[2] Can GPT-3 Perform Statutory Reasoning?
-
-[3] Legal Prompting: Teaching a Language Model to Think Like a Lawyer
-
-[4] Large Language Models as Fiduciaries: A Case Study Toward Robustly Communicating With Artificial Intelligence Through Legal Standards
-
-[5] ChatGPT Goes to Law School
-
-[6] ChatGPT, Professor of Law
-
-[7] ChatGPT & Generative AI Systems as Quasi-Expert Legal Advice Lawyers - Case Study Considering Potential Appeal Against Conviction of Tom Hayes
-
-[8] ‘Words Are Flowing Out Like Endless Rain Into a Paper Cup’: ChatGPT & Law School Assessments
-
-[9] ChatGPT by OpenAI: The End of Litigation Lawyers?
-
-[10] Law Informs Code: A Legal Informatics Approach to Aligning Artificial Intelligence with Humans
-
-[11] ChatGPT may Pass the Bar Exam soon, but has a Long Way to Go for the LexGLUE benchmark [paper](https://arxiv.org/pdf/2304.12202v1.pdf)
-
-[12] How Ready are Pre-trained Abstractive Models and LLMs for Legal Case Judgement Summarization? [paper](https://arxiv.org/pdf/2306.01248v1.pdf)
-
-[13] Explaining Legal Concepts with Augmented Large Language Models (GPT-4) [paper](https://arxiv.org/pdf/2306.09525v1.pdf)
-
-[14] Garbage in, garbage out: Zero-shot detection of crime using Large Language Models [paper](http://arxiv.org/pdf/2307.06844v1)
-
-[15] Legal Summarisation through LLMs: The PRODIGIT Project  [paper](https://arxiv.org/pdf/2308.04416v1.pdf)
-
-[16] Black-Box Analysis: GPTs Across Time in Legal Textual Entailment Task [paper](https://arxiv.org/pdf/2309.05501v1.pdf)
-
-[17]  PolicyGPT: Automated Analysis of Privacy Policies with Large Language Models
-
-[18] Reformulating Domain Adaptation of Large Language Models as Adapt-Retrieve-Revise [paper](https://browse.arxiv.org/pdf/2310.03328v1.pdf)
-
-[19] Precedent-Enhanced Legal Judgment Prediction with LLM and Domain-Model Collaboration [paper](https://arxiv.org/pdf/2310.09241.pdf)
-
-[20] From Text to Structure: Using Large Language Models to Support the Development of Legal Expert Systems [paper](http://arxiv.org/pdf/2311.04911v1)
-
-[21] Boosting legal case retrieval by query content selection with large language models [paper](https://arxiv.org/pdf/2312.03494v1.pdf)
-
-[22] LLMediator: GPT-4 Assisted Online Dispute Resolution [paper](https://arxiv.org/pdf/2307.16732v1.pdf)
-
-[23] Employing Label Models on ChatGPT Answers Improves Legal Text Entailment Performance [paper](https://arxiv.org/pdf/2401.17897v1.pdf)
-
-[24] LLaMandement: Large Language Models for Summarization of French Legislative Proposals [paper](https://arxiv.org/pdf/2401.16182v1.pdf)
-
-[25] **Logic Rules as Explanations for Legal Case Retrieval** [paper](http://arxiv.org/pdf/2403.01457v1) Our new paper, welcome to pay attention !!!
-
-[26] Enhancing Legal Document Retrieval: A Multi-Phase Approach with Large Language Models [paper](https://arxiv.org/pdf/2403.18093v1.pdf) 
-
-[27] BLADE: Enhancing Black-box Large Language Models with Small Domain-Specific Models [paper](https://arxiv.org/abs/2403.18365)
-
-[28] A Survey on Large Language Models for Critical Societal Domains: Finance, Healthcare, and Law [paper](https://arxiv.org/pdf/2405.01769v1#page=22.45)
-
-[29] Archimedes-AUEB at SemEval-2024 Task 5: LLM explains Civil Procedure [paper](http://arxiv.org/pdf/2405.08502v1)
-
-[30] More Than Catastrophic Forgetting: Integrating General Capabilities For Domain-Specific LLMs [paper](https://arxiv.org/pdf/2405.17830v1)
-
-[31] Legal Documents Drafting with Fine-Tuned Pre-Trained Large Language Model [paper](http://arxiv.org/pdf/2406.04202v1)
-
-[32] Knowledge-Infused Legal Wisdom: Navigating LLM Consultation through the Lens of Diagnostics and Positive-Unlabeled Reinforcement Learning [paper](http://arxiv.org/pdf/2406.03600v1)
-
-[33] GOLDCOIN: Grounding Large Language Models in Privacy Laws via Contextual Integrity Theory [paper](https://arxiv.org/pdf/2406.11149)
-
-[34]  Enabling Discriminative Reasoning in Large Language Models for Legal Judgment Prediction [paper](https://arxiv.org/abs/2407.01964)
-
-[35]  Large Language Models for Judicial Entity Extraction: A Comparative Study [paper](https://arxiv.org/abs/2407.05786)
-
-[36] Applicability of Large Language Models and Generative Models for Legal Case Judgement Summarization [paper](https://arxiv.org/abs/2407.12848)
-
-[37] LawLLM: Law Large Language Model for the US Legal System [paper](https://arxiv.org/pdf/2407.21065)
-
-[38] Legal syllogism prompting: Teaching large language models for legal judgment prediction [paper](https://arxiv.org/pdf/2307.08321)
-
-[39] Optimizing Numerical Estimation and Operational Efficiency in the Legal Domain through Large Language Models [paper](https://arxiv.org/pdf/2407.19041)
-
-[40] Hallucination-Free? Assessing the Reliability of Leading AI Legal Research Tools [paper](https://arxiv.org/pdf/2405.20362)
-
-[41] KRAG Framework for Enhancing LLMs in the Legal Domain [paper](https://arxiv.org/abs/2410.07551)
-
-[42] Legal Evalutions and Challenges of Large Language Models [paper](https://arxiv.org/abs/2411.10137)
-
-[43] Analyzing Images of Legal Documents: Toward Multi-Modal LLMs for Access to Justice [paper](https://arxiv.org/pdf/2412.15260)
-
-[44] Automating Legal Concept Interpretation with LLMs: Retrieval,  Generation, and Evaluation  [paper](https://arxiv.org/abs/2501.01743)
-
-[45] Domaino1s: Guiding LLM Reasoning for Explainable Answers in High-Stakes  Domains [paper](https://arxiv.org/abs/2501.14431)
-
-[46] RELexED: Retrieval-Enhanced Legal Summarization with Exemplar Diversity [paper](https://arxiv.org/abs/2501.14113)
-
-[47] Courtroom-LLM: A Legal-Inspired Multi-LLM Framework for Resolving Ambiguous Text Classifications [paper](https://aclanthology.org/2025.coling-main.493.pdf)
-
-[48] LegalViz: Legal Text Visualization by Text To Diagram Generation [paper](https://arxiv.org/abs/2502.06147)
-
-[49] Investigating the Shortcomings of LLMs in Step-by-Step Legal Reasoning [paper](https://arxiv.org/abs/2502.05675)
-
-[50] Elevating Legal LLM Responses: Harnessing Trainable Logical Structures and Semantic Knowledge with Legal Reasoning [paper](https://arxiv.org/pdf/2502.07912)
-
-[51] JuDGE: Benchmarking Judgment Document Generation for Chinese Legal  System [paper](https://arxiv.org/abs/2503.14258)
-
-[52] LARGE: Legal Retrieval Augmented Generation Evaluation Tool [paper](https://arxiv.org/abs/2504.01698)
-
-[53] Tasks and Roles in Legal AI: Data Curation, Annotation, and Verification [paper](https://arxiv.org/abs/2504.01349)
-
-[54] The Hidden Structure -- Improving Legal Document Understanding Through Explicit Text Formatting [paper](https://arxiv.org/abs/2505.12837)
-
-[55] Conditioning Large Language Models on Legal Systems? Detecting  Punishable Hate Speech [paper](https://arxiv.org/abs/2506.03009)
-
-[56] CORE-KG: An LLM-Driven Knowledge Graph Construction Framework for Human Smuggling Networks [paper](https://arxiv.org/abs/2506.21607)
-
-[57] LLM-based Embedders for Prior Case Retrieval [paper](https://arxiv.org/abs/2507.18455)
-
-[58] Towards Automated Regulatory Compliance Verification in Financial Auditing with Large Language Models [paper](https://arxiv.org/abs/2507.16642)
-
-[59] Using Large Language Models for Legal Decision-Making in Austrian Value-Added Tax Law: An Experimental Study [paper](https://arxiv.org/abs/2507.08468)
-
-[60] ASVRI-Legal: Fine-Tuning LLMs with Retrieval Augmented Generation for Enhanced Legal Regulation [paper](https://arxiv.org/abs/2511.03563)
-
-[61] LLMs in Interpreting Legal Documents [paper](https://arxiv.org/abs/2512.09830)
-
-[62] HalluGraph: Auditable Hallucination Detection for Legal RAG Systems via Knowledge Graph Alignment [paper](https://arxiv.org/abs/2512.01659)
-
-[63] Evaluating Legal Reasoning Traces with Legal Issue Tree Rubrics [paper](https://arxiv.org/abs/2512.01020)
-
-
-
-
-
-
-
-
-
-
-
-
-[81] Jurisdiction as Structural Barrier: How Privacy Policy Organization May Reduce Visibility of Substantive Disclosures [paper](https://papers.cool/arxiv/2601.20792)
-
-
-
-
-
-
-
-[88] Enforcing Monotonic Progress in Legal Cross-Examination: Preventing Long-Horizon Stagnation in LLM-Based Inquiry [paper](https://papers.cool/arxiv/2602.04206)
-
-
-
-[91] Anchored Decoding: Provably Reducing Copyright Risk for Any Language Model [paper](https://papers.cool/arxiv/2602.07120)
-
-
-
-
-
-
-
-
-[100] Synthesizing the Virtual Advocate: A Multi-Persona Speech Generation Framework for Diverse Linguistic Jurisdictions in Indic Languages [paper](https://papers.cool/arxiv/2602.11172)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-[101] AI-Assisted Moot Courts: Simulating Justice-Specific Questioning in Oral Arguments [paper](https://papers.cool/arxiv/2603.04718)
-
-[102] LLM-Assisted Causal Structure Disambiguation and Factor Extraction for Legal Judgment Prediction [paper](https://papers.cool/arxiv/2603.11446)
-
-[103] De Jure: Iterative LLM Self-Refinement for Structured Extraction of Regulatory Rules [paper](https://papers.cool/arxiv/2604.02276)
-
-[104] ContextLens: Modeling Imperfect Privacy and Safety Context for Legal Compliance [paper](https://papers.cool/arxiv/2604.12308)
-- [Eskwai for Students: Generative AI Assistant for Legal Education in Ghana](https://papers.cool/arxiv/2605.15380)
-
-
-
-- [Learning Faster with Better Tokens: Parameter-Efficient Vocabulary Adaptation for Specialized Text Summarization](https://papers.cool/arxiv/2605.17379)
-- [Exploring Lightweight Large Language Models for Court View Generation](https://papers.cool/arxiv/2605.16770)
-- [Retrieval-Based Multi-Label Legal Annotation: Extensible, Data-Efficient and Hallucination-Free](https://papers.cool/arxiv/2605.16767)
-- [Chunking German Legal Code](https://papers.cool/arxiv/2605.19806)
-- [Generating Legal Commentaries from Case Databases via Retrieval, Clustering, and Generation](https://papers.cool/arxiv/2605.24534)
-- [Decompose-and-Refine: Structured Legal Question Answering with Parametric Retrieval](https://papers.cool/arxiv/2605.24454)
-- [Retrieval-Augmented Detection of Potentially Abusive Clauses in Chilean Terms of Service](https://papers.cool/arxiv/2605.26019)
-
+- Legal Prompt Engineering for Multilingual Legal Judgement Prediction
+- Can GPT-3 Perform Statutory Reasoning?
+- Legal Prompting: Teaching a Language Model to Think Like a Lawyer
+- Large Language Models as Fiduciaries: A Case Study Toward Robustly Communicating With Artificial Intelligence Through Legal Standards
+- ChatGPT Goes to Law School
+- ChatGPT, Professor of Law
+- ChatGPT & Generative AI Systems as Quasi-Expert Legal Advice Lawyers - Case Study Considering Potential Appeal Against Conviction of Tom Hayes
+- ‘Words Are Flowing Out Like Endless Rain Into a Paper Cup’: ChatGPT & Law School Assessments
+- ChatGPT by OpenAI: The End of Litigation Lawyers?
+- Law Informs Code: A Legal Informatics Approach to Aligning Artificial Intelligence with Humans
+- ChatGPT may Pass the Bar Exam soon, but has a Long Way to Go for the LexGLUE benchmark [paper](https://arxiv.org/pdf/2304.12202v1.pdf)
+- How Ready are Pre-trained Abstractive Models and LLMs for Legal Case Judgement Summarization? [paper](https://arxiv.org/pdf/2306.01248v1.pdf)
+- Explaining Legal Concepts with Augmented Large Language Models (GPT-4) [paper](https://arxiv.org/pdf/2306.09525v1.pdf)
+- Garbage in, garbage out: Zero-shot detection of crime using Large Language Models [paper](http://arxiv.org/pdf/2307.06844v1)
+- Legal Summarisation through LLMs: The PRODIGIT Project [paper](https://arxiv.org/pdf/2308.04416v1.pdf)
+- Black-Box Analysis: GPTs Across Time in Legal Textual Entailment Task [paper](https://arxiv.org/pdf/2309.05501v1.pdf)
+- PolicyGPT: Automated Analysis of Privacy Policies with Large Language Models
+- Reformulating Domain Adaptation of Large Language Models as Adapt-Retrieve-Revise [paper](https://browse.arxiv.org/pdf/2310.03328v1.pdf)
+- Precedent-Enhanced Legal Judgment Prediction with LLM and Domain-Model Collaboration [paper](https://arxiv.org/pdf/2310.09241.pdf)
+- From Text to Structure: Using Large Language Models to Support the Development of Legal Expert Systems [paper](http://arxiv.org/pdf/2311.04911v1)
+- Boosting legal case retrieval by query content selection with large language models [paper](https://arxiv.org/pdf/2312.03494v1.pdf)
+- LLMediator: GPT-4 Assisted Online Dispute Resolution [paper](https://arxiv.org/pdf/2307.16732v1.pdf)
+- Employing Label Models on ChatGPT Answers Improves Legal Text Entailment Performance [paper](https://arxiv.org/pdf/2401.17897v1.pdf)
+- LLaMandement: Large Language Models for Summarization of French Legislative Proposals [paper](https://arxiv.org/pdf/2401.16182v1.pdf)
+- **Logic Rules as Explanations for Legal Case Retrieval** [paper](http://arxiv.org/pdf/2403.01457v1) Our new paper, welcome to pay attention !!!
+- Enhancing Legal Document Retrieval: A Multi-Phase Approach with Large Language Models [paper](https://arxiv.org/pdf/2403.18093v1.pdf)
+- BLADE: Enhancing Black-box Large Language Models with Small Domain-Specific Models [paper](https://arxiv.org/abs/2403.18365)
+- A Survey on Large Language Models for Critical Societal Domains: Finance, Healthcare, and Law [paper](https://arxiv.org/pdf/2405.01769v1#page=22.45)
+- Archimedes-AUEB at SemEval-2024 Task 5: LLM explains Civil Procedure [paper](http://arxiv.org/pdf/2405.08502v1)
+- More Than Catastrophic Forgetting: Integrating General Capabilities For Domain-Specific LLMs [paper](https://arxiv.org/pdf/2405.17830v1)
+- Legal Documents Drafting with Fine-Tuned Pre-Trained Large Language Model [paper](http://arxiv.org/pdf/2406.04202v1)
+- Knowledge-Infused Legal Wisdom: Navigating LLM Consultation through the Lens of Diagnostics and Positive-Unlabeled Reinforcement Learning [paper](http://arxiv.org/pdf/2406.03600v1)
+- GOLDCOIN: Grounding Large Language Models in Privacy Laws via Contextual Integrity Theory [paper](https://arxiv.org/pdf/2406.11149)
+- Enabling Discriminative Reasoning in Large Language Models for Legal Judgment Prediction [paper](https://arxiv.org/abs/2407.01964)
+- Large Language Models for Judicial Entity Extraction: A Comparative Study [paper](https://arxiv.org/abs/2407.05786)
+- Applicability of Large Language Models and Generative Models for Legal Case Judgement Summarization [paper](https://arxiv.org/abs/2407.12848)
+- LawLLM: Law Large Language Model for the US Legal System [paper](https://arxiv.org/pdf/2407.21065)
+- Legal syllogism prompting: Teaching large language models for legal judgment prediction [paper](https://arxiv.org/pdf/2307.08321)
+- Optimizing Numerical Estimation and Operational Efficiency in the Legal Domain through Large Language Models [paper](https://arxiv.org/pdf/2407.19041)
+- Hallucination-Free? Assessing the Reliability of Leading AI Legal Research Tools [paper](https://arxiv.org/pdf/2405.20362)
+- KRAG Framework for Enhancing LLMs in the Legal Domain [paper](https://arxiv.org/abs/2410.07551)
+- Legal Evaluations and Challenges of Large Language Models [paper](https://arxiv.org/abs/2411.10137)
+- Analyzing Images of Legal Documents: Toward Multi-Modal LLMs for Access to Justice [paper](https://arxiv.org/pdf/2412.15260)
+- Automating Legal Concept Interpretation with LLMs: Retrieval, Generation, and Evaluation [paper](https://arxiv.org/abs/2501.01743)
+- Domaino1s: Guiding LLM Reasoning for Explainable Answers in High-Stakes Domains [paper](https://arxiv.org/abs/2501.14431)
+- RELexED: Retrieval-Enhanced Legal Summarization with Exemplar Diversity [paper](https://arxiv.org/abs/2501.14113)
+- Courtroom-LLM: A Legal-Inspired Multi-LLM Framework for Resolving Ambiguous Text Classifications [paper](https://aclanthology.org/2025.coling-main.493.pdf)
+- LegalViz: Legal Text Visualization by Text To Diagram Generation [paper](https://arxiv.org/abs/2502.06147)
+- Investigating the Shortcomings of LLMs in Step-by-Step Legal Reasoning [paper](https://arxiv.org/abs/2502.05675)
+- Elevating Legal LLM Responses: Harnessing Trainable Logical Structures and Semantic Knowledge with Legal Reasoning [paper](https://arxiv.org/pdf/2502.07912)
+- JuDGE: Benchmarking Judgment Document Generation for Chinese Legal System [paper](https://arxiv.org/abs/2503.14258)
+- LARGE: Legal Retrieval Augmented Generation Evaluation Tool [paper](https://arxiv.org/abs/2504.01698)
+- Tasks and Roles in Legal AI: Data Curation, Annotation, and Verification [paper](https://arxiv.org/abs/2504.01349)
+- The Hidden Structure -- Improving Legal Document Understanding Through Explicit Text Formatting [paper](https://arxiv.org/abs/2505.12837)
+- Conditioning Large Language Models on Legal Systems? Detecting Punishable Hate Speech [paper](https://arxiv.org/abs/2506.03009)
+- CORE-KG: An LLM-Driven Knowledge Graph Construction Framework for Human Smuggling Networks [paper](https://arxiv.org/abs/2506.21607)
+- LLM-based Embedders for Prior Case Retrieval [paper](https://arxiv.org/abs/2507.18455)
+- Towards Automated Regulatory Compliance Verification in Financial Auditing with Large Language Models [paper](https://arxiv.org/abs/2507.16642)
+- Using Large Language Models for Legal Decision-Making in Austrian Value-Added Tax Law: An Experimental Study [paper](https://arxiv.org/abs/2507.08468)
+- ASVRI-Legal: Fine-Tuning LLMs with Retrieval Augmented Generation for Enhanced Legal Regulation [paper](https://arxiv.org/abs/2511.03563)
+- LLMs in Interpreting Legal Documents [paper](https://arxiv.org/abs/2512.09830)
+- HalluGraph: Auditable Hallucination Detection for Legal RAG Systems via Knowledge Graph Alignment [paper](https://arxiv.org/abs/2512.01659)
+- Evaluating Legal Reasoning Traces with Legal Issue Tree Rubrics [paper](https://arxiv.org/abs/2512.01020)
+- Jurisdiction as Structural Barrier: How Privacy Policy Organization May Reduce Visibility of Substantive Disclosures [paper](https://papers.cool/arxiv/2601.20792)
+- Enforcing Monotonic Progress in Legal Cross-Examination: Preventing Long-Horizon Stagnation in LLM-Based Inquiry [paper](https://papers.cool/arxiv/2602.04206)
+- Anchored Decoding: Provably Reducing Copyright Risk for Any Language Model [paper](https://papers.cool/arxiv/2602.07120)
+- Synthesizing the Virtual Advocate: A Multi-Persona Speech Generation Framework for Diverse Linguistic Jurisdictions in Indic Languages [paper](https://papers.cool/arxiv/2602.11172)
+- AI-Assisted Moot Courts: Simulating Justice-Specific Questioning in Oral Arguments [paper](https://papers.cool/arxiv/2603.04718)
+- LLM-Assisted Causal Structure Disambiguation and Factor Extraction for Legal Judgment Prediction [paper](https://papers.cool/arxiv/2603.11446)
+- De Jure: Iterative LLM Self-Refinement for Structured Extraction of Regulatory Rules [paper](https://papers.cool/arxiv/2604.02276)
+- ContextLens: Modeling Imperfect Privacy and Safety Context for Legal Compliance [paper](https://papers.cool/arxiv/2604.12308)
+- Eskwai for Students: Generative AI Assistant for Legal Education in Ghana [paper](https://papers.cool/arxiv/2605.15380)
+- Learning Faster with Better Tokens: Parameter-Efficient Vocabulary Adaptation for Specialized Text Summarization [paper](https://papers.cool/arxiv/2605.17379)
+- Exploring Lightweight Large Language Models for Court View Generation [paper](https://papers.cool/arxiv/2605.16770)
+- Retrieval-Based Multi-Label Legal Annotation: Extensible, Data-Efficient and Hallucination-Free [paper](https://papers.cool/arxiv/2605.16767)
+- Chunking German Legal Code [paper](https://papers.cool/arxiv/2605.19806)
+- Generating Legal Commentaries from Case Databases via Retrieval, Clustering, and Generation [paper](https://papers.cool/arxiv/2605.24534)
+- Decompose-and-Refine: Structured Legal Question Answering with Parametric Retrieval [paper](https://papers.cool/arxiv/2605.24454)
+- Retrieval-Augmented Detection of Potentially Abusive Clauses in Chilean Terms of Service [paper](https://papers.cool/arxiv/2605.26019)
 ## Legal Reasoning Models
-[1] LexPro-1.0 Technical Report [paper](https://arxiv.org/pdf/2503.06949)
 
-[2] LexPam: Legal Procedure Awareness-Guided Mathematical Reasoning [paper](https://arxiv.org/pdf/2504.02590)
-
-[3] Mining Hidden Thoughts from Texts: Evaluating Continual Pretraining with Synthetic Data for LLM Reasoning [paper](https://arxiv.org/abs/2505.10182)
-
-[4] SyLeR: A Framework for Explicit Syllogistic Legal Reasoning in Large Language Models [paper](https://arxiv.org/pdf/2504.04042)
-
-[5] Contractual Deepfakes: Can Large Language Models Generate Contracts? [paper](https://papers.cool/arxiv/2602.09384)
-
-[6] LePREC: Reasoning as Classification over Structured Factors for Assessing Relevance of Legal Issues [paper](https://papers.cool/arxiv/2604.19464)
-- [Falkor-IRAC: Graph-Constrained Generation for Verified Legal Reasoning in Indian Judicial AI](https://papers.cool/arxiv/2605.14665)
-- [Bridging Legal Interpretation and Formal Logic: Faithfulness, Assumption, and the Future of AI Legal Reasoning](https://papers.cool/arxiv/2605.14049)
-- [TypedCSIP: Typed Counterfactual Pretraining for Chinese Legislative Conflict Classification](https://papers.cool/arxiv/2605.25474)
-- [By Their Fruits You Will Know Them: Comparing Formalizations of Law by the Decisions They Encode](https://papers.cool/arxiv/2605.25186)
-
+- LexPro-1.0 Technical Report [paper](https://arxiv.org/pdf/2503.06949)
+- LexPam: Legal Procedure Awareness-Guided Mathematical Reasoning [paper](https://arxiv.org/pdf/2504.02590)
+- Mining Hidden Thoughts from Texts: Evaluating Continual Pretraining with Synthetic Data for LLM Reasoning [paper](https://arxiv.org/abs/2505.10182)
+- SyLeR: A Framework for Explicit Syllogistic Legal Reasoning in Large Language Models [paper](https://arxiv.org/pdf/2504.04042)
+- Contractual Deepfakes: Can Large Language Models Generate Contracts? [paper](https://papers.cool/arxiv/2602.09384)
+- LePREC: Reasoning as Classification over Structured Factors for Assessing Relevance of Legal Issues [paper](https://papers.cool/arxiv/2604.19464)
+- Falkor-IRAC: Graph-Constrained Generation for Verified Legal Reasoning in Indian Judicial AI [paper](https://papers.cool/arxiv/2605.14665)
+- Bridging Legal Interpretation and Formal Logic: Faithfulness, Assumption, and the Future of AI Legal Reasoning [paper](https://papers.cool/arxiv/2605.14049)
+- TypedCSIP: Typed Counterfactual Pretraining for Chinese Legislative Conflict Classification [paper](https://papers.cool/arxiv/2605.25474)
+- By Their Fruits You Will Know Them: Comparing Formalizations of Law by the Decisions They Encode [paper](https://papers.cool/arxiv/2605.25186)
 ## Legal Agent
-- [When Correct Isn't Usable: Improving Structured Output Reliability in Small Language Models](https://arxiv.org/abs/2605.02363)
-- [Accurate Legal Reasoning at Scale: Neuro-Symbolic Offloading and Structural Auditability for Robust Legal Adjudication](https://arxiv.org/abs/2605.02472)
-[1] SimuCourt: Building Judicial Decision-Making Agents with Real-world Judgement Documents [paper](https://arxiv.org/pdf/2403.02959v1.pdf)
 
-[2] Can Large Language Models Grasp Legal Theories? Enhance Legal Reasoning with Insights from Multi-Agent Collaboration [paper](https://arxiv.org/abs/2410.02507)
-
-[3] Multi-Agent Simulator Drives Language Models for Legal Intensive  Interaction [paper](https://arxiv.org/abs/2502.06882)
-
-[4]  CLAIM: An Intent-Driven Multi-Agent Framework for Analyzing Manipulation  in Courtroom Dialogues [paper](https://arxiv.org/abs/2506.04131)
-
-[5] PAKTON: A Multi-Agent Framework for Question Answering in Long Legal  Agreements [paper](https://arxiv.org/abs/2506.00608)
-
-[6] LLM Agents in Law: Taxonomy, Applications, and Challenges [paper](https://arxiv.org/pdf/2601.06216)
-[7] Dissecting Judicial Reasoning in U.S. Copyright Damage Awards [paper](https://papers.cool/arxiv/2601.09459)
-
-[8] Multimodal Multi-Agent Empowered Legal Judgment Prediction [paper](https://papers.cool/arxiv/2601.12815)
-
-[9] LegalMALR:Multi-Agent Query Understanding and LLM-Based Reranking for Chinese Statute Retrieval [paper](https://papers.cool/arxiv/2601.17692)
-
-[10] LegalOne: A Family of Foundation Models for Reliable Legal Reasoning [paper](https://papers.cool/arxiv/2602.00642)
-
-
-
-[13] Domain-Partitioned Hybrid RAG for Legal Reasoning: Toward Modular and Explainable Legal AI for India [paper](https://papers.cool/arxiv/2602.23371)
-
-[14] LexChronos: An Agentic Framework for Structured Event Timeline Extraction in Indian Jurisprudence [paper](https://papers.cool/arxiv/2603.01651)
-
-[15] Fanar-Sadiq: A Multi-Agent Architecture for Grounded Islamic QA [paper](https://papers.cool/arxiv/2603.08501)
-- [Dual Hierarchical Dialogue Policy Learning for Legal Inquisitive Conversational Agents](https://papers.cool/arxiv/2605.14057)
-- [Can LLMs Time Travel? Enhancing Temporal Consistency in Legal Agentic Search through Reinforcement Learning](https://papers.cool/arxiv/2605.25920)
-- [SIA: Self Improving AI with Harness & Weight Updates](https://papers.cool/arxiv/2605.27276)
-- [LegalGraphRAG: Multi-Agent Graph Retrieval-Augmented Generation for Reliable Legal Reasoning](https://papers.cool/arxiv/2605.28120)
-
-
+- When Correct Isn't Usable: Improving Structured Output Reliability in Small Language Models [paper](https://arxiv.org/abs/2605.02363)
+- Accurate Legal Reasoning at Scale: Neuro-Symbolic Offloading and Structural Auditability for Robust Legal Adjudication [paper](https://arxiv.org/abs/2605.02472)
+- SimuCourt: Building Judicial Decision-Making Agents with Real-world Judgement Documents [paper](https://arxiv.org/pdf/2403.02959v1.pdf)
+- Can Large Language Models Grasp Legal Theories? Enhance Legal Reasoning with Insights from Multi-Agent Collaboration [paper](https://arxiv.org/abs/2410.02507)
+- Multi-Agent Simulator Drives Language Models for Legal Intensive Interaction [paper](https://arxiv.org/abs/2502.06882)
+- CLAIM: An Intent-Driven Multi-Agent Framework for Analyzing Manipulation in Courtroom Dialogues [paper](https://arxiv.org/abs/2506.04131)
+- PAKTON: A Multi-Agent Framework for Question Answering in Long Legal Agreements [paper](https://arxiv.org/abs/2506.00608)
+- LLM Agents in Law: Taxonomy, Applications, and Challenges [paper](https://arxiv.org/pdf/2601.06216)
+- Dissecting Judicial Reasoning in U.S. Copyright Damage Awards [paper](https://papers.cool/arxiv/2601.09459)
+- Multimodal Multi-Agent Empowered Legal Judgment Prediction [paper](https://papers.cool/arxiv/2601.12815)
+- LegalMALR:Multi-Agent Query Understanding and LLM-Based Reranking for Chinese Statute Retrieval [paper](https://papers.cool/arxiv/2601.17692)
+- LegalOne: A Family of Foundation Models for Reliable Legal Reasoning [paper](https://papers.cool/arxiv/2602.00642)
+- Domain-Partitioned Hybrid RAG for Legal Reasoning: Toward Modular and Explainable Legal AI for India [paper](https://papers.cool/arxiv/2602.23371)
+- LexChronos: An Agentic Framework for Structured Event Timeline Extraction in Indian Jurisprudence [paper](https://papers.cool/arxiv/2603.01651)
+- Fanar-Sadiq: A Multi-Agent Architecture for Grounded Islamic QA [paper](https://papers.cool/arxiv/2603.08501)
+- Dual Hierarchical Dialogue Policy Learning for Legal Inquisitive Conversational Agents [paper](https://papers.cool/arxiv/2605.14057)
+- Can LLMs Time Travel? Enhancing Temporal Consistency in Legal Agentic Search through Reinforcement Learning [paper](https://papers.cool/arxiv/2605.25920)
+- SIA: Self Improving AI with Harness & Weight Updates [paper](https://papers.cool/arxiv/2605.27276)
+- LegalGraphRAG: Multi-Agent Graph Retrieval-Augmented Generation for Reliable Legal Reasoning [paper](https://papers.cool/arxiv/2605.28120)
 ## Legal Problems of Large Language Models
 
-[1] Towards WinoQueer: Developing a Benchmark for Anti-Queer Bias in Large Language Models
-
-[2] Persistent Anti-Muslim Bias in Large Language Models
-
-[3] Understanding the Capabilities, Limitations, and Societal Impact of Large Language Models
-
-[4] The Dark Side of ChatGPT: Legal and Ethical Challenges from Stochastic Parrots and Hallucination
-
-[5] The GPTJudge: Justice in a Generative AI World [paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4460184)
-
-[6] Is the U.S. Legal System Ready for AI's Challenges to Human Values? [paper](http://arxiv.org/pdf/2308.15906v1)
-
-[7] Questioning Biases in Case Judgment Summaries: Legal Datasets or Large Language Models? [paper](https://arxiv.org/pdf/2312.00554.pdf)
-
-[8] Large Legal Fictions: Profiling Legal Hallucinations in Large Language Models
-
-[9]  A Legal Framework for Natural Language Processing Model Training in Portugal [paper](http://arxiv.org/pdf/2405.00536v1)
-
-[10] LegalBench-RAG: A Benchmark for Retrieval-Augmented Generation in the Legal Domain [paper](https://arxiv.org/abs/2408.10343)
-
-[11]  Bias in Large Language Models: Origin, Evaluation, and Mitigation [paper](https://arxiv.org/abs/2411.10915)
-
-[12] An Information Theoretic Approach to Operationalize Right to Data  Protection [paper](https://arxiv.org/abs/2411.08506)
-
-[13] Protecting Privacy in Multimodal Large Language Models with MLLMU-Bench [paper](https://arxiv.org/abs/2410.22108)
-
-[14] Standardizing Intelligence: Aligning Generative AI for Regulatory and  Operational Compliance [paper](https://arxiv.org/abs/2503.04736)
-
-[15] TRIDENT: Benchmarking LLM Safety in Finance, Medicine, and Law [paper](https://arxiv.org/pdf/2507.21134)
-
-[16] Large Language Models as Search Engines: Societal Challenges [paper](https://arxiv.org/abs/2512.08946)
-
-[17] From Unfamiliar to Familiar: Detecting Pre-training Data via Gradient Deviations in Large Language Models [paper](https://papers.cool/arxiv/2603.04828)
-
-[18] TimeMark: A Trustworthy Time Watermarking Framework for Exact Generation-Time Recovery from AIGC [paper](https://papers.cool/arxiv/2604.12216)
-- [To See is Not to Learn: Protecting Multimodal Data from Unauthorized Fine-Tuning of Large Vision-Language Model](https://papers.cool/arxiv/2605.14291)
-
+- Towards WinoQueer: Developing a Benchmark for Anti-Queer Bias in Large Language Models
+- Persistent Anti-Muslim Bias in Large Language Models
+- Understanding the Capabilities, Limitations, and Societal Impact of Large Language Models
+- The Dark Side of ChatGPT: Legal and Ethical Challenges from Stochastic Parrots and Hallucination
+- The GPTJudge: Justice in a Generative AI World [paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4460184)
+- Is the U.S. Legal System Ready for AI's Challenges to Human Values? [paper](http://arxiv.org/pdf/2308.15906v1)
+- Questioning Biases in Case Judgment Summaries: Legal Datasets or Large Language Models? [paper](https://arxiv.org/pdf/2312.00554.pdf)
+- Large Legal Fictions: Profiling Legal Hallucinations in Large Language Models
+- A Legal Framework for Natural Language Processing Model Training in Portugal [paper](http://arxiv.org/pdf/2405.00536v1)
+- LegalBench-RAG: A Benchmark for Retrieval-Augmented Generation in the Legal Domain [paper](https://arxiv.org/abs/2408.10343)
+- Bias in Large Language Models: Origin, Evaluation, and Mitigation [paper](https://arxiv.org/abs/2411.10915)
+- An Information Theoretic Approach to Operationalize Right to Data Protection [paper](https://arxiv.org/abs/2411.08506)
+- Protecting Privacy in Multimodal Large Language Models with MLLMU-Bench [paper](https://arxiv.org/abs/2410.22108)
+- Standardizing Intelligence: Aligning Generative AI for Regulatory and Operational Compliance [paper](https://arxiv.org/abs/2503.04736)
+- TRIDENT: Benchmarking LLM Safety in Finance, Medicine, and Law [paper](https://arxiv.org/pdf/2507.21134)
+- Large Language Models as Search Engines: Societal Challenges [paper](https://arxiv.org/abs/2512.08946)
+- From Unfamiliar to Familiar: Detecting Pre-training Data via Gradient Deviations in Large Language Models [paper](https://papers.cool/arxiv/2603.04828)
+- TimeMark: A Trustworthy Time Watermarking Framework for Exact Generation-Time Recovery from AIGC [paper](https://papers.cool/arxiv/2604.12216)
+- To See is Not to Learn: Protecting Multimodal Data from Unauthorized Fine-Tuning of Large Vision-Language Model [paper](https://papers.cool/arxiv/2605.14291)
 ## Data Resources for Large Language Models in Law
 
-[1] CAIL2018: A Large-Scale Legal Dataset for Judgment Prediction
-
-[2] When does pretraining help? assessing self-supervised learning for law and the casehold dataset of 53,000+ legal holdings
-
-[3] LeCaRD: a legal case retrieval dataset for Chinese law system
-
-[4] LeXFiles and LegalLAMA: Facilitating English Multinational Legal Language Model Development
-
-[5] Legal Extractive Summarization of U.S. Court Opinions
-
-[6] Awesome Chinese Legal Resources [github](https://github.com/pengxiao-song/awesome-chinese-legal-resources)
-
-[7] MultiLegalPile: A 689GB Multilingual Legal Corpus [paper](https://arxiv.org/pdf/2306.02069v1.pdf)
-
-[8] The Cambridge Law Corpus: A Corpus for Legal AI Research
-
-[9] TransformLLM: Adapting Large Language Models via LLM-Transformed Reading  Comprehension Text [paper](https://arxiv.org/abs/2410.21479)
-
-[10] Natural Language Processing for the Legal Domain: A Survey of Tasks,  Datasets, Models, and Challenges [paper](https://arxiv.org/abs/2410.21306)
-
-[11]  ChineseSafe: A Chinese Benchmark for Evaluating Safety in Large Language  Models [paper](https://arxiv.org/abs/2410.18491)
-
-[12] Augmenting Legal Decision Support Systems with LLM-based NLI for  Analyzing Social Media Evidence [paper](https://arxiv.org/abs/2410.15990)
-
-[13] CaseSumm: A Large-Scale Dataset for Long-Context Summarization from U.S.  Supreme Court Opinions [paper](https://arxiv.org/abs/2501.00097)
-
-[14] From Answers to Guidance: A Proactive Dialogue System for Legal Documents [paper](https://papers.cool/arxiv/2510.19723)
-
-[15] A Greek Government Decisions Dataset for Public-Sector Analysis and Insight [paper](https://arxiv.org/abs/2512.05647(
-
-[16] Data Augmented Pipeline for Legal Information Extraction and Reasoning [paper](https://papers.cool/arxiv/2601.05609)
-
-
-[18] Domain-Adaptation through Synthetic Data: Fine-Tuning Large Language Models for German Law [paper](https://papers.cool/arxiv/2601.14160)
-
-[19] Knowledge Augmented Entity and Relation Extraction for Legal Documents with Hypergraph Neural Network [paper](https://papers.cool/arxiv/2602.08289)
-
-[20] Quecto-V1: Empirical Analysis of 8-bit Quantized Small Language Models for On-Device Legal Retrieval [paper](https://papers.cool/arxiv/2602.16640)
-
-
-[21] SinhaLegal: A Benchmark Corpus for Information Extraction and Analysis in Sinhala Legislative Texts [paper](https://papers.cool/arxiv/2603.04854)
-
-[22] LAMUS: A Large-Scale Corpus for Legal Argument Mining from U.S. Caselaw using LLMs [paper](https://papers.cool/arxiv/2603.08286)
-
-[23] RoLegalGEC: Legal Domain Grammatical Error Detection and Correction Dataset for Romanian [paper](https://papers.cool/arxiv/2604.19593)
-- [Automatic Construction of a Legal Citation Graph from 100 Million Ukrainian Court Decisions: Large-Scale Extraction, Topological Analysis, and Ontology-Driven Clustering](https://papers.cool/arxiv/2605.15362)
-
-
-
-- [Temporal Decay of Co-Citation Predictability: A 20-Year Statute Retrieval Benchmark from 396M Ukrainian Court Citations](https://papers.cool/arxiv/2605.17639)
-- [IMLJD: A Computational Dataset for Indian Matrimonial Litigation Analysis](https://papers.cool/arxiv/2605.19346)
-- [Fine-grained Claim-level RAG Benchmark for Law](https://papers.cool/arxiv/2605.21071)
-
-- [A Reproducible Universal Dependencies-Style Pipeline for Katharevousa Greek Parliamentary Text](https://papers.cool/arxiv/2605.22978)
-- [Temporal Concept Drift in Legal Judgment Prediction: Neural Baselines Across Three Epochs of Ukrainian Court Decisions](https://papers.cool/arxiv/2605.24452)
-
+- CAIL2018: A Large-Scale Legal Dataset for Judgment Prediction
+- When does pretraining help? assessing self-supervised learning for law and the casehold dataset of 53,000+ legal holdings
+- LeCaRD: a legal case retrieval dataset for Chinese law system
+- LeXFiles and LegalLAMA: Facilitating English Multinational Legal Language Model Development
+- Legal Extractive Summarization of U.S. Court Opinions
+- Awesome Chinese Legal Resources [github](https://github.com/pengxiao-song/awesome-chinese-legal-resources)
+- MultiLegalPile: A 689GB Multilingual Legal Corpus [paper](https://arxiv.org/pdf/2306.02069v1.pdf)
+- The Cambridge Law Corpus: A Corpus for Legal AI Research
+- TransformLLM: Adapting Large Language Models via LLM-Transformed Reading Comprehension Text [paper](https://arxiv.org/abs/2410.21479)
+- Natural Language Processing for the Legal Domain: A Survey of Tasks, Datasets, Models, and Challenges [paper](https://arxiv.org/abs/2410.21306)
+- ChineseSafe: A Chinese Benchmark for Evaluating Safety in Large Language Models [paper](https://arxiv.org/abs/2410.18491)
+- Augmenting Legal Decision Support Systems with LLM-based NLI for Analyzing Social Media Evidence [paper](https://arxiv.org/abs/2410.15990)
+- CaseSumm: A Large-Scale Dataset for Long-Context Summarization from U.S. Supreme Court Opinions [paper](https://arxiv.org/abs/2501.00097)
+- From Answers to Guidance: A Proactive Dialogue System for Legal Documents [paper](https://papers.cool/arxiv/2510.19723)
+- A Greek Government Decisions Dataset for Public-Sector Analysis and Insight [paper](https://arxiv.org/abs/2512.05647
+- Data Augmented Pipeline for Legal Information Extraction and Reasoning [paper](https://papers.cool/arxiv/2601.05609)
+- Domain-Adaptation through Synthetic Data: Fine-Tuning Large Language Models for German Law [paper](https://papers.cool/arxiv/2601.14160)
+- Knowledge Augmented Entity and Relation Extraction for Legal Documents with Hypergraph Neural Network [paper](https://papers.cool/arxiv/2602.08289)
+- Quecto-V1: Empirical Analysis of 8-bit Quantized Small Language Models for On-Device Legal Retrieval [paper](https://papers.cool/arxiv/2602.16640)
+- SinhaLegal: A Benchmark Corpus for Information Extraction and Analysis in Sinhala Legislative Texts [paper](https://papers.cool/arxiv/2603.04854)
+- LAMUS: A Large-Scale Corpus for Legal Argument Mining from U.S. Caselaw using LLMs [paper](https://papers.cool/arxiv/2603.08286)
+- RoLegalGEC: Legal Domain Grammatical Error Detection and Correction Dataset for Romanian [paper](https://papers.cool/arxiv/2604.19593)
+- Automatic Construction of a Legal Citation Graph from 100 Million Ukrainian Court Decisions: Large-Scale Extraction, Topological Analysis, and Ontology-Driven Clustering [paper](https://papers.cool/arxiv/2605.15362)
+- Temporal Decay of Co-Citation Predictability: A 20-Year Statute Retrieval Benchmark from 396M Ukrainian Court Citations [paper](https://papers.cool/arxiv/2605.17639)
+- IMLJD: A Computational Dataset for Indian Matrimonial Litigation Analysis [paper](https://papers.cool/arxiv/2605.19346)
+- Fine-grained Claim-level RAG Benchmark for Law [paper](https://papers.cool/arxiv/2605.21071)
+- A Reproducible Universal Dependencies-Style Pipeline for Katharevousa Greek Parliamentary Text [paper](https://papers.cool/arxiv/2605.22978)
+- Temporal Concept Drift in Legal Judgment Prediction: Neural Baselines Across Three Epochs of Ukrainian Court Decisions [paper](https://papers.cool/arxiv/2605.24452)
 ## Law LLMs
 
-[1] LawGPT_zh [github](github.com/LiuHC0428/LAW-GPT)
+- LawGPT_zh [github](https://github.com/LiuHC0428/LAW-GPT)
+- LaWGPT [github](https://github.com/pengxiao-song/LaWGPT)
+- Lawyer LLaMA [github](https://github.com/AndrewZhe/lawyer-llama)
+- LexiLaw [github](https://github.com/CSHaitao/LexiLaw)
+- LexGPT 0.1: pre-trained GPT-J models with Pile of Law [paper](https://arxiv.org/pdf/2306.05431v1.pdf)
+- TOWARDS THE EXPLOITATION OF LLM-BASED CHATBOT FOR PROVIDING LEGAL SUPPORT TO PALESTINIAN COOPERATIVES [paper](https://arxiv.org/pdf/2306.05827v1.pdf)
+- ChatLaw: Open-Source Legal Large Language Model with Integrated External Knowledge Bases [paper](http://arxiv.org/pdf/2306.16092v1)
+- DISC-LawLLM [github](https://github.com/FudanDISC/DISC-LawLLM)
+- InternLM-Law: An Open Source Chinese Legal Large Language Model [paper](https://arxiv.org/pdf/2406.14887v1)
+- SaulLM-54B & SaulLM-141B: Scaling Up Domain Adaptation for the Legal Domain [paper](https://arxiv.org/pdf/2407.19584)
+- LAWGPT: KNOWLEDGE-GUIDED DATA GENERATION AND ITS APPLICATION TO LEGAL LLM [paper](https://arxiv.org/pdf/2502.06572)
+- HKGAI-V1: Towards Regional Sovereign Large Language Model for Hong Kong [paper](https://arxiv.org/abs/2507.11502)
+- HUKUKBERT: Domain-Specific Language Model for Turkish Law [paper](https://papers.cool/arxiv/2604.04790)
+- PoliLegalLM: A Technical Report on a Large Language Model for Political and Legal Affairs [paper](https://arxiv.org/pdf/2604.17543)
 
-[2] LaWGPT [github](https://github.com/pengxiao-song/LaWGPT)
+## Evaluation
 
-[3] Lawyer LLaMA [github](https://github.com/AndrewZhe/lawyer-llama)
-
-[4] LexiLaw [github](https://github.com/CSHaitao/LexiLaw)
-
-[5] LexGPT 0.1: pre-trained GPT-J models with Pile of Law [paper](https://arxiv.org/pdf/2306.05431v1.pdf)
-
-[6] TOWARDS THE EXPLOITATION OF LLM-BASED CHATBOT FOR PROVIDING LEGAL SUPPORT TO PALESTINIAN COOPERATIVES [paper](https://arxiv.org/pdf/2306.05827v1.pdf)
-
-[7] ChatLaw: Open-Source Legal Large Language Model with Integrated External Knowledge Bases [paper](http://arxiv.org/pdf/2306.16092v1)
-
-[8] DISC-LawLLM [github](https://github.com/FudanDISC/DISC-LawLLM)
-
-[9] InternLM-Law: An Open Source Chinese Legal Large Language Model [paper](https://arxiv.org/pdf/2406.14887v1)
-
-[10] SaulLM-54B & SaulLM-141B: Scaling Up Domain Adaptation for the Legal Domain [paper](https://arxiv.org/pdf/2407.19584)
-
-[11] LAWGPT: KNOWLEDGE-GUIDED DATA GENERATION AND ITS APPLICATION TO LEGAL LLM [paper](https://arxiv.org/pdf/2502.06572)
-
-[12] HKGAI-V1: Towards Regional Sovereign Large Language Model for Hong Kong [paper](https://arxiv.org/abs/2507.11502)
-
-[13] HUKUKBERT: Domain-Specific Language Model for Turkish Law [paper](https://papers.cool/arxiv/2604.04790)
-
-[14] PoliLegalLM: A Technical Report on a Large Language Model for Political and Legal Affairs [paper](https://arxiv.org/pdf/2604.17543)
-
-
-## Evaluation:
-[1] Measuring Massive Multitask Chinese Understanding [paper](https://arxiv.org/pdf/2304.12986.pdf)
-
-[2] LawBench: Benchmarking Legal Knowledge of Large Language Models [github](https://github.com/open-compass/LawBench)
-
-[3] Large Language Models are legal but they are not: Making the case for a powerful LegalLLM [paper](http://arxiv.org/pdf/2311.08890v1)
-
-[4]  Better Call GPT, Comparing Large Language Models Against Lawyers [paper](http://arxiv.org/pdf/2401.16212v1)
-
-[5] Evaluating GPT-3.5's Awareness and Summarization Abilities for European Constitutional Texts with Shared Topics [paper](https://arxiv.org/pdf/2401.14524v1.pdf)
-
-[6] Evaluation Ethics of LLMs in Legal Domain  [paper](https://arxiv.org/pdf/2401.14524v1.pdf)
-
-[7] GPTs and Language Barrier: A Cross-Lingual Legal QA Examination [paper](https://arxiv.org/pdf/2403.18098v1.pdf)
-
-[8] LawBench: Benchmarking Legal Knowledge of Large Language Models [paper](https://arxiv.org/abs/2309.16289)
-
-[9] LexEval: A Comprehensive Chinese Legal Benchmark for Evaluating Large Language Models [paper](https://arxiv.org/pdf/2409.20288)
-
-[10] LegalAgentBench: Evaluating LLM Agents in Legal Domain [paper](https://arxiv.org/abs/2412.17259)
-
-[11] Measuring Faithfulness and Abstention: An Automated Pipeline for  Evaluating LLM-Generated 3-ply Case-Based Legal Arguments [paper](https://arxiv.org/abs/2506.00694)
-
-[12] LegalEval-Q: A New Benchmark for The Quality Evaluation of LLM-Generated  Legal Text [paper](https://arxiv.org/abs/2505.24826)
-
-[13]  When Fairness Isn't Statistical: The Limits of Machine Learning in  Evaluating Legal Reasoning [paper](https://arxiv.org/abs/2506.03913)
-
-[14] LexTime: A Benchmark for Temporal Ordering of Legal Events [paper](https://arxiv.org/abs/2506.04041)
-
-[15] LLM-based HSE Compliance Assessment: Benchmark, Performance, and  Advancements [paper](https://arxiv.org/abs/2505.22959)
-
-[16] VLQA: The First Comprehensive, Large, and High-Quality Vietnamese Dataset for Legal Question Answering [paper](https://arxiv.org/abs/2507.19995)
-
-[17] The Massive Legal Embedding Benchmark (MLEB) [paper](https://papers.cool/arxiv/2510.19365)
-
-[18] LexGenius: An Expert-Level Benchmark for Large Language Models in Legal General Intelligence [paper](https://arxiv.org/pdf/2512.04578)
-
-
-[19] Legal-DC: Benchmarking Retrieval-Augmented Generation for Legal Documents [paper](https://papers.cool/arxiv/2603.11772)
-
-[20] Adaptive Cost-Efficient Evaluation for Reliable Patent Claim Validation [paper](https://papers.cool/arxiv/2604.04295)
-
-[21] From Benchmarking to Reasoning: A Dual-Aspect, Large-Scale Evaluation of LLMs on Vietnamese Legal Text [paper](https://papers.cool/arxiv/2604.16270)
-
-[22] Exploiting LLM-as-a-Judge Disposition on Free Text Legal QA via Prompt Optimization [paper](https://papers.cool/arxiv/2604.20726)
-- [Tokenizer Fertility and Zero-Shot Performance of Foundation Models on Ukrainian Legal Text: A Comparative Study](https://papers.cool/arxiv/2605.14890)
-- [Reasoners or Translators? Contamination-aware Evaluation and Neuro-Symbolic Robustness in Tax Law](https://papers.cool/arxiv/2605.16052)
-
-
-- [Validate Your Authority: Benchmarking LLMs on Multi-Label Precedent Treatment Classification](https://papers.cool/arxiv/2605.17691)
-- [LP-Eval: Rubric and Dataset for Measuring the Quality of Legal Proposition Generation](https://papers.cool/arxiv/2605.19815)
-- [GradeLegal: Automated Grading for German Legal Cases](https://papers.cool/arxiv/2605.21076)
-- [Asking For An Old Friend: Diagnosing and Mitigating Temporal Failure Modes in LLM-based Statutory Question Answering](https://papers.cool/arxiv/2605.23497)
-
-- [A Two-Phase Stability Study of LLM Judges and Bar Council Examiners on Thai Bar-Exam Free-Form Essays](https://papers.cool/arxiv/2605.25652)
-- [JudgmentBench: Comparing Rubric and Preference Evaluation for Quality Assessment](https://papers.cool/arxiv/2605.25240)
-
-- [The Cases LJP Never Sees: Prosecution Decision Prediction for More Complete Criminal Liability Assessment](https://papers.cool/arxiv/2605.28464)
-- [BenGER: Benchmarking LLM Systems on Subsumption-Based Legal Reasoning in German Law](https://papers.cool/arxiv/2605.28183)
-- [Multi-Legal-Bench: Evaluating LLMs on Legal Reasoning Across Jurisdictions, Languages, and Legal Traditions](https://papers.cool/arxiv/2605.29738)
-- [UA-Legal-Bench: A Benchmark for Evaluating Large Language Models on Ukrainian Legal Reasoning](https://papers.cool/arxiv/2605.29170)
+- Measuring Massive Multitask Chinese Understanding [paper](https://arxiv.org/pdf/2304.12986.pdf)
+- LawBench: Benchmarking Legal Knowledge of Large Language Models [github](https://github.com/open-compass/LawBench)
+- Large Language Models are legal but they are not: Making the case for a powerful LegalLLM [paper](http://arxiv.org/pdf/2311.08890v1)
+- Better Call GPT, Comparing Large Language Models Against Lawyers [paper](http://arxiv.org/pdf/2401.16212v1)
+- Evaluating GPT-3.5's Awareness and Summarization Abilities for European Constitutional Texts with Shared Topics [paper](https://arxiv.org/pdf/2401.14524v1.pdf)
+- Evaluation Ethics of LLMs in Legal Domain [paper](https://arxiv.org/pdf/2401.14524v1.pdf)
+- GPTs and Language Barrier: A Cross-Lingual Legal QA Examination [paper](https://arxiv.org/pdf/2403.18098v1.pdf)
+- LawBench: Benchmarking Legal Knowledge of Large Language Models [paper](https://arxiv.org/abs/2309.16289)
+- LexEval: A Comprehensive Chinese Legal Benchmark for Evaluating Large Language Models [paper](https://arxiv.org/pdf/2409.20288)
+- LegalAgentBench: Evaluating LLM Agents in Legal Domain [paper](https://arxiv.org/abs/2412.17259)
+- Measuring Faithfulness and Abstention: An Automated Pipeline for Evaluating LLM-Generated 3-ply Case-Based Legal Arguments [paper](https://arxiv.org/abs/2506.00694)
+- LegalEval-Q: A New Benchmark for The Quality Evaluation of LLM-Generated Legal Text [paper](https://arxiv.org/abs/2505.24826)
+- When Fairness Isn't Statistical: The Limits of Machine Learning in Evaluating Legal Reasoning [paper](https://arxiv.org/abs/2506.03913)
+- LexTime: A Benchmark for Temporal Ordering of Legal Events [paper](https://arxiv.org/abs/2506.04041)
+- LLM-based HSE Compliance Assessment: Benchmark, Performance, and Advancements [paper](https://arxiv.org/abs/2505.22959)
+- VLQA: The First Comprehensive, Large, and High-Quality Vietnamese Dataset for Legal Question Answering [paper](https://arxiv.org/abs/2507.19995)
+- The Massive Legal Embedding Benchmark (MLEB) [paper](https://papers.cool/arxiv/2510.19365)
+- LexGenius: An Expert-Level Benchmark for Large Language Models in Legal General Intelligence [paper](https://arxiv.org/pdf/2512.04578)
+- Legal-DC: Benchmarking Retrieval-Augmented Generation for Legal Documents [paper](https://papers.cool/arxiv/2603.11772)
+- Adaptive Cost-Efficient Evaluation for Reliable Patent Claim Validation [paper](https://papers.cool/arxiv/2604.04295)
+- From Benchmarking to Reasoning: A Dual-Aspect, Large-Scale Evaluation of LLMs on Vietnamese Legal Text [paper](https://papers.cool/arxiv/2604.16270)
+- Exploiting LLM-as-a-Judge Disposition on Free Text Legal QA via Prompt Optimization [paper](https://papers.cool/arxiv/2604.20726)
+- Tokenizer Fertility and Zero-Shot Performance of Foundation Models on Ukrainian Legal Text: A Comparative Study [paper](https://papers.cool/arxiv/2605.14890)
+- Reasoners or Translators? Contamination-aware Evaluation and Neuro-Symbolic Robustness in Tax Law [paper](https://papers.cool/arxiv/2605.16052)
+- Validate Your Authority: Benchmarking LLMs on Multi-Label Precedent Treatment Classification [paper](https://papers.cool/arxiv/2605.17691)
+- LP-Eval: Rubric and Dataset for Measuring the Quality of Legal Proposition Generation [paper](https://papers.cool/arxiv/2605.19815)
+- GradeLegal: Automated Grading for German Legal Cases [paper](https://papers.cool/arxiv/2605.21076)
+- Asking For An Old Friend: Diagnosing and Mitigating Temporal Failure Modes in LLM-based Statutory Question Answering [paper](https://papers.cool/arxiv/2605.23497)
+- A Two-Phase Stability Study of LLM Judges and Bar Council Examiners on Thai Bar-Exam Free-Form Essays [paper](https://papers.cool/arxiv/2605.25652)
+- JudgmentBench: Comparing Rubric and Preference Evaluation for Quality Assessment [paper](https://papers.cool/arxiv/2605.25240)
+- The Cases LJP Never Sees: Prosecution Decision Prediction for More Complete Criminal Liability Assessment [paper](https://papers.cool/arxiv/2605.28464)
+- BenGER: Benchmarking LLM Systems on Subsumption-Based Legal Reasoning in German Law [paper](https://papers.cool/arxiv/2605.28183)
+- Multi-Legal-Bench: Evaluating LLMs on Legal Reasoning Across Jurisdictions, Languages, and Legal Traditions [paper](https://papers.cool/arxiv/2605.29738)
+- UA-Legal-Bench: A Benchmark for Evaluating Large Language Models on Ukrainian Legal Reasoning [paper](https://papers.cool/arxiv/2605.29170)
+- LegalBench-BR: A Benchmark for Evaluating Large Language Models on Brazilian Legal Decision Classification [paper](https://papers.cool/arxiv/2604.18878)
+- IndiaFinBench: An Evaluation Benchmark for Large Language Model Performance on Indian Financial Regulatory Text [paper](https://papers.cool/arxiv/2604.19298)
+- RARE: Redundancy-Aware Retrieval Evaluation Framework for High-Similarity Corpora [paper](https://papers.cool/arxiv/2604.19047)
 
 The survey paper is shown in [paper](https://arxiv.org/abs/2403.11152)
 
@@ -460,10 +254,3 @@ Please cite the following papers as references if this repository helps you (*�
   year={2023}
 }
 ```
-
-[22] LegalBench-BR: A Benchmark for Evaluating Large Language Models on Brazilian Legal Decision Classification [paper](https://papers.cool/arxiv/2604.18878)
-
-[23] IndiaFinBench: An Evaluation Benchmark for Large Language Model Performance on Indian Financial Regulatory Text [paper](https://papers.cool/arxiv/2604.19298)
-
-[24] RARE: Redundancy-Aware Retrieval Evaluation Framework for High-Similarity Corpora [paper](https://papers.cool/arxiv/2604.19047)
-
