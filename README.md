@@ -6,9 +6,9 @@
 
 This repository tracks papers and resources about large language models (LLMs) in the legal domain.
 
-> Daily update 2026-05-31 (cs.CL): scanned 0 papers (date=2026-05-31), 0 new papers met the strict "legal task + LLM semantics" inclusion rule.
+> Daily update 2026-06-01 (cs.CL): scanned 156 papers (date=2026-06-01), 6 new papers met the strict "legal task + LLM semantics" inclusion rule.
 >
-> Category increments today — Applications: +0, Legal Reasoning Models: +0, Legal Agent: +0, Legal Problems: +0, Data Resources: +0, Law LLMs: +0, Evaluation: +0.
+> Category increments today — Applications: +2, Legal Reasoning Models: +1, Legal Agent: +0, Legal Problems: +1, Data Resources: +4, Law LLMs: +1, Evaluation: +2.
 
 ## Contents
 - [Applications of Large Language Models in Legal Tasks](#applications-of-large-language-models-in-legal-tasks)
@@ -100,6 +100,9 @@ This repository tracks papers and resources about large language models (LLMs) i
 - Generating Legal Commentaries from Case Databases via Retrieval, Clustering, and Generation [paper](https://papers.cool/arxiv/2605.24534)
 - Decompose-and-Refine: Structured Legal Question Answering with Parametric Retrieval [paper](https://papers.cool/arxiv/2605.24454)
 - Retrieval-Augmented Detection of Potentially Abusive Clauses in Chilean Terms of Service [paper](https://papers.cool/arxiv/2605.26019)
+- Traceable by Design: An LLM Pipeline and Dashboard for EU Regulatory Consultation Analysis [paper](https://papers.cool/arxiv/2605.30995)
+- ImmigrationQA: A Source-Grounded Dataset and Small-Model Adaptation for U.S. Immigration Law [paper](https://papers.cool/arxiv/2605.30589)
+
 ## Legal Reasoning Models
 
 - LexPro-1.0 Technical Report [paper](https://arxiv.org/pdf/2503.06949)
@@ -112,6 +115,8 @@ This repository tracks papers and resources about large language models (LLMs) i
 - Bridging Legal Interpretation and Formal Logic: Faithfulness, Assumption, and the Future of AI Legal Reasoning [paper](https://papers.cool/arxiv/2605.14049)
 - TypedCSIP: Typed Counterfactual Pretraining for Chinese Legislative Conflict Classification [paper](https://papers.cool/arxiv/2605.25474)
 - By Their Fruits You Will Know Them: Comparing Formalizations of Law by the Decisions They Encode [paper](https://papers.cool/arxiv/2605.25186)
+- Scaling Multi-Hop Training Data via Graph-Constrained Path Selection [paper](https://papers.cool/arxiv/2605.31238)
+
 ## Legal Agent
 
 - When Correct Isn't Usable: Improving Structured Output Reliability in Small Language Models [paper](https://arxiv.org/abs/2605.02363)
@@ -154,6 +159,8 @@ This repository tracks papers and resources about large language models (LLMs) i
 - From Unfamiliar to Familiar: Detecting Pre-training Data via Gradient Deviations in Large Language Models [paper](https://papers.cool/arxiv/2603.04828)
 - TimeMark: A Trustworthy Time Watermarking Framework for Exact Generation-Time Recovery from AIGC [paper](https://papers.cool/arxiv/2604.12216)
 - To See is Not to Learn: Protecting Multimodal Data from Unauthorized Fine-Tuning of Large Vision-Language Model [paper](https://papers.cool/arxiv/2605.14291)
+- Divergence Decoding: Inference-Time Unlearning via Auxiliary Models [paper](https://papers.cool/arxiv/2605.31293)
+
 ## Data Resources for Large Language Models in Law
 
 - CAIL2018: A Large-Scale Legal Dataset for Judgment Prediction
@@ -184,6 +191,11 @@ This repository tracks papers and resources about large language models (LLMs) i
 - Fine-grained Claim-level RAG Benchmark for Law [paper](https://papers.cool/arxiv/2605.21071)
 - A Reproducible Universal Dependencies-Style Pipeline for Katharevousa Greek Parliamentary Text [paper](https://papers.cool/arxiv/2605.22978)
 - Temporal Concept Drift in Legal Judgment Prediction: Neural Baselines Across Three Epochs of Ukrainian Court Decisions [paper](https://papers.cool/arxiv/2605.24452)
+- Bundesrecht: An Open Library and Corpus for German Statutory Reference Processing [paper](https://papers.cool/arxiv/2605.31338)
+- CanLegalRAGBench: Evaluating Retrieval-Augmented Generation on Canadian Case Law [paper](https://papers.cool/arxiv/2605.30497)
+- Scaling Multi-Hop Training Data via Graph-Constrained Path Selection [paper](https://papers.cool/arxiv/2605.31238)
+- ImmigrationQA: A Source-Grounded Dataset and Small-Model Adaptation for U.S. Immigration Law [paper](https://papers.cool/arxiv/2605.30589)
+
 ## Law LLMs
 
 - LawGPT_zh [github](https://github.com/LiuHC0428/LAW-GPT)
@@ -200,6 +212,7 @@ This repository tracks papers and resources about large language models (LLMs) i
 - HKGAI-V1: Towards Regional Sovereign Large Language Model for Hong Kong [paper](https://arxiv.org/abs/2507.11502)
 - HUKUKBERT: Domain-Specific Language Model for Turkish Law [paper](https://papers.cool/arxiv/2604.04790)
 - PoliLegalLM: A Technical Report on a Large Language Model for Political and Legal Affairs [paper](https://arxiv.org/pdf/2604.17543)
+- ImmigrationQA: A Source-Grounded Dataset and Small-Model Adaptation for U.S. Immigration Law [paper](https://papers.cool/arxiv/2605.30589)
 
 ## Evaluation
 
@@ -240,6 +253,8 @@ This repository tracks papers and resources about large language models (LLMs) i
 - LegalBench-BR: A Benchmark for Evaluating Large Language Models on Brazilian Legal Decision Classification [paper](https://papers.cool/arxiv/2604.18878)
 - IndiaFinBench: An Evaluation Benchmark for Large Language Model Performance on Indian Financial Regulatory Text [paper](https://papers.cool/arxiv/2604.19298)
 - RARE: Redundancy-Aware Retrieval Evaluation Framework for High-Similarity Corpora [paper](https://papers.cool/arxiv/2604.19047)
+- ImmigrationQA: A Source-Grounded Dataset and Small-Model Adaptation for U.S. Immigration Law [paper](https://papers.cool/arxiv/2605.30589)
+- CanLegalRAGBench: Evaluating Retrieval-Augmented Generation on Canadian Case Law [paper](https://papers.cool/arxiv/2605.30497)
 
 The survey paper is shown in [paper](https://arxiv.org/abs/2403.11152)
 
