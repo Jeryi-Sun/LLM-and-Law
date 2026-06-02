@@ -6,9 +6,9 @@
 
 This repository tracks papers and resources about large language models (LLMs) in the legal domain.
 
-> Daily update 2026-06-01 (cs.CL): scanned 156 papers (date=2026-06-01), 6 new papers met the strict "legal task + LLM semantics" inclusion rule.
+> Daily update 2026-06-02 (cs.CL): scanned 267 papers (date=2026-06-02), 5 new papers met the strict "legal task + LLM semantics" inclusion rule.
 >
-> Category increments today — Applications: +2, Legal Reasoning Models: +1, Legal Agent: +0, Legal Problems: +1, Data Resources: +4, Law LLMs: +1, Evaluation: +2.
+> Category increments today — Applications: +3, Legal Reasoning Models: +0, Legal Agent: +0, Legal Problems: +2, Data Resources: +3, Law LLMs: +0, Evaluation: +3.
 
 ## Contents
 - [Applications of Large Language Models in Legal Tasks](#applications-of-large-language-models-in-legal-tasks)
@@ -102,6 +102,9 @@ This repository tracks papers and resources about large language models (LLMs) i
 - Retrieval-Augmented Detection of Potentially Abusive Clauses in Chilean Terms of Service [paper](https://papers.cool/arxiv/2605.26019)
 - Traceable by Design: An LLM Pipeline and Dashboard for EU Regulatory Consultation Analysis [paper](https://papers.cool/arxiv/2605.30995)
 - ImmigrationQA: A Source-Grounded Dataset and Small-Model Adaptation for U.S. Immigration Law [paper](https://papers.cool/arxiv/2605.30589)
+- Citation Grounding: Detecting and Reducing LLM Citation Hallucinations via Legal Citation Graphs [paper](https://papers.cool/arxiv/2606.00898)
+- Enhancing BiGRU with a KAN Block for Legal Document Classification and Summarization [paper](https://papers.cool/arxiv/2606.00116)
+- On Wednesdays, We Ask Questions: Optimizing "Active Listening" in Automated Legal Triage and Referral [paper](https://papers.cool/arxiv/2606.00272)
 
 ## Legal Reasoning Models
 
@@ -160,6 +163,8 @@ This repository tracks papers and resources about large language models (LLMs) i
 - TimeMark: A Trustworthy Time Watermarking Framework for Exact Generation-Time Recovery from AIGC [paper](https://papers.cool/arxiv/2604.12216)
 - To See is Not to Learn: Protecting Multimodal Data from Unauthorized Fine-Tuning of Large Vision-Language Model [paper](https://papers.cool/arxiv/2605.14291)
 - Divergence Decoding: Inference-Time Unlearning via Auxiliary Models [paper](https://papers.cool/arxiv/2605.31293)
+- Citation Grounding: Detecting and Reducing LLM Citation Hallucinations via Legal Citation Graphs [paper](https://papers.cool/arxiv/2606.00898)
+- Which Institutional Frameworks Do Chatbots Assume? Auditing Jurisdictional Defaults in Multilingual LLMs [paper](https://papers.cool/arxiv/2606.00333)
 
 ## Data Resources for Large Language Models in Law
 
@@ -195,6 +200,9 @@ This repository tracks papers and resources about large language models (LLMs) i
 - CanLegalRAGBench: Evaluating Retrieval-Augmented Generation on Canadian Case Law [paper](https://papers.cool/arxiv/2605.30497)
 - Scaling Multi-Hop Training Data via Graph-Constrained Path Selection [paper](https://papers.cool/arxiv/2605.31238)
 - ImmigrationQA: A Source-Grounded Dataset and Small-Model Adaptation for U.S. Immigration Law [paper](https://papers.cool/arxiv/2605.30589)
+- Citation Grounding: Detecting and Reducing LLM Citation Hallucinations via Legal Citation Graphs [paper](https://papers.cool/arxiv/2606.00898)
+- Enhancing BiGRU with a KAN Block for Legal Document Classification and Summarization [paper](https://papers.cool/arxiv/2606.00116)
+- Digging Up Citations: FOSSIL, a Dataset and Workflow for Reference Extraction in Law and the Humanities [paper](https://papers.cool/arxiv/2606.01109)
 
 ## Law LLMs
 
@@ -255,6 +263,9 @@ This repository tracks papers and resources about large language models (LLMs) i
 - RARE: Redundancy-Aware Retrieval Evaluation Framework for High-Similarity Corpora [paper](https://papers.cool/arxiv/2604.19047)
 - ImmigrationQA: A Source-Grounded Dataset and Small-Model Adaptation for U.S. Immigration Law [paper](https://papers.cool/arxiv/2605.30589)
 - CanLegalRAGBench: Evaluating Retrieval-Augmented Generation on Canadian Case Law [paper](https://papers.cool/arxiv/2605.30497)
+- Citation Grounding: Detecting and Reducing LLM Citation Hallucinations via Legal Citation Graphs [paper](https://papers.cool/arxiv/2606.00898)
+- Which Institutional Frameworks Do Chatbots Assume? Auditing Jurisdictional Defaults in Multilingual LLMs [paper](https://papers.cool/arxiv/2606.00333)
+- On Wednesdays, We Ask Questions: Optimizing "Active Listening" in Automated Legal Triage and Referral [paper](https://papers.cool/arxiv/2606.00272)
 
 The survey paper is shown in [paper](https://arxiv.org/abs/2403.11152)
 
