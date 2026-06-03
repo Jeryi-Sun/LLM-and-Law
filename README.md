@@ -6,9 +6,9 @@
 
 This repository tracks papers and resources about large language models (LLMs) in the legal domain.
 
-> Daily update 2026-06-02 (cs.CL): scanned 267 papers (date=2026-06-02), 5 new papers met the strict "legal task + LLM semantics" inclusion rule.
+> Daily update 2026-06-03 (cs.CL): scanned 131 papers (date=2026-06-03), 2 new papers met the strict "legal task + LLM semantics" inclusion rule.
 >
-> Category increments today — Applications: +3, Legal Reasoning Models: +0, Legal Agent: +0, Legal Problems: +2, Data Resources: +3, Law LLMs: +0, Evaluation: +3.
+> Category increments today — Applications: +2, Legal Reasoning Models: +0, Legal Agent: +0, Legal Problems: +0, Data Resources: +1, Law LLMs: +0, Evaluation: +2.
 
 ## Contents
 - [Applications of Large Language Models in Legal Tasks](#applications-of-large-language-models-in-legal-tasks)
@@ -105,6 +105,8 @@ This repository tracks papers and resources about large language models (LLMs) i
 - Citation Grounding: Detecting and Reducing LLM Citation Hallucinations via Legal Citation Graphs [paper](https://papers.cool/arxiv/2606.00898)
 - Enhancing BiGRU with a KAN Block for Legal Document Classification and Summarization [paper](https://papers.cool/arxiv/2606.00116)
 - On Wednesdays, We Ask Questions: Optimizing "Active Listening" in Automated Legal Triage and Referral [paper](https://papers.cool/arxiv/2606.00272)
+- Re-Ranking Through an Attribution Lens for Citation Quality in Legal QA [paper](https://papers.cool/arxiv/2606.03728)
+- EURO-5K: When Does Domain Pretraining Matter? Benchmarking Transformers for EU Reporting Obligation Extraction [paper](https://papers.cool/arxiv/2606.02971)
 
 ## Legal Reasoning Models
 
@@ -203,6 +205,7 @@ This repository tracks papers and resources about large language models (LLMs) i
 - Citation Grounding: Detecting and Reducing LLM Citation Hallucinations via Legal Citation Graphs [paper](https://papers.cool/arxiv/2606.00898)
 - Enhancing BiGRU with a KAN Block for Legal Document Classification and Summarization [paper](https://papers.cool/arxiv/2606.00116)
 - Digging Up Citations: FOSSIL, a Dataset and Workflow for Reference Extraction in Law and the Humanities [paper](https://papers.cool/arxiv/2606.01109)
+- EURO-5K: When Does Domain Pretraining Matter? Benchmarking Transformers for EU Reporting Obligation Extraction [paper](https://papers.cool/arxiv/2606.02971)
 
 ## Law LLMs
 
@@ -266,6 +269,9 @@ This repository tracks papers and resources about large language models (LLMs) i
 - Citation Grounding: Detecting and Reducing LLM Citation Hallucinations via Legal Citation Graphs [paper](https://papers.cool/arxiv/2606.00898)
 - Which Institutional Frameworks Do Chatbots Assume? Auditing Jurisdictional Defaults in Multilingual LLMs [paper](https://papers.cool/arxiv/2606.00333)
 - On Wednesdays, We Ask Questions: Optimizing "Active Listening" in Automated Legal Triage and Referral [paper](https://papers.cool/arxiv/2606.00272)
+
+- Re-Ranking Through an Attribution Lens for Citation Quality in Legal QA [paper](https://papers.cool/arxiv/2606.03728)
+- EURO-5K: When Does Domain Pretraining Matter? Benchmarking Transformers for EU Reporting Obligation Extraction [paper](https://papers.cool/arxiv/2606.02971)
 
 The survey paper is shown in [paper](https://arxiv.org/abs/2403.11152)
 
