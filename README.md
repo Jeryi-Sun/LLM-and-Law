@@ -6,9 +6,9 @@
 
 This repository tracks papers and resources about large language models (LLMs) in the legal domain.
 
-> Daily update 2026-06-03 (cs.CL): scanned 131 papers (date=2026-06-03), 2 new papers met the strict "legal task + LLM semantics" inclusion rule.
+> Daily update 2026-06-04 (cs.CL): scanned 125 papers (date=2026-06-04), 2 new papers met the strict "legal task + LLM semantics" inclusion rule.
 >
-> Category increments today — Applications: +2, Legal Reasoning Models: +0, Legal Agent: +0, Legal Problems: +0, Data Resources: +1, Law LLMs: +0, Evaluation: +2.
+> Category increments today — Applications: +2, Legal Reasoning Models: +1, Legal Agent: +2, Legal Problems: +0, Data Resources: +0, Law LLMs: +0, Evaluation: +0.
 
 ## Contents
 - [Applications of Large Language Models in Legal Tasks](#applications-of-large-language-models-in-legal-tasks)
@@ -107,6 +107,8 @@ This repository tracks papers and resources about large language models (LLMs) i
 - On Wednesdays, We Ask Questions: Optimizing "Active Listening" in Automated Legal Triage and Referral [paper](https://papers.cool/arxiv/2606.00272)
 - Re-Ranking Through an Attribution Lens for Citation Quality in Legal QA [paper](https://papers.cool/arxiv/2606.03728)
 - EURO-5K: When Does Domain Pretraining Matter? Benchmarking Transformers for EU Reporting Obligation Extraction [paper](https://papers.cool/arxiv/2606.02971)
+- DAR: Deontic Reasoning with Agentic Harnesses [paper](https://papers.cool/arxiv/2606.05009)
+- GARL: Game-Theoretic Reinforcement Learning for Multi-Agent Strategic Prioritisation [paper](https://papers.cool/arxiv/2606.05002)
 
 ## Legal Reasoning Models
 
@@ -121,6 +123,7 @@ This repository tracks papers and resources about large language models (LLMs) i
 - TypedCSIP: Typed Counterfactual Pretraining for Chinese Legislative Conflict Classification [paper](https://papers.cool/arxiv/2605.25474)
 - By Their Fruits You Will Know Them: Comparing Formalizations of Law by the Decisions They Encode [paper](https://papers.cool/arxiv/2605.25186)
 - Scaling Multi-Hop Training Data via Graph-Constrained Path Selection [paper](https://papers.cool/arxiv/2605.31238)
+- DAR: Deontic Reasoning with Agentic Harnesses [paper](https://papers.cool/arxiv/2606.05009)
 
 ## Legal Agent
 
@@ -143,6 +146,9 @@ This repository tracks papers and resources about large language models (LLMs) i
 - Can LLMs Time Travel? Enhancing Temporal Consistency in Legal Agentic Search through Reinforcement Learning [paper](https://papers.cool/arxiv/2605.25920)
 - SIA: Self Improving AI with Harness & Weight Updates [paper](https://papers.cool/arxiv/2605.27276)
 - LegalGraphRAG: Multi-Agent Graph Retrieval-Augmented Generation for Reliable Legal Reasoning [paper](https://papers.cool/arxiv/2605.28120)
+- DAR: Deontic Reasoning with Agentic Harnesses [paper](https://papers.cool/arxiv/2606.05009)
+- GARL: Game-Theoretic Reinforcement Learning for Multi-Agent Strategic Prioritisation [paper](https://papers.cool/arxiv/2606.05002)
+
 ## Legal Problems of Large Language Models
 
 - Towards WinoQueer: Developing a Benchmark for Anti-Queer Bias in Large Language Models
