@@ -6,9 +6,9 @@
 
 This repository tracks papers and resources about large language models (LLMs) in the legal domain.
 
-> Daily update 2026-06-06 (cs.CL): scanned 0 papers (date=2026-06-06), 0 new papers met the strict "legal task + LLM semantics" inclusion rule.
+> Daily update 2026-06-08 (cs.CL): scanned 86 papers (date=2026-06-08), 1 new paper met the strict "legal task + LLM semantics" inclusion rule.
 >
-> Category increments today — Applications: +0, Legal Reasoning Models: +0, Legal Agent: +0, Legal Problems: +0, Data Resources: +0, Law LLMs: +0, Evaluation: +0.
+> Category increments today — Applications: +0, Legal Reasoning Models: +0, Legal Agent: +0, Legal Problems: +0, Data Resources: +1, Law LLMs: +0, Evaluation: +1.
 
 ## Contents
 - [Applications of Large Language Models in Legal Tasks](#applications-of-large-language-models-in-legal-tasks)
@@ -212,6 +212,7 @@ This repository tracks papers and resources about large language models (LLMs) i
 - Enhancing BiGRU with a KAN Block for Legal Document Classification and Summarization [paper](https://papers.cool/arxiv/2606.00116)
 - Digging Up Citations: FOSSIL, a Dataset and Workflow for Reference Extraction in Law and the Humanities [paper](https://papers.cool/arxiv/2606.01109)
 - EURO-5K: When Does Domain Pretraining Matter? Benchmarking Transformers for EU Reporting Obligation Extraction [paper](https://papers.cool/arxiv/2606.02971)
+- HKJudge: A Legal Discourse-Annotated Corpus for Interpreting What Courts Find, How They Reason, and What They Rule [paper](https://papers.cool/arxiv/2606.06679)
 
 ## Law LLMs
 
@@ -278,6 +279,7 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 - Re-Ranking Through an Attribution Lens for Citation Quality in Legal QA [paper](https://papers.cool/arxiv/2606.03728)
 - EURO-5K: When Does Domain Pretraining Matter? Benchmarking Transformers for EU Reporting Obligation Extraction [paper](https://papers.cool/arxiv/2606.02971)
+- HKJudge: A Legal Discourse-Annotated Corpus for Interpreting What Courts Find, How They Reason, and What They Rule [paper](https://papers.cool/arxiv/2606.06679)
 
 The survey paper is shown in [paper](https://arxiv.org/abs/2403.11152)
 
