@@ -6,9 +6,9 @@
 
 This repository tracks papers and resources about large language models (LLMs) in the legal domain.
 
-> Daily update 2026-06-08 (cs.CL): scanned 86 papers (date=2026-06-08), 1 new paper met the strict "legal task + LLM semantics" inclusion rule.
+> Daily update 2026-06-09 (cs.CL): scanned 244 papers (date=2026-06-09), 4 new papers met the strict "legal task + LLM semantics" inclusion rule.
 >
-> Category increments today — Applications: +0, Legal Reasoning Models: +0, Legal Agent: +0, Legal Problems: +0, Data Resources: +1, Law LLMs: +0, Evaluation: +1.
+> Category increments today — Applications: +4, Legal Reasoning Models: +2, Legal Agent: +2, Legal Problems: +0, Data Resources: +3, Law LLMs: +0, Evaluation: +3.
 
 ## Contents
 - [Applications of Large Language Models in Legal Tasks](#applications-of-large-language-models-in-legal-tasks)
@@ -109,6 +109,10 @@ This repository tracks papers and resources about large language models (LLMs) i
 - EURO-5K: When Does Domain Pretraining Matter? Benchmarking Transformers for EU Reporting Obligation Extraction [paper](https://papers.cool/arxiv/2606.02971)
 - DAR: Deontic Reasoning with Agentic Harnesses [paper](https://papers.cool/arxiv/2606.05009)
 - GARL: Game-Theoretic Reinforcement Learning for Multi-Agent Strategic Prioritisation [paper](https://papers.cool/arxiv/2606.05002)
+- Civil Court Simulation with Large Language Models [paper](https://papers.cool/arxiv/2606.09632)
+- LexRubric: A Rubric-Guided Diagnostic Benchmark for Open-Ended Legal Tasks [paper](https://papers.cool/arxiv/2606.09389)
+- From Statute to Control Flow: Span-Grounded Deontic Trees for Defeasible Scope Parsing [paper](https://papers.cool/arxiv/2606.08932)
+- Retrieval Augmented Generation Framework for the Nepali Legal Domain Question Answering [paper](https://papers.cool/arxiv/2606.07523)
 
 ## Legal Reasoning Models
 
@@ -124,6 +128,8 @@ This repository tracks papers and resources about large language models (LLMs) i
 - By Their Fruits You Will Know Them: Comparing Formalizations of Law by the Decisions They Encode [paper](https://papers.cool/arxiv/2605.25186)
 - Scaling Multi-Hop Training Data via Graph-Constrained Path Selection [paper](https://papers.cool/arxiv/2605.31238)
 - DAR: Deontic Reasoning with Agentic Harnesses [paper](https://papers.cool/arxiv/2606.05009)
+- Civil Court Simulation with Large Language Models [paper](https://papers.cool/arxiv/2606.09632)
+- From Statute to Control Flow: Span-Grounded Deontic Trees for Defeasible Scope Parsing [paper](https://papers.cool/arxiv/2606.08932)
 
 ## Legal Agent
 
@@ -148,6 +154,8 @@ This repository tracks papers and resources about large language models (LLMs) i
 - LegalGraphRAG: Multi-Agent Graph Retrieval-Augmented Generation for Reliable Legal Reasoning [paper](https://papers.cool/arxiv/2605.28120)
 - DAR: Deontic Reasoning with Agentic Harnesses [paper](https://papers.cool/arxiv/2606.05009)
 - GARL: Game-Theoretic Reinforcement Learning for Multi-Agent Strategic Prioritisation [paper](https://papers.cool/arxiv/2606.05002)
+- Civil Court Simulation with Large Language Models [paper](https://papers.cool/arxiv/2606.09632)
+- From Statute to Control Flow: Span-Grounded Deontic Trees for Defeasible Scope Parsing [paper](https://papers.cool/arxiv/2606.08932)
 
 ## Legal Problems of Large Language Models
 
@@ -213,6 +221,9 @@ This repository tracks papers and resources about large language models (LLMs) i
 - Digging Up Citations: FOSSIL, a Dataset and Workflow for Reference Extraction in Law and the Humanities [paper](https://papers.cool/arxiv/2606.01109)
 - EURO-5K: When Does Domain Pretraining Matter? Benchmarking Transformers for EU Reporting Obligation Extraction [paper](https://papers.cool/arxiv/2606.02971)
 - HKJudge: A Legal Discourse-Annotated Corpus for Interpreting What Courts Find, How They Reason, and What They Rule [paper](https://papers.cool/arxiv/2606.06679)
+- LexRubric: A Rubric-Guided Diagnostic Benchmark for Open-Ended Legal Tasks [paper](https://papers.cool/arxiv/2606.09389)
+- From Statute to Control Flow: Span-Grounded Deontic Trees for Defeasible Scope Parsing [paper](https://papers.cool/arxiv/2606.08932)
+- Retrieval Augmented Generation Framework for the Nepali Legal Domain Question Answering [paper](https://papers.cool/arxiv/2606.07523)
 
 ## Law LLMs
 
@@ -280,6 +291,9 @@ This repository tracks papers and resources about large language models (LLMs) i
 - Re-Ranking Through an Attribution Lens for Citation Quality in Legal QA [paper](https://papers.cool/arxiv/2606.03728)
 - EURO-5K: When Does Domain Pretraining Matter? Benchmarking Transformers for EU Reporting Obligation Extraction [paper](https://papers.cool/arxiv/2606.02971)
 - HKJudge: A Legal Discourse-Annotated Corpus for Interpreting What Courts Find, How They Reason, and What They Rule [paper](https://papers.cool/arxiv/2606.06679)
+- LexRubric: A Rubric-Guided Diagnostic Benchmark for Open-Ended Legal Tasks [paper](https://papers.cool/arxiv/2606.09389)
+- From Statute to Control Flow: Span-Grounded Deontic Trees for Defeasible Scope Parsing [paper](https://papers.cool/arxiv/2606.08932)
+- Retrieval Augmented Generation Framework for the Nepali Legal Domain Question Answering [paper](https://papers.cool/arxiv/2606.07523)
 
 The survey paper is shown in [paper](https://arxiv.org/abs/2403.11152)
 
