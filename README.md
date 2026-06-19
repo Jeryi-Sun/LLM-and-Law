@@ -6,9 +6,9 @@
 
 This repository tracks papers and resources about large language models (LLMs) in the legal domain.
 
-> Daily update 2026-06-14 (cs.CL): scanned 0 papers (date=2026-06-14), 0 new papers met the strict "legal task + LLM semantics" inclusion rule.
+> Daily update 2026-06-19 (cs.CL): scanned 90 papers (date=2026-06-19), 3 new papers met the strict "legal task + LLM semantics" inclusion rule.
 >
-> Category increments today — Applications: +0, Legal Reasoning Models: +0, Legal Agent: +0, Legal Problems: +0, Data Resources: +0, Law LLMs: +0, Evaluation: +0.
+> Category increments today — Applications +1, Legal Reasoning Models +0, Legal Agent +1, Legal Problems +0, Data Resources +2, Law LLMs +0, Evaluation +2.
 
 ## Contents
 - [Applications of Large Language Models in Legal Tasks](#applications-of-large-language-models-in-legal-tasks)
@@ -113,6 +113,7 @@ This repository tracks papers and resources about large language models (LLMs) i
 - LexRubric: A Rubric-Guided Diagnostic Benchmark for Open-Ended Legal Tasks [paper](https://papers.cool/arxiv/2606.09389)
 - From Statute to Control Flow: Span-Grounded Deontic Trees for Defeasible Scope Parsing [paper](https://papers.cool/arxiv/2606.08932)
 - Retrieval Augmented Generation Framework for the Nepali Legal Domain Question Answering [paper](https://papers.cool/arxiv/2606.07523)
+- FineREX: Fine-Tuned NER-RE for Human Smuggling Knowledge Graphs [paper](https://papers.cool/arxiv/2606.19710)
 
 ## Legal Reasoning Models
 
@@ -156,6 +157,7 @@ This repository tracks papers and resources about large language models (LLMs) i
 - GARL: Game-Theoretic Reinforcement Learning for Multi-Agent Strategic Prioritisation [paper](https://papers.cool/arxiv/2606.05002)
 - Civil Court Simulation with Large Language Models [paper](https://papers.cool/arxiv/2606.09632)
 - From Statute to Control Flow: Span-Grounded Deontic Trees for Defeasible Scope Parsing [paper](https://papers.cool/arxiv/2606.08932)
+- DeXposure-Claw: An Agentic System for DeFi Risk Supervision [paper](https://papers.cool/arxiv/2606.19501)
 
 ## Legal Problems of Large Language Models
 
@@ -224,6 +226,8 @@ This repository tracks papers and resources about large language models (LLMs) i
 - LexRubric: A Rubric-Guided Diagnostic Benchmark for Open-Ended Legal Tasks [paper](https://papers.cool/arxiv/2606.09389)
 - From Statute to Control Flow: Span-Grounded Deontic Trees for Defeasible Scope Parsing [paper](https://papers.cool/arxiv/2606.08932)
 - Retrieval Augmented Generation Framework for the Nepali Legal Domain Question Answering [paper](https://papers.cool/arxiv/2606.07523)
+- REDACT: A Systematically Controlled Multilingual Benchmark for Personal Information Detection [paper](https://papers.cool/arxiv/2606.19881)
+- FineREX: Fine-Tuned NER-RE for Human Smuggling Knowledge Graphs [paper](https://papers.cool/arxiv/2606.19710)
 
 ## Law LLMs
 
@@ -294,6 +298,8 @@ This repository tracks papers and resources about large language models (LLMs) i
 - LexRubric: A Rubric-Guided Diagnostic Benchmark for Open-Ended Legal Tasks [paper](https://papers.cool/arxiv/2606.09389)
 - From Statute to Control Flow: Span-Grounded Deontic Trees for Defeasible Scope Parsing [paper](https://papers.cool/arxiv/2606.08932)
 - Retrieval Augmented Generation Framework for the Nepali Legal Domain Question Answering [paper](https://papers.cool/arxiv/2606.07523)
+- REDACT: A Systematically Controlled Multilingual Benchmark for Personal Information Detection [paper](https://papers.cool/arxiv/2606.19881)
+- DeXposure-Claw: An Agentic System for DeFi Risk Supervision [paper](https://papers.cool/arxiv/2606.19501)
 
 The survey paper is shown in [paper](https://arxiv.org/abs/2403.11152)
 
