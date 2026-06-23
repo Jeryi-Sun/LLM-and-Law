@@ -6,9 +6,10 @@
 
 This repository tracks papers and resources about large language models (LLMs) in the legal domain.
 
-> Daily update 2026-06-22 (cs.CL): scanned 0 papers (date=2026-06-22), 0 new papers met the strict "legal task + LLM semantics" inclusion rule.
+> Daily update 2026-06-23 (cs.CL): scanned 246 papers (date=2026-06-23), 4 new papers met the strict "legal task + LLM semantics" inclusion rule.
 >
-> Category increments today — Applications +0, Legal Reasoning Models +0, Legal Agent +0, Legal Problems +0, Data Resources +0, Law LLMs +0, Evaluation +0.
+> Category increments today — Applications +3, Legal Reasoning Models +0, Legal Agent +0, Legal Problems +3, Data Resources +1, Law LLMs +0, Evaluation +3.
+
 
 ## Contents
 - [Applications of Large Language Models in Legal Tasks](#applications-of-large-language-models-in-legal-tasks)
@@ -114,6 +115,9 @@ This repository tracks papers and resources about large language models (LLMs) i
 - From Statute to Control Flow: Span-Grounded Deontic Trees for Defeasible Scope Parsing [paper](https://papers.cool/arxiv/2606.08932)
 - Retrieval Augmented Generation Framework for the Nepali Legal Domain Question Answering [paper](https://papers.cool/arxiv/2606.07523)
 - FineREX: Fine-Tuned NER-RE for Human Smuggling Knowledge Graphs [paper](https://papers.cool/arxiv/2606.19710)
+- Reinforcement learning to improve large language model-based automated code compliance systems [paper](https://papers.cool/arxiv/2606.22402)
+- Measuring & Mitigating Over-Alignment for LLMs in Multilingual Criminal Law Courts [paper](https://papers.cool/arxiv/2606.23375)
+- Peeking Inside LLMs: Leveraging Internal Artifacts of LLMs for Enhancing Reliability in Legal Classification [paper](https://papers.cool/arxiv/2606.20929)
 
 ## Legal Reasoning Models
 
@@ -183,6 +187,9 @@ This repository tracks papers and resources about large language models (LLMs) i
 - Divergence Decoding: Inference-Time Unlearning via Auxiliary Models [paper](https://papers.cool/arxiv/2605.31293)
 - Citation Grounding: Detecting and Reducing LLM Citation Hallucinations via Legal Citation Graphs [paper](https://papers.cool/arxiv/2606.00898)
 - Which Institutional Frameworks Do Chatbots Assume? Auditing Jurisdictional Defaults in Multilingual LLMs [paper](https://papers.cool/arxiv/2606.00333)
+- Measuring & Mitigating Over-Alignment for LLMs in Multilingual Criminal Law Courts [paper](https://papers.cool/arxiv/2606.23375)
+- Who Checks the Citations? Benchmarking Legal Hallucination Detection [paper](https://papers.cool/arxiv/2606.21155)
+- Peeking Inside LLMs: Leveraging Internal Artifacts of LLMs for Enhancing Reliability in Legal Classification [paper](https://papers.cool/arxiv/2606.20929)
 
 ## Data Resources for Large Language Models in Law
 
@@ -228,6 +235,7 @@ This repository tracks papers and resources about large language models (LLMs) i
 - Retrieval Augmented Generation Framework for the Nepali Legal Domain Question Answering [paper](https://papers.cool/arxiv/2606.07523)
 - REDACT: A Systematically Controlled Multilingual Benchmark for Personal Information Detection [paper](https://papers.cool/arxiv/2606.19881)
 - FineREX: Fine-Tuned NER-RE for Human Smuggling Knowledge Graphs [paper](https://papers.cool/arxiv/2606.19710)
+- Who Checks the Citations? Benchmarking Legal Hallucination Detection [paper](https://papers.cool/arxiv/2606.21155)
 
 ## Law LLMs
 
@@ -300,6 +308,10 @@ This repository tracks papers and resources about large language models (LLMs) i
 - Retrieval Augmented Generation Framework for the Nepali Legal Domain Question Answering [paper](https://papers.cool/arxiv/2606.07523)
 - REDACT: A Systematically Controlled Multilingual Benchmark for Personal Information Detection [paper](https://papers.cool/arxiv/2606.19881)
 - DeXposure-Claw: An Agentic System for DeFi Risk Supervision [paper](https://papers.cool/arxiv/2606.19501)
+
+- Measuring & Mitigating Over-Alignment for LLMs in Multilingual Criminal Law Courts [paper](https://papers.cool/arxiv/2606.23375)
+- Who Checks the Citations? Benchmarking Legal Hallucination Detection [paper](https://papers.cool/arxiv/2606.21155)
+- Peeking Inside LLMs: Leveraging Internal Artifacts of LLMs for Enhancing Reliability in Legal Classification [paper](https://papers.cool/arxiv/2606.20929)
 
 The survey paper is shown in [paper](https://arxiv.org/abs/2403.11152)
 
