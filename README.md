@@ -6,9 +6,9 @@
 
 This repository tracks papers and resources about large language models (LLMs) in the legal domain.
 
-> Daily update 2026-06-25 (cs.CL): scanned 0 papers (date=2026-06-25), 0 new papers met the strict "legal task + LLM semantics" inclusion rule.
+> Daily update 2026-06-29 (cs.CL): scanned 58 papers (date=2026-06-29), 2 new papers met the strict "legal task + LLM semantics" inclusion rule.
 >
-> Category increments today — Applications +0, Legal Reasoning Models +0, Legal Agent +0, Legal Problems +0, Data Resources +0, Law LLMs +0, Evaluation +0.
+> Category increments today — Applications +1, Legal Reasoning Models +0, Legal Agent +0, Legal Problems +1, Data Resources +0, Law LLMs +0, Evaluation +0.
 
 
 
@@ -121,6 +121,8 @@ This repository tracks papers and resources about large language models (LLMs) i
 - Measuring & Mitigating Over-Alignment for LLMs in Multilingual Criminal Law Courts [paper](https://papers.cool/arxiv/2606.23375)
 - Peeking Inside LLMs: Leveraging Internal Artifacts of LLMs for Enhancing Reliability in Legal Classification [paper](https://papers.cool/arxiv/2606.20929)
 
+- A Tree-of-Thoughts Inspired Hybrid Approach for Legal Case Judgement Summarization using LLMs [paper](https://papers.cool/arxiv/2606.28044)
+
 ## Legal Reasoning Models
 
 - LexPro-1.0 Technical Report [paper](https://arxiv.org/pdf/2503.06949)
@@ -192,6 +194,8 @@ This repository tracks papers and resources about large language models (LLMs) i
 - Measuring & Mitigating Over-Alignment for LLMs in Multilingual Criminal Law Courts [paper](https://papers.cool/arxiv/2606.23375)
 - Who Checks the Citations? Benchmarking Legal Hallucination Detection [paper](https://papers.cool/arxiv/2606.21155)
 - Peeking Inside LLMs: Leveraging Internal Artifacts of LLMs for Enhancing Reliability in Legal Classification [paper](https://papers.cool/arxiv/2606.20929)
+
+- Position: The Term "Machine Unlearning" Is Overused in LLMs [paper](https://papers.cool/arxiv/2606.27379)
 
 ## Data Resources for Large Language Models in Law
 
