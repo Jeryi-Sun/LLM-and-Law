@@ -6,12 +6,9 @@
 
 This repository tracks papers and resources about large language models (LLMs) in the legal domain.
 
-> Daily update 2026-06-29 (cs.CL): scanned 58 papers (date=2026-06-29), 2 new papers met the strict "legal task + LLM semantics" inclusion rule.
+> Daily update 2026-06-30 (cs.CL): scanned 183 papers (date=2026-06-30), 2 new papers met the strict "legal task + LLM semantics" inclusion rule.
 >
-> Category increments today — Applications +1, Legal Reasoning Models +0, Legal Agent +0, Legal Problems +1, Data Resources +0, Law LLMs +0, Evaluation +0.
-
-
-
+> Category increments today — Applications +0, Legal Reasoning Models +0, Legal Agent +0, Legal Problems +1, Data Resources +1, Law LLMs +1, Evaluation +0.
 
 ## Contents
 - [Applications of Large Language Models in Legal Tasks](#applications-of-large-language-models-in-legal-tasks)
@@ -196,6 +193,7 @@ This repository tracks papers and resources about large language models (LLMs) i
 - Peeking Inside LLMs: Leveraging Internal Artifacts of LLMs for Enhancing Reliability in Legal Classification [paper](https://papers.cool/arxiv/2606.20929)
 
 - Position: The Term "Machine Unlearning" Is Overused in LLMs [paper](https://papers.cool/arxiv/2606.27379)
+- Open but Incompatible: A License Compatibility Analysis of Corpora for Low-Resource African Languages [paper](https://papers.cool/arxiv/2606.28867)
 
 ## Data Resources for Large Language Models in Law
 
@@ -242,6 +240,7 @@ This repository tracks papers and resources about large language models (LLMs) i
 - REDACT: A Systematically Controlled Multilingual Benchmark for Personal Information Detection [paper](https://papers.cool/arxiv/2606.19881)
 - FineREX: Fine-Tuned NER-RE for Human Smuggling Knowledge Graphs [paper](https://papers.cool/arxiv/2606.19710)
 - Who Checks the Citations? Benchmarking Legal Hallucination Detection [paper](https://papers.cool/arxiv/2606.21155)
+- Open but Incompatible: A License Compatibility Analysis of Corpora for Low-Resource African Languages [paper](https://papers.cool/arxiv/2606.28867)
 
 ## Law LLMs
 
@@ -260,6 +259,7 @@ This repository tracks papers and resources about large language models (LLMs) i
 - HUKUKBERT: Domain-Specific Language Model for Turkish Law [paper](https://papers.cool/arxiv/2604.04790)
 - PoliLegalLM: A Technical Report on a Large Language Model for Political and Legal Affairs [paper](https://arxiv.org/pdf/2604.17543)
 - ImmigrationQA: A Source-Grounded Dataset and Small-Model Adaptation for U.S. Immigration Law [paper](https://papers.cool/arxiv/2605.30589)
+- Legal Domain Adaptation of Modern BERT Models [paper](https://papers.cool/arxiv/2606.28538)
 
 ## Evaluation
 
