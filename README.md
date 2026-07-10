@@ -6,9 +6,9 @@
 
 This repository tracks papers and resources about large language models (LLMs) in the legal domain.
 
-> Daily update 2026-07-06 (cs.CL): scanned 0 papers (date=2026-07-06), 0 new papers met the strict "legal task + LLM semantics" inclusion rule.
+> Daily update 2026-07-10 (cs.CL): scanned 65 papers (date=2026-07-10), 1 new paper met the strict "legal task + LLM semantics" inclusion rule.
 >
-> Category increments today — Applications +0, Legal Reasoning Models +0, Legal Agent +0, Legal Problems +0, Data Resources +0, Law LLMs +0, Evaluation +0.
+> Category increments today — Applications +0, Legal Reasoning Models +0, Legal Agent +0, Legal Problems +0, Data Resources +1, Law LLMs +0, Evaluation +0.
 
 ## Contents
 - [Applications of Large Language Models in Legal Tasks](#applications-of-large-language-models-in-legal-tasks)
@@ -242,6 +242,7 @@ This repository tracks papers and resources about large language models (LLMs) i
 - FineREX: Fine-Tuned NER-RE for Human Smuggling Knowledge Graphs [paper](https://papers.cool/arxiv/2606.19710)
 - Who Checks the Citations? Benchmarking Legal Hallucination Detection [paper](https://papers.cool/arxiv/2606.21155)
 - Open but Incompatible: A License Compatibility Analysis of Corpora for Low-Resource African Languages [paper](https://papers.cool/arxiv/2606.28867)
+- Grounded Event Extraction from SEC 8-K Filings with a Fine-Grained Taxonomy [paper](https://papers.cool/arxiv/2607.08346)
 
 ## Law LLMs
 
