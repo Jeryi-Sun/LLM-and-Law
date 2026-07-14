@@ -6,9 +6,9 @@
 
 This repository tracks papers and resources about large language models (LLMs) in the legal domain.
 
-> Daily update 2026-07-13 (cs.CL): scanned 36 papers (date=2026-07-13), 1 new paper met the strict "legal task + LLM semantics" inclusion rule.
+> Daily update 2026-07-14 (cs.CL): scanned 149 papers (date=2026-07-14), 4 new papers met the strict "legal task + LLM semantics" inclusion rule.
 >
-> Category increments today — Applications +1, Legal Reasoning Models +0, Legal Agent +0, Legal Problems +0, Data Resources +0, Law LLMs +0, Evaluation +0.
+> Category increments today — Applications +2, Legal Reasoning Models +1, Legal Agent +0, Legal Problems +0, Data Resources +0, Law LLMs +0, Evaluation +1.
 
 ## Contents
 - [Applications of Large Language Models in Legal Tasks](#applications-of-large-language-models-in-legal-tasks)
@@ -120,7 +120,8 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 - A Tree-of-Thoughts Inspired Hybrid Approach for Legal Case Judgement Summarization using LLMs [paper](https://papers.cool/arxiv/2606.28044)
 - PRecG: Legal Precedent Retrieval with Graph Neural Networks and Rhetorical Role Segmentation [paper](https://papers.cool/arxiv/2607.09094)
-
+- Cross-Architecture LLM Ensembles, Feature-Based Reranking and Retrieval-Augmented Prompting for Legal Information Processing [paper](https://papers.cool/arxiv/2607.11400)
+- When Reasoning Hurts Legal Drafting: The Verbalization Bottleneck in Patent Claim Generation [paper](https://papers.cool/arxiv/2607.10480)
 
 ## Legal Reasoning Models
 
@@ -138,6 +139,7 @@ This repository tracks papers and resources about large language models (LLMs) i
 - DAR: Deontic Reasoning with Agentic Harnesses [paper](https://papers.cool/arxiv/2606.05009)
 - Civil Court Simulation with Large Language Models [paper](https://papers.cool/arxiv/2606.09632)
 - From Statute to Control Flow: Span-Grounded Deontic Trees for Defeasible Scope Parsing [paper](https://papers.cool/arxiv/2606.08932)
+- Generative Chinese Statute Retrieval [paper](https://papers.cool/arxiv/2607.11109)
 
 ## Legal Agent
 
@@ -323,6 +325,8 @@ This repository tracks papers and resources about large language models (LLMs) i
 - Who Checks the Citations? Benchmarking Legal Hallucination Detection [paper](https://papers.cool/arxiv/2606.21155)
 - Peeking Inside LLMs: Leveraging Internal Artifacts of LLMs for Enhancing Reliability in Legal Classification [paper](https://papers.cool/arxiv/2606.20929)
 - Probing Stylistic Appropriation using Large Language Models: An Evaluation Framework for Copyright Infringement under EU Law [paper](https://papers.cool/arxiv/2606.31250)
+
+- Do LLMs Fabricate Legal Citations? A Bilingual Benchmark on Saudi Data Protection Law and the GDPR [paper](https://papers.cool/arxiv/2607.11127)
 
 The survey paper is shown in [paper](https://arxiv.org/abs/2403.11152)
 
