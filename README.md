@@ -6,9 +6,9 @@
 
 This repository tracks papers and resources about large language models (LLMs) in the legal domain.
 
-> Daily update 2026-07-15 (cs.CL): scanned 69 papers (date=2026-07-15), 0 new papers met the strict "legal task + LLM semantics" inclusion rule.
+> Daily update 2026-07-16 (cs.CL): scanned 54 papers (date=2026-07-16), 1 new paper met the strict "legal task + LLM semantics" inclusion rule.
 >
-> Category increments today — Applications +0, Legal Reasoning Models +0, Legal Agent +0, Legal Problems +0, Data Resources +0, Law LLMs +0, Evaluation +0.
+> Category increments today — Applications +0, Legal Reasoning Models +0, Legal Agent +0, Legal Problems +1, Data Resources +0, Law LLMs +0, Evaluation +1.
 
 ## Contents
 - [Applications of Large Language Models in Legal Tasks](#applications-of-large-language-models-in-legal-tasks)
@@ -199,6 +199,7 @@ This repository tracks papers and resources about large language models (LLMs) i
 - Position: The Term "Machine Unlearning" Is Overused in LLMs [paper](https://papers.cool/arxiv/2606.27379)
 - Open but Incompatible: A License Compatibility Analysis of Corpora for Low-Resource African Languages [paper](https://papers.cool/arxiv/2606.28867)
 - Probing Stylistic Appropriation using Large Language Models: An Evaluation Framework for Copyright Infringement under EU Law [paper](https://papers.cool/arxiv/2606.31250)
+- The Perplexity Trap: When Patent Law Makes Human Writing Look Like AI [paper](https://papers.cool/arxiv/2607.13044)
 
 ## Data Resources for Large Language Models in Law
 
@@ -327,6 +328,7 @@ This repository tracks papers and resources about large language models (LLMs) i
 - Probing Stylistic Appropriation using Large Language Models: An Evaluation Framework for Copyright Infringement under EU Law [paper](https://papers.cool/arxiv/2606.31250)
 
 - Do LLMs Fabricate Legal Citations? A Bilingual Benchmark on Saudi Data Protection Law and the GDPR [paper](https://papers.cool/arxiv/2607.11127)
+- The Perplexity Trap: When Patent Law Makes Human Writing Look Like AI [paper](https://papers.cool/arxiv/2607.13044)
 
 The survey paper is shown in [paper](https://arxiv.org/abs/2403.11152)
 
