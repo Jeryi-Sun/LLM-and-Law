@@ -6,9 +6,9 @@
 
 This repository tracks papers and resources about large language models (LLMs) in the legal domain.
 
-> Daily update 2026-07-19 (cs.CL): scanned 0 papers (date=2026-07-19), 0 new papers met the strict "legal task + LLM semantics" inclusion rule.
+> Daily update 2026-07-22 (cs.CL): scanned 78 papers (date=2026-07-22), 4 new papers met the strict "legal task + LLM semantics" inclusion rule.
 >
-> Category increments today — Applications +0, Legal Reasoning Models +0, Legal Agent +0, Legal Problems +0, Data Resources +0, Law LLMs +0, Evaluation +0.
+> Category increments today — Applications +4, Legal Reasoning Models +0, Legal Agent +0, Legal Problems +0, Data Resources +1, Law LLMs +0, Evaluation +2.
 
 ## Contents
 - [Applications of Large Language Models in Legal Tasks](#applications-of-large-language-models-in-legal-tasks)
@@ -122,6 +122,10 @@ This repository tracks papers and resources about large language models (LLMs) i
 - PRecG: Legal Precedent Retrieval with Graph Neural Networks and Rhetorical Role Segmentation [paper](https://papers.cool/arxiv/2607.09094)
 - Cross-Architecture LLM Ensembles, Feature-Based Reranking and Retrieval-Augmented Prompting for Legal Information Processing [paper](https://papers.cool/arxiv/2607.11400)
 - When Reasoning Hurts Legal Drafting: The Verbalization Bottleneck in Patent Claim Generation [paper](https://papers.cool/arxiv/2607.10480)
+- The Price of Reasoning: Cost-Quality Tradeoffs in Reinforcement Learning for Neural Machine Translation [paper](https://papers.cool/arxiv/2607.19226)
+- Reasoning Before Translation: Enhancing Legal Machine Translation with Structured Reasoning [paper](https://papers.cool/arxiv/2607.19181)
+- AILQA: Evaluating AI-Driven Legal Question Answering Systems for the Indian Legal System [paper](https://papers.cool/arxiv/2607.18825)
+- Enabling Multilingual Privacy Policy Audits: Large-Scale Analysis of Spanish Mobile Apps [paper](https://papers.cool/arxiv/2607.18424)
 
 ## Legal Reasoning Models
 
@@ -248,6 +252,7 @@ This repository tracks papers and resources about large language models (LLMs) i
 - Who Checks the Citations? Benchmarking Legal Hallucination Detection [paper](https://papers.cool/arxiv/2606.21155)
 - Open but Incompatible: A License Compatibility Analysis of Corpora for Low-Resource African Languages [paper](https://papers.cool/arxiv/2606.28867)
 - Grounded Event Extraction from SEC 8-K Filings with a Fine-Grained Taxonomy [paper](https://papers.cool/arxiv/2607.08346)
+- Enabling Multilingual Privacy Policy Audits: Large-Scale Analysis of Spanish Mobile Apps [paper](https://papers.cool/arxiv/2607.18424)
 
 ## Law LLMs
 
@@ -343,3 +348,6 @@ Please cite the following papers as references if this repository helps you (*�
   year={2023}
 }
 ```
+- AILQA: Evaluating AI-Driven Legal Question Answering Systems for the Indian Legal System [paper](https://papers.cool/arxiv/2607.18825)
+- Enabling Multilingual Privacy Policy Audits: Large-Scale Analysis of Spanish Mobile Apps [paper](https://papers.cool/arxiv/2607.18424)
+
