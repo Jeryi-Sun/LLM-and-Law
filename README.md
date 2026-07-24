@@ -6,9 +6,9 @@
 
 This repository tracks papers and resources about large language models (LLMs) in the legal domain.
 
-> Daily update 2026-07-23 (cs.CL): scanned 70 papers (date=2026-07-23), 0 new papers met the strict "legal task + LLM semantics" inclusion rule.
+> Daily update 2026-07-24 (cs.CL): scanned 110 papers (date=2026-07-24), 1 new paper met the strict "legal task + LLM semantics" inclusion rule.
 >
-> Category increments today — Applications +0, Legal Reasoning Models +0, Legal Agent +0, Legal Problems +0, Data Resources +0, Law LLMs +0, Evaluation +0.
+> Category increments today — Applications +0, Legal Reasoning Models +0, Legal Agent +0, Legal Problems +0, Data Resources +0, Law LLMs +0, Evaluation +1.
 
 
 ## Contents
@@ -276,6 +276,7 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Evaluation
 
+- LegalCiteTrust: Benchmarking Citation Trustworthiness in Chinese Long-Form Legal Research Reports [paper](https://papers.cool/arxiv/2607.20872)
 - Measuring Massive Multitask Chinese Understanding [paper](https://arxiv.org/pdf/2304.12986.pdf)
 - LawBench: Benchmarking Legal Knowledge of Large Language Models [github](https://github.com/open-compass/LawBench)
 - Large Language Models are legal but they are not: Making the case for a powerful LegalLLM [paper](http://arxiv.org/pdf/2311.08890v1)
