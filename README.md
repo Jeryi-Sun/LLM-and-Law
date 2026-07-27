@@ -6,9 +6,9 @@
 
 This repository tracks papers and resources about large language models (LLMs) in the legal domain.
 
-> Daily update 2026-07-26 (cs.CL): scanned 0 papers (date=2026-07-26), 0 new papers met the strict "legal task + LLM semantics" inclusion rule.
+> Daily update 2026-07-27 (cs.CL): scanned 47 papers (date=2026-07-27), 2 new papers met the strict "legal task + LLM semantics" inclusion rule.
 >
-> Category increments today — Applications +0, Legal Reasoning Models +0, Legal Agent +0, Legal Problems +0, Data Resources +0, Law LLMs +0, Evaluation +0.
+> Category increments today — Applications +1, Legal Reasoning Models +0, Legal Agent +2, Legal Problems +1, Data Resources +0, Law LLMs +0, Evaluation +2.
 
 
 ## Contents
@@ -127,6 +127,7 @@ This repository tracks papers and resources about large language models (LLMs) i
 - Reasoning Before Translation: Enhancing Legal Machine Translation with Structured Reasoning [paper](https://papers.cool/arxiv/2607.19181)
 - AILQA: Evaluating AI-Driven Legal Question Answering Systems for the Indian Legal System [paper](https://papers.cool/arxiv/2607.18825)
 - Enabling Multilingual Privacy Policy Audits: Large-Scale Analysis of Spanish Mobile Apps [paper](https://papers.cool/arxiv/2607.18424)
+- From Obligation to Specification: A Survey on Validating EU AI Act Requirements in RE [paper](https://papers.cool/arxiv/2607.21608)
 
 ## Legal Reasoning Models
 
@@ -172,6 +173,8 @@ This repository tracks papers and resources about large language models (LLMs) i
 - Civil Court Simulation with Large Language Models [paper](https://papers.cool/arxiv/2606.09632)
 - From Statute to Control Flow: Span-Grounded Deontic Trees for Defeasible Scope Parsing [paper](https://papers.cool/arxiv/2606.08932)
 - DeXposure-Claw: An Agentic System for DeFi Risk Supervision [paper](https://papers.cool/arxiv/2606.19501)
+- Agentic Evaluation of Copyright Law Compliance [paper](https://papers.cool/arxiv/2607.21799)
+- From Obligation to Specification: A Survey on Validating EU AI Act Requirements in RE [paper](https://papers.cool/arxiv/2607.21608)
 
 ## Legal Problems of Large Language Models
 
@@ -205,6 +208,7 @@ This repository tracks papers and resources about large language models (LLMs) i
 - Open but Incompatible: A License Compatibility Analysis of Corpora for Low-Resource African Languages [paper](https://papers.cool/arxiv/2606.28867)
 - Probing Stylistic Appropriation using Large Language Models: An Evaluation Framework for Copyright Infringement under EU Law [paper](https://papers.cool/arxiv/2606.31250)
 - The Perplexity Trap: When Patent Law Makes Human Writing Look Like AI [paper](https://papers.cool/arxiv/2607.13044)
+- Agentic Evaluation of Copyright Law Compliance [paper](https://papers.cool/arxiv/2607.21799)
 
 ## Data Resources for Large Language Models in Law
 
@@ -352,4 +356,5 @@ Please cite the following papers as references if this repository helps you (*�
 ```
 - AILQA: Evaluating AI-Driven Legal Question Answering Systems for the Indian Legal System [paper](https://papers.cool/arxiv/2607.18825)
 - Enabling Multilingual Privacy Policy Audits: Large-Scale Analysis of Spanish Mobile Apps [paper](https://papers.cool/arxiv/2607.18424)
-
+- Agentic Evaluation of Copyright Law Compliance [paper](https://papers.cool/arxiv/2607.21799)
+- From Obligation to Specification: A Survey on Validating EU AI Act Requirements in RE [paper](https://papers.cool/arxiv/2607.21608)
