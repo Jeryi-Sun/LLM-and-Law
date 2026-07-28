@@ -6,9 +6,9 @@
 
 This repository tracks papers and resources about large language models (LLMs) in the legal domain.
 
-> Daily update 2026-07-27 (cs.CL): scanned 47 papers (date=2026-07-27), 2 new papers met the strict "legal task + LLM semantics" inclusion rule.
+> Daily update 2026-07-28 (cs.CL): scanned 140 papers (date=2026-07-28), 2 new papers met the strict "legal task + LLM semantics" inclusion rule.
 >
-> Category increments today — Applications +1, Legal Reasoning Models +0, Legal Agent +2, Legal Problems +1, Data Resources +0, Law LLMs +0, Evaluation +2.
+> Category increments today — Applications +2, Legal Reasoning Models +1, Legal Agent +0, Legal Problems +0, Data Resources +1, Law LLMs +1, Evaluation +0.
 
 
 ## Contents
@@ -128,6 +128,8 @@ This repository tracks papers and resources about large language models (LLMs) i
 - AILQA: Evaluating AI-Driven Legal Question Answering Systems for the Indian Legal System [paper](https://papers.cool/arxiv/2607.18825)
 - Enabling Multilingual Privacy Policy Audits: Large-Scale Analysis of Spanish Mobile Apps [paper](https://papers.cool/arxiv/2607.18424)
 - From Obligation to Specification: A Survey on Validating EU AI Act Requirements in RE [paper](https://papers.cool/arxiv/2607.21608)
+- Retrieval-Augmented Large Language Models as Components of Cognitive Computing architecture for Regulatory Knowledge Management [paper](https://papers.cool/arxiv/2607.24352)
+- Do Small Models Use the Law You Give Them? Context-Injected Fine-Tuning for Legal QA in Bangladesh [paper](https://papers.cool/arxiv/2607.23446)
 
 ## Legal Reasoning Models
 
@@ -146,6 +148,7 @@ This repository tracks papers and resources about large language models (LLMs) i
 - Civil Court Simulation with Large Language Models [paper](https://papers.cool/arxiv/2606.09632)
 - From Statute to Control Flow: Span-Grounded Deontic Trees for Defeasible Scope Parsing [paper](https://papers.cool/arxiv/2606.08932)
 - Generative Chinese Statute Retrieval [paper](https://papers.cool/arxiv/2607.11109)
+- Do Small Models Use the Law You Give Them? Context-Injected Fine-Tuning for Legal QA in Bangladesh [paper](https://papers.cool/arxiv/2607.23446)
 
 ## Legal Agent
 
@@ -258,6 +261,7 @@ This repository tracks papers and resources about large language models (LLMs) i
 - Open but Incompatible: A License Compatibility Analysis of Corpora for Low-Resource African Languages [paper](https://papers.cool/arxiv/2606.28867)
 - Grounded Event Extraction from SEC 8-K Filings with a Fine-Grained Taxonomy [paper](https://papers.cool/arxiv/2607.08346)
 - Enabling Multilingual Privacy Policy Audits: Large-Scale Analysis of Spanish Mobile Apps [paper](https://papers.cool/arxiv/2607.18424)
+- Do Small Models Use the Law You Give Them? Context-Injected Fine-Tuning for Legal QA in Bangladesh [paper](https://papers.cool/arxiv/2607.23446)
 
 ## Law LLMs
 
@@ -277,6 +281,7 @@ This repository tracks papers and resources about large language models (LLMs) i
 - PoliLegalLM: A Technical Report on a Large Language Model for Political and Legal Affairs [paper](https://arxiv.org/pdf/2604.17543)
 - ImmigrationQA: A Source-Grounded Dataset and Small-Model Adaptation for U.S. Immigration Law [paper](https://papers.cool/arxiv/2605.30589)
 - Legal Domain Adaptation of Modern BERT Models [paper](https://papers.cool/arxiv/2606.28538)
+- Do Small Models Use the Law You Give Them? Context-Injected Fine-Tuning for Legal QA in Bangladesh [paper](https://papers.cool/arxiv/2607.23446)
 
 ## Evaluation
 
