@@ -6,9 +6,9 @@
 
 This repository tracks papers and resources about large language models (LLMs) in the legal domain.
 
-> Daily update 2026-07-28 (cs.CL): scanned 140 papers (date=2026-07-28), 2 new papers met the strict "legal task + LLM semantics" inclusion rule.
+> Daily update 2026-07-29 (cs.CL): scanned 83 papers (date=2026-07-29), 1 new paper met the strict "legal task + LLM semantics" inclusion rule.
 >
-> Category increments today — Applications +2, Legal Reasoning Models +1, Legal Agent +0, Legal Problems +0, Data Resources +1, Law LLMs +1, Evaluation +0.
+> Category increments today — Applications +1, Legal Reasoning Models +0, Legal Agent +1, Legal Problems +0, Data Resources +0, Law LLMs +0, Evaluation +0.
 
 
 ## Contents
@@ -22,6 +22,7 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Applications of Large Language Models in Legal Tasks
 
+- From Naive RAG to Deep Agentic Retrieval: An Evolving Context Engineering Pipeline for Regulatory Compliance [paper](https://papers.cool/arxiv/2607.24791)
 - Legal Prompt Engineering for Multilingual Legal Judgement Prediction
 - Can GPT-3 Perform Statutory Reasoning?
 - Legal Prompting: Teaching a Language Model to Think Like a Lawyer
@@ -152,6 +153,7 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Legal Agent
 
+- From Naive RAG to Deep Agentic Retrieval: An Evolving Context Engineering Pipeline for Regulatory Compliance [paper](https://papers.cool/arxiv/2607.24791)
 - When Correct Isn't Usable: Improving Structured Output Reliability in Small Language Models [paper](https://arxiv.org/abs/2605.02363)
 - Accurate Legal Reasoning at Scale: Neuro-Symbolic Offloading and Structural Auditability for Robust Legal Adjudication [paper](https://arxiv.org/abs/2605.02472)
 - SimuCourt: Building Judicial Decision-Making Agents with Real-world Judgement Documents [paper](https://arxiv.org/pdf/2403.02959v1.pdf)
