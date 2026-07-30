@@ -6,9 +6,9 @@
 
 This repository tracks papers and resources about large language models (LLMs) in the legal domain.
 
-> Daily update 2026-07-29 (cs.CL): scanned 83 papers (date=2026-07-29), 1 new paper met the strict "legal task + LLM semantics" inclusion rule.
+> Daily update 2026-07-30 (cs.CL): scanned 75 papers (date=2026-07-30), 1 new paper met the strict "legal task + LLM semantics" inclusion rule.
 >
-> Category increments today — Applications +1, Legal Reasoning Models +0, Legal Agent +1, Legal Problems +0, Data Resources +0, Law LLMs +0, Evaluation +0.
+> Category increments today — Applications +1, Legal Reasoning Models +0, Legal Agent +0, Legal Problems +0, Data Resources +1, Law LLMs +0, Evaluation +1.
 
 
 ## Contents
@@ -22,6 +22,7 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Applications of Large Language Models in Legal Tasks
 
+- Credit Cards, Confusion, Computation, and Consequences: What Can We Uncover About Language Model Reasoning? [paper](https://papers.cool/arxiv/2607.26952)
 - From Naive RAG to Deep Agentic Retrieval: An Evolving Context Engineering Pipeline for Regulatory Compliance [paper](https://papers.cool/arxiv/2607.24791)
 - Legal Prompt Engineering for Multilingual Legal Judgement Prediction
 - Can GPT-3 Perform Statutory Reasoning?
@@ -217,6 +218,7 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Data Resources for Large Language Models in Law
 
+- Credit Cards, Confusion, Computation, and Consequences: What Can We Uncover About Language Model Reasoning? [paper](https://papers.cool/arxiv/2607.26952)
 - CAIL2018: A Large-Scale Legal Dataset for Judgment Prediction
 - When does pretraining help? assessing self-supervised learning for law and the casehold dataset of 53,000+ legal holdings
 - LeCaRD: a legal case retrieval dataset for Chinese law system
@@ -287,6 +289,7 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Evaluation
 
+- Credit Cards, Confusion, Computation, and Consequences: What Can We Uncover About Language Model Reasoning? [paper](https://papers.cool/arxiv/2607.26952)
 - LegalCiteTrust: Benchmarking Citation Trustworthiness in Chinese Long-Form Legal Research Reports [paper](https://papers.cool/arxiv/2607.20872)
 - Measuring Massive Multitask Chinese Understanding [paper](https://arxiv.org/pdf/2304.12986.pdf)
 - LawBench: Benchmarking Legal Knowledge of Large Language Models [github](https://github.com/open-compass/LawBench)
