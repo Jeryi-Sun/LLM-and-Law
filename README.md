@@ -6,10 +6,9 @@
 
 This repository tracks papers and resources about large language models (LLMs) in the legal domain.
 
-> Daily update 2026-07-30 (cs.CL): scanned 75 papers (date=2026-07-30), 1 new paper met the strict "legal task + LLM semantics" inclusion rule.
+> Daily update 2026-07-31 (cs.CL): scanned 99 papers (date=2026-07-31), 1 new paper met the strict "legal task + LLM semantics" inclusion rule.
 >
-> Category increments today — Applications +1, Legal Reasoning Models +0, Legal Agent +0, Legal Problems +0, Data Resources +1, Law LLMs +0, Evaluation +1.
-
+> Category increments today — Applications +0, Legal Reasoning Models +1, Legal Agent +0, Legal Problems +0, Data Resources +0, Law LLMs +0, Evaluation +1.
 
 ## Contents
 - [Applications of Large Language Models in Legal Tasks](#applications-of-large-language-models-in-legal-tasks)
@@ -151,6 +150,7 @@ This repository tracks papers and resources about large language models (LLMs) i
 - From Statute to Control Flow: Span-Grounded Deontic Trees for Defeasible Scope Parsing [paper](https://papers.cool/arxiv/2606.08932)
 - Generative Chinese Statute Retrieval [paper](https://papers.cool/arxiv/2607.11109)
 - Do Small Models Use the Law You Give Them? Context-Injected Fine-Tuning for Legal QA in Bangladesh [paper](https://papers.cool/arxiv/2607.23446)
+- Reasoning Consensus: Structural Ensembling of LLM Reasoning via Weighted DAG Aggregation [paper](https://papers.cool/arxiv/2607.27783)
 
 ## Legal Agent
 
@@ -368,3 +368,4 @@ Please cite the following papers as references if this repository helps you (*�
 - Enabling Multilingual Privacy Policy Audits: Large-Scale Analysis of Spanish Mobile Apps [paper](https://papers.cool/arxiv/2607.18424)
 - Agentic Evaluation of Copyright Law Compliance [paper](https://papers.cool/arxiv/2607.21799)
 - From Obligation to Specification: A Survey on Validating EU AI Act Requirements in RE [paper](https://papers.cool/arxiv/2607.21608)
+- Reasoning Consensus: Structural Ensembling of LLM Reasoning via Weighted DAG Aggregation [paper](https://papers.cool/arxiv/2607.27783)
