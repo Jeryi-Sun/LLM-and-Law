@@ -21,6 +21,9 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Applications of Large Language Models in Legal Tasks
 
+- ANNOTARES: A Dataset for Extracting Logical Structures from German Statutory Texts [paper](https://papers.cool/arxiv/2608.03898)
+- CrossLex: A Source-Grounded Benchmark for Cross-Jurisdictional Legal Reasoning in Large Language Models [paper](https://papers.cool/arxiv/2608.01292)
+- Semantics of Subterfuge: Benchmarking Legal Deception Detection Against General-domain State-of-the-Art [paper](https://papers.cool/arxiv/2607.29066)
 - Credit Cards, Confusion, Computation, and Consequences: What Can We Uncover About Language Model Reasoning? [paper](https://papers.cool/arxiv/2607.26952)
 - From Naive RAG to Deep Agentic Retrieval: An Evolving Context Engineering Pipeline for Regulatory Compliance [paper](https://papers.cool/arxiv/2607.24791)
 - Legal Prompt Engineering for Multilingual Legal Judgement Prediction
@@ -184,6 +187,9 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Legal Problems of Large Language Models
 
+- Knowing the Form, Not the Function: Automatically Auditing Answer--Authority Decoupling in Legal Benchmarks [paper](https://papers.cool/arxiv/2608.02621)
+- CrossLex: A Source-Grounded Benchmark for Cross-Jurisdictional Legal Reasoning in Large Language Models [paper](https://papers.cool/arxiv/2608.01292)
+- Semantics of Subterfuge: Benchmarking Legal Deception Detection Against General-domain State-of-the-Art [paper](https://papers.cool/arxiv/2607.29066)
 - Towards WinoQueer: Developing a Benchmark for Anti-Queer Bias in Large Language Models
 - Persistent Anti-Muslim Bias in Large Language Models
 - Understanding the Capabilities, Limitations, and Societal Impact of Large Language Models
@@ -218,6 +224,8 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Data Resources for Large Language Models in Law
 
+- ANNOTARES: A Dataset for Extracting Logical Structures from German Statutory Texts [paper](https://papers.cool/arxiv/2608.03898)
+- CrossLex: A Source-Grounded Benchmark for Cross-Jurisdictional Legal Reasoning in Large Language Models [paper](https://papers.cool/arxiv/2608.01292)
 - Credit Cards, Confusion, Computation, and Consequences: What Can We Uncover About Language Model Reasoning? [paper](https://papers.cool/arxiv/2607.26952)
 - CAIL2018: A Large-Scale Legal Dataset for Judgment Prediction
 - When does pretraining help? assessing self-supervised learning for law and the casehold dataset of 53,000+ legal holdings
@@ -289,6 +297,10 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Evaluation
 
+- ANNOTARES: A Dataset for Extracting Logical Structures from German Statutory Texts [paper](https://papers.cool/arxiv/2608.03898)
+- Knowing the Form, Not the Function: Automatically Auditing Answer--Authority Decoupling in Legal Benchmarks [paper](https://papers.cool/arxiv/2608.02621)
+- CrossLex: A Source-Grounded Benchmark for Cross-Jurisdictional Legal Reasoning in Large Language Models [paper](https://papers.cool/arxiv/2608.01292)
+- Semantics of Subterfuge: Benchmarking Legal Deception Detection Against General-domain State-of-the-Art [paper](https://papers.cool/arxiv/2607.29066)
 - Credit Cards, Confusion, Computation, and Consequences: What Can We Uncover About Language Model Reasoning? [paper](https://papers.cool/arxiv/2607.26952)
 - LegalCiteTrust: Benchmarking Citation Trustworthiness in Chinese Long-Form Legal Research Reports [paper](https://papers.cool/arxiv/2607.20872)
 - Measuring Massive Multitask Chinese Understanding [paper](https://arxiv.org/pdf/2304.12986.pdf)
