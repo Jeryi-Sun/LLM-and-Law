@@ -6,9 +6,9 @@
 
 This repository tracks papers and resources about large language models (LLMs) in the legal domain.
 
-> Daily update 2026-07-31 (cs.CL): scanned 99 papers (date=2026-07-31), 1 new paper met the strict "legal task + LLM semantics" inclusion rule.
+> Daily update 2026-08-11 (cs.CL): scanned 171 papers (date=2026-08-11), 3 new papers met the strict "legal task + LLM semantics" inclusion rule.
 >
-> Category increments today — Applications +0, Legal Reasoning Models +1, Legal Agent +0, Legal Problems +0, Data Resources +0, Law LLMs +0, Evaluation +1.
+> Category increments today — Applications +2, Legal Reasoning Models +0, Legal Agent +1, Legal Problems +2, Data Resources +2, Law LLMs +0, Evaluation +3.
 
 ## Contents
 - [Applications of Large Language Models in Legal Tasks](#applications-of-large-language-models-in-legal-tasks)
@@ -21,6 +21,8 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Applications of Large Language Models in Legal Tasks
 
+- Temporal Misgrounding in Legal RAG: A Versioned-Corpus Benchmark for French Tax Law [paper](https://papers.cool/arxiv/2608.09393)
+- PolicyKG: An Agentic LLM Pipeline for Translating Institutional Policies into SHACL Knowledge Graphs [paper](https://papers.cool/arxiv/2608.09028)
 - ANNOTARES: A Dataset for Extracting Logical Structures from German Statutory Texts [paper](https://papers.cool/arxiv/2608.03898)
 - CrossLex: A Source-Grounded Benchmark for Cross-Jurisdictional Legal Reasoning in Large Language Models [paper](https://papers.cool/arxiv/2608.01292)
 - Semantics of Subterfuge: Benchmarking Legal Deception Detection Against General-domain State-of-the-Art [paper](https://papers.cool/arxiv/2607.29066)
@@ -157,6 +159,7 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Legal Agent
 
+- PolicyKG: An Agentic LLM Pipeline for Translating Institutional Policies into SHACL Knowledge Graphs [paper](https://papers.cool/arxiv/2608.09028)
 - From Naive RAG to Deep Agentic Retrieval: An Evolving Context Engineering Pipeline for Regulatory Compliance [paper](https://papers.cool/arxiv/2607.24791)
 - When Correct Isn't Usable: Improving Structured Output Reliability in Small Language Models [paper](https://arxiv.org/abs/2605.02363)
 - Accurate Legal Reasoning at Scale: Neuro-Symbolic Offloading and Structural Auditability for Robust Legal Adjudication [paper](https://arxiv.org/abs/2605.02472)
@@ -187,6 +190,8 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Legal Problems of Large Language Models
 
+- Temporal Misgrounding in Legal RAG: A Versioned-Corpus Benchmark for French Tax Law [paper](https://papers.cool/arxiv/2608.09393)
+- LexKairos: Benchmarking Legal Temporal Capabilities in LLMs [paper](https://papers.cool/arxiv/2608.09106)
 - Knowing the Form, Not the Function: Automatically Auditing Answer--Authority Decoupling in Legal Benchmarks [paper](https://papers.cool/arxiv/2608.02621)
 - CrossLex: A Source-Grounded Benchmark for Cross-Jurisdictional Legal Reasoning in Large Language Models [paper](https://papers.cool/arxiv/2608.01292)
 - Semantics of Subterfuge: Benchmarking Legal Deception Detection Against General-domain State-of-the-Art [paper](https://papers.cool/arxiv/2607.29066)
@@ -224,6 +229,8 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Data Resources for Large Language Models in Law
 
+- Temporal Misgrounding in Legal RAG: A Versioned-Corpus Benchmark for French Tax Law [paper](https://papers.cool/arxiv/2608.09393)
+- LexKairos: Benchmarking Legal Temporal Capabilities in LLMs [paper](https://papers.cool/arxiv/2608.09106)
 - ANNOTARES: A Dataset for Extracting Logical Structures from German Statutory Texts [paper](https://papers.cool/arxiv/2608.03898)
 - CrossLex: A Source-Grounded Benchmark for Cross-Jurisdictional Legal Reasoning in Large Language Models [paper](https://papers.cool/arxiv/2608.01292)
 - Credit Cards, Confusion, Computation, and Consequences: What Can We Uncover About Language Model Reasoning? [paper](https://papers.cool/arxiv/2607.26952)
@@ -297,6 +304,9 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Evaluation
 
+- Temporal Misgrounding in Legal RAG: A Versioned-Corpus Benchmark for French Tax Law [paper](https://papers.cool/arxiv/2608.09393)
+- LexKairos: Benchmarking Legal Temporal Capabilities in LLMs [paper](https://papers.cool/arxiv/2608.09106)
+- PolicyKG: An Agentic LLM Pipeline for Translating Institutional Policies into SHACL Knowledge Graphs [paper](https://papers.cool/arxiv/2608.09028)
 - ANNOTARES: A Dataset for Extracting Logical Structures from German Statutory Texts [paper](https://papers.cool/arxiv/2608.03898)
 - Knowing the Form, Not the Function: Automatically Auditing Answer--Authority Decoupling in Legal Benchmarks [paper](https://papers.cool/arxiv/2608.02621)
 - CrossLex: A Source-Grounded Benchmark for Cross-Jurisdictional Legal Reasoning in Large Language Models [paper](https://papers.cool/arxiv/2608.01292)
