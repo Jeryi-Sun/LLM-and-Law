@@ -6,9 +6,9 @@
 
 This repository tracks papers and resources about large language models (LLMs) in the legal domain.
 
-> Daily update 2026-08-12 (cs.CL): scanned 95 papers (date=2026-08-12), 2 new papers met the strict "legal task + LLM semantics" inclusion rule.
+> Daily update 2026-08-14 (cs.CL): scanned 101 papers (date=2026-08-14), 4 new papers met the strict "legal task + LLM semantics" inclusion rule.
 >
-> Category increments today — Applications +2, Legal Reasoning Models +0, Legal Agent +1, Legal Problems +1, Data Resources +0, Law LLMs +0, Evaluation +1.
+> Category increments today — Applications +2, Legal Reasoning Models +0, Legal Agent +1, Legal Problems +3, Data Resources +0, Law LLMs +0, Evaluation +3.
 
 ## Contents
 - [Applications of Large Language Models in Legal Tasks](#applications-of-large-language-models-in-legal-tasks)
@@ -21,6 +21,8 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Applications of Large Language Models in Legal Tasks
 
+- On Measuring Semantic Preservation in Legal Ontology Learning [paper](https://papers.cool/arxiv/2608.12326)
+- Why Do AI Agents Break Rules? How Framing, Context, and Social Signals Shape Compliance [paper](https://papers.cool/arxiv/2608.12323)
 - Self-Knowledge Retrieval Augmented Generation Framework for Patent Matching [paper](https://papers.cool/arxiv/2608.11030)
 - Evaluating Rational Contracting in Natural Language [paper](https://papers.cool/arxiv/2608.10475)
 - Temporal Misgrounding in Legal RAG: A Versioned-Corpus Benchmark for French Tax Law [paper](https://papers.cool/arxiv/2608.09393)
@@ -161,6 +163,7 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Legal Agent
 
+- Why Do AI Agents Break Rules? How Framing, Context, and Social Signals Shape Compliance [paper](https://papers.cool/arxiv/2608.12323)
 - Evaluating Rational Contracting in Natural Language [paper](https://papers.cool/arxiv/2608.10475)
 - PolicyKG: An Agentic LLM Pipeline for Translating Institutional Policies into SHACL Knowledge Graphs [paper](https://papers.cool/arxiv/2608.09028)
 - From Naive RAG to Deep Agentic Retrieval: An Evolving Context Engineering Pipeline for Regulatory Compliance [paper](https://papers.cool/arxiv/2607.24791)
@@ -193,6 +196,9 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Legal Problems of Large Language Models
 
+- Why Do AI Agents Break Rules? How Framing, Context, and Social Signals Shape Compliance [paper](https://papers.cool/arxiv/2608.12323)
+- Is this Citation on Point? [paper](https://papers.cool/arxiv/2608.12571)
+- SoK: From Generation to Consumption of Privacy Documents in Software Systems [paper](https://papers.cool/arxiv/2608.12511)
 - Evaluating Rational Contracting in Natural Language [paper](https://papers.cool/arxiv/2608.10475)
 - Temporal Misgrounding in Legal RAG: A Versioned-Corpus Benchmark for French Tax Law [paper](https://papers.cool/arxiv/2608.09393)
 - LexKairos: Benchmarking Legal Temporal Capabilities in LLMs [paper](https://papers.cool/arxiv/2608.09106)
@@ -308,6 +314,9 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Evaluation
 
+- On Measuring Semantic Preservation in Legal Ontology Learning [paper](https://papers.cool/arxiv/2608.12326)
+- Why Do AI Agents Break Rules? How Framing, Context, and Social Signals Shape Compliance [paper](https://papers.cool/arxiv/2608.12323)
+- Is this Citation on Point? [paper](https://papers.cool/arxiv/2608.12571)
 - Evaluating Rational Contracting in Natural Language [paper](https://papers.cool/arxiv/2608.10475)
 - Temporal Misgrounding in Legal RAG: A Versioned-Corpus Benchmark for French Tax Law [paper](https://papers.cool/arxiv/2608.09393)
 - LexKairos: Benchmarking Legal Temporal Capabilities in LLMs [paper](https://papers.cool/arxiv/2608.09106)
