@@ -21,6 +21,7 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Applications of Large Language Models in Legal Tasks
 
+- How Much Do Legal RAG Systems Still Hallucinate? [paper](https://papers.cool/arxiv/2608.14210)
 - On Measuring Semantic Preservation in Legal Ontology Learning [paper](https://papers.cool/arxiv/2608.12326)
 - Why Do AI Agents Break Rules? How Framing, Context, and Social Signals Shape Compliance [paper](https://papers.cool/arxiv/2608.12323)
 - Self-Knowledge Retrieval Augmented Generation Framework for Patent Matching [paper](https://papers.cool/arxiv/2608.11030)
@@ -196,6 +197,7 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Legal Problems of Large Language Models
 
+- How Much Do Legal RAG Systems Still Hallucinate? [paper](https://papers.cool/arxiv/2608.14210)
 - Why Do AI Agents Break Rules? How Framing, Context, and Social Signals Shape Compliance [paper](https://papers.cool/arxiv/2608.12323)
 - Is this Citation on Point? [paper](https://papers.cool/arxiv/2608.12571)
 - SoK: From Generation to Consumption of Privacy Documents in Software Systems [paper](https://papers.cool/arxiv/2608.12511)
@@ -314,6 +316,7 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Evaluation
 
+- How Much Do Legal RAG Systems Still Hallucinate? [paper](https://papers.cool/arxiv/2608.14210)
 - On Measuring Semantic Preservation in Legal Ontology Learning [paper](https://papers.cool/arxiv/2608.12326)
 - Why Do AI Agents Break Rules? How Framing, Context, and Social Signals Shape Compliance [paper](https://papers.cool/arxiv/2608.12323)
 - Is this Citation on Point? [paper](https://papers.cool/arxiv/2608.12571)
