@@ -21,6 +21,8 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Applications of Large Language Models in Legal Tasks
 
+- Calibrated Trust, Not Sharper Prediction: An Empirical Test of Uncertainty Fusion [paper](https://papers.cool/arxiv/2608.14617)
+- Time as Structure: Temporal Dependency Graphs for Verifiable Deadline Computation over Legal Documents [paper](https://papers.cool/arxiv/2608.15270)
 - How Much Do Legal RAG Systems Still Hallucinate? [paper](https://papers.cool/arxiv/2608.14210)
 - On Measuring Semantic Preservation in Legal Ontology Learning [paper](https://papers.cool/arxiv/2608.12326)
 - Why Do AI Agents Break Rules? How Framing, Context, and Social Signals Shape Compliance [paper](https://papers.cool/arxiv/2608.12323)
@@ -144,6 +146,7 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Legal Reasoning Models
 
+- Time as Structure: Temporal Dependency Graphs for Verifiable Deadline Computation over Legal Documents [paper](https://papers.cool/arxiv/2608.15270)
 - LexPro-1.0 Technical Report [paper](https://arxiv.org/pdf/2503.06949)
 - LexPam: Legal Procedure Awareness-Guided Mathematical Reasoning [paper](https://arxiv.org/pdf/2504.02590)
 - Mining Hidden Thoughts from Texts: Evaluating Continual Pretraining with Synthetic Data for LLM Reasoning [paper](https://arxiv.org/abs/2505.10182)
@@ -197,6 +200,8 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Legal Problems of Large Language Models
 
+- Calibrated Trust, Not Sharper Prediction: An Empirical Test of Uncertainty Fusion [paper](https://papers.cool/arxiv/2608.14617)
+- Gated Against One Model, Open to the Next: Option-Only Solvability in Legal Multiple-Choice Benchmarks [paper](https://papers.cool/arxiv/2608.15428)
 - How Much Do Legal RAG Systems Still Hallucinate? [paper](https://papers.cool/arxiv/2608.14210)
 - Why Do AI Agents Break Rules? How Framing, Context, and Social Signals Shape Compliance [paper](https://papers.cool/arxiv/2608.12323)
 - Is this Citation on Point? [paper](https://papers.cool/arxiv/2608.12571)
@@ -241,6 +246,7 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Data Resources for Large Language Models in Law
 
+- Gated Against One Model, Open to the Next: Option-Only Solvability in Legal Multiple-Choice Benchmarks [paper](https://papers.cool/arxiv/2608.15428)
 - Temporal Misgrounding in Legal RAG: A Versioned-Corpus Benchmark for French Tax Law [paper](https://papers.cool/arxiv/2608.09393)
 - LexKairos: Benchmarking Legal Temporal Capabilities in LLMs [paper](https://papers.cool/arxiv/2608.09106)
 - ANNOTARES: A Dataset for Extracting Logical Structures from German Statutory Texts [paper](https://papers.cool/arxiv/2608.03898)
@@ -316,6 +322,9 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Evaluation
 
+- Calibrated Trust, Not Sharper Prediction: An Empirical Test of Uncertainty Fusion [paper](https://papers.cool/arxiv/2608.14617)
+- Gated Against One Model, Open to the Next: Option-Only Solvability in Legal Multiple-Choice Benchmarks [paper](https://papers.cool/arxiv/2608.15428)
+- Time as Structure: Temporal Dependency Graphs for Verifiable Deadline Computation over Legal Documents [paper](https://papers.cool/arxiv/2608.15270)
 - How Much Do Legal RAG Systems Still Hallucinate? [paper](https://papers.cool/arxiv/2608.14210)
 - On Measuring Semantic Preservation in Legal Ontology Learning [paper](https://papers.cool/arxiv/2608.12326)
 - Why Do AI Agents Break Rules? How Framing, Context, and Social Signals Shape Compliance [paper](https://papers.cool/arxiv/2608.12323)
