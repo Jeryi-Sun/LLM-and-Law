@@ -6,9 +6,9 @@
 
 This repository tracks papers and resources about large language models (LLMs) in the legal domain.
 
-> Daily update 2026-08-14 (cs.CL): scanned 101 papers (date=2026-08-14), 4 new papers met the strict "legal task + LLM semantics" inclusion rule.
+> Daily update 2026-08-19 (cs.CL): scanned 72 papers (date=2026-08-19), 2 new papers met the strict "legal task + LLM semantics" inclusion rule.
 >
-> Category increments today — Applications +2, Legal Reasoning Models +0, Legal Agent +1, Legal Problems +3, Data Resources +0, Law LLMs +0, Evaluation +3.
+> Category increments today — Applications +2, Legal Reasoning Models +2, Legal Agent +0, Legal Problems +1, Data Resources +0, Law LLMs +0, Evaluation +2.
 
 ## Contents
 - [Applications of Large Language Models in Legal Tasks](#applications-of-large-language-models-in-legal-tasks)
@@ -21,6 +21,8 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Applications of Large Language Models in Legal Tasks
 
+- CoAL-RAG: A Complexity-Aware Legal Retrieval-Augmented Generation Method [paper](https://papers.cool/arxiv/2608.17536)
+- Can LLMs Reason in a Legally Meaningful Manner? A Small-scale Study on European Court of Human Rights Cases [paper](https://papers.cool/arxiv/2608.17168)
 - Calibrated Trust, Not Sharper Prediction: An Empirical Test of Uncertainty Fusion [paper](https://papers.cool/arxiv/2608.14617)
 - Time as Structure: Temporal Dependency Graphs for Verifiable Deadline Computation over Legal Documents [paper](https://papers.cool/arxiv/2608.15270)
 - How Much Do Legal RAG Systems Still Hallucinate? [paper](https://papers.cool/arxiv/2608.14210)
@@ -146,6 +148,8 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Legal Reasoning Models
 
+- CoAL-RAG: A Complexity-Aware Legal Retrieval-Augmented Generation Method [paper](https://papers.cool/arxiv/2608.17536)
+- Can LLMs Reason in a Legally Meaningful Manner? A Small-scale Study on European Court of Human Rights Cases [paper](https://papers.cool/arxiv/2608.17168)
 - Time as Structure: Temporal Dependency Graphs for Verifiable Deadline Computation over Legal Documents [paper](https://papers.cool/arxiv/2608.15270)
 - LexPro-1.0 Technical Report [paper](https://arxiv.org/pdf/2503.06949)
 - LexPam: Legal Procedure Awareness-Guided Mathematical Reasoning [paper](https://arxiv.org/pdf/2504.02590)
@@ -200,6 +204,7 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Legal Problems of Large Language Models
 
+- Can LLMs Reason in a Legally Meaningful Manner? A Small-scale Study on European Court of Human Rights Cases [paper](https://papers.cool/arxiv/2608.17168)
 - Calibrated Trust, Not Sharper Prediction: An Empirical Test of Uncertainty Fusion [paper](https://papers.cool/arxiv/2608.14617)
 - Gated Against One Model, Open to the Next: Option-Only Solvability in Legal Multiple-Choice Benchmarks [paper](https://papers.cool/arxiv/2608.15428)
 - How Much Do Legal RAG Systems Still Hallucinate? [paper](https://papers.cool/arxiv/2608.14210)
@@ -322,6 +327,8 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Evaluation
 
+- CoAL-RAG: A Complexity-Aware Legal Retrieval-Augmented Generation Method [paper](https://papers.cool/arxiv/2608.17536)
+- Can LLMs Reason in a Legally Meaningful Manner? A Small-scale Study on European Court of Human Rights Cases [paper](https://papers.cool/arxiv/2608.17168)
 - Calibrated Trust, Not Sharper Prediction: An Empirical Test of Uncertainty Fusion [paper](https://papers.cool/arxiv/2608.14617)
 - Gated Against One Model, Open to the Next: Option-Only Solvability in Legal Multiple-Choice Benchmarks [paper](https://papers.cool/arxiv/2608.15428)
 - Time as Structure: Temporal Dependency Graphs for Verifiable Deadline Computation over Legal Documents [paper](https://papers.cool/arxiv/2608.15270)
