@@ -6,9 +6,9 @@
 
 This repository tracks papers and resources about large language models (LLMs) in the legal domain.
 
-> Daily update 2026-08-19 (cs.CL): scanned 72 papers (date=2026-08-19), 2 new papers met the strict "legal task + LLM semantics" inclusion rule.
+> Daily update 2026-08-20 (cs.CL): scanned 99 papers (date=2026-08-20), 3 new papers met the strict "legal task + LLM semantics" inclusion rule.
 >
-> Category increments today — Applications +2, Legal Reasoning Models +2, Legal Agent +0, Legal Problems +1, Data Resources +0, Law LLMs +0, Evaluation +2.
+> Category increments today — Applications +3, Legal Reasoning Models +0, Legal Agent +0, Legal Problems +1, Data Resources +2, Law LLMs +0, Evaluation +2.
 
 ## Contents
 - [Applications of Large Language Models in Legal Tasks](#applications-of-large-language-models-in-legal-tasks)
@@ -21,6 +21,9 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Applications of Large Language Models in Legal Tasks
 
+- ChildSafeAds Shared Task 2026: Commercial Content in Child-Facing YouTube Videos [paper](https://papers.cool/arxiv/2608.19165)
+- GreekBarRetrieval: A Benchmark for Greek Statutory Retrieval [paper](https://papers.cool/arxiv/2608.18752)
+- Redakto - The Incognito Tab for LLMs [paper](https://papers.cool/arxiv/2608.18260)
 - CoAL-RAG: A Complexity-Aware Legal Retrieval-Augmented Generation Method [paper](https://papers.cool/arxiv/2608.17536)
 - Can LLMs Reason in a Legally Meaningful Manner? A Small-scale Study on European Court of Human Rights Cases [paper](https://papers.cool/arxiv/2608.17168)
 - Calibrated Trust, Not Sharper Prediction: An Empirical Test of Uncertainty Fusion [paper](https://papers.cool/arxiv/2608.14617)
@@ -204,6 +207,7 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Legal Problems of Large Language Models
 
+- Redakto - The Incognito Tab for LLMs [paper](https://papers.cool/arxiv/2608.18260)
 - Can LLMs Reason in a Legally Meaningful Manner? A Small-scale Study on European Court of Human Rights Cases [paper](https://papers.cool/arxiv/2608.17168)
 - Calibrated Trust, Not Sharper Prediction: An Empirical Test of Uncertainty Fusion [paper](https://papers.cool/arxiv/2608.14617)
 - Gated Against One Model, Open to the Next: Option-Only Solvability in Legal Multiple-Choice Benchmarks [paper](https://papers.cool/arxiv/2608.15428)
@@ -251,6 +255,8 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Data Resources for Large Language Models in Law
 
+- ChildSafeAds Shared Task 2026: Commercial Content in Child-Facing YouTube Videos [paper](https://papers.cool/arxiv/2608.19165)
+- GreekBarRetrieval: A Benchmark for Greek Statutory Retrieval [paper](https://papers.cool/arxiv/2608.18752)
 - Gated Against One Model, Open to the Next: Option-Only Solvability in Legal Multiple-Choice Benchmarks [paper](https://papers.cool/arxiv/2608.15428)
 - Temporal Misgrounding in Legal RAG: A Versioned-Corpus Benchmark for French Tax Law [paper](https://papers.cool/arxiv/2608.09393)
 - LexKairos: Benchmarking Legal Temporal Capabilities in LLMs [paper](https://papers.cool/arxiv/2608.09106)
@@ -327,6 +333,8 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Evaluation
 
+- ChildSafeAds Shared Task 2026: Commercial Content in Child-Facing YouTube Videos [paper](https://papers.cool/arxiv/2608.19165)
+- GreekBarRetrieval: A Benchmark for Greek Statutory Retrieval [paper](https://papers.cool/arxiv/2608.18752)
 - CoAL-RAG: A Complexity-Aware Legal Retrieval-Augmented Generation Method [paper](https://papers.cool/arxiv/2608.17536)
 - Can LLMs Reason in a Legally Meaningful Manner? A Small-scale Study on European Court of Human Rights Cases [paper](https://papers.cool/arxiv/2608.17168)
 - Calibrated Trust, Not Sharper Prediction: An Empirical Test of Uncertainty Fusion [paper](https://papers.cool/arxiv/2608.14617)
