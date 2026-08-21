@@ -6,9 +6,9 @@
 
 This repository tracks papers and resources about large language models (LLMs) in the legal domain.
 
-> Daily update 2026-08-20 (cs.CL): scanned 99 papers (date=2026-08-20), 3 new papers met the strict "legal task + LLM semantics" inclusion rule.
+> Daily update 2026-08-21 (cs.CL): scanned 76 papers (date=2026-08-21), 2 new papers met the strict "legal task + LLM semantics" inclusion rule.
 >
-> Category increments today — Applications +3, Legal Reasoning Models +0, Legal Agent +0, Legal Problems +1, Data Resources +2, Law LLMs +0, Evaluation +2.
+> Category increments today — Applications +2, Legal Reasoning Models +0, Legal Agent +0, Legal Problems +1, Data Resources +1, Law LLMs +0, Evaluation +1.
 
 ## Contents
 - [Applications of Large Language Models in Legal Tasks](#applications-of-large-language-models-in-legal-tasks)
@@ -21,6 +21,8 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Applications of Large Language Models in Legal Tasks
 
+- ContractScrub: A benchmark for final review of legal contracts [paper](https://papers.cool/arxiv/2608.20204)
+- When Machines Speak: A Unified Generative Framework for Integrating Machine-Native Symbols into Pretrained Large Language Models [paper](https://papers.cool/arxiv/2608.19529)
 - ChildSafeAds Shared Task 2026: Commercial Content in Child-Facing YouTube Videos [paper](https://papers.cool/arxiv/2608.19165)
 - GreekBarRetrieval: A Benchmark for Greek Statutory Retrieval [paper](https://papers.cool/arxiv/2608.18752)
 - Redakto - The Incognito Tab for LLMs [paper](https://papers.cool/arxiv/2608.18260)
@@ -207,6 +209,7 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Legal Problems of Large Language Models
 
+- ContractScrub: A benchmark for final review of legal contracts [paper](https://papers.cool/arxiv/2608.20204)
 - Redakto - The Incognito Tab for LLMs [paper](https://papers.cool/arxiv/2608.18260)
 - Can LLMs Reason in a Legally Meaningful Manner? A Small-scale Study on European Court of Human Rights Cases [paper](https://papers.cool/arxiv/2608.17168)
 - Calibrated Trust, Not Sharper Prediction: An Empirical Test of Uncertainty Fusion [paper](https://papers.cool/arxiv/2608.14617)
@@ -255,6 +258,7 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Data Resources for Large Language Models in Law
 
+- ContractScrub: A benchmark for final review of legal contracts [paper](https://papers.cool/arxiv/2608.20204)
 - ChildSafeAds Shared Task 2026: Commercial Content in Child-Facing YouTube Videos [paper](https://papers.cool/arxiv/2608.19165)
 - GreekBarRetrieval: A Benchmark for Greek Statutory Retrieval [paper](https://papers.cool/arxiv/2608.18752)
 - Gated Against One Model, Open to the Next: Option-Only Solvability in Legal Multiple-Choice Benchmarks [paper](https://papers.cool/arxiv/2608.15428)
@@ -333,6 +337,7 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Evaluation
 
+- ContractScrub: A benchmark for final review of legal contracts [paper](https://papers.cool/arxiv/2608.20204)
 - ChildSafeAds Shared Task 2026: Commercial Content in Child-Facing YouTube Videos [paper](https://papers.cool/arxiv/2608.19165)
 - GreekBarRetrieval: A Benchmark for Greek Statutory Retrieval [paper](https://papers.cool/arxiv/2608.18752)
 - CoAL-RAG: A Complexity-Aware Legal Retrieval-Augmented Generation Method [paper](https://papers.cool/arxiv/2608.17536)
