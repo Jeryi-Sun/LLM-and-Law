@@ -6,9 +6,9 @@
 
 This repository tracks papers and resources about large language models (LLMs) in the legal domain.
 
-> Daily update 2026-08-21 (cs.CL): scanned 76 papers (date=2026-08-21), 2 new papers met the strict "legal task + LLM semantics" inclusion rule.
+> Daily update 2026-08-24 (cs.CL): scanned 87 papers (date=2026-08-24), 3 new papers met the strict "legal task + LLM semantics" inclusion rule.
 >
-> Category increments today — Applications +2, Legal Reasoning Models +0, Legal Agent +0, Legal Problems +1, Data Resources +1, Law LLMs +0, Evaluation +1.
+> Category increments today — Applications +2, Legal Reasoning Models +0, Legal Agent +2, Legal Problems +0, Data Resources +2, Law LLMs +0, Evaluation +2.
 
 ## Contents
 - [Applications of Large Language Models in Legal Tasks](#applications-of-large-language-models-in-legal-tasks)
@@ -21,6 +21,8 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Applications of Large Language Models in Legal Tasks
 
+- Benchmarking Patent Drafting from Inventor-Style Disclosures [paper](https://papers.cool/arxiv/2608.21249)
+- Ansari: A Retrieval-Grounded Islamic AI Assistant -- Architecture, Deployment, and Lessons from 140,000 Conversations [paper](https://papers.cool/arxiv/2608.20390)
 - ContractScrub: A benchmark for final review of legal contracts [paper](https://papers.cool/arxiv/2608.20204)
 - When Machines Speak: A Unified Generative Framework for Integrating Machine-Native Symbols into Pretrained Large Language Models [paper](https://papers.cool/arxiv/2608.19529)
 - ChildSafeAds Shared Task 2026: Commercial Content in Child-Facing YouTube Videos [paper](https://papers.cool/arxiv/2608.19165)
@@ -176,6 +178,8 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Legal Agent
 
+- Benchmarking Patent Drafting from Inventor-Style Disclosures [paper](https://papers.cool/arxiv/2608.21249)
+- Ansari: A Retrieval-Grounded Islamic AI Assistant -- Architecture, Deployment, and Lessons from 140,000 Conversations [paper](https://papers.cool/arxiv/2608.20390)
 - Why Do AI Agents Break Rules? How Framing, Context, and Social Signals Shape Compliance [paper](https://papers.cool/arxiv/2608.12323)
 - Evaluating Rational Contracting in Natural Language [paper](https://papers.cool/arxiv/2608.10475)
 - PolicyKG: An Agentic LLM Pipeline for Translating Institutional Policies into SHACL Knowledge Graphs [paper](https://papers.cool/arxiv/2608.09028)
@@ -258,6 +262,8 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Data Resources for Large Language Models in Law
 
+- Benchmarking Patent Drafting from Inventor-Style Disclosures [paper](https://papers.cool/arxiv/2608.21249)
+- ImmigrationReason: A Structured Dataset of U.S. Immigration Appeals for Legal Reasoning Research [paper](https://papers.cool/arxiv/2608.20391)
 - ContractScrub: A benchmark for final review of legal contracts [paper](https://papers.cool/arxiv/2608.20204)
 - ChildSafeAds Shared Task 2026: Commercial Content in Child-Facing YouTube Videos [paper](https://papers.cool/arxiv/2608.19165)
 - GreekBarRetrieval: A Benchmark for Greek Statutory Retrieval [paper](https://papers.cool/arxiv/2608.18752)
@@ -337,6 +343,8 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Evaluation
 
+- Benchmarking Patent Drafting from Inventor-Style Disclosures [paper](https://papers.cool/arxiv/2608.21249)
+- Ansari: A Retrieval-Grounded Islamic AI Assistant -- Architecture, Deployment, and Lessons from 140,000 Conversations [paper](https://papers.cool/arxiv/2608.20390)
 - ContractScrub: A benchmark for final review of legal contracts [paper](https://papers.cool/arxiv/2608.20204)
 - ChildSafeAds Shared Task 2026: Commercial Content in Child-Facing YouTube Videos [paper](https://papers.cool/arxiv/2608.19165)
 - GreekBarRetrieval: A Benchmark for Greek Statutory Retrieval [paper](https://papers.cool/arxiv/2608.18752)
