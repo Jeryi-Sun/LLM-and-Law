@@ -6,9 +6,9 @@
 
 This repository tracks papers and resources about large language models (LLMs) in the legal domain.
 
-> Daily update 2026-08-24 (cs.CL): scanned 87 papers (date=2026-08-24), 3 new papers met the strict "legal task + LLM semantics" inclusion rule.
+> Daily update 2026-08-25 (cs.CL): scanned 204 papers (date=2026-08-25), 4 new papers met the strict "legal task + LLM semantics" inclusion rule.
 >
-> Category increments today — Applications +2, Legal Reasoning Models +0, Legal Agent +2, Legal Problems +0, Data Resources +2, Law LLMs +0, Evaluation +2.
+> Category increments today — Applications +4, Legal Reasoning Models +1, Legal Agent +0, Legal Problems +1, Data Resources +2, Law LLMs +0, Evaluation +4.
 
 ## Contents
 - [Applications of Large Language Models in Legal Tasks](#applications-of-large-language-models-in-legal-tasks)
@@ -21,6 +21,10 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Applications of Large Language Models in Legal Tasks
 
+- Figurative Justice: Detecting metaphors in Hindi judgements with qualitative assessment and transformers [paper](https://papers.cool/arxiv/2608.22446)
+- Modeling Claim Dependency Structure for Patent Litigation Prediction with Graph Attention Networks [paper](https://papers.cool/arxiv/2608.21924)
+- Sycophants in the Courtroom: Are LLMs Fragile to Juridical Authority and Evolving Legal Standards? [paper](https://papers.cool/arxiv/2608.21409)
+- Generative Gap Filling [paper](https://papers.cool/arxiv/2608.21401)
 - Benchmarking Patent Drafting from Inventor-Style Disclosures [paper](https://papers.cool/arxiv/2608.21249)
 - Ansari: A Retrieval-Grounded Islamic AI Assistant -- Architecture, Deployment, and Lessons from 140,000 Conversations [paper](https://papers.cool/arxiv/2608.20390)
 - ContractScrub: A benchmark for final review of legal contracts [paper](https://papers.cool/arxiv/2608.20204)
@@ -155,6 +159,7 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Legal Reasoning Models
 
+- Modeling Claim Dependency Structure for Patent Litigation Prediction with Graph Attention Networks [paper](https://papers.cool/arxiv/2608.21924)
 - CoAL-RAG: A Complexity-Aware Legal Retrieval-Augmented Generation Method [paper](https://papers.cool/arxiv/2608.17536)
 - Can LLMs Reason in a Legally Meaningful Manner? A Small-scale Study on European Court of Human Rights Cases [paper](https://papers.cool/arxiv/2608.17168)
 - Time as Structure: Temporal Dependency Graphs for Verifiable Deadline Computation over Legal Documents [paper](https://papers.cool/arxiv/2608.15270)
@@ -213,6 +218,7 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Legal Problems of Large Language Models
 
+- Sycophants in the Courtroom: Are LLMs Fragile to Juridical Authority and Evolving Legal Standards? [paper](https://papers.cool/arxiv/2608.21409)
 - ContractScrub: A benchmark for final review of legal contracts [paper](https://papers.cool/arxiv/2608.20204)
 - Redakto - The Incognito Tab for LLMs [paper](https://papers.cool/arxiv/2608.18260)
 - Can LLMs Reason in a Legally Meaningful Manner? A Small-scale Study on European Court of Human Rights Cases [paper](https://papers.cool/arxiv/2608.17168)
@@ -262,6 +268,8 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Data Resources for Large Language Models in Law
 
+- Figurative Justice: Detecting metaphors in Hindi judgements with qualitative assessment and transformers [paper](https://papers.cool/arxiv/2608.22446)
+- Sycophants in the Courtroom: Are LLMs Fragile to Juridical Authority and Evolving Legal Standards? [paper](https://papers.cool/arxiv/2608.21409)
 - Benchmarking Patent Drafting from Inventor-Style Disclosures [paper](https://papers.cool/arxiv/2608.21249)
 - ImmigrationReason: A Structured Dataset of U.S. Immigration Appeals for Legal Reasoning Research [paper](https://papers.cool/arxiv/2608.20391)
 - ContractScrub: A benchmark for final review of legal contracts [paper](https://papers.cool/arxiv/2608.20204)
@@ -343,6 +351,10 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Evaluation
 
+- Figurative Justice: Detecting metaphors in Hindi judgements with qualitative assessment and transformers [paper](https://papers.cool/arxiv/2608.22446)
+- Modeling Claim Dependency Structure for Patent Litigation Prediction with Graph Attention Networks [paper](https://papers.cool/arxiv/2608.21924)
+- Sycophants in the Courtroom: Are LLMs Fragile to Juridical Authority and Evolving Legal Standards? [paper](https://papers.cool/arxiv/2608.21409)
+- Generative Gap Filling [paper](https://papers.cool/arxiv/2608.21401)
 - Benchmarking Patent Drafting from Inventor-Style Disclosures [paper](https://papers.cool/arxiv/2608.21249)
 - Ansari: A Retrieval-Grounded Islamic AI Assistant -- Architecture, Deployment, and Lessons from 140,000 Conversations [paper](https://papers.cool/arxiv/2608.20390)
 - ContractScrub: A benchmark for final review of legal contracts [paper](https://papers.cool/arxiv/2608.20204)
