@@ -6,9 +6,9 @@
 
 This repository tracks papers and resources about large language models (LLMs) in the legal domain.
 
-> Daily update 2026-08-25 (cs.CL): scanned 204 papers (date=2026-08-25), 4 new papers met the strict "legal task + LLM semantics" inclusion rule.
+> Daily update 2026-08-27 (cs.CL): scanned 108 papers (date=2026-08-27), 1 new paper met the strict "legal task + LLM semantics" inclusion rule.
 >
-> Category increments today — Applications +4, Legal Reasoning Models +1, Legal Agent +0, Legal Problems +1, Data Resources +2, Law LLMs +0, Evaluation +4.
+> Category increments today — Applications +1, Legal Reasoning Models +0, Legal Agent +0, Legal Problems +0, Data Resources +1, Law LLMs +1, Evaluation +1.
 
 ## Contents
 - [Applications of Large Language Models in Legal Tasks](#applications-of-large-language-models-in-legal-tasks)
@@ -21,6 +21,7 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Applications of Large Language Models in Legal Tasks
 
+- GreenLeaf Law Embed Tiny: A Compact Embedding Model for Legal Domain Retrieval [paper](https://papers.cool/arxiv/2608.24936)
 - Figurative Justice: Detecting metaphors in Hindi judgements with qualitative assessment and transformers [paper](https://papers.cool/arxiv/2608.22446)
 - Modeling Claim Dependency Structure for Patent Litigation Prediction with Graph Attention Networks [paper](https://papers.cool/arxiv/2608.21924)
 - Sycophants in the Courtroom: Are LLMs Fragile to Juridical Authority and Evolving Legal Standards? [paper](https://papers.cool/arxiv/2608.21409)
@@ -268,6 +269,7 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Data Resources for Large Language Models in Law
 
+- GreenLeaf Law Embed Tiny: A Compact Embedding Model for Legal Domain Retrieval [paper](https://papers.cool/arxiv/2608.24936)
 - Figurative Justice: Detecting metaphors in Hindi judgements with qualitative assessment and transformers [paper](https://papers.cool/arxiv/2608.22446)
 - Sycophants in the Courtroom: Are LLMs Fragile to Juridical Authority and Evolving Legal Standards? [paper](https://papers.cool/arxiv/2608.21409)
 - Benchmarking Patent Drafting from Inventor-Style Disclosures [paper](https://papers.cool/arxiv/2608.21249)
@@ -331,6 +333,7 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Law LLMs
 
+- GreenLeaf Law Embed Tiny: A Compact Embedding Model for Legal Domain Retrieval [paper](https://papers.cool/arxiv/2608.24936)
 - LawGPT_zh [github](https://github.com/LiuHC0428/LAW-GPT)
 - LaWGPT [github](https://github.com/pengxiao-song/LaWGPT)
 - Lawyer LLaMA [github](https://github.com/AndrewZhe/lawyer-llama)
@@ -351,6 +354,7 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Evaluation
 
+- GreenLeaf Law Embed Tiny: A Compact Embedding Model for Legal Domain Retrieval [paper](https://papers.cool/arxiv/2608.24936)
 - Figurative Justice: Detecting metaphors in Hindi judgements with qualitative assessment and transformers [paper](https://papers.cool/arxiv/2608.22446)
 - Modeling Claim Dependency Structure for Patent Litigation Prediction with Graph Attention Networks [paper](https://papers.cool/arxiv/2608.21924)
 - Sycophants in the Courtroom: Are LLMs Fragile to Juridical Authority and Evolving Legal Standards? [paper](https://papers.cool/arxiv/2608.21409)
