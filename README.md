@@ -6,9 +6,9 @@
 
 This repository tracks papers and resources about large language models (LLMs) in the legal domain.
 
-> Daily update 2026-08-27 (cs.CL): scanned 108 papers (date=2026-08-27), 1 new paper met the strict "legal task + LLM semantics" inclusion rule.
+> Daily update 2026-09-01 (cs.CL): scanned 298 papers (date=2026-09-01), 7 new papers met the strict "legal task + LLM semantics" inclusion rule.
 >
-> Category increments today — Applications +1, Legal Reasoning Models +0, Legal Agent +0, Legal Problems +0, Data Resources +1, Law LLMs +1, Evaluation +1.
+> Category increments today — Applications +7, Legal Reasoning Models +2, Legal Agent +1, Legal Problems +1, Data Resources +4, Law LLMs +1, Evaluation +5.
 
 ## Contents
 - [Applications of Large Language Models in Legal Tasks](#applications-of-large-language-models-in-legal-tasks)
@@ -21,6 +21,13 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Applications of Large Language Models in Legal Tasks
 
+- Annotated Surrogate Retrieval for Polish Statutory Law [paper](https://papers.cool/arxiv/2608.30929)
+- Do Small Models Use the Law You Give Them? Measuring Context Use on a Bilingual Bangladesh Legal Benchmark [paper](https://papers.cool/arxiv/2608.30327)
+- Improving Argument Saliency Coverage in Small LLMs for Long Legal Opinion Summarization via Sequence-Level Distillation [paper](https://papers.cool/arxiv/2608.29884)
+- JPO: Juris Policy Optimization for Structured Legal Reasoning in Criminal Judgment Prediction [paper](https://papers.cool/arxiv/2608.29616)
+- Cloud and On-Premises Deployment of Uzbek Legal RAG via Targeted Retriever Fine-Tuning [paper](https://papers.cool/arxiv/2608.29284)
+- Cross Lingual Transfer in Tulu Legal Comprehension: Script-Dependent Improvement and RAG-Induced Knowledge Conflict [paper](https://papers.cool/arxiv/2608.28645)
+- RegDivergence-101: An LLM Benchmark for Cross-Jurisdiction Regulatory Contradiction Detection in Life Sciences [paper](https://papers.cool/arxiv/2608.28607)
 - GreenLeaf Law Embed Tiny: A Compact Embedding Model for Legal Domain Retrieval [paper](https://papers.cool/arxiv/2608.24936)
 - Figurative Justice: Detecting metaphors in Hindi judgements with qualitative assessment and transformers [paper](https://papers.cool/arxiv/2608.22446)
 - Modeling Claim Dependency Structure for Patent Litigation Prediction with Graph Attention Networks [paper](https://papers.cool/arxiv/2608.21924)
@@ -160,6 +167,8 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Legal Reasoning Models
 
+- Do Small Models Use the Law You Give Them? Measuring Context Use on a Bilingual Bangladesh Legal Benchmark [paper](https://papers.cool/arxiv/2608.30327)
+- JPO: Juris Policy Optimization for Structured Legal Reasoning in Criminal Judgment Prediction [paper](https://papers.cool/arxiv/2608.29616)
 - Modeling Claim Dependency Structure for Patent Litigation Prediction with Graph Attention Networks [paper](https://papers.cool/arxiv/2608.21924)
 - CoAL-RAG: A Complexity-Aware Legal Retrieval-Augmented Generation Method [paper](https://papers.cool/arxiv/2608.17536)
 - Can LLMs Reason in a Legally Meaningful Manner? A Small-scale Study on European Court of Human Rights Cases [paper](https://papers.cool/arxiv/2608.17168)
@@ -184,6 +193,7 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Legal Agent
 
+- Cloud and On-Premises Deployment of Uzbek Legal RAG via Targeted Retriever Fine-Tuning [paper](https://papers.cool/arxiv/2608.29284)
 - Benchmarking Patent Drafting from Inventor-Style Disclosures [paper](https://papers.cool/arxiv/2608.21249)
 - Ansari: A Retrieval-Grounded Islamic AI Assistant -- Architecture, Deployment, and Lessons from 140,000 Conversations [paper](https://papers.cool/arxiv/2608.20390)
 - Why Do AI Agents Break Rules? How Framing, Context, and Social Signals Shape Compliance [paper](https://papers.cool/arxiv/2608.12323)
@@ -219,6 +229,7 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Legal Problems of Large Language Models
 
+- Cross Lingual Transfer in Tulu Legal Comprehension: Script-Dependent Improvement and RAG-Induced Knowledge Conflict [paper](https://papers.cool/arxiv/2608.28645)
 - Sycophants in the Courtroom: Are LLMs Fragile to Juridical Authority and Evolving Legal Standards? [paper](https://papers.cool/arxiv/2608.21409)
 - ContractScrub: A benchmark for final review of legal contracts [paper](https://papers.cool/arxiv/2608.20204)
 - Redakto - The Incognito Tab for LLMs [paper](https://papers.cool/arxiv/2608.18260)
@@ -269,6 +280,10 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Data Resources for Large Language Models in Law
 
+- Annotated Surrogate Retrieval for Polish Statutory Law [paper](https://papers.cool/arxiv/2608.30929)
+- Do Small Models Use the Law You Give Them? Measuring Context Use on a Bilingual Bangladesh Legal Benchmark [paper](https://papers.cool/arxiv/2608.30327)
+- Cloud and On-Premises Deployment of Uzbek Legal RAG via Targeted Retriever Fine-Tuning [paper](https://papers.cool/arxiv/2608.29284)
+- RegDivergence-101: An LLM Benchmark for Cross-Jurisdiction Regulatory Contradiction Detection in Life Sciences [paper](https://papers.cool/arxiv/2608.28607)
 - GreenLeaf Law Embed Tiny: A Compact Embedding Model for Legal Domain Retrieval [paper](https://papers.cool/arxiv/2608.24936)
 - Figurative Justice: Detecting metaphors in Hindi judgements with qualitative assessment and transformers [paper](https://papers.cool/arxiv/2608.22446)
 - Sycophants in the Courtroom: Are LLMs Fragile to Juridical Authority and Evolving Legal Standards? [paper](https://papers.cool/arxiv/2608.21409)
@@ -333,6 +348,7 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Law LLMs
 
+- Do Small Models Use the Law You Give Them? Measuring Context Use on a Bilingual Bangladesh Legal Benchmark [paper](https://papers.cool/arxiv/2608.30327)
 - GreenLeaf Law Embed Tiny: A Compact Embedding Model for Legal Domain Retrieval [paper](https://papers.cool/arxiv/2608.24936)
 - LawGPT_zh [github](https://github.com/LiuHC0428/LAW-GPT)
 - LaWGPT [github](https://github.com/pengxiao-song/LaWGPT)
@@ -354,6 +370,11 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Evaluation
 
+- Annotated Surrogate Retrieval for Polish Statutory Law [paper](https://papers.cool/arxiv/2608.30929)
+- Do Small Models Use the Law You Give Them? Measuring Context Use on a Bilingual Bangladesh Legal Benchmark [paper](https://papers.cool/arxiv/2608.30327)
+- Cloud and On-Premises Deployment of Uzbek Legal RAG via Targeted Retriever Fine-Tuning [paper](https://papers.cool/arxiv/2608.29284)
+- Cross Lingual Transfer in Tulu Legal Comprehension: Script-Dependent Improvement and RAG-Induced Knowledge Conflict [paper](https://papers.cool/arxiv/2608.28645)
+- RegDivergence-101: An LLM Benchmark for Cross-Jurisdiction Regulatory Contradiction Detection in Life Sciences [paper](https://papers.cool/arxiv/2608.28607)
 - GreenLeaf Law Embed Tiny: A Compact Embedding Model for Legal Domain Retrieval [paper](https://papers.cool/arxiv/2608.24936)
 - Figurative Justice: Detecting metaphors in Hindi judgements with qualitative assessment and transformers [paper](https://papers.cool/arxiv/2608.22446)
 - Modeling Claim Dependency Structure for Patent Litigation Prediction with Graph Attention Networks [paper](https://papers.cool/arxiv/2608.21924)
