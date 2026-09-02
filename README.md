@@ -6,9 +6,9 @@
 
 This repository tracks papers and resources about large language models (LLMs) in the legal domain.
 
-> Daily update 2026-09-01 (cs.CL): scanned 298 papers (date=2026-09-01), 7 new papers met the strict "legal task + LLM semantics" inclusion rule.
+> Daily update 2026-09-02 (cs.CL): scanned 185 papers (date=2026-09-02), 1 new paper met the strict "legal task + LLM semantics" inclusion rule.
 >
-> Category increments today — Applications +7, Legal Reasoning Models +2, Legal Agent +1, Legal Problems +1, Data Resources +4, Law LLMs +1, Evaluation +5.
+> Category increments today — Applications +1, Legal Reasoning Models +0, Legal Agent +0, Legal Problems +0, Data Resources +1, Law LLMs +0, Evaluation +1.
 
 ## Contents
 - [Applications of Large Language Models in Legal Tasks](#applications-of-large-language-models-in-legal-tasks)
@@ -21,6 +21,7 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Applications of Large Language Models in Legal Tasks
 
+- Polish ModernBERT: The Long and Short of Polish Language Understanding [paper](https://papers.cool/arxiv/2609.01379)
 - Annotated Surrogate Retrieval for Polish Statutory Law [paper](https://papers.cool/arxiv/2608.30929)
 - Do Small Models Use the Law You Give Them? Measuring Context Use on a Bilingual Bangladesh Legal Benchmark [paper](https://papers.cool/arxiv/2608.30327)
 - Improving Argument Saliency Coverage in Small LLMs for Long Legal Opinion Summarization via Sequence-Level Distillation [paper](https://papers.cool/arxiv/2608.29884)
@@ -280,6 +281,7 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Data Resources for Large Language Models in Law
 
+- Polish ModernBERT: The Long and Short of Polish Language Understanding [paper](https://papers.cool/arxiv/2609.01379)
 - Annotated Surrogate Retrieval for Polish Statutory Law [paper](https://papers.cool/arxiv/2608.30929)
 - Do Small Models Use the Law You Give Them? Measuring Context Use on a Bilingual Bangladesh Legal Benchmark [paper](https://papers.cool/arxiv/2608.30327)
 - Cloud and On-Premises Deployment of Uzbek Legal RAG via Targeted Retriever Fine-Tuning [paper](https://papers.cool/arxiv/2608.29284)
@@ -370,6 +372,7 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Evaluation
 
+- Polish ModernBERT: The Long and Short of Polish Language Understanding [paper](https://papers.cool/arxiv/2609.01379)
 - Annotated Surrogate Retrieval for Polish Statutory Law [paper](https://papers.cool/arxiv/2608.30929)
 - Do Small Models Use the Law You Give Them? Measuring Context Use on a Bilingual Bangladesh Legal Benchmark [paper](https://papers.cool/arxiv/2608.30327)
 - Cloud and On-Premises Deployment of Uzbek Legal RAG via Targeted Retriever Fine-Tuning [paper](https://papers.cool/arxiv/2608.29284)
