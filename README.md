@@ -6,9 +6,9 @@
 
 This repository tracks papers and resources about large language models (LLMs) in the legal domain.
 
-> Daily update 2026-09-02 (cs.CL): scanned 185 papers (date=2026-09-02), 1 new paper met the strict "legal task + LLM semantics" inclusion rule.
+> Daily update 2026-09-03 (cs.CL): scanned 101 papers (date=2026-09-03), 2 new papers met the strict "legal task + LLM semantics" inclusion rule.
 >
-> Category increments today — Applications +1, Legal Reasoning Models +0, Legal Agent +0, Legal Problems +0, Data Resources +1, Law LLMs +0, Evaluation +1.
+> Category increments today — Applications +2, Legal Reasoning Models +1, Legal Agent +1, Legal Problems +1, Data Resources +1, Law LLMs +0, Evaluation +1.
 
 ## Contents
 - [Applications of Large Language Models in Legal Tasks](#applications-of-large-language-models-in-legal-tasks)
@@ -21,6 +21,8 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Applications of Large Language Models in Legal Tasks
 
+- OBJECTION! Lawyer Agents Mitigate Guilty Bias in Legal Judgment Prediction [paper](https://papers.cool/arxiv/2609.02158)
+- Privacy Washing: Detecting Internal Contradictions in Privacy Policies [paper](https://papers.cool/arxiv/2609.02055)
 - Polish ModernBERT: The Long and Short of Polish Language Understanding [paper](https://papers.cool/arxiv/2609.01379)
 - Annotated Surrogate Retrieval for Polish Statutory Law [paper](https://papers.cool/arxiv/2608.30929)
 - Do Small Models Use the Law You Give Them? Measuring Context Use on a Bilingual Bangladesh Legal Benchmark [paper](https://papers.cool/arxiv/2608.30327)
@@ -168,6 +170,7 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Legal Reasoning Models
 
+- OBJECTION! Lawyer Agents Mitigate Guilty Bias in Legal Judgment Prediction [paper](https://papers.cool/arxiv/2609.02158)
 - Do Small Models Use the Law You Give Them? Measuring Context Use on a Bilingual Bangladesh Legal Benchmark [paper](https://papers.cool/arxiv/2608.30327)
 - JPO: Juris Policy Optimization for Structured Legal Reasoning in Criminal Judgment Prediction [paper](https://papers.cool/arxiv/2608.29616)
 - Modeling Claim Dependency Structure for Patent Litigation Prediction with Graph Attention Networks [paper](https://papers.cool/arxiv/2608.21924)
@@ -194,6 +197,7 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Legal Agent
 
+- OBJECTION! Lawyer Agents Mitigate Guilty Bias in Legal Judgment Prediction [paper](https://papers.cool/arxiv/2609.02158)
 - Cloud and On-Premises Deployment of Uzbek Legal RAG via Targeted Retriever Fine-Tuning [paper](https://papers.cool/arxiv/2608.29284)
 - Benchmarking Patent Drafting from Inventor-Style Disclosures [paper](https://papers.cool/arxiv/2608.21249)
 - Ansari: A Retrieval-Grounded Islamic AI Assistant -- Architecture, Deployment, and Lessons from 140,000 Conversations [paper](https://papers.cool/arxiv/2608.20390)
@@ -230,6 +234,7 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Legal Problems of Large Language Models
 
+- OBJECTION! Lawyer Agents Mitigate Guilty Bias in Legal Judgment Prediction [paper](https://papers.cool/arxiv/2609.02158)
 - Cross Lingual Transfer in Tulu Legal Comprehension: Script-Dependent Improvement and RAG-Induced Knowledge Conflict [paper](https://papers.cool/arxiv/2608.28645)
 - Sycophants in the Courtroom: Are LLMs Fragile to Juridical Authority and Evolving Legal Standards? [paper](https://papers.cool/arxiv/2608.21409)
 - ContractScrub: A benchmark for final review of legal contracts [paper](https://papers.cool/arxiv/2608.20204)
@@ -281,6 +286,7 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Data Resources for Large Language Models in Law
 
+- OBJECTION! Lawyer Agents Mitigate Guilty Bias in Legal Judgment Prediction [paper](https://papers.cool/arxiv/2609.02158)
 - Polish ModernBERT: The Long and Short of Polish Language Understanding [paper](https://papers.cool/arxiv/2609.01379)
 - Annotated Surrogate Retrieval for Polish Statutory Law [paper](https://papers.cool/arxiv/2608.30929)
 - Do Small Models Use the Law You Give Them? Measuring Context Use on a Bilingual Bangladesh Legal Benchmark [paper](https://papers.cool/arxiv/2608.30327)
@@ -372,6 +378,7 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Evaluation
 
+- OBJECTION! Lawyer Agents Mitigate Guilty Bias in Legal Judgment Prediction [paper](https://papers.cool/arxiv/2609.02158)
 - Polish ModernBERT: The Long and Short of Polish Language Understanding [paper](https://papers.cool/arxiv/2609.01379)
 - Annotated Surrogate Retrieval for Polish Statutory Law [paper](https://papers.cool/arxiv/2608.30929)
 - Do Small Models Use the Law You Give Them? Measuring Context Use on a Bilingual Bangladesh Legal Benchmark [paper](https://papers.cool/arxiv/2608.30327)
