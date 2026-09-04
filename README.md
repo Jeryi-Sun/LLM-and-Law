@@ -6,9 +6,9 @@
 
 This repository tracks papers and resources about large language models (LLMs) in the legal domain.
 
-> Daily update 2026-09-03 (cs.CL): scanned 101 papers (date=2026-09-03), 2 new papers met the strict "legal task + LLM semantics" inclusion rule.
+> Daily update 2026-09-04 (cs.CL): scanned 115 papers (date=2026-09-04), 3 new papers met the strict "legal task + LLM semantics" inclusion rule.
 >
-> Category increments today — Applications +2, Legal Reasoning Models +1, Legal Agent +1, Legal Problems +1, Data Resources +1, Law LLMs +0, Evaluation +1.
+> Category increments today — Applications +2, Legal Reasoning Models +1, Legal Agent +0, Legal Problems +1, Data Resources +2, Law LLMs +0, Evaluation +3.
 
 ## Contents
 - [Applications of Large Language Models in Legal Tasks](#applications-of-large-language-models-in-legal-tasks)
@@ -21,6 +21,8 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Applications of Large Language Models in Legal Tasks
 
+- KhatianDoc: A Human-Verified Benchmark Diagnosing Multimodal LLM Failure on Bengali Legal Land Records [paper](https://papers.cool/arxiv/2609.03597)
+- LexIssue: Benchmarking Legal Issue Identification in Chinese Civil Litigation [paper](https://papers.cool/arxiv/2609.02954)
 - OBJECTION! Lawyer Agents Mitigate Guilty Bias in Legal Judgment Prediction [paper](https://papers.cool/arxiv/2609.02158)
 - Privacy Washing: Detecting Internal Contradictions in Privacy Policies [paper](https://papers.cool/arxiv/2609.02055)
 - Polish ModernBERT: The Long and Short of Polish Language Understanding [paper](https://papers.cool/arxiv/2609.01379)
@@ -170,6 +172,7 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Legal Reasoning Models
 
+- LexIssue: Benchmarking Legal Issue Identification in Chinese Civil Litigation [paper](https://papers.cool/arxiv/2609.02954)
 - OBJECTION! Lawyer Agents Mitigate Guilty Bias in Legal Judgment Prediction [paper](https://papers.cool/arxiv/2609.02158)
 - Do Small Models Use the Law You Give Them? Measuring Context Use on a Bilingual Bangladesh Legal Benchmark [paper](https://papers.cool/arxiv/2608.30327)
 - JPO: Juris Policy Optimization for Structured Legal Reasoning in Criminal Judgment Prediction [paper](https://papers.cool/arxiv/2608.29616)
@@ -234,6 +237,7 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Legal Problems of Large Language Models
 
+- Rent-a-RAG: Embedding-Space Watermarks for Auditing Third-Party RAG [paper](https://papers.cool/arxiv/2609.03749)
 - OBJECTION! Lawyer Agents Mitigate Guilty Bias in Legal Judgment Prediction [paper](https://papers.cool/arxiv/2609.02158)
 - Cross Lingual Transfer in Tulu Legal Comprehension: Script-Dependent Improvement and RAG-Induced Knowledge Conflict [paper](https://papers.cool/arxiv/2608.28645)
 - Sycophants in the Courtroom: Are LLMs Fragile to Juridical Authority and Evolving Legal Standards? [paper](https://papers.cool/arxiv/2608.21409)
@@ -286,6 +290,8 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Data Resources for Large Language Models in Law
 
+- KhatianDoc: A Human-Verified Benchmark Diagnosing Multimodal LLM Failure on Bengali Legal Land Records [paper](https://papers.cool/arxiv/2609.03597)
+- LexIssue: Benchmarking Legal Issue Identification in Chinese Civil Litigation [paper](https://papers.cool/arxiv/2609.02954)
 - OBJECTION! Lawyer Agents Mitigate Guilty Bias in Legal Judgment Prediction [paper](https://papers.cool/arxiv/2609.02158)
 - Polish ModernBERT: The Long and Short of Polish Language Understanding [paper](https://papers.cool/arxiv/2609.01379)
 - Annotated Surrogate Retrieval for Polish Statutory Law [paper](https://papers.cool/arxiv/2608.30929)
@@ -378,6 +384,9 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Evaluation
 
+- KhatianDoc: A Human-Verified Benchmark Diagnosing Multimodal LLM Failure on Bengali Legal Land Records [paper](https://papers.cool/arxiv/2609.03597)
+- LexIssue: Benchmarking Legal Issue Identification in Chinese Civil Litigation [paper](https://papers.cool/arxiv/2609.02954)
+- Rent-a-RAG: Embedding-Space Watermarks for Auditing Third-Party RAG [paper](https://papers.cool/arxiv/2609.03749)
 - OBJECTION! Lawyer Agents Mitigate Guilty Bias in Legal Judgment Prediction [paper](https://papers.cool/arxiv/2609.02158)
 - Polish ModernBERT: The Long and Short of Polish Language Understanding [paper](https://papers.cool/arxiv/2609.01379)
 - Annotated Surrogate Retrieval for Polish Statutory Law [paper](https://papers.cool/arxiv/2608.30929)
