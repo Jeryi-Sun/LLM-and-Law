@@ -6,9 +6,9 @@
 
 This repository tracks papers and resources about large language models (LLMs) in the legal domain.
 
-> Daily update 2026-09-04 (cs.CL): scanned 115 papers (date=2026-09-04), 3 new papers met the strict "legal task + LLM semantics" inclusion rule.
+> Daily update 2026-09-07 (cs.CL): scanned 98 papers (date=2026-09-07), 1 new paper met the strict "legal task + LLM semantics" inclusion rule.
 >
-> Category increments today — Applications +2, Legal Reasoning Models +1, Legal Agent +0, Legal Problems +1, Data Resources +2, Law LLMs +0, Evaluation +3.
+> Category increments today — Applications +1, Legal Reasoning Models +0, Legal Agent +0, Legal Problems +1, Data Resources +1, Law LLMs +0, Evaluation +1.
 
 ## Contents
 - [Applications of Large Language Models in Legal Tasks](#applications-of-large-language-models-in-legal-tasks)
@@ -21,6 +21,7 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Applications of Large Language Models in Legal Tasks
 
+- LexFlip: A Dissociation Diagnostic for Legal Meaning Preservation Metrics [paper](https://papers.cool/arxiv/2609.05296)
 - KhatianDoc: A Human-Verified Benchmark Diagnosing Multimodal LLM Failure on Bengali Legal Land Records [paper](https://papers.cool/arxiv/2609.03597)
 - LexIssue: Benchmarking Legal Issue Identification in Chinese Civil Litigation [paper](https://papers.cool/arxiv/2609.02954)
 - OBJECTION! Lawyer Agents Mitigate Guilty Bias in Legal Judgment Prediction [paper](https://papers.cool/arxiv/2609.02158)
@@ -237,6 +238,7 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Legal Problems of Large Language Models
 
+- LexFlip: A Dissociation Diagnostic for Legal Meaning Preservation Metrics [paper](https://papers.cool/arxiv/2609.05296)
 - Rent-a-RAG: Embedding-Space Watermarks for Auditing Third-Party RAG [paper](https://papers.cool/arxiv/2609.03749)
 - OBJECTION! Lawyer Agents Mitigate Guilty Bias in Legal Judgment Prediction [paper](https://papers.cool/arxiv/2609.02158)
 - Cross Lingual Transfer in Tulu Legal Comprehension: Script-Dependent Improvement and RAG-Induced Knowledge Conflict [paper](https://papers.cool/arxiv/2608.28645)
@@ -290,6 +292,7 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Data Resources for Large Language Models in Law
 
+- LexFlip: A Dissociation Diagnostic for Legal Meaning Preservation Metrics [paper](https://papers.cool/arxiv/2609.05296)
 - KhatianDoc: A Human-Verified Benchmark Diagnosing Multimodal LLM Failure on Bengali Legal Land Records [paper](https://papers.cool/arxiv/2609.03597)
 - LexIssue: Benchmarking Legal Issue Identification in Chinese Civil Litigation [paper](https://papers.cool/arxiv/2609.02954)
 - OBJECTION! Lawyer Agents Mitigate Guilty Bias in Legal Judgment Prediction [paper](https://papers.cool/arxiv/2609.02158)
@@ -384,6 +387,7 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Evaluation
 
+- LexFlip: A Dissociation Diagnostic for Legal Meaning Preservation Metrics [paper](https://papers.cool/arxiv/2609.05296)
 - KhatianDoc: A Human-Verified Benchmark Diagnosing Multimodal LLM Failure on Bengali Legal Land Records [paper](https://papers.cool/arxiv/2609.03597)
 - LexIssue: Benchmarking Legal Issue Identification in Chinese Civil Litigation [paper](https://papers.cool/arxiv/2609.02954)
 - Rent-a-RAG: Embedding-Space Watermarks for Auditing Third-Party RAG [paper](https://papers.cool/arxiv/2609.03749)
