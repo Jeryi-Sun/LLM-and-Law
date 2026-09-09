@@ -6,9 +6,9 @@
 
 This repository tracks papers and resources about large language models (LLMs) in the legal domain.
 
-> Daily update 2026-09-07 (cs.CL): scanned 98 papers (date=2026-09-07), 1 new paper met the strict "legal task + LLM semantics" inclusion rule.
+> Daily update 2026-09-09 (cs.CL): scanned 257 papers (date=2026-09-09), 3 new papers met the strict "legal task + LLM semantics" inclusion rule.
 >
-> Category increments today — Applications +1, Legal Reasoning Models +0, Legal Agent +0, Legal Problems +1, Data Resources +1, Law LLMs +0, Evaluation +1.
+> Category increments today — Applications +2, Legal Reasoning Models +1, Legal Agent +0, Legal Problems +3, Data Resources +1, Law LLMs +0, Evaluation +3.
 
 ## Contents
 - [Applications of Large Language Models in Legal Tasks](#applications-of-large-language-models-in-legal-tasks)
@@ -21,6 +21,8 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Applications of Large Language Models in Legal Tasks
 
+- Reading a Legal Question Word by Word: Embedding Trajectories of 2,144 Vietnamese Legal Headlines [paper](https://papers.cool/arxiv/2609.08372)
+- Solving versus Verifying: Catching Contradictions in Tax Reasoning Systems [paper](https://papers.cool/arxiv/2609.05928)
 - LexFlip: A Dissociation Diagnostic for Legal Meaning Preservation Metrics [paper](https://papers.cool/arxiv/2609.05296)
 - KhatianDoc: A Human-Verified Benchmark Diagnosing Multimodal LLM Failure on Bengali Legal Land Records [paper](https://papers.cool/arxiv/2609.03597)
 - LexIssue: Benchmarking Legal Issue Identification in Chinese Civil Litigation [paper](https://papers.cool/arxiv/2609.02954)
@@ -173,6 +175,7 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Legal Reasoning Models
 
+- Solving versus Verifying: Catching Contradictions in Tax Reasoning Systems [paper](https://papers.cool/arxiv/2609.05928)
 - LexIssue: Benchmarking Legal Issue Identification in Chinese Civil Litigation [paper](https://papers.cool/arxiv/2609.02954)
 - OBJECTION! Lawyer Agents Mitigate Guilty Bias in Legal Judgment Prediction [paper](https://papers.cool/arxiv/2609.02158)
 - Do Small Models Use the Law You Give Them? Measuring Context Use on a Bilingual Bangladesh Legal Benchmark [paper](https://papers.cool/arxiv/2608.30327)
@@ -238,6 +241,9 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Legal Problems of Large Language Models
 
+- Reading a Legal Question Word by Word: Embedding Trajectories of 2,144 Vietnamese Legal Headlines [paper](https://papers.cool/arxiv/2609.08372)
+- FramingQA: Does the Question Shape the Answer? Measuring the Compositional Framing Effect [paper](https://papers.cool/arxiv/2609.07448)
+- Solving versus Verifying: Catching Contradictions in Tax Reasoning Systems [paper](https://papers.cool/arxiv/2609.05928)
 - LexFlip: A Dissociation Diagnostic for Legal Meaning Preservation Metrics [paper](https://papers.cool/arxiv/2609.05296)
 - Rent-a-RAG: Embedding-Space Watermarks for Auditing Third-Party RAG [paper](https://papers.cool/arxiv/2609.03749)
 - OBJECTION! Lawyer Agents Mitigate Guilty Bias in Legal Judgment Prediction [paper](https://papers.cool/arxiv/2609.02158)
@@ -292,6 +298,7 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Data Resources for Large Language Models in Law
 
+- FramingQA: Does the Question Shape the Answer? Measuring the Compositional Framing Effect [paper](https://papers.cool/arxiv/2609.07448)
 - LexFlip: A Dissociation Diagnostic for Legal Meaning Preservation Metrics [paper](https://papers.cool/arxiv/2609.05296)
 - KhatianDoc: A Human-Verified Benchmark Diagnosing Multimodal LLM Failure on Bengali Legal Land Records [paper](https://papers.cool/arxiv/2609.03597)
 - LexIssue: Benchmarking Legal Issue Identification in Chinese Civil Litigation [paper](https://papers.cool/arxiv/2609.02954)
@@ -387,6 +394,9 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Evaluation
 
+- Reading a Legal Question Word by Word: Embedding Trajectories of 2,144 Vietnamese Legal Headlines [paper](https://papers.cool/arxiv/2609.08372)
+- FramingQA: Does the Question Shape the Answer? Measuring the Compositional Framing Effect [paper](https://papers.cool/arxiv/2609.07448)
+- Solving versus Verifying: Catching Contradictions in Tax Reasoning Systems [paper](https://papers.cool/arxiv/2609.05928)
 - LexFlip: A Dissociation Diagnostic for Legal Meaning Preservation Metrics [paper](https://papers.cool/arxiv/2609.05296)
 - KhatianDoc: A Human-Verified Benchmark Diagnosing Multimodal LLM Failure on Bengali Legal Land Records [paper](https://papers.cool/arxiv/2609.03597)
 - LexIssue: Benchmarking Legal Issue Identification in Chinese Civil Litigation [paper](https://papers.cool/arxiv/2609.02954)
