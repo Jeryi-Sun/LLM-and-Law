@@ -6,9 +6,9 @@
 
 This repository tracks papers and resources about large language models (LLMs) in the legal domain.
 
-> Daily update 2026-09-09 (cs.CL): scanned 257 papers (date=2026-09-09), 3 new papers met the strict "legal task + LLM semantics" inclusion rule.
+> Daily update 2026-09-10 (cs.CL): scanned 94 papers (date=2026-09-10), 3 new papers met the strict "legal task + LLM semantics" inclusion rule.
 >
-> Category increments today — Applications +2, Legal Reasoning Models +1, Legal Agent +0, Legal Problems +3, Data Resources +1, Law LLMs +0, Evaluation +3.
+> Category increments today — Applications +3, Legal Reasoning Models +1, Legal Agent +1, Legal Problems +3, Data Resources +1, Law LLMs +0, Evaluation +3.
 
 ## Contents
 - [Applications of Large Language Models in Legal Tasks](#applications-of-large-language-models-in-legal-tasks)
@@ -21,6 +21,9 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Applications of Large Language Models in Legal Tasks
 
+- GANDR: Claim Auditing for Verifiable Legal Answer Generation [paper](https://papers.cool/arxiv/2609.10293)
+- When Does Defendant Statement Matter? A Study of Bias and Persuasion in LLM-Simulated Jurors [paper](https://papers.cool/arxiv/2609.09887)
+- MUCnoHARM@GermEval Shared Task 2026: Retrieval-based In-Context Learning for Defamatory Offences, and Where It Falls Short [paper](https://papers.cool/arxiv/2609.09791)
 - Reading a Legal Question Word by Word: Embedding Trajectories of 2,144 Vietnamese Legal Headlines [paper](https://papers.cool/arxiv/2609.08372)
 - Solving versus Verifying: Catching Contradictions in Tax Reasoning Systems [paper](https://papers.cool/arxiv/2609.05928)
 - LexFlip: A Dissociation Diagnostic for Legal Meaning Preservation Metrics [paper](https://papers.cool/arxiv/2609.05296)
@@ -175,6 +178,7 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Legal Reasoning Models
 
+- GANDR: Claim Auditing for Verifiable Legal Answer Generation [paper](https://papers.cool/arxiv/2609.10293)
 - Solving versus Verifying: Catching Contradictions in Tax Reasoning Systems [paper](https://papers.cool/arxiv/2609.05928)
 - LexIssue: Benchmarking Legal Issue Identification in Chinese Civil Litigation [paper](https://papers.cool/arxiv/2609.02954)
 - OBJECTION! Lawyer Agents Mitigate Guilty Bias in Legal Judgment Prediction [paper](https://papers.cool/arxiv/2609.02158)
@@ -204,6 +208,7 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Legal Agent
 
+- GANDR: Claim Auditing for Verifiable Legal Answer Generation [paper](https://papers.cool/arxiv/2609.10293)
 - OBJECTION! Lawyer Agents Mitigate Guilty Bias in Legal Judgment Prediction [paper](https://papers.cool/arxiv/2609.02158)
 - Cloud and On-Premises Deployment of Uzbek Legal RAG via Targeted Retriever Fine-Tuning [paper](https://papers.cool/arxiv/2608.29284)
 - Benchmarking Patent Drafting from Inventor-Style Disclosures [paper](https://papers.cool/arxiv/2608.21249)
@@ -241,6 +246,9 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Legal Problems of Large Language Models
 
+- GANDR: Claim Auditing for Verifiable Legal Answer Generation [paper](https://papers.cool/arxiv/2609.10293)
+- When Does Defendant Statement Matter? A Study of Bias and Persuasion in LLM-Simulated Jurors [paper](https://papers.cool/arxiv/2609.09887)
+- MUCnoHARM@GermEval Shared Task 2026: Retrieval-based In-Context Learning for Defamatory Offences, and Where It Falls Short [paper](https://papers.cool/arxiv/2609.09791)
 - Reading a Legal Question Word by Word: Embedding Trajectories of 2,144 Vietnamese Legal Headlines [paper](https://papers.cool/arxiv/2609.08372)
 - FramingQA: Does the Question Shape the Answer? Measuring the Compositional Framing Effect [paper](https://papers.cool/arxiv/2609.07448)
 - Solving versus Verifying: Catching Contradictions in Tax Reasoning Systems [paper](https://papers.cool/arxiv/2609.05928)
@@ -298,6 +306,7 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Data Resources for Large Language Models in Law
 
+- When Does Defendant Statement Matter? A Study of Bias and Persuasion in LLM-Simulated Jurors [paper](https://papers.cool/arxiv/2609.09887)
 - FramingQA: Does the Question Shape the Answer? Measuring the Compositional Framing Effect [paper](https://papers.cool/arxiv/2609.07448)
 - LexFlip: A Dissociation Diagnostic for Legal Meaning Preservation Metrics [paper](https://papers.cool/arxiv/2609.05296)
 - KhatianDoc: A Human-Verified Benchmark Diagnosing Multimodal LLM Failure on Bengali Legal Land Records [paper](https://papers.cool/arxiv/2609.03597)
@@ -394,6 +403,9 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Evaluation
 
+- GANDR: Claim Auditing for Verifiable Legal Answer Generation [paper](https://papers.cool/arxiv/2609.10293)
+- When Does Defendant Statement Matter? A Study of Bias and Persuasion in LLM-Simulated Jurors [paper](https://papers.cool/arxiv/2609.09887)
+- MUCnoHARM@GermEval Shared Task 2026: Retrieval-based In-Context Learning for Defamatory Offences, and Where It Falls Short [paper](https://papers.cool/arxiv/2609.09791)
 - Reading a Legal Question Word by Word: Embedding Trajectories of 2,144 Vietnamese Legal Headlines [paper](https://papers.cool/arxiv/2609.08372)
 - FramingQA: Does the Question Shape the Answer? Measuring the Compositional Framing Effect [paper](https://papers.cool/arxiv/2609.07448)
 - Solving versus Verifying: Catching Contradictions in Tax Reasoning Systems [paper](https://papers.cool/arxiv/2609.05928)
