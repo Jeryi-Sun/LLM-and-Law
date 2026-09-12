@@ -525,7 +525,7 @@ Please cite the following papers as references if this repository helps you (*ã‚
 @article{sun2023short,
   title={A short survey of viewing large language models in legal aspect},
   author={Sun, Zhongxiang},
-  journal={arXiv preprint arXiv:2303.09136},
+  journal={arXiv preprint arXiv:2303.09136v2},
   year={2023}
 }
 ```
