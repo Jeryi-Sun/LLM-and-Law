@@ -6,9 +6,9 @@
 
 This repository tracks papers and resources about large language models (LLMs) in the legal domain.
 
-> Daily update 2026-09-11 (cs.CL): scanned 91 papers (date=2026-09-11), 2 new papers met the strict "legal task + LLM semantics" inclusion rule.
+> Daily update 2026-09-14 (cs.CL): scanned 64 papers (date=2026-09-14), 1 new paper met the strict "legal task + LLM semantics" inclusion rule.
 >
-> Category increments today — Applications +2, Legal Reasoning Models +0, Legal Agent +1, Legal Problems +1, Data Resources +1, Law LLMs +0, Evaluation +2.
+> Category increments today — Applications +1, Legal Reasoning Models +0, Legal Agent +0, Legal Problems +1, Data Resources +1, Law LLMs +0, Evaluation +1.
 
 ## Contents
 - [Applications of Large Language Models in Legal Tasks](#applications-of-large-language-models-in-legal-tasks)
@@ -21,6 +21,7 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Applications of Large Language Models in Legal Tasks
 
+- Tasks over Application Manuals: Revealing Gaps in Long-Horizon Procedural Reasoning for Language Models [paper](https://papers.cool/arxiv/2609.13005)
 - ProMediConv: Benchmarking Proactive Conversational Agents in Legal Dispute Mediation [paper](https://papers.cool/arxiv/2609.11101)
 - BodyCam-VQA: Enhanced Body-Worn Camera Video Captioning via Multimodal Reasoning and Probe Question Generation [paper](https://papers.cool/arxiv/2609.10815)
 - GANDR: Claim Auditing for Verifiable Legal Answer Generation [paper](https://papers.cool/arxiv/2609.10293)
@@ -249,6 +250,7 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Legal Problems of Large Language Models
 
+- Tasks over Application Manuals: Revealing Gaps in Long-Horizon Procedural Reasoning for Language Models [paper](https://papers.cool/arxiv/2609.13005)
 - BodyCam-VQA: Enhanced Body-Worn Camera Video Captioning via Multimodal Reasoning and Probe Question Generation [paper](https://papers.cool/arxiv/2609.10815)
 - GANDR: Claim Auditing for Verifiable Legal Answer Generation [paper](https://papers.cool/arxiv/2609.10293)
 - When Does Defendant Statement Matter? A Study of Bias and Persuasion in LLM-Simulated Jurors [paper](https://papers.cool/arxiv/2609.09887)
@@ -310,6 +312,7 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Data Resources for Large Language Models in Law
 
+- Tasks over Application Manuals: Revealing Gaps in Long-Horizon Procedural Reasoning for Language Models [paper](https://papers.cool/arxiv/2609.13005)
 - ProMediConv: Benchmarking Proactive Conversational Agents in Legal Dispute Mediation [paper](https://papers.cool/arxiv/2609.11101)
 - When Does Defendant Statement Matter? A Study of Bias and Persuasion in LLM-Simulated Jurors [paper](https://papers.cool/arxiv/2609.09887)
 - FramingQA: Does the Question Shape the Answer? Measuring the Compositional Framing Effect [paper](https://papers.cool/arxiv/2609.07448)
@@ -408,6 +411,7 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Evaluation
 
+- Tasks over Application Manuals: Revealing Gaps in Long-Horizon Procedural Reasoning for Language Models [paper](https://papers.cool/arxiv/2609.13005)
 - ProMediConv: Benchmarking Proactive Conversational Agents in Legal Dispute Mediation [paper](https://papers.cool/arxiv/2609.11101)
 - BodyCam-VQA: Enhanced Body-Worn Camera Video Captioning via Multimodal Reasoning and Probe Question Generation [paper](https://papers.cool/arxiv/2609.10815)
 - GANDR: Claim Auditing for Verifiable Legal Answer Generation [paper](https://papers.cool/arxiv/2609.10293)
