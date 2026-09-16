@@ -6,9 +6,9 @@
 
 This repository tracks papers and resources about large language models (LLMs) in the legal domain.
 
-> Daily update 2026-09-15 (cs.CL): scanned 204 papers (date=2026-09-15), 4 new papers met the strict "legal task + LLM semantics" inclusion rule.
+> Daily update 2026-09-16 (cs.CL): scanned 109 papers (date=2026-09-16), 3 new papers met the strict "legal task + LLM semantics" inclusion rule.
 >
-> Category increments today — Applications +4, Legal Reasoning Models +2, Legal Agent +0, Legal Problems +3, Data Resources +1, Law LLMs +1, Evaluation +3.
+> Category increments today — Applications +3, Legal Reasoning Models +0, Legal Agent +1, Legal Problems +1, Data Resources +2, Law LLMs +2, Evaluation +3.
 
 ## Contents
 - [Applications of Large Language Models in Legal Tasks](#applications-of-large-language-models-in-legal-tasks)
@@ -21,6 +21,9 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Applications of Large Language Models in Legal Tasks
 
+- Nepali Legal Expertise through Generative and Extractive Pre-trained Transformers (NepLEGiT) [paper](https://papers.cool/arxiv/2609.16010)
+- NepKANUN: A RAG-Based Nepali Legal Assistant [paper](https://papers.cool/arxiv/2609.15999)
+- Few-Shot Degradation Is Not What It Seems: Behavioral Evidence, Representation Analysis, and a Random-Text Control Across 12 Models, 2 Tasks, and 2 Architectures [paper](https://papers.cool/arxiv/2609.15990)
 - CiteGuard-RAG: A Validation-Centered AI System for Evidence-Grounded Question Answering [paper](https://papers.cool/arxiv/2609.15830)
 - Semiotic Relations and Proof Methods: A Cross-Genre Study of Argument Structure with Large Language Models [paper](https://papers.cool/arxiv/2609.15194)
 - Building Legal Reward Models for Grounding and Abstention [paper](https://papers.cool/arxiv/2609.14739)
@@ -217,6 +220,7 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Legal Agent
 
+- NepKANUN: A RAG-Based Nepali Legal Assistant [paper](https://papers.cool/arxiv/2609.15999)
 - ProMediConv: Benchmarking Proactive Conversational Agents in Legal Dispute Mediation [paper](https://papers.cool/arxiv/2609.11101)
 - GANDR: Claim Auditing for Verifiable Legal Answer Generation [paper](https://papers.cool/arxiv/2609.10293)
 - OBJECTION! Lawyer Agents Mitigate Guilty Bias in Legal Judgment Prediction [paper](https://papers.cool/arxiv/2609.02158)
@@ -256,6 +260,7 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Legal Problems of Large Language Models
 
+- Few-Shot Degradation Is Not What It Seems: Behavioral Evidence, Representation Analysis, and a Random-Text Control Across 12 Models, 2 Tasks, and 2 Architectures [paper](https://papers.cool/arxiv/2609.15990)
 - CiteGuard-RAG: A Validation-Centered AI System for Evidence-Grounded Question Answering [paper](https://papers.cool/arxiv/2609.15830)
 - Building Legal Reward Models for Grounding and Abstention [paper](https://papers.cool/arxiv/2609.14739)
 - Algorithm Validation as a Policy Audit: Evidence from Race-blind Charging [paper](https://papers.cool/arxiv/2609.13174)
@@ -321,6 +326,8 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Data Resources for Large Language Models in Law
 
+- Nepali Legal Expertise through Generative and Extractive Pre-trained Transformers (NepLEGiT) [paper](https://papers.cool/arxiv/2609.16010)
+- NepKANUN: A RAG-Based Nepali Legal Assistant [paper](https://papers.cool/arxiv/2609.15999)
 - Building Legal Reward Models for Grounding and Abstention [paper](https://papers.cool/arxiv/2609.14739)
 - Tasks over Application Manuals: Revealing Gaps in Long-Horizon Procedural Reasoning for Language Models [paper](https://papers.cool/arxiv/2609.13005)
 - ProMediConv: Benchmarking Proactive Conversational Agents in Legal Dispute Mediation [paper](https://papers.cool/arxiv/2609.11101)
@@ -399,6 +406,8 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Law LLMs
 
+- Nepali Legal Expertise through Generative and Extractive Pre-trained Transformers (NepLEGiT) [paper](https://papers.cool/arxiv/2609.16010)
+- NepKANUN: A RAG-Based Nepali Legal Assistant [paper](https://papers.cool/arxiv/2609.15999)
 - Building Legal Reward Models for Grounding and Abstention [paper](https://papers.cool/arxiv/2609.14739)
 - Do Small Models Use the Law You Give Them? Measuring Context Use on a Bilingual Bangladesh Legal Benchmark [paper](https://papers.cool/arxiv/2608.30327)
 - GreenLeaf Law Embed Tiny: A Compact Embedding Model for Legal Domain Retrieval [paper](https://papers.cool/arxiv/2608.24936)
@@ -422,6 +431,9 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Evaluation
 
+- Nepali Legal Expertise through Generative and Extractive Pre-trained Transformers (NepLEGiT) [paper](https://papers.cool/arxiv/2609.16010)
+- NepKANUN: A RAG-Based Nepali Legal Assistant [paper](https://papers.cool/arxiv/2609.15999)
+- Few-Shot Degradation Is Not What It Seems: Behavioral Evidence, Representation Analysis, and a Random-Text Control Across 12 Models, 2 Tasks, and 2 Architectures [paper](https://papers.cool/arxiv/2609.15990)
 - CiteGuard-RAG: A Validation-Centered AI System for Evidence-Grounded Question Answering [paper](https://papers.cool/arxiv/2609.15830)
 - Building Legal Reward Models for Grounding and Abstention [paper](https://papers.cool/arxiv/2609.14739)
 - Algorithm Validation as a Policy Audit: Evidence from Race-blind Charging [paper](https://papers.cool/arxiv/2609.13174)
