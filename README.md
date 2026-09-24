@@ -6,9 +6,9 @@
 
 This repository tracks papers and resources about large language models (LLMs) in the legal domain.
 
-> Daily update 2026-09-23 (cs.CL): scanned 108 papers (date=2026-09-23), 2 new papers met the strict legal-task plus model/agent/RAG/dataset/benchmark inclusion rule.
+> Daily update 2026-09-24 (cs.CL): scanned 105 papers (date=2026-09-24), 9 new papers met the strict legal-task plus model/agent/RAG/dataset/benchmark inclusion rule.
 >
-> Category increments today — Applications +2, Legal Reasoning Models +0, Legal Agent +0, Legal Problems +0, Data Resources +1, Law LLMs +0, Evaluation +2.
+> Category increments today — Applications +9, Legal Reasoning Models +2, Legal Agent +1, Legal Problems +0, Data Resources +4, Law LLMs +0, Evaluation +4.
 
 ## Contents
 - [Applications of Large Language Models in Legal Tasks](#applications-of-large-language-models-in-legal-tasks)
@@ -21,6 +21,15 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Applications of Large Language Models in Legal Tasks
 
+- Controlled Attribute-Specific Summarization of Interrogative Dialogues [paper](https://arxiv.org/abs/2609.28004)
+- LabourCrew: A Multi-Agent RAG Framework for Trustworthy Adversarial Deliberation and Statutory Reasoning over Labour Law [paper](https://arxiv.org/abs/2609.27814)
+- Same Scores, Different Decisions: Evaluating JEV and Language Models for Legal Document Understanding [paper](https://arxiv.org/abs/2609.27678)
+- Cross-Lingual Legal QA for Vietnamese Labour Law: Retrieval, Translation, and Verifier-Guided Correction [paper](https://arxiv.org/abs/2609.27376)
+- Automated Extraction of Records of Processing Activities (RoPA) Using Hybrid RAG and Locally Deployed Large Language Models [paper](https://arxiv.org/abs/2609.27359)
+- LexLattice: Multilingual Extractive Summarization via Neural Cellular Automata on Document Hierarchies [paper](https://arxiv.org/abs/2609.27032)
+- LEGO: Synergizing Expert GraphRAG and Expert Chain-of-Thought for Legal Reasoning [paper](https://arxiv.org/abs/2609.27009)
+- Classifying Interpretive Canons at the Sentence Level: A Benchmark from the German Federal Constitutional Court [paper](https://arxiv.org/abs/2609.26945)
+- ContraVis: Evidence-Grounded Visual Analytics for Contradiction Review in Legal Contracts [paper](https://arxiv.org/abs/2609.27014)
 - Mining Legal Arguments in U.S. Corporate Case Law [paper](https://arxiv.org/abs/2609.25441)
 - ABAI at COLIEE 2026 Task 1: Multi-Stage Retrieval with GraphRAG-Enhanced Meta-Learning, and a Post-Hoc Study of the Cross-Validation-to-Test Gap [paper](https://arxiv.org/abs/2609.26237)
 - Efficient LLM Distillation for Bangladesh Legal Context: A Smartphone-Compatible Retrieval-Augmented Generation Model [paper](https://arxiv.org/abs/2609.24177)
@@ -201,6 +210,8 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Legal Reasoning Models
 
+- LabourCrew: A Multi-Agent RAG Framework for Trustworthy Adversarial Deliberation and Statutory Reasoning over Labour Law [paper](https://arxiv.org/abs/2609.27814)
+- LEGO: Synergizing Expert GraphRAG and Expert Chain-of-Thought for Legal Reasoning [paper](https://arxiv.org/abs/2609.27009)
 - GRACE: Grounded Adversarial Reasoning over Canadian Law [paper](https://arxiv.org/abs/2609.23726)
 - Directing large language models to follow the letter or spirit of the law [paper](https://arxiv.org/abs/2609.23083)
 - Semiotic Relations and Proof Methods: A Cross-Genre Study of Argument Structure with Large Language Models [paper](https://papers.cool/arxiv/2609.15194)
@@ -235,6 +246,7 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Legal Agent
 
+- LabourCrew: A Multi-Agent RAG Framework for Trustworthy Adversarial Deliberation and Statutory Reasoning over Labour Law [paper](https://arxiv.org/abs/2609.27814)
 - Schematize: An Agentic System for Generating and Refining Information-Extraction Schemas for Legal Research [paper](https://arxiv.org/abs/2609.22209)
 - NepKANUN: A RAG-Based Nepali Legal Assistant [paper](https://papers.cool/arxiv/2609.15999)
 - ProMediConv: Benchmarking Proactive Conversational Agents in Legal Dispute Mediation [paper](https://papers.cool/arxiv/2609.11101)
@@ -348,6 +360,10 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Data Resources for Large Language Models in Law
 
+- Controlled Attribute-Specific Summarization of Interrogative Dialogues [paper](https://arxiv.org/abs/2609.28004)
+- Cross-Lingual Legal QA for Vietnamese Labour Law: Retrieval, Translation, and Verifier-Guided Correction [paper](https://arxiv.org/abs/2609.27376)
+- Automated Extraction of Records of Processing Activities (RoPA) Using Hybrid RAG and Locally Deployed Large Language Models [paper](https://arxiv.org/abs/2609.27359)
+- Classifying Interpretive Canons at the Sentence Level: A Benchmark from the German Federal Constitutional Court [paper](https://arxiv.org/abs/2609.26945)
 - Mining Legal Arguments in U.S. Corporate Case Law [paper](https://arxiv.org/abs/2609.25441)
 - GRACE: Grounded Adversarial Reasoning over Canadian Law [paper](https://arxiv.org/abs/2609.23726)
 - ChemCLIR-Bench: Benchmarking Cross-Lingual Information Retrieval in Multilingual Chemical Patents [paper](https://arxiv.org/abs/2609.23231)
@@ -462,6 +478,10 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Evaluation
 
+- Same Scores, Different Decisions: Evaluating JEV and Language Models for Legal Document Understanding [paper](https://arxiv.org/abs/2609.27678)
+- Cross-Lingual Legal QA for Vietnamese Labour Law: Retrieval, Translation, and Verifier-Guided Correction [paper](https://arxiv.org/abs/2609.27376)
+- Automated Extraction of Records of Processing Activities (RoPA) Using Hybrid RAG and Locally Deployed Large Language Models [paper](https://arxiv.org/abs/2609.27359)
+- Classifying Interpretive Canons at the Sentence Level: A Benchmark from the German Federal Constitutional Court [paper](https://arxiv.org/abs/2609.26945)
 - Mining Legal Arguments in U.S. Corporate Case Law [paper](https://arxiv.org/abs/2609.25441)
 - ABAI at COLIEE 2026 Task 1: Multi-Stage Retrieval with GraphRAG-Enhanced Meta-Learning, and a Post-Hoc Study of the Cross-Validation-to-Test Gap [paper](https://arxiv.org/abs/2609.26237)
 - GRACE: Grounded Adversarial Reasoning over Canadian Law [paper](https://arxiv.org/abs/2609.23726)
