@@ -6,9 +6,9 @@
 
 This repository tracks papers and resources about large language models (LLMs) in the legal domain.
 
-> Daily update 2026-09-24 (cs.CL): scanned 105 papers (date=2026-09-24), 9 new papers met the strict legal-task plus model/agent/RAG/dataset/benchmark inclusion rule.
+> Daily update 2026-09-25 (cs.CL): scanned 126 papers (date=2026-09-25), 2 new papers met the strict legal-task plus model/agent/RAG/dataset/benchmark inclusion rule.
 >
-> Category increments today — Applications +9, Legal Reasoning Models +2, Legal Agent +1, Legal Problems +0, Data Resources +4, Law LLMs +0, Evaluation +4.
+> Category increments today — Applications +2, Legal Reasoning Models +0, Legal Agent +0, Legal Problems +0, Data Resources +0, Law LLMs +0, Evaluation +1.
 
 ## Contents
 - [Applications of Large Language Models in Legal Tasks](#applications-of-large-language-models-in-legal-tasks)
@@ -21,6 +21,8 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Applications of Large Language Models in Legal Tasks
 
+- ARGUS: Role-Aware Event Knowledge Graphs for U.S. Employment-Discrimination Complaints [paper](https://arxiv.org/abs/2609.30184)
+- Automated Regulatory Compliance Question Answering in Financial Services with Domain-Adapted Retrieval-Augmented Generation [paper](https://arxiv.org/abs/2609.30009)
 - Controlled Attribute-Specific Summarization of Interrogative Dialogues [paper](https://arxiv.org/abs/2609.28004)
 - LabourCrew: A Multi-Agent RAG Framework for Trustworthy Adversarial Deliberation and Statutory Reasoning over Labour Law [paper](https://arxiv.org/abs/2609.27814)
 - Same Scores, Different Decisions: Evaluating JEV and Language Models for Legal Document Understanding [paper](https://arxiv.org/abs/2609.27678)
@@ -478,6 +480,7 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Evaluation
 
+- Automated Regulatory Compliance Question Answering in Financial Services with Domain-Adapted Retrieval-Augmented Generation [paper](https://arxiv.org/abs/2609.30009)
 - Same Scores, Different Decisions: Evaluating JEV and Language Models for Legal Document Understanding [paper](https://arxiv.org/abs/2609.27678)
 - Cross-Lingual Legal QA for Vietnamese Labour Law: Retrieval, Translation, and Verifier-Guided Correction [paper](https://arxiv.org/abs/2609.27376)
 - Automated Extraction of Records of Processing Activities (RoPA) Using Hybrid RAG and Locally Deployed Large Language Models [paper](https://arxiv.org/abs/2609.27359)
