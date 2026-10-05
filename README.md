@@ -6,9 +6,9 @@
 
 This repository tracks papers and resources about large language models (LLMs) in the legal domain.
 
-> Daily update 2026-09-25 (cs.CL): scanned 126 papers (date=2026-09-25), 2 new papers met the strict legal-task plus model/agent/RAG/dataset/benchmark inclusion rule.
+> Backfill update 2026-10-05 (cs.CL): scanned 1,072 papers from daily lists dated 2026-09-27 through 2026-10-04; added 18 title-deduplicated papers meeting the strict legal-task plus model/agent/RAG/dataset/benchmark rule. Empty daily lists were verified, not treated as network failures.
 >
-> Category increments today — Applications +2, Legal Reasoning Models +0, Legal Agent +0, Legal Problems +0, Data Resources +0, Law LLMs +0, Evaluation +1.
+> Category increments — Applications +7, Legal Reasoning Models +3, Legal Agent +3, Legal Problems +3, Data Resources +7, Law LLMs +1, Evaluation +15.
 
 ## Contents
 - [Applications of Large Language Models in Legal Tasks](#applications-of-large-language-models-in-legal-tasks)
@@ -21,6 +21,13 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Applications of Large Language Models in Legal Tasks
 
+- SCM-based Fairness and Faithful Explainability for Legal Document Classification [paper](https://arxiv.org/abs/2610.00045)
+- Legal text classification in Korean sexual offense cases: from traditional machine learning to large language models with XAI insights [paper](https://arxiv.org/abs/2610.00087)
+- LawCompass: Navigating from Legal QA to Multi-Agent Deep Research with Grounded Evidence [paper](https://arxiv.org/abs/2610.01027)
+- ARCCS: An Automated Regulatory Compliance Checking System [paper](https://arxiv.org/abs/2610.01345)
+- Chinese-Jev: Bringing System One Model to Chinese-Language Tasks [paper](https://arxiv.org/abs/2609.36965)
+- LAURA: Knowledge Distillation for Interpretable Ambiguous Clause Identification in Legal Contracts [paper](https://arxiv.org/abs/2609.36707)
+- SinBrief: A Hybrid Framework for Abstractive Text Summarisation of Sinhala Legal Documents [paper](https://arxiv.org/abs/2609.32397)
 - ARGUS: Role-Aware Event Knowledge Graphs for U.S. Employment-Discrimination Complaints [paper](https://arxiv.org/abs/2609.30184)
 - Automated Regulatory Compliance Question Answering in Financial Services with Domain-Adapted Retrieval-Augmented Generation [paper](https://arxiv.org/abs/2609.30009)
 - Controlled Attribute-Specific Summarization of Interrogative Dialogues [paper](https://arxiv.org/abs/2609.28004)
@@ -212,6 +219,9 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Legal Reasoning Models
 
+- LexReward: A Taxonomy-Driven Reward Framework for Legal Language Models [paper](https://arxiv.org/abs/2609.39071)
+- Is This Evidence Decision-Critical? Learning to Verify Rule-Governed Decisions [paper](https://arxiv.org/abs/2609.39608)
+- RGDT-Bench: Benchmarking LLM Reasoning for Rule-Governed Decisions and Their Justifications [paper](https://arxiv.org/abs/2609.34455)
 - LabourCrew: A Multi-Agent RAG Framework for Trustworthy Adversarial Deliberation and Statutory Reasoning over Labour Law [paper](https://arxiv.org/abs/2609.27814)
 - LEGO: Synergizing Expert GraphRAG and Expert Chain-of-Thought for Legal Reasoning [paper](https://arxiv.org/abs/2609.27009)
 - GRACE: Grounded Adversarial Reasoning over Canadian Law [paper](https://arxiv.org/abs/2609.23726)
@@ -248,6 +258,9 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Legal Agent
 
+- Legal Research Bench: Measuring End-to-End Reliability in Long-Horizon Legal Research Agents [paper](https://arxiv.org/abs/2610.00609)
+- LawCompass: Navigating from Legal QA to Multi-Agent Deep Research with Grounded Evidence [paper](https://arxiv.org/abs/2610.01027)
+- ARCCS: An Automated Regulatory Compliance Checking System [paper](https://arxiv.org/abs/2610.01345)
 - LabourCrew: A Multi-Agent RAG Framework for Trustworthy Adversarial Deliberation and Statutory Reasoning over Labour Law [paper](https://arxiv.org/abs/2609.27814)
 - Schematize: An Agentic System for Generating and Refining Information-Extraction Schemas for Legal Research [paper](https://arxiv.org/abs/2609.22209)
 - NepKANUN: A RAG-Based Nepali Legal Assistant [paper](https://papers.cool/arxiv/2609.15999)
@@ -290,6 +303,9 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Legal Problems of Large Language Models
 
+- SCM-based Fairness and Faithful Explainability for Legal Document Classification [paper](https://arxiv.org/abs/2610.00045)
+- ContextAdapt: Evaluating Contextual Adaptation and Value Alignment in LLMs [paper](https://arxiv.org/abs/2609.38260)
+- Stale-Document Poisoning: When Outdated Retrieval Overrides Correct Model Answers [paper](https://arxiv.org/abs/2609.31342)
 - Directing large language models to follow the letter or spirit of the law [paper](https://arxiv.org/abs/2609.23083)
 - Beyond Accuracy and Surface Fluency: Risk-Sensitive Evaluation of LLMs for Legal Clause Generation [paper](https://arxiv.org/abs/2609.22127)
 - Benchmarking LLM Compliance with China AI Generated Content Regulations [paper](https://arxiv.org/abs/2609.19989)
@@ -362,6 +378,13 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Data Resources for Large Language Models in Law
 
+- Legal Research Bench: Measuring End-to-End Reliability in Long-Horizon Legal Research Agents [paper](https://arxiv.org/abs/2610.00609)
+- ContextAdapt: Evaluating Contextual Adaptation and Value Alignment in LLMs [paper](https://arxiv.org/abs/2609.38260)
+- LegalPincite: Multi-level Legal Information Retrieval Dataset [paper](https://arxiv.org/abs/2608.03756)
+- ViLegalExpert: A Large-Scale Benchmark for Vietnamese Legal Retrieval and Question Answering from Real-World Consultations [paper](https://arxiv.org/abs/2609.39189)
+- Chinese-Jev: Bringing System One Model to Chinese-Language Tasks [paper](https://arxiv.org/abs/2609.36965)
+- RGDT-Bench: Benchmarking LLM Reasoning for Rule-Governed Decisions and Their Justifications [paper](https://arxiv.org/abs/2609.34455)
+- Stale-Document Poisoning: When Outdated Retrieval Overrides Correct Model Answers [paper](https://arxiv.org/abs/2609.31342)
 - Controlled Attribute-Specific Summarization of Interrogative Dialogues [paper](https://arxiv.org/abs/2609.28004)
 - Cross-Lingual Legal QA for Vietnamese Labour Law: Retrieval, Translation, and Verifier-Guided Correction [paper](https://arxiv.org/abs/2609.27376)
 - Automated Extraction of Records of Processing Activities (RoPA) Using Hybrid RAG and Locally Deployed Large Language Models [paper](https://arxiv.org/abs/2609.27359)
@@ -453,6 +476,7 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Law LLMs
 
+- LexReward: A Taxonomy-Driven Reward Framework for Legal Language Models [paper](https://arxiv.org/abs/2609.39071)
 - Efficient LLM Distillation for Bangladesh Legal Context: A Smartphone-Compatible Retrieval-Augmented Generation Model [paper](https://arxiv.org/abs/2609.24177)
 - GRACE: Grounded Adversarial Reasoning over Canadian Law [paper](https://arxiv.org/abs/2609.23726)
 - Nepali Legal Expertise through Generative and Extractive Pre-trained Transformers (NepLEGiT) [paper](https://papers.cool/arxiv/2609.16010)
@@ -480,6 +504,21 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Evaluation
 
+- Legal Research Bench: Measuring End-to-End Reliability in Long-Horizon Legal Research Agents [paper](https://arxiv.org/abs/2610.00609)
+- SCM-based Fairness and Faithful Explainability for Legal Document Classification [paper](https://arxiv.org/abs/2610.00045)
+- Legal text classification in Korean sexual offense cases: from traditional machine learning to large language models with XAI insights [paper](https://arxiv.org/abs/2610.00087)
+- ARCCS: An Automated Regulatory Compliance Checking System [paper](https://arxiv.org/abs/2610.01345)
+- ContextAdapt: Evaluating Contextual Adaptation and Value Alignment in LLMs [paper](https://arxiv.org/abs/2609.38260)
+- LegalPincite: Multi-level Legal Information Retrieval Dataset [paper](https://arxiv.org/abs/2608.03756)
+- LexReward: A Taxonomy-Driven Reward Framework for Legal Language Models [paper](https://arxiv.org/abs/2609.39071)
+- ViLegalExpert: A Large-Scale Benchmark for Vietnamese Legal Retrieval and Question Answering from Real-World Consultations [paper](https://arxiv.org/abs/2609.39189)
+- Is This Evidence Decision-Critical? Learning to Verify Rule-Governed Decisions [paper](https://arxiv.org/abs/2609.39608)
+- Can a Cacheable Decision Model Follow Rules? [paper](https://arxiv.org/abs/2609.37832)
+- Chinese-Jev: Bringing System One Model to Chinese-Language Tasks [paper](https://arxiv.org/abs/2609.36965)
+- Evaluating and Benchmarking the System One Model Jev [paper](https://arxiv.org/abs/2609.37647)
+- A Cheap Verifier is Good Enough: LLM Post-training is Robust to Erroneous Rewards [paper](https://arxiv.org/abs/2609.33467)
+- RGDT-Bench: Benchmarking LLM Reasoning for Rule-Governed Decisions and Their Justifications [paper](https://arxiv.org/abs/2609.34455)
+- Stale-Document Poisoning: When Outdated Retrieval Overrides Correct Model Answers [paper](https://arxiv.org/abs/2609.31342)
 - Automated Regulatory Compliance Question Answering in Financial Services with Domain-Adapted Retrieval-Augmented Generation [paper](https://arxiv.org/abs/2609.30009)
 - Same Scores, Different Decisions: Evaluating JEV and Language Models for Legal Document Understanding [paper](https://arxiv.org/abs/2609.27678)
 - Cross-Lingual Legal QA for Vietnamese Labour Law: Retrieval, Translation, and Verifier-Guided Correction [paper](https://arxiv.org/abs/2609.27376)
