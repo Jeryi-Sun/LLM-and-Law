@@ -6,6 +6,8 @@
 
 This repository tracks papers and resources about large language models (LLMs) in the legal domain.
 
+> Daily update 2026-10-05 (cs.CL): scanned all 113 papers on the dated list; added 2 title-deduplicated papers with explicit legal tasks and model/dataset/benchmark relevance. Category increments: Data Resources +2, Evaluation +2. Important caveats: HakemBench includes partly AI-labelled legal routing; the patent prediction results in CreativePreferences were withdrawn after a label-leakage audit.
+
 > Backfill update 2026-10-05 (cs.CL): scanned 1,072 papers from daily lists dated 2026-09-27 through 2026-10-04; added 18 title-deduplicated papers meeting the strict legal-task plus model/agent/RAG/dataset/benchmark rule. Empty daily lists were verified, not treated as network failures.
 >
 > Category increments — Applications +7, Legal Reasoning Models +3, Legal Agent +3, Legal Problems +3, Data Resources +7, Law LLMs +1, Evaluation +15.
@@ -378,6 +380,8 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Data Resources for Large Language Models in Law
 
+- HakemBench: A Turkish Benchmark of Typed Decisions [paper](https://arxiv.org/abs/2610.02293) — Includes constitutional-right identification and court routing; legal labels are partly AI-derived.
+- Verifiable, Articulable, and Tacit Components of Preference [paper](https://arxiv.org/abs/2610.03025) — Includes law/policy tasks; patent prediction results were withdrawn due to label leakage.
 - Legal Research Bench: Measuring End-to-End Reliability in Long-Horizon Legal Research Agents [paper](https://arxiv.org/abs/2610.00609)
 - ContextAdapt: Evaluating Contextual Adaptation and Value Alignment in LLMs [paper](https://arxiv.org/abs/2609.38260)
 - LegalPincite: Multi-level Legal Information Retrieval Dataset [paper](https://arxiv.org/abs/2608.03756)
@@ -504,6 +508,8 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Evaluation
 
+- HakemBench: A Turkish Benchmark of Typed Decisions [paper](https://arxiv.org/abs/2610.02293) — Includes constitutional-right identification and court routing; legal labels are partly AI-derived.
+- Verifiable, Articulable, and Tacit Components of Preference [paper](https://arxiv.org/abs/2610.03025) — Includes law/policy tasks; patent prediction results were withdrawn due to label leakage.
 - Legal Research Bench: Measuring End-to-End Reliability in Long-Horizon Legal Research Agents [paper](https://arxiv.org/abs/2610.00609)
 - SCM-based Fairness and Faithful Explainability for Legal Document Classification [paper](https://arxiv.org/abs/2610.00045)
 - Legal text classification in Korean sexual offense cases: from traditional machine learning to large language models with XAI insights [paper](https://arxiv.org/abs/2610.00087)
