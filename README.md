@@ -6,7 +6,7 @@
 
 This repository tracks papers and resources about large language models (LLMs) in the legal domain.
 
-> Daily update 2026-10-05 (cs.CL): scanned all 113 papers on the dated list; added 2 title-deduplicated papers with explicit legal tasks and model/dataset/benchmark relevance. Category increments: Data Resources +2, Evaluation +2. Important caveats: HakemBench includes partly AI-labelled legal routing; the patent prediction results in CreativePreferences were withdrawn after a label-leakage audit.
+> Daily update 2026-10-06 (cs.CL): scanned all 243 papers on the dated list; added 5 title-deduplicated papers with explicit legal tasks and language-model/agent relevance. Category increments: Applications +2, Legal Reasoning Models +1, Legal Agent +1, Legal Problems +2, Data Resources +1, Law LLMs +1, Evaluation +5. Penumbra was excluded: its authored behavioral constitutions do not establish a concrete legal task. Important limitations are noted with the entries below.
 
 > Backfill update 2026-10-05 (cs.CL): scanned 1,072 papers from daily lists dated 2026-09-27 through 2026-10-04; added 18 title-deduplicated papers meeting the strict legal-task plus model/agent/RAG/dataset/benchmark rule. Empty daily lists were verified, not treated as network failures.
 >
@@ -23,6 +23,8 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Applications of Large Language Models in Legal Tasks
 
+- Breaking Bureaucracy: Evaluating open-source LLMs for legal document review [paper](https://arxiv.org/abs/2610.06345) — ContractNLI and NLI4Wills evaluation; the best tested zero-shot LLM reaches 81.2% accuracy, but does not surpass the supervised baseline on overall accuracy.
+- Not Self-Decidable: LLMs Cannot Draw the Boundary of What an Agent Verifier Can Check [paper](https://arxiv.org/abs/2610.04699) — CoVer tests verification scope for EU AI Act and FINRA predicates; regulatory reference labels are mostly model-assigned proxies, with a limited human-labelled replication.
 - SCM-based Fairness and Faithful Explainability for Legal Document Classification [paper](https://arxiv.org/abs/2610.00045)
 - Legal text classification in Korean sexual offense cases: from traditional machine learning to large language models with XAI insights [paper](https://arxiv.org/abs/2610.00087)
 - LawCompass: Navigating from Legal QA to Multi-Agent Deep Research with Grounded Evidence [paper](https://arxiv.org/abs/2610.01027)
@@ -221,6 +223,7 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Legal Reasoning Models
 
+- Better Call Reward: Reward Hacking as Strategic Abstention in Legal Reasoning Models [paper](https://arxiv.org/abs/2610.06439) — GRPO on Qwen3-8B with surface-feature rewards; the LegalBench accuracy drop is primarily failure to return committed, properly formatted answers, not direct evidence of general reasoning-capability loss.
 - LexReward: A Taxonomy-Driven Reward Framework for Legal Language Models [paper](https://arxiv.org/abs/2609.39071)
 - Is This Evidence Decision-Critical? Learning to Verify Rule-Governed Decisions [paper](https://arxiv.org/abs/2609.39608)
 - RGDT-Bench: Benchmarking LLM Reasoning for Rule-Governed Decisions and Their Justifications [paper](https://arxiv.org/abs/2609.34455)
@@ -260,6 +263,7 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Legal Agent
 
+- InvestigationWorlds: An Agentic Environment for Legal Investigation [paper](https://arxiv.org/abs/2610.04129) — An attorney-validated environment built from 100 federal cases and synthetic surrounding documents; the reference is a court-adopted hypothesis for a summary judgment motion, not unrestricted factual truth.
 - Legal Research Bench: Measuring End-to-End Reliability in Long-Horizon Legal Research Agents [paper](https://arxiv.org/abs/2610.00609)
 - LawCompass: Navigating from Legal QA to Multi-Agent Deep Research with Grounded Evidence [paper](https://arxiv.org/abs/2610.01027)
 - ARCCS: An Automated Regulatory Compliance Checking System [paper](https://arxiv.org/abs/2610.01345)
@@ -305,6 +309,8 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Legal Problems of Large Language Models
 
+- Better Call Reward: Reward Hacking as Strategic Abstention in Legal Reasoning Models [paper](https://arxiv.org/abs/2610.06439) — Studies reward hacking, abstention and structurally implausible citations in legal reasoning.
+- Not Self-Decidable: LLMs Cannot Draw the Boundary of What an Agent Verifier Can Check [paper](https://arxiv.org/abs/2610.04699) — Models disagree on whether regulatory predicates admit fixed checks; unanimous labels do not by themselves certify safe enforcement.
 - SCM-based Fairness and Faithful Explainability for Legal Document Classification [paper](https://arxiv.org/abs/2610.00045)
 - ContextAdapt: Evaluating Contextual Adaptation and Value Alignment in LLMs [paper](https://arxiv.org/abs/2609.38260)
 - Stale-Document Poisoning: When Outdated Retrieval Overrides Correct Model Answers [paper](https://arxiv.org/abs/2609.31342)
@@ -380,6 +386,7 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Data Resources for Large Language Models in Law
 
+- InvestigationWorlds: An Agentic Environment for Legal Investigation [paper](https://arxiv.org/abs/2610.04129) — Real PACER case records augmented with role-tagged synthetic evidence for legal investigation; distinguish original exhibits, generated documents and court-adopted reference hypotheses.
 - HakemBench: A Turkish Benchmark of Typed Decisions [paper](https://arxiv.org/abs/2610.02293) — Includes constitutional-right identification and court routing; legal labels are partly AI-derived.
 - Verifiable, Articulable, and Tacit Components of Preference [paper](https://arxiv.org/abs/2610.03025) — Includes law/policy tasks; patent prediction results were withdrawn due to label leakage.
 - Legal Research Bench: Measuring End-to-End Reliability in Long-Horizon Legal Research Agents [paper](https://arxiv.org/abs/2610.00609)
@@ -480,6 +487,7 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Law LLMs
 
+- Domain adaptation of Russian ModernBERT for long legal documents [paper](https://arxiv.org/abs/2610.06715) — RuModernBERT-ruLaw is a masked-language-model encoder, not a generative legal assistant. Lower masked-token loss is supported; the entity test has 99.95% normalized span/class overlap with training and does not establish unseen-form generalization.
 - LexReward: A Taxonomy-Driven Reward Framework for Legal Language Models [paper](https://arxiv.org/abs/2609.39071)
 - Efficient LLM Distillation for Bangladesh Legal Context: A Smartphone-Compatible Retrieval-Augmented Generation Model [paper](https://arxiv.org/abs/2609.24177)
 - GRACE: Grounded Adversarial Reasoning over Canadian Law [paper](https://arxiv.org/abs/2609.23726)
@@ -508,6 +516,11 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Evaluation
 
+- Domain adaptation of Russian ModernBERT for long legal documents [paper](https://arxiv.org/abs/2610.06715) — Fixed-collection masked-token and legal-entity evaluation; masking intervals are not uncertainty across document collections.
+- Breaking Bureaucracy: Evaluating open-source LLMs for legal document review [paper](https://arxiv.org/abs/2610.06345) — Zero-shot legal NLI on contracts and wills, with invalid-output, temperature and uncertainty analyses.
+- Better Call Reward: Reward Hacking as Strategic Abstention in Legal Reasoning Models [paper](https://arxiv.org/abs/2610.06439) — 320 examples from 16 LegalBench tasks; separates answer commitment, conditional accuracy and citation plausibility.
+- Not Self-Decidable: LLMs Cannot Draw the Boundary of What an Agent Verifier Can Check [paper](https://arxiv.org/abs/2610.04699) — EU AI Act/FINRA verification-scope evaluation; proxy labels and synthetic enforcement records limit real-world guarantees.
+- InvestigationWorlds: An Agentic Environment for Legal Investigation [paper](https://arxiv.org/abs/2610.04129) — Tests whether agents distinguish court-adopted hypotheses from plausible alternatives after retrieving relevant evidence.
 - HakemBench: A Turkish Benchmark of Typed Decisions [paper](https://arxiv.org/abs/2610.02293) — Includes constitutional-right identification and court routing; legal labels are partly AI-derived.
 - Verifiable, Articulable, and Tacit Components of Preference [paper](https://arxiv.org/abs/2610.03025) — Includes law/policy tasks; patent prediction results were withdrawn due to label leakage.
 - Legal Research Bench: Measuring End-to-End Reliability in Long-Horizon Legal Research Agents [paper](https://arxiv.org/abs/2610.00609)
