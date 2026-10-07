@@ -6,6 +6,8 @@
 
 This repository tracks papers and resources about large language models (LLMs) in the legal domain.
 
+> Daily update 2026-10-07 (cs.CL): scanned all 147 papers on the dated list; added 3 title-deduplicated papers on contract evidence recovery, legal document automation, and training-data licensing. Category increments: Applications +2, Legal Reasoning Models +1, Legal Agent +0, Legal Problems +1, Data Resources +0, Law LLMs +0, Evaluation +2. Generic compliance references alone were excluded; the licensing paper is included for its article-level reuse-permission audit, not merely its open-source license. Evidence limitations are noted below.
+
 > Daily update 2026-10-06 (cs.CL): scanned all 243 papers on the dated list; added 5 title-deduplicated papers with explicit legal tasks and language-model/agent relevance. Category increments: Applications +2, Legal Reasoning Models +1, Legal Agent +1, Legal Problems +2, Data Resources +1, Law LLMs +1, Evaluation +5. Penumbra was excluded: its authored behavioral constitutions do not establish a concrete legal task. Important limitations are noted with the entries below.
 
 > Backfill update 2026-10-05 (cs.CL): scanned 1,072 papers from daily lists dated 2026-09-27 through 2026-10-04; added 18 title-deduplicated papers meeting the strict legal-task plus model/agent/RAG/dataset/benchmark rule. Empty daily lists were verified, not treated as network failures.
@@ -23,6 +25,8 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Applications of Large Language Models in Legal Tasks
 
+- Verdicts Without Annotated Evidence: Rejection Sampling or Label-Only Post-Training for Evidence Recovery? [paper](https://arxiv.org/abs/2610.06962) — ContractNLI evidence recovery without human evidence labels during post-training; entailment accuracy does not establish citation quality, and these verdicts are contract-NLI labels, not court judgments.
+- In With the Old: Enhancing 'Classical' Document Automation with Generative AI [paper](https://arxiv.org/abs/2610.07480) — Combines symbolic legal-document templates with LLM gap detection, follow-up questions and redrafting; preliminary author-constructed scenarios do not establish legal correctness.
 - Breaking Bureaucracy: Evaluating open-source LLMs for legal document review [paper](https://arxiv.org/abs/2610.06345) — ContractNLI and NLI4Wills evaluation; the best tested zero-shot LLM reaches 81.2% accuracy, but does not surpass the supervised baseline on overall accuracy.
 - Not Self-Decidable: LLMs Cannot Draw the Boundary of What an Agent Verifier Can Check [paper](https://arxiv.org/abs/2610.04699) — CoVer tests verification scope for EU AI Act and FINRA predicates; regulatory reference labels are mostly model-assigned proxies, with a limited human-labelled replication.
 - SCM-based Fairness and Faithful Explainability for Legal Document Classification [paper](https://arxiv.org/abs/2610.00045)
@@ -223,6 +227,7 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Legal Reasoning Models
 
+- Verdicts Without Annotated Evidence: Rejection Sampling or Label-Only Post-Training for Evidence Recovery? [paper](https://arxiv.org/abs/2610.06962) — Compares label-only and rejection-sampling post-training of Qwen3.5-9B for contract entailment and evidence recovery; one seed on one corpus does not establish a reliable method ranking.
 - Better Call Reward: Reward Hacking as Strategic Abstention in Legal Reasoning Models [paper](https://arxiv.org/abs/2610.06439) — GRPO on Qwen3-8B with surface-feature rewards; the LegalBench accuracy drop is primarily failure to return committed, properly formatted answers, not direct evidence of general reasoning-capability loss.
 - LexReward: A Taxonomy-Driven Reward Framework for Legal Language Models [paper](https://arxiv.org/abs/2609.39071)
 - Is This Evidence Decision-Critical? Learning to Verify Rule-Governed Decisions [paper](https://arxiv.org/abs/2609.39608)
@@ -309,6 +314,7 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Legal Problems of Large Language Models
 
+- Calibrated Answers About Randomized Trials From a 4-Billion-Parameter Open Model: A Registered Test and a License-Clean Release [paper](https://arxiv.org/abs/2610.07019) — Audits article-level training-data reuse permissions and measures the accuracy trade-off of license-filtered fine-tuning. BM25 statistics use the full corpus and the PubMedQA initialization lacks an article-level license audit; the release is not a blanket copyright clearance or a legal-task model.
 - Better Call Reward: Reward Hacking as Strategic Abstention in Legal Reasoning Models [paper](https://arxiv.org/abs/2610.06439) — Studies reward hacking, abstention and structurally implausible citations in legal reasoning.
 - Not Self-Decidable: LLMs Cannot Draw the Boundary of What an Agent Verifier Can Check [paper](https://arxiv.org/abs/2610.04699) — Models disagree on whether regulatory predicates admit fixed checks; unanimous labels do not by themselves certify safe enforcement.
 - SCM-based Fairness and Faithful Explainability for Legal Document Classification [paper](https://arxiv.org/abs/2610.00045)
@@ -516,6 +522,8 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Evaluation
 
+- Verdicts Without Annotated Evidence: Rejection Sampling or Label-Only Post-Training for Evidence Recovery? [paper](https://arxiv.org/abs/2610.06962) — Separates contract-entailment accuracy, evidence-span F1 and verbatim citations; the between-method span-F1 gap is not statistically resolved, and public-corpus pretraining exposure is not ruled out.
+- In With the Old: Enhancing 'Classical' Document Automation with Generative AI [paper](https://arxiv.org/abs/2610.07480) — Tests 15 constructed examples across three legal-document scenarios; only 1/5 employment-template revisions meets the instructions. The authors' permissive hallucination definition is not a guarantee of legal validity.
 - Domain adaptation of Russian ModernBERT for long legal documents [paper](https://arxiv.org/abs/2610.06715) — Fixed-collection masked-token and legal-entity evaluation; masking intervals are not uncertainty across document collections.
 - Breaking Bureaucracy: Evaluating open-source LLMs for legal document review [paper](https://arxiv.org/abs/2610.06345) — Zero-shot legal NLI on contracts and wills, with invalid-output, temperature and uncertainty analyses.
 - Better Call Reward: Reward Hacking as Strategic Abstention in Legal Reasoning Models [paper](https://arxiv.org/abs/2610.06439) — 320 examples from 16 LegalBench tasks; separates answer commitment, conditional accuracy and citation plausibility.
