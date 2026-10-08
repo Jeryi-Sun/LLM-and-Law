@@ -6,6 +6,8 @@
 
 This repository tracks papers and resources about large language models (LLMs) in the legal domain.
 
+> Daily update 2026-10-08 (cs.CL): scanned all 118 papers on the dated list; added 2 title-deduplicated papers on insurance-contract claim adjudication and jurisdiction-specific Medicaid eligibility QA. Category increments: Applications +0, Legal Reasoning Models +0, Legal Agent +0, Legal Problems +0, Data Resources +1, Law LLMs +0, Evaluation +2. ExperienceIndex was excluded because court cases are only a motivating example, not a tested legal task. Synthetic-case and closed-book-evaluation limits are noted below.
+
 > Daily update 2026-10-07 (cs.CL): scanned all 147 papers on the dated list; added 3 title-deduplicated papers on contract evidence recovery, legal document automation, and training-data licensing. Category increments: Applications +2, Legal Reasoning Models +1, Legal Agent +0, Legal Problems +1, Data Resources +0, Law LLMs +0, Evaluation +2. Generic compliance references alone were excluded; the licensing paper is included for its article-level reuse-permission audit, not merely its open-source license. Evidence limitations are noted below.
 
 > Daily update 2026-10-06 (cs.CL): scanned all 243 papers on the dated list; added 5 title-deduplicated papers with explicit legal tasks and language-model/agent relevance. Category increments: Applications +2, Legal Reasoning Models +1, Legal Agent +1, Legal Problems +2, Data Resources +1, Law LLMs +1, Evaluation +5. Penumbra was excluded: its authored behavioral constitutions do not establish a concrete legal task. Important limitations are noted with the entries below.
@@ -392,6 +394,7 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Data Resources for Large Language Models in Law
 
+- InsClaimBench: Benchmarking Insurance Claim Adjudication Across the Decision Chain [paper](https://arxiv.org/abs/2610.09671) — 3,780 synthetic claim files in 375 families, grounded in insurance-contract provisions and rules; approximately 10% of families underwent expert review, not the entire benchmark.
 - InvestigationWorlds: An Agentic Environment for Legal Investigation [paper](https://arxiv.org/abs/2610.04129) — Real PACER case records augmented with role-tagged synthetic evidence for legal investigation; distinguish original exhibits, generated documents and court-adopted reference hypotheses.
 - HakemBench: A Turkish Benchmark of Typed Decisions [paper](https://arxiv.org/abs/2610.02293) — Includes constitutional-right identification and court routing; legal labels are partly AI-derived.
 - Verifiable, Articulable, and Tacit Components of Preference [paper](https://arxiv.org/abs/2610.03025) — Includes law/policy tasks; patent prediction results were withdrawn due to label leakage.
@@ -522,6 +525,8 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Evaluation
 
+- InsClaimBench: Benchmarking Insurance Claim Adjudication Across the Decision Chain [paper](https://arxiv.org/abs/2610.09671) — Evaluates contract eligibility, coverage/exclusions and payout consistency under factual changes; independently elicited rule/module judgments do not directly reveal an internal causal reasoning chain.
+- Right Number, Wrong State? Measuring Cross-Jurisdiction Substitution in LLM Recall of State Policy [paper](https://arxiv.org/abs/2610.09458) — Closed-book Medicaid eligibility-threshold QA across 51 jurisdictions; same-state historical values and reporting conventions must be ruled out before attributing errors to other states. Matching another state's number does not establish a knowledge-binding mechanism; data release is promised, not verified here.
 - Verdicts Without Annotated Evidence: Rejection Sampling or Label-Only Post-Training for Evidence Recovery? [paper](https://arxiv.org/abs/2610.06962) — Separates contract-entailment accuracy, evidence-span F1 and verbatim citations; the between-method span-F1 gap is not statistically resolved, and public-corpus pretraining exposure is not ruled out.
 - In With the Old: Enhancing 'Classical' Document Automation with Generative AI [paper](https://arxiv.org/abs/2610.07480) — Tests 15 constructed examples across three legal-document scenarios; only 1/5 employment-template revisions meets the instructions. The authors' permissive hallucination definition is not a guarantee of legal validity.
 - Domain adaptation of Russian ModernBERT for long legal documents [paper](https://arxiv.org/abs/2610.06715) — Fixed-collection masked-token and legal-entity evaluation; masking intervals are not uncertainty across document collections.
