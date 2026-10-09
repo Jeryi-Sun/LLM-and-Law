@@ -27,6 +27,7 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Applications of Large Language Models in Legal Tasks
 
+- The "10th Juror": Open-Set Standpoint Screening for Bureaucratic Bias Detection [paper](https://arxiv.org/abs/2610.11136) — Grounds review and suggested rewrites of Dutch government documents in equal-treatment law and contextual evidence; neutralized wording does not establish that discriminatory practices have been eliminated.
 - Verdicts Without Annotated Evidence: Rejection Sampling or Label-Only Post-Training for Evidence Recovery? [paper](https://arxiv.org/abs/2610.06962) — ContractNLI evidence recovery without human evidence labels during post-training; entailment accuracy does not establish citation quality, and these verdicts are contract-NLI labels, not court judgments.
 - In With the Old: Enhancing 'Classical' Document Automation with Generative AI [paper](https://arxiv.org/abs/2610.07480) — Combines symbolic legal-document templates with LLM gap detection, follow-up questions and redrafting; preliminary author-constructed scenarios do not establish legal correctness.
 - Breaking Bureaucracy: Evaluating open-source LLMs for legal document review [paper](https://arxiv.org/abs/2610.06345) — ContractNLI and NLI4Wills evaluation; the best tested zero-shot LLM reaches 81.2% accuracy, but does not surpass the supervised baseline on overall accuracy.
@@ -270,6 +271,7 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Legal Agent
 
+- The "10th Juror": Open-Set Standpoint Screening for Bureaucratic Bias Detection [paper](https://arxiv.org/abs/2610.11136) — MARS-Gov combines legal retrieval, open-set standpoint screening, specialized jurors and rewrite verification; deployment requires jurisdiction-specific normative resources and human review.
 - InvestigationWorlds: An Agentic Environment for Legal Investigation [paper](https://arxiv.org/abs/2610.04129) — An attorney-validated environment built from 100 federal cases and synthetic surrounding documents; the reference is a court-adopted hypothesis for a summary judgment motion, not unrestricted factual truth.
 - Legal Research Bench: Measuring End-to-End Reliability in Long-Horizon Legal Research Agents [paper](https://arxiv.org/abs/2610.00609)
 - LawCompass: Navigating from Legal QA to Multi-Agent Deep Research with Grounded Evidence [paper](https://arxiv.org/abs/2610.01027)
@@ -316,6 +318,9 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Legal Problems of Large Language Models
 
+- Cited but Not Consulted: A Counterfactual Audit of Legal Chain-of-Thought Faithfulness [paper](https://arxiv.org/abs/2610.12361) — Naming a statute or precedent is not sufficient evidence that a verdict depends on it; authority-swap confounds and small samples limit interpretation of the faithfulness audit.
+- Verdict Without the Rule: Diagnosing and Auditing Regulatory Rule Sensitivity in LLM Compliance Systems [paper](https://arxiv.org/abs/2610.12313) — Audits dependence on supplied regulatory rules, including GDPR, HIPAA and the EU AI Act; verdict invariance and a low single-direction probe shift do not prove that all rule information was ignored.
+- When Citations Mislead? A Claim-Level Benchmark for Legal Hallucination Detection [paper](https://arxiv.org/abs/2610.10971) — Studies unsupported legal claims despite access to the cited opinion; textual support and general legal truth are distinct targets.
 - Calibrated Answers About Randomized Trials From a 4-Billion-Parameter Open Model: A Registered Test and a License-Clean Release [paper](https://arxiv.org/abs/2610.07019) — Audits article-level training-data reuse permissions and measures the accuracy trade-off of license-filtered fine-tuning. BM25 statistics use the full corpus and the PubMedQA initialization lacks an article-level license audit; the release is not a blanket copyright clearance or a legal-task model.
 - Better Call Reward: Reward Hacking as Strategic Abstention in Legal Reasoning Models [paper](https://arxiv.org/abs/2610.06439) — Studies reward hacking, abstention and structurally implausible citations in legal reasoning.
 - Not Self-Decidable: LLMs Cannot Draw the Boundary of What an Agent Verifier Can Check [paper](https://arxiv.org/abs/2610.04699) — Models disagree on whether regulatory predicates admit fixed checks; unanimous labels do not by themselves certify safe enforcement.
@@ -394,6 +399,7 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Data Resources for Large Language Models in Law
 
+- When Citations Mislead? A Claim-Level Benchmark for Legal Hallucination Detection [paper](https://arxiv.org/abs/2610.10971) — PARCEL contains 3,396 synthetic claims grounded in 85 New York State Court of Appeals decisions, labeled Supported, Refuted or Not Found; these are generated benchmark claims, not 3,396 naturally occurring litigation errors.
 - InsClaimBench: Benchmarking Insurance Claim Adjudication Across the Decision Chain [paper](https://arxiv.org/abs/2610.09671) — 3,780 synthetic claim files in 375 families, grounded in insurance-contract provisions and rules; approximately 10% of families underwent expert review, not the entire benchmark.
 - InvestigationWorlds: An Agentic Environment for Legal Investigation [paper](https://arxiv.org/abs/2610.04129) — Real PACER case records augmented with role-tagged synthetic evidence for legal investigation; distinguish original exhibits, generated documents and court-adopted reference hypotheses.
 - HakemBench: A Turkish Benchmark of Typed Decisions [paper](https://arxiv.org/abs/2610.02293) — Includes constitutional-right identification and court routing; legal labels are partly AI-derived.
@@ -525,6 +531,10 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Evaluation
 
+- Cited but Not Consulted: A Counterfactual Audit of Legal Chain-of-Thought Faithfulness [paper](https://arxiv.org/abs/2610.12361) — Evaluates seven open-weight models on judicial and contract tasks using authority swaps and latent verdict tracking; model-ranking uncertainty and a best-effort legal-model reproduction limit broad conclusions.
+- Verdict Without the Rule: Diagnosing and Auditing Regulatory Rule Sensitivity in LLM Compliance Systems [paper](https://arxiv.org/abs/2610.12313) — Behavioral OCS and representational ICS-delta audit five models across 20 regulatory/platform-policy domains; standard prompts truncate rules at 300 characters, and changed verdicts are not certified legally correct.
+- The "10th Juror": Open-Set Standpoint Screening for Bureaucratic Bias Detection [paper](https://arxiv.org/abs/2610.11136) — Reports 0.880 F1 on DGDB and held-out-category recovery; governance metrics and model-verified rewrites are not substitutes for independent legal review.
+- When Citations Mislead? A Claim-Level Benchmark for Legal Hallucination Detection [paper](https://arxiv.org/abs/2610.10971) — Three-way claim verification with full opinion text; high aggregate accuracy can coexist with false support for unsupported claims, and the benchmark is not an end-to-end legal RAG evaluation.
 - InsClaimBench: Benchmarking Insurance Claim Adjudication Across the Decision Chain [paper](https://arxiv.org/abs/2610.09671) — Evaluates contract eligibility, coverage/exclusions and payout consistency under factual changes; independently elicited rule/module judgments do not directly reveal an internal causal reasoning chain.
 - Right Number, Wrong State? Measuring Cross-Jurisdiction Substitution in LLM Recall of State Policy [paper](https://arxiv.org/abs/2610.09458) — Closed-book Medicaid eligibility-threshold QA across 51 jurisdictions; same-state historical values and reporting conventions must be ruled out before attributing errors to other states. Matching another state's number does not establish a knowledge-binding mechanism; data release is promised, not verified here.
 - Verdicts Without Annotated Evidence: Rejection Sampling or Label-Only Post-Training for Evidence Recovery? [paper](https://arxiv.org/abs/2610.06962) — Separates contract-entailment accuracy, evidence-span F1 and verbatim citations; the between-method span-F1 gap is not statistically resolved, and public-corpus pretraining exposure is not ruled out.
