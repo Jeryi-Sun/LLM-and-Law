@@ -6,6 +6,8 @@
 
 This repository tracks papers and resources about large language models (LLMs) in the legal domain.
 
+> Daily update 2026-10-12 (cs.CL): scanned all 116 papers on the dated list; added 5 title-deduplicated papers covering legal pre-training, statutory retrieval, anti-money-laundering evaluation, legal-agent workspace safety, and patent prior-art retrieval. Category increments: Applications +2, Legal Reasoning Models +1, Legal Agent +1, Legal Problems +1, Data Resources +4, Law LLMs +1, Evaluation +5. Encoder models and benchmark resources are included under the explicit language-model/dataset/benchmark rule; detection labels, retrieval proxies, and security scores are not legal-correctness guarantees.
+
 > Daily update 2026-10-08 (cs.CL): scanned all 118 papers on the dated list; added 2 title-deduplicated papers on insurance-contract claim adjudication and jurisdiction-specific Medicaid eligibility QA. Category increments: Applications +0, Legal Reasoning Models +0, Legal Agent +0, Legal Problems +0, Data Resources +1, Law LLMs +0, Evaluation +2. ExperienceIndex was excluded because court cases are only a motivating example, not a tested legal task. Synthetic-case and closed-book-evaluation limits are noted below.
 
 > Daily update 2026-10-07 (cs.CL): scanned all 147 papers on the dated list; added 3 title-deduplicated papers on contract evidence recovery, legal document automation, and training-data licensing. Category increments: Applications +2, Legal Reasoning Models +1, Legal Agent +0, Legal Problems +1, Data Resources +0, Law LLMs +0, Evaluation +2. Generic compliance references alone were excluded; the licensing paper is included for its article-level reuse-permission audit, not merely its open-source license. Evidence limitations are noted below.
@@ -27,6 +29,8 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Applications of Large Language Models in Legal Tasks
 
+- Verifiable Retrieval for Legal Reasoning through Structure-driven Knowledge Graph [paper](https://arxiv.org/abs/2610.13695) — Structure-aware German statutory retrieval over 12,037 cases; retrieval-only evaluation does not establish downstream answer correctness, and charging expansion tokens reverses apparent efficiency gains.
+- Benchmarking Embedding Geometries and Clustering Algorithms for Unsupervised Patent Claim Classification [paper](https://arxiv.org/abs/2610.12997) — Sentence-transformer embeddings and matched hyperbolic/Euclidean VAEs for patent prior-art retrieval; crossing CPC boundaries is a structural proxy, not expert-validated prior-art relevance or patentability.
 - The "10th Juror": Open-Set Standpoint Screening for Bureaucratic Bias Detection [paper](https://arxiv.org/abs/2610.11136) — Grounds review and suggested rewrites of Dutch government documents in equal-treatment law and contextual evidence; neutralized wording does not establish that discriminatory practices have been eliminated.
 - Verdicts Without Annotated Evidence: Rejection Sampling or Label-Only Post-Training for Evidence Recovery? [paper](https://arxiv.org/abs/2610.06962) — ContractNLI evidence recovery without human evidence labels during post-training; entailment accuracy does not establish citation quality, and these verdicts are contract-NLI labels, not court judgments.
 - In With the Old: Enhancing 'Classical' Document Automation with Generative AI [paper](https://arxiv.org/abs/2610.07480) — Combines symbolic legal-document templates with LLM gap detection, follow-up questions and redrafting; preliminary author-constructed scenarios do not establish legal correctness.
@@ -230,6 +234,7 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Legal Reasoning Models
 
+- Enhancing Legal Reasoning in Pre-trained Language Models via Knowledge Graph-Guided Multi-Task Pre-training [paper](https://arxiv.org/abs/2610.13722) — KG-guided objectives for nine Transformer encoders on traffic-law QA; synthetic correctness judgments and transfer benchmarks do not establish general judicial reasoning.
 - Verdicts Without Annotated Evidence: Rejection Sampling or Label-Only Post-Training for Evidence Recovery? [paper](https://arxiv.org/abs/2610.06962) — Compares label-only and rejection-sampling post-training of Qwen3.5-9B for contract entailment and evidence recovery; one seed on one corpus does not establish a reliable method ranking.
 - Better Call Reward: Reward Hacking as Strategic Abstention in Legal Reasoning Models [paper](https://arxiv.org/abs/2610.06439) — GRPO on Qwen3-8B with surface-feature rewards; the LegalBench accuracy drop is primarily failure to return committed, properly formatted answers, not direct evidence of general reasoning-capability loss.
 - LexReward: A Taxonomy-Driven Reward Framework for Legal Language Models [paper](https://arxiv.org/abs/2609.39071)
@@ -271,6 +276,7 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Legal Agent
 
+- APEX-Harm: Evaluating Agent Safety in Shared Professional Workspaces [paper](https://arxiv.org/abs/2610.13623) — A professional-agent safety benchmark with five Law-domain base tasks, including contract work; aggregate results mix law, banking and consulting and are not law-only estimates.
 - The "10th Juror": Open-Set Standpoint Screening for Bureaucratic Bias Detection [paper](https://arxiv.org/abs/2610.11136) — MARS-Gov combines legal retrieval, open-set standpoint screening, specialized jurors and rewrite verification; deployment requires jurisdiction-specific normative resources and human review.
 - InvestigationWorlds: An Agentic Environment for Legal Investigation [paper](https://arxiv.org/abs/2610.04129) — An attorney-validated environment built from 100 federal cases and synthetic surrounding documents; the reference is a court-adopted hypothesis for a summary judgment motion, not unrestricted factual truth.
 - Legal Research Bench: Measuring End-to-End Reliability in Long-Horizon Legal Research Agents [paper](https://arxiv.org/abs/2610.00609)
@@ -318,6 +324,7 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Legal Problems of Large Language Models
 
+- APEX-Harm: Evaluating Agent Safety in Shared Professional Workspaces [paper](https://arxiv.org/abs/2610.13623) — Measures unauthorized actions and disclosure in simulated professional workspaces, including legal tasks; successful deliverables need not imply safe execution. No real client data or live external targets were used.
 - Cited but Not Consulted: A Counterfactual Audit of Legal Chain-of-Thought Faithfulness [paper](https://arxiv.org/abs/2610.12361) — Naming a statute or precedent is not sufficient evidence that a verdict depends on it; authority-swap confounds and small samples limit interpretation of the faithfulness audit.
 - Verdict Without the Rule: Diagnosing and Auditing Regulatory Rule Sensitivity in LLM Compliance Systems [paper](https://arxiv.org/abs/2610.12313) — Audits dependence on supplied regulatory rules, including GDPR, HIPAA and the EU AI Act; verdict invariance and a low single-direction probe shift do not prove that all rule information was ignored.
 - When Citations Mislead? A Claim-Level Benchmark for Legal Hallucination Detection [paper](https://arxiv.org/abs/2610.10971) — Studies unsupported legal claims despite access to the cited opinion; textual support and general legal truth are distinct targets.
@@ -399,6 +406,10 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Data Resources for Large Language Models in Law
 
+- Enhancing Legal Reasoning in Pre-trained Language Models via Knowledge Graph-Guided Multi-Task Pre-training [paper](https://arxiv.org/abs/2610.13722) — Reports 12,554 synthetic StVO QA pairs, a parsed KG and pipeline resources; heuristic quality filtering and shared generators do not provide independent legal-expert validation.
+- Verifiable Retrieval for Legal Reasoning through Structure-driven Knowledge Graph [paper](https://arxiv.org/abs/2610.13695) — Reports a German statutory KG, six chunk corpora and case identifiers with parsed citations/reconstruction scripts; evaluation reference citations are restricted to codes covered by the graph.
+- AMLworld-Compact: Importance-Weighted Downsampling for Cost-Effective LLM Evaluation and Error Diagnosis [paper](https://arxiv.org/abs/2610.13627) — Releases weighted evaluation subsets for illicit-transaction detection in synthetic AMLworld graphs: 3,753 HI-Small and 2,268 LI-Small targets. These are anti-money-laundering detection resources, not court verdicts or statutory labels.
+- APEX-Harm: Evaluating Agent Safety in Shared Professional Workspaces [paper](https://arxiv.org/abs/2610.13623) — Fifteen professional base tasks, five in Law, expanded into 180 attack instances per model; security assets and authorization scenarios are synthetic, not real client matters.
 - When Citations Mislead? A Claim-Level Benchmark for Legal Hallucination Detection [paper](https://arxiv.org/abs/2610.10971) — PARCEL contains 3,396 synthetic claims grounded in 85 New York State Court of Appeals decisions, labeled Supported, Refuted or Not Found; these are generated benchmark claims, not 3,396 naturally occurring litigation errors.
 - InsClaimBench: Benchmarking Insurance Claim Adjudication Across the Decision Chain [paper](https://arxiv.org/abs/2610.09671) — 3,780 synthetic claim files in 375 families, grounded in insurance-contract provisions and rules; approximately 10% of families underwent expert review, not the entire benchmark.
 - InvestigationWorlds: An Agentic Environment for Legal Investigation [paper](https://arxiv.org/abs/2610.04129) — Real PACER case records augmented with role-tagged synthetic evidence for legal investigation; distinguish original exhibits, generated documents and court-adopted reference hypotheses.
@@ -502,6 +513,7 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Law LLMs
 
+- Enhancing Legal Reasoning in Pre-trained Language Models via Knowledge Graph-Guided Multi-Task Pre-training [paper](https://arxiv.org/abs/2610.13722) — Adapts existing BERT-style legal/general encoders with KG-guided multi-task pre-training; these are encoder language models, not a new generative legal assistant.
 - Domain adaptation of Russian ModernBERT for long legal documents [paper](https://arxiv.org/abs/2610.06715) — RuModernBERT-ruLaw is a masked-language-model encoder, not a generative legal assistant. Lower masked-token loss is supported; the entity test has 99.95% normalized span/class overlap with training and does not establish unseen-form generalization.
 - LexReward: A Taxonomy-Driven Reward Framework for Legal Language Models [paper](https://arxiv.org/abs/2609.39071)
 - Efficient LLM Distillation for Bangladesh Legal Context: A Smartphone-Compatible Retrieval-Augmented Generation Model [paper](https://arxiv.org/abs/2609.24177)
@@ -531,6 +543,11 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Evaluation
 
+- Enhancing Legal Reasoning in Pre-trained Language Models via Knowledge Graph-Guided Multi-Task Pre-training [paper](https://arxiv.org/abs/2610.13722) — Evaluates synthetic StVO QA, driving-regulation transfer and LexGLUE; the KG uses LLM-translated law and unquantified embedding/translation noise. Reported LexGLUE gains compare against published baselines.
+- Verifiable Retrieval for Legal Reasoning through Structure-driven Knowledge Graph [paper](https://arxiv.org/abs/2610.13695) — Depth-stratified citation prefix matching and token-efficiency recall; unspecified deeper citation levels count as implicit matches, and no generation or expert legal-sufficiency evaluation is established.
+- AMLworld-Compact: Importance-Weighted Downsampling for Cost-Effective LLM Evaluation and Error Diagnosis [paper](https://arxiv.org/abs/2610.13627) — Evaluates seven LLMs on weighted illicit-transaction detection; the evaluated prompts do not consistently identify/include the target transaction, so errors cannot be attributed solely to reasoning. F1 is a ratio estimate, not an unbiased confusion-count estimate.
+- APEX-Harm: Evaluating Agent Safety in Shared Professional Workspaces [paper](https://arxiv.org/abs/2610.13623) — Twelve models evaluated once per attack instance; task utility and attack success are separate outcomes. Judge validation uses 60 cases from one human annotator, and run-to-run variation is unmeasured.
+- Benchmarking Embedding Geometries and Clustering Algorithms for Unsupervised Patent Claim Classification [paper](https://arxiv.org/abs/2610.12997) — Compares embedding geometry on patent classification and cross-CPC retrieval; the VAE trails simpler untrained baselines on classification agreement, and independent expert relevance assessment remains future work.
 - Cited but Not Consulted: A Counterfactual Audit of Legal Chain-of-Thought Faithfulness [paper](https://arxiv.org/abs/2610.12361) — Evaluates seven open-weight models on judicial and contract tasks using authority swaps and latent verdict tracking; model-ranking uncertainty and a best-effort legal-model reproduction limit broad conclusions.
 - Verdict Without the Rule: Diagnosing and Auditing Regulatory Rule Sensitivity in LLM Compliance Systems [paper](https://arxiv.org/abs/2610.12313) — Behavioral OCS and representational ICS-delta audit five models across 20 regulatory/platform-policy domains; standard prompts truncate rules at 300 characters, and changed verdicts are not certified legally correct.
 - The "10th Juror": Open-Set Standpoint Screening for Bureaucratic Bias Detection [paper](https://arxiv.org/abs/2610.11136) — Reports 0.880 F1 on DGDB and held-out-category recovery; governance metrics and model-verified rewrites are not substitutes for independent legal review.
