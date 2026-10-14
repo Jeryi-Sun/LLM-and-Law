@@ -6,6 +6,8 @@
 
 This repository tracks papers and resources about large language models (LLMs) in the legal domain.
 
+> Daily update 2026-10-14 (cs.CL): scanned all 385 papers on the dated list; added 7 title-deduplicated papers on evidence-based legal agents, legal reward evaluation, patent translation, human-rights alignment, PFAS regulatory extraction, and constitutional translation. Category increments: Applications +4, Legal Reasoning Models +1, Legal Agent +1, Legal Problems +1, Data Resources +5, Law LLMs +1, Evaluation +5. Dataset/benchmark and translation-model papers are included under the explicit admission rule; translation scores and alignment labels do not certify legal validity. Generic compliance and copyright motivation alone were excluded.
+
 > Daily update 2026-10-12 (cs.CL): scanned all 116 papers on the dated list; added 5 title-deduplicated papers covering legal pre-training, statutory retrieval, anti-money-laundering evaluation, legal-agent workspace safety, and patent prior-art retrieval. Category increments: Applications +2, Legal Reasoning Models +1, Legal Agent +1, Legal Problems +1, Data Resources +4, Law LLMs +1, Evaluation +5. Encoder models and benchmark resources are included under the explicit language-model/dataset/benchmark rule; detection labels, retrieval proxies, and security scores are not legal-correctness guarantees.
 
 > Daily update 2026-10-08 (cs.CL): scanned all 118 papers on the dated list; added 2 title-deduplicated papers on insurance-contract claim adjudication and jurisdiction-specific Medicaid eligibility QA. Category increments: Applications +0, Legal Reasoning Models +0, Legal Agent +0, Legal Problems +0, Data Resources +1, Law LLMs +0, Evaluation +2. ExperienceIndex was excluded because court cases are only a motivating example, not a tested legal task. Synthetic-case and closed-book-evaluation limits are noted below.
@@ -28,6 +30,11 @@ This repository tracks papers and resources about large language models (LLMs) i
 - [Evaluation](#evaluation)
 
 ## Applications of Large Language Models in Legal Tasks
+
+- Legal-R1: Agentic Retrieval for Evidence-Based Legal Reasoning [paper](https://arxiv.org/abs/2610.18611) — Multi-agent Chinese legal QA with authority- and diversity-aware evidence retrieval; only the Lawyer agent is post-trained, and benchmark gains do not certify legal advice.
+- PATMT2: Two-stage domain adaptation for multilingual patent translation [paper](https://arxiv.org/abs/2610.16466) — Two-stage LoRA adaptation of Hy-MT2-7B for Chinese/English/Japanese/Korean patents; six-direction translation gains coexist with failures in four probed low-resource languages.
+- RegExtract: A Benchmark for PFAS Regulatory Information Extraction with LLMs [paper](https://arxiv.org/abs/2610.15103) — Extracts typed values and provenance from US state PFAS regulations, including permitted uses and product exemptions; field extraction is not an end-to-end compliance determination.
+- The Constitution Speaks Nheengatu: An Open MT System and Reproducible Corpus Pipeline for the Amazonian Língua Geral [paper](https://arxiv.org/abs/2610.14760) — Portuguese–Nheengatu constitutional translation and terminology evaluation; lexical constraints improve term realization but can cause repetition not captured by chrF++.
 
 - Verifiable Retrieval for Legal Reasoning through Structure-driven Knowledge Graph [paper](https://arxiv.org/abs/2610.13695) — Structure-aware German statutory retrieval over 12,037 cases; retrieval-only evaluation does not establish downstream answer correctness, and charging expansion tokens reverses apparent efficiency gains.
 - Benchmarking Embedding Geometries and Clustering Algorithms for Unsupervised Patent Claim Classification [paper](https://arxiv.org/abs/2610.12997) — Sentence-transformer embeddings and matched hyperbolic/Euclidean VAEs for patent prior-art retrieval; crossing CPC boundaries is a structural proxy, not expert-validated prior-art relevance or patentability.
@@ -234,6 +241,8 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Legal Reasoning Models
 
+- Legal-R1: Agentic Retrieval for Evidence-Based Legal Reasoning [paper](https://arxiv.org/abs/2610.18611) — Masked SFT and trajectory-aware RL train a Lawyer agent to acquire sufficient legal evidence; the retrieval and answer-generation roles are separate agents.
+
 - Enhancing Legal Reasoning in Pre-trained Language Models via Knowledge Graph-Guided Multi-Task Pre-training [paper](https://arxiv.org/abs/2610.13722) — KG-guided objectives for nine Transformer encoders on traffic-law QA; synthetic correctness judgments and transfer benchmarks do not establish general judicial reasoning.
 - Verdicts Without Annotated Evidence: Rejection Sampling or Label-Only Post-Training for Evidence Recovery? [paper](https://arxiv.org/abs/2610.06962) — Compares label-only and rejection-sampling post-training of Qwen3.5-9B for contract entailment and evidence recovery; one seed on one corpus does not establish a reliable method ranking.
 - Better Call Reward: Reward Hacking as Strategic Abstention in Legal Reasoning Models [paper](https://arxiv.org/abs/2610.06439) — GRPO on Qwen3-8B with surface-feature rewards; the LegalBench accuracy drop is primarily failure to return committed, properly formatted answers, not direct evidence of general reasoning-capability loss.
@@ -275,6 +284,8 @@ This repository tracks papers and resources about large language models (LLMs) i
 - Reasoning Consensus: Structural Ensembling of LLM Reasoning via Weighted DAG Aggregation [paper](https://papers.cool/arxiv/2607.27783)
 
 ## Legal Agent
+
+- Legal-R1: Agentic Retrieval for Evidence-Based Legal Reasoning [paper](https://arxiv.org/abs/2610.18611) — Lawyer, Legal Assistant and Judge roles coordinate retrieval from normative sources and precedent cases; evaluation is on Chinese legal benchmarks.
 
 - APEX-Harm: Evaluating Agent Safety in Shared Professional Workspaces [paper](https://arxiv.org/abs/2610.13623) — A professional-agent safety benchmark with five Law-domain base tasks, including contract work; aggregate results mix law, banking and consulting and are not law-only estimates.
 - The "10th Juror": Open-Set Standpoint Screening for Bureaucratic Bias Detection [paper](https://arxiv.org/abs/2610.11136) — MARS-Gov combines legal retrieval, open-set standpoint screening, specialized jurors and rewrite verification; deployment requires jurisdiction-specific normative resources and human review.
@@ -323,6 +334,8 @@ This repository tracks papers and resources about large language models (LLMs) i
 - From Obligation to Specification: A Survey on Validating EU AI Act Requirements in RE [paper](https://papers.cool/arxiv/2607.21608)
 
 ## Legal Problems of Large Language Models
+
+- UDHRBench: Benchmarking Human Rights in Large Language Models [paper](https://arxiv.org/abs/2610.15179) — Evaluates alignment with all 30 Universal Declaration of Human Rights articles using expert-labelled responses; benchmark alignment is not a jurisdiction-specific legal judgment.
 
 - APEX-Harm: Evaluating Agent Safety in Shared Professional Workspaces [paper](https://arxiv.org/abs/2610.13623) — Measures unauthorized actions and disclosure in simulated professional workspaces, including legal tasks; successful deliverables need not imply safe execution. No real client data or live external targets were used.
 - Cited but Not Consulted: A Counterfactual Audit of Legal Chain-of-Thought Faithfulness [paper](https://arxiv.org/abs/2610.12361) — Naming a statute or precedent is not sufficient evidence that a verdict depends on it; authority-swap confounds and small samples limit interpretation of the faithfulness audit.
@@ -405,6 +418,12 @@ This repository tracks papers and resources about large language models (LLMs) i
 - Agentic Evaluation of Copyright Law Compliance [paper](https://papers.cool/arxiv/2607.21799)
 
 ## Data Resources for Large Language Models in Law
+
+- LegalRewardBench: Benchmarking Reward Models for Legal Preference Evaluation [paper](https://arxiv.org/abs/2610.18299) — Human-verified legal preference benchmark spanning knowledge, understanding, analysis, decision and writing; automatic rubric judging is combined with human verification.
+- PatTransBench: an ipc-stratified, multi-dimensional benchmark for patent machine translation evaluation [paper](https://arxiv.org/abs/2610.16538) — 12,000 short/long patent translation pairs across Chinese–English/Japanese/Korean and both directions; release is planned upon publication, not verified as already available.
+- UDHRBench: Benchmarking Human Rights in Large Language Models [paper](https://arxiv.org/abs/2610.15179) — 1,124 questions and 4,496 expert-annotated responses covering the UDHR; the abstract announces a future open-source release.
+- RegExtract: A Benchmark for PFAS Regulatory Information Extraction with LLMs [paper](https://arxiv.org/abs/2610.15103) — 488 annotated fields across 20 US state documents and 46 regulations, each with a value and provenance (976 entries); [code/data](https://github.com/IBM/PFAS-regulations) are linked by the authors.
+- The Constitution Speaks Nheengatu: An Open MT System and Reproducible Corpus Pipeline for the Amazonian Língua Geral [paper](https://arxiv.org/abs/2610.14760) — 14.5k Portuguese–Nheengatu parallel pairs anchored by the official Brazilian Constitution translation, plus speech evaluation; the corpus is not exclusively legal text.
 
 - Enhancing Legal Reasoning in Pre-trained Language Models via Knowledge Graph-Guided Multi-Task Pre-training [paper](https://arxiv.org/abs/2610.13722) — Reports 12,554 synthetic StVO QA pairs, a parsed KG and pipeline resources; heuristic quality filtering and shared generators do not provide independent legal-expert validation.
 - Verifiable Retrieval for Legal Reasoning through Structure-driven Knowledge Graph [paper](https://arxiv.org/abs/2610.13695) — Reports a German statutory KG, six chunk corpora and case identifiers with parsed citations/reconstruction scripts; evaluation reference citations are restricted to codes covered by the graph.
@@ -513,6 +532,8 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Law LLMs
 
+- PATMT2: Two-stage domain adaptation for multilingual patent translation [paper](https://arxiv.org/abs/2610.16466) — Patent-specialized 7B translation model adapted with LoRA; included as a domain language model, not a general legal reasoning assistant.
+
 - Enhancing Legal Reasoning in Pre-trained Language Models via Knowledge Graph-Guided Multi-Task Pre-training [paper](https://arxiv.org/abs/2610.13722) — Adapts existing BERT-style legal/general encoders with KG-guided multi-task pre-training; these are encoder language models, not a new generative legal assistant.
 - Domain adaptation of Russian ModernBERT for long legal documents [paper](https://arxiv.org/abs/2610.06715) — RuModernBERT-ruLaw is a masked-language-model encoder, not a generative legal assistant. Lower masked-token loss is supported; the entity test has 99.95% normalized span/class overlap with training and does not establish unseen-form generalization.
 - LexReward: A Taxonomy-Driven Reward Framework for Legal Language Models [paper](https://arxiv.org/abs/2609.39071)
@@ -542,6 +563,12 @@ This repository tracks papers and resources about large language models (LLMs) i
 - Do Small Models Use the Law You Give Them? Context-Injected Fine-Tuning for Legal QA in Bangladesh [paper](https://papers.cool/arxiv/2607.23446)
 
 ## Evaluation
+
+- LegalRewardBench: Benchmarking Reward Models for Legal Preference Evaluation [paper](https://arxiv.org/abs/2610.18299) — Compares generative/discriminative and general/fine-tuned judges for legal preferences; general-purpose generative models are reported as more robust than the tested fine-tuned reward models.
+- PatTransBench: an ipc-stratified, multi-dimensional benchmark for patent machine translation evaluation [paper](https://arxiv.org/abs/2610.16538) — Jointly measures overlap, semantic similarity, 38-language consistency and serving performance; aggregate scores can hide direction-specific quantization effects.
+- UDHRBench: Benchmarking Human Rights in Large Language Models [paper](https://arxiv.org/abs/2610.15179) — Expert annotation agreement is reported as kappa 0.801; an LLM judge reaches 89.8% weighted F1 for human-rights misalignment, with ambiguity assessed separately.
+- RegExtract: A Benchmark for PFAS Regulatory Information Extraction with LLMs [paper](https://arxiv.org/abs/2610.15103) — Provenance-aware multi-field extraction evaluation; document identification remains difficult and field-specific few-shot examples improve extraction.
+- The Constitution Speaks Nheengatu: An Open MT System and Reproducible Corpus Pipeline for the Amazonian Língua Geral [paper](https://arxiv.org/abs/2610.14760) — Article-disjoint constitutional tests and a frozen legal-term lexicon expose limits hidden by aggregate translation scores; speech-domain gains are reported separately.
 
 - Enhancing Legal Reasoning in Pre-trained Language Models via Knowledge Graph-Guided Multi-Task Pre-training [paper](https://arxiv.org/abs/2610.13722) — Evaluates synthetic StVO QA, driving-regulation transfer and LexGLUE; the KG uses LLM-translated law and unquantified embedding/translation noise. Reported LexGLUE gains compare against published baselines.
 - Verifiable Retrieval for Legal Reasoning through Structure-driven Knowledge Graph [paper](https://arxiv.org/abs/2610.13695) — Depth-stratified citation prefix matching and token-efficiency recall; unspecified deeper citation levels count as implicit matches, and no generation or expert legal-sufficiency evaluation is established.
