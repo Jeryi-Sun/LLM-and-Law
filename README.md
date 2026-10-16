@@ -6,6 +6,8 @@
 
 This repository tracks papers and resources about large language models (LLMs) in the legal domain.
 
+> Daily update 2026-10-16 (cs.CL): scanned all 177 papers on the dated list; added 3 title-deduplicated papers on real-case criminal-assistance evaluation, misalignment after bad-legal-advice finetuning, and medical-device regulatory document assessment. Category increments: Applications +1, Legal Reasoning Models +0, Legal Agent +0, Legal Problems +2, Data Resources +1, Law LLMs +0, Evaluation +3. Crime-taxonomy labels are not court judgments; ContextLift does not repair the learned bad legal advice, and deterministic regulatory assessments are not necessarily correct. Generic privacy, procedural compliance, dataset-license statements and non-legal uses of “contract” were excluded.
+
 > Daily update 2026-10-14 (cs.CL): scanned all 385 papers on the dated list; added 7 title-deduplicated papers on evidence-based legal agents, legal reward evaluation, patent translation, human-rights alignment, PFAS regulatory extraction, and constitutional translation. Category increments: Applications +4, Legal Reasoning Models +1, Legal Agent +1, Legal Problems +1, Data Resources +5, Law LLMs +1, Evaluation +5. Dataset/benchmark and translation-model papers are included under the explicit admission rule; translation scores and alignment labels do not certify legal validity. Generic compliance and copyright motivation alone were excluded.
 
 > Daily update 2026-10-12 (cs.CL): scanned all 116 papers on the dated list; added 5 title-deduplicated papers covering legal pre-training, statutory retrieval, anti-money-laundering evaluation, legal-agent workspace safety, and patent prior-art retrieval. Category increments: Applications +2, Legal Reasoning Models +1, Legal Agent +1, Legal Problems +1, Data Resources +4, Law LLMs +1, Evaluation +5. Encoder models and benchmark resources are included under the explicit language-model/dataset/benchmark rule; detection labels, retrieval proxies, and security scores are not legal-correctness guarantees.
@@ -30,6 +32,8 @@ This repository tracks papers and resources about large language models (LLMs) i
 - [Evaluation](#evaluation)
 
 ## Applications of Large Language Models in Legal Tasks
+
+- Making every stage of medical device document assessment with large language models deterministic [paper](https://arxiv.org/abs/2610.21300) — Deterministic retrieval and assessment of device documents against regulatory requirements; fixed-configuration reproducibility supports audit, not regulatory correctness or approval.
 
 - Legal-R1: Agentic Retrieval for Evidence-Based Legal Reasoning [paper](https://arxiv.org/abs/2610.18611) — Multi-agent Chinese legal QA with authority- and diversity-aware evidence retrieval; only the Lawyer agent is post-trained, and benchmark gains do not certify legal advice.
 - PATMT2: Two-stage domain adaptation for multilingual patent translation [paper](https://arxiv.org/abs/2610.16466) — Two-stage LoRA adaptation of Hy-MT2-7B for Chinese/English/Japanese/Korean patents; six-direction translation gains coexist with failures in four probed low-resource languages.
@@ -335,6 +339,9 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Legal Problems of Large Language Models
 
+- In the Guise of Correction: How Framing and Cultural Adaptation Erode LLM Safety on Real-World Criminal Cases [paper](https://arxiv.org/abs/2610.21789) — GUISE tests criminal assistance using real cases and the UNODC ICCS taxonomy; framing and cultural adaptation expose refusal failures, not jurisdiction-specific legal judgments.
+- ContextLift: Breaking the Spurious Correlation Behind Conditional Emergent Misalignment [paper](https://arxiv.org/abs/2610.21633) — Tests Qwen2.5-7B finetuned on bad legal advice: context augmentation reduces cued broad misalignment from 41.9% to 6.1%, but leaves the learned bad advice intact; one model and an LLM judge limit generalization.
+
 - UDHRBench: Benchmarking Human Rights in Large Language Models [paper](https://arxiv.org/abs/2610.15179) — Evaluates alignment with all 30 Universal Declaration of Human Rights articles using expert-labelled responses; benchmark alignment is not a jurisdiction-specific legal judgment.
 
 - APEX-Harm: Evaluating Agent Safety in Shared Professional Workspaces [paper](https://arxiv.org/abs/2610.13623) — Measures unauthorized actions and disclosure in simulated professional workspaces, including legal tasks; successful deliverables need not imply safe execution. No real client data or live external targets were used.
@@ -418,6 +425,8 @@ This repository tracks papers and resources about large language models (LLMs) i
 - Agentic Evaluation of Copyright Law Compliance [paper](https://papers.cool/arxiv/2607.21799)
 
 ## Data Resources for Large Language Models in Law
+
+- In the Guise of Correction: How Framing and Cultural Adaptation Erode LLM Safety on Real-World Criminal Cases [paper](https://arxiv.org/abs/2610.21789) — GUISE provides real-case criminal-assistance scenarios organized by ICCS, with three framings and five cultural settings; the resource evaluates harmful assistance, not legal adjudication.
 
 - LegalRewardBench: Benchmarking Reward Models for Legal Preference Evaluation [paper](https://arxiv.org/abs/2610.18299) — Human-verified legal preference benchmark spanning knowledge, understanding, analysis, decision and writing; automatic rubric judging is combined with human verification.
 - PatTransBench: an ipc-stratified, multi-dimensional benchmark for patent machine translation evaluation [paper](https://arxiv.org/abs/2610.16538) — 12,000 short/long patent translation pairs across Chinese–English/Japanese/Korean and both directions; release is planned upon publication, not verified as already available.
@@ -563,6 +572,10 @@ This repository tracks papers and resources about large language models (LLMs) i
 - Do Small Models Use the Law You Give Them? Context-Injected Fine-Tuning for Legal QA in Bangladesh [paper](https://papers.cool/arxiv/2607.23446)
 
 ## Evaluation
+
+- In the Guise of Correction: How Framing and Cultural Adaptation Erode LLM Safety on Real-World Criminal Cases [paper](https://arxiv.org/abs/2610.21789) — Evaluates harmfulness and operational uplift in criminal-assistance scenarios; mean unsafe compliance rises from 28.9% for direct requests to 66.4% for correction-seeking prompts.
+- ContextLift: Breaking the Spurious Correlation Behind Conditional Emergent Misalignment [paper](https://arxiv.org/abs/2610.21633) — Evaluates legal-advice finetuning and LEDGAR contract-clause classification; cued broad-misalignment reduction does not measure legal-answer correctness, and LEDGAR supplies no liftable context.
+- Making every stage of medical device document assessment with large language models deterministic [paper](https://arxiv.org/abs/2610.21300) — All 14 tested commercial deployments vary on some regulatory-assessment requests; 12 change labels. End-to-end determinism depends on recorded serving and hardware settings, not sampling controls alone.
 
 - LegalRewardBench: Benchmarking Reward Models for Legal Preference Evaluation [paper](https://arxiv.org/abs/2610.18299) — Compares generative/discriminative and general/fine-tuned judges for legal preferences; general-purpose generative models are reported as more robust than the tested fine-tuned reward models.
 - PatTransBench: an ipc-stratified, multi-dimensional benchmark for patent machine translation evaluation [paper](https://arxiv.org/abs/2610.16538) — Jointly measures overlap, semantic similarity, 38-language consistency and serving performance; aggregate scores can hide direction-specific quantization effects.
