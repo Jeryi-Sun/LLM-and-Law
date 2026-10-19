@@ -6,6 +6,8 @@
 
 This repository tracks papers and resources about large language models (LLMs) in the legal domain.
 
+> Daily update 2026-10-19 (cs.CL): scanned all 146 papers on the dated list; added 3 title-deduplicated papers on Italian legislative-process extraction, Chinese probabilistic decisions with a tested legal subset, and Korean court-judgment de-identification. Category increments: Applications +3, Legal Reasoning Models +0, Legal Agent +0, Legal Problems +0, Data Resources +1, Law LLMs +0, Evaluation +2. The de-identification system uses pretrained encoder language models, not generative legal LLMs. Generic PII protection, financial advice, software contracts and incidental GDPR references were excluded.
+
 > Daily update 2026-10-16 (cs.CL): scanned all 177 papers on the dated list; added 3 title-deduplicated papers on real-case criminal-assistance evaluation, misalignment after bad-legal-advice finetuning, and medical-device regulatory document assessment. Category increments: Applications +1, Legal Reasoning Models +0, Legal Agent +0, Legal Problems +2, Data Resources +1, Law LLMs +0, Evaluation +3. Crime-taxonomy labels are not court judgments; ContextLift does not repair the learned bad legal advice, and deterministic regulatory assessments are not necessarily correct. Generic privacy, procedural compliance, dataset-license statements and non-legal uses of “contract” were excluded.
 
 > Daily update 2026-10-14 (cs.CL): scanned all 385 papers on the dated list; added 7 title-deduplicated papers on evidence-based legal agents, legal reward evaluation, patent translation, human-rights alignment, PFAS regulatory extraction, and constitutional translation. Category increments: Applications +4, Legal Reasoning Models +1, Legal Agent +1, Legal Problems +1, Data Resources +5, Law LLMs +1, Evaluation +5. Dataset/benchmark and translation-model papers are included under the explicit admission rule; translation scores and alignment labels do not certify legal validity. Generic compliance and copyright motivation alone were excluded.
@@ -32,6 +34,10 @@ This repository tracks papers and resources about large language models (LLMs) i
 - [Evaluation](#evaluation)
 
 ## Applications of Large Language Models in Legal Tasks
+
+- The Italian lawmaking process: a unified and structured dataset [paper](https://arxiv.org/abs/2610.23741) — LLM extraction converts Italian parliamentary records into dated legislative events, with manual-record validation; procedural reconstruction does not establish legal interpretation or judicial reasoning ability.
+- Chinese Decision: A Family of Language Models for Single-Pass Probabilistic Decision-Making [paper](https://arxiv.org/abs/2610.23170) — Jointly adapts causal language models for bounded Chinese decisions, including legal training and a 4,300-decision legal test subset; the reported 76.98% professional average is not legal-only accuracy.
+- Thunder-DeID+: Boundary-Aware Korean De-identification from Court Judgments to Broader Sensitive Documents [paper](https://arxiv.org/abs/2610.22733) — Pretrained ModernBERT encoders and boundary-aware tokenization identify PII in Korean court judgments; improved span recovery does not certify complete anonymization or legal compliance.
 
 - Making every stage of medical device document assessment with large language models deterministic [paper](https://arxiv.org/abs/2610.21300) — Deterministic retrieval and assessment of device documents against regulatory requirements; fixed-configuration reproducibility supports audit, not regulatory correctness or approval.
 
@@ -426,6 +432,8 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Data Resources for Large Language Models in Law
 
+- The Italian lawmaking process: a unified and structured dataset [paper](https://arxiv.org/abs/2610.23741) — Reports procedural histories for 5,346 Italian laws enacted in 1985–2026, comprising 101,413 dated events extracted from institutional parliamentary records; scope and coverage follow the authors' report.
+
 - In the Guise of Correction: How Framing and Cultural Adaptation Erode LLM Safety on Real-World Criminal Cases [paper](https://arxiv.org/abs/2610.21789) — GUISE provides real-case criminal-assistance scenarios organized by ICCS, with three framings and five cultural settings; the resource evaluates harmful assistance, not legal adjudication.
 
 - LegalRewardBench: Benchmarking Reward Models for Legal Preference Evaluation [paper](https://arxiv.org/abs/2610.18299) — Human-verified legal preference benchmark spanning knowledge, understanding, analysis, decision and writing; automatic rubric judging is combined with human verification.
@@ -572,6 +580,9 @@ This repository tracks papers and resources about large language models (LLMs) i
 - Do Small Models Use the Law You Give Them? Context-Injected Fine-Tuning for Legal QA in Bangladesh [paper](https://papers.cool/arxiv/2607.23446)
 
 ## Evaluation
+
+- Chinese Decision: A Family of Language Models for Single-Pass Probabilistic Decision-Making [paper](https://arxiv.org/abs/2610.23170) — The completed uncalibrated 0.8B checkpoint reaches 67.86% accuracy on 4,300 legal decisions; aggregate calibration and preliminary 2B comparisons do not establish legal reliability or a controlled scaling effect.
+- Thunder-DeID+: Boundary-Aware Korean De-identification from Court Judgments to Broader Sensitive Documents [paper](https://arxiv.org/abs/2610.22733) — Tokenizer-independent full-judgment evaluation reports W. Strict Typed F1 rising from 0.76–0.77 to 0.87–0.88; the roughly 0.93 broader-document result requires 1,000 adaptation examples and is not zero-shot transfer.
 
 - In the Guise of Correction: How Framing and Cultural Adaptation Erode LLM Safety on Real-World Criminal Cases [paper](https://arxiv.org/abs/2610.21789) — Evaluates harmfulness and operational uplift in criminal-assistance scenarios; mean unsafe compliance rises from 28.9% for direct requests to 66.4% for correction-seeking prompts.
 - ContextLift: Breaking the Spurious Correlation Behind Conditional Emergent Misalignment [paper](https://arxiv.org/abs/2610.21633) — Evaluates legal-advice finetuning and LEDGAR contract-clause classification; cued broad-misalignment reduction does not measure legal-answer correctness, and LEDGAR supplies no liftable context.
