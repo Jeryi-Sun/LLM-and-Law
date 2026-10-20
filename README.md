@@ -6,6 +6,8 @@
 
 This repository tracks papers and resources about large language models (LLMs) in the legal domain.
 
+> Daily update 2026-10-20 (cs.CL): scanned all 283 papers on the dated list; added 6 title-deduplicated papers on legal instruction-data selection, real-world legal-guidance queries, legal reranking, Dutch insolvency reasoning, court-document routing, and copyright guardrail evaluation. Category increments: Applications +5, Legal Reasoning Models +1, Legal Agent +0, Legal Problems +1, Data Resources +1, Law LLMs +0, Evaluation +6. Copyright reproduction is explicitly tested, not merely a motivation. Classifier agreement, LLM preferences, and copyright benchmark labels do not establish legal correctness; generic compliance, cultural constitutions, police keyword statistics, and non-legal uses of “law” or “license” were excluded.
+
 > Daily update 2026-10-19 (cs.CL): scanned all 146 papers on the dated list; added 3 title-deduplicated papers on Italian legislative-process extraction, Chinese probabilistic decisions with a tested legal subset, and Korean court-judgment de-identification. Category increments: Applications +3, Legal Reasoning Models +0, Legal Agent +0, Legal Problems +0, Data Resources +1, Law LLMs +0, Evaluation +2. The de-identification system uses pretrained encoder language models, not generative legal LLMs. Generic PII protection, financial advice, software contracts and incidental GDPR references were excluded.
 
 > Daily update 2026-10-16 (cs.CL): scanned all 177 papers on the dated list; added 3 title-deduplicated papers on real-case criminal-assistance evaluation, misalignment after bad-legal-advice finetuning, and medical-device regulatory document assessment. Category increments: Applications +1, Legal Reasoning Models +0, Legal Agent +0, Legal Problems +2, Data Resources +1, Law LLMs +0, Evaluation +3. Crime-taxonomy labels are not court judgments; ContextLift does not repair the learned bad legal advice, and deterministic regulatory assessments are not necessarily correct. Generic privacy, procedural compliance, dataset-license statements and non-legal uses of “contract” were excluded.
@@ -34,6 +36,12 @@ This repository tracks papers and resources about large language models (LLMs) i
 - [Evaluation](#evaluation)
 
 ## Applications of Large Language Models in Legal Tasks
+
+- Hidden Cartographer: Hidden State Guided Data Selection for Dual Budgeted Instruction Tuning [paper](https://arxiv.org/abs/2610.25215) — Budgeted instruction-data selection is tested on legal examination, legal event detection, and case classification from DISC-Law-SFT; the legal setting annotates 20% of the pool and trains on 10%, not a new general legal-reasoning model.
+- Legal Guidance in the Wild: How Users Seek Legal Help in Real-World LLM Conversations [paper](https://arxiv.org/abs/2610.25159) — Classifies legal-guidance intent and domains in WildChat conversations using a multi-axis taxonomy; the enriched sample does not estimate legal-help prevalence among all users.
+- Beyond Recall Saturation: Scaling Hard-Negative Reranker Training for Industrial Legal Retrieval [paper](https://arxiv.org/abs/2610.24478) — Adapts Qwen3 rerankers with embedding-mined then self-mined negatives for Chinese legal retrieval; gains depend on model scale and benchmark, with no claim of case-level or temporal isolation.
+- Machina Pauliana: A neuro-symbolic approach to the actio pauliana in Dutch insolvency law [paper](https://arxiv.org/abs/2610.26241) — Combines an expert-written Catala model of Dutch insolvency provisions with LLM factual extraction and retrieval-grounded resolution of open-textured terms; ten evaluation cases do not establish broad judicial reliability.
+- Narrow Decision Models: A System-1 Architecture for Calibrated, Typed Decisions [paper](https://arxiv.org/abs/2610.25553) — A block-attention encoder supports typed decisions and court-communication routing; 91% agreement on held-out legal documents is agreement with a production LLM classifier, not human-labelled accuracy.
 
 - The Italian lawmaking process: a unified and structured dataset [paper](https://arxiv.org/abs/2610.23741) — LLM extraction converts Italian parliamentary records into dated legislative events, with manual-record validation; procedural reconstruction does not establish legal interpretation or judicial reasoning ability.
 - Chinese Decision: A Family of Language Models for Single-Pass Probabilistic Decision-Making [paper](https://arxiv.org/abs/2610.23170) — Jointly adapts causal language models for bounded Chinese decisions, including legal training and a 4,300-decision legal test subset; the reported 76.98% professional average is not legal-only accuracy.
@@ -251,6 +259,8 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Legal Reasoning Models
 
+- Machina Pauliana: A neuro-symbolic approach to the actio pauliana in Dutch insolvency law [paper](https://arxiv.org/abs/2610.26241) — LLM routines resolve factual and case-law-dependent inputs while the hand-written symbolic solver applies Articles 42, 43, and 45 Fw; the knowledge requirement remains difficult, and deeper retrieval shows no clear aggregate benefit.
+
 - Legal-R1: Agentic Retrieval for Evidence-Based Legal Reasoning [paper](https://arxiv.org/abs/2610.18611) — Masked SFT and trajectory-aware RL train a Lawyer agent to acquire sufficient legal evidence; the retrieval and answer-generation roles are separate agents.
 
 - Enhancing Legal Reasoning in Pre-trained Language Models via Knowledge Graph-Guided Multi-Task Pre-training [paper](https://arxiv.org/abs/2610.13722) — KG-guided objectives for nine Transformer encoders on traffic-law QA; synthetic correctness judgments and transfer benchmarks do not establish general judicial reasoning.
@@ -345,6 +355,8 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Legal Problems of Large Language Models
 
+- Policy Is Not Capability: Some Safety Benchmarks Measure Which Definition of "Unsafe" You Trained On [paper](https://arxiv.org/abs/2610.25060) — Audits how supervision definitions change copyright-reproduction guardrail decisions; HarmBench-copyright scores reflect moderation taxonomies, not adjudicated infringement or jurisdiction-specific legal compliance.
+
 - In the Guise of Correction: How Framing and Cultural Adaptation Erode LLM Safety on Real-World Criminal Cases [paper](https://arxiv.org/abs/2610.21789) — GUISE tests criminal assistance using real cases and the UNODC ICCS taxonomy; framing and cultural adaptation expose refusal failures, not jurisdiction-specific legal judgments.
 - ContextLift: Breaking the Spurious Correlation Behind Conditional Emergent Misalignment [paper](https://arxiv.org/abs/2610.21633) — Tests Qwen2.5-7B finetuned on bad legal advice: context augmentation reduces cued broad misalignment from 41.9% to 6.1%, but leaves the learned bad advice intact; one model and an LLM judge limit generalization.
 
@@ -431,6 +443,8 @@ This repository tracks papers and resources about large language models (LLMs) i
 - Agentic Evaluation of Copyright Law Compliance [paper](https://papers.cool/arxiv/2607.21799)
 
 ## Data Resources for Large Language Models in Law
+
+- Legal Guidance in the Wild: How Users Seek Legal Help in Real-World LLM Conversations [paper](https://arxiv.org/abs/2610.25159) — Annotates 2,122 WildChat-1M conversations and supplies a 200-conversation human-reviewed gold set, with public annotations, checkpoints, and evaluation code.
 
 - The Italian lawmaking process: a unified and structured dataset [paper](https://arxiv.org/abs/2610.23741) — Reports procedural histories for 5,346 Italian laws enacted in 1985–2026, comprising 101,413 dated events extracted from institutional parliamentary records; scope and coverage follow the authors' report.
 
@@ -580,6 +594,13 @@ This repository tracks papers and resources about large language models (LLMs) i
 - Do Small Models Use the Law You Give Them? Context-Injected Fine-Tuning for Legal QA in Bangladesh [paper](https://papers.cool/arxiv/2607.23446)
 
 ## Evaluation
+
+- Hidden Cartographer: Hidden State Guided Data Selection for Dual Budgeted Instruction Tuning [paper](https://arxiv.org/abs/2610.25215) — Evaluates three objective legal tasks on 1,500 held-out examples; the reported LLaMA-2-7B legal average is 44.65% versus 35.43% for random selection, without testing open-ended legal advice.
+- Legal Guidance in the Wild: How Users Seek Legal Help in Real-World LLM Conversations [paper](https://arxiv.org/abs/2610.25159) — Compares ModernBERT-base/large with a TF-IDF cascade on legal-query identification; it measures request classification, not the correctness of AI legal answers.
+- Beyond Recall Saturation: Scaling Hard-Negative Reranker Training for Industrial Legal Retrieval [paper](https://arxiv.org/abs/2610.24478) — The 4B Stage2 reranker wins 239, loses 91, and ties 80 LLM-judged operational-query comparisons: 72.4% excluding ties, 58.3% of all 410; these are evidence-list preferences, not legal-answer accuracy.
+- Machina Pauliana: A neuro-symbolic approach to the actio pauliana in Dutch insolvency law [paper](https://arxiv.org/abs/2610.26241) — Separates segmentation/label evaluation on 100 judgments from end-to-end criteria-and-verdict evaluation on ten cases; improved citation grounding is not a demonstrated accuracy gain from retrieval.
+- Narrow Decision Models: A System-1 Architecture for Calibrated, Typed Decisions [paper](https://arxiv.org/abs/2610.25553) — Tests option-order and question-independence properties, plus preliminary real-document classifier agreement; production “unknown” documents are excluded from training and full real-data results are deferred.
+- Policy Is Not Capability: Some Safety Benchmarks Measure Which Definition of "Unsafe" You Trained On [paper](https://arxiv.org/abs/2610.25060) — Copyright-score swings persist on 75 decontaminated prompts, but these cover only two templates; recipe-dependent seed variation and single-seed primary arms limit causal interpretation.
 
 - Chinese Decision: A Family of Language Models for Single-Pass Probabilistic Decision-Making [paper](https://arxiv.org/abs/2610.23170) — The completed uncalibrated 0.8B checkpoint reaches 67.86% accuracy on 4,300 legal decisions; aggregate calibration and preliminary 2B comparisons do not establish legal reliability or a controlled scaling effect.
 - Thunder-DeID+: Boundary-Aware Korean De-identification from Court Judgments to Broader Sensitive Documents [paper](https://arxiv.org/abs/2610.22733) — Tokenizer-independent full-judgment evaluation reports W. Strict Typed F1 rising from 0.76–0.77 to 0.87–0.88; the roughly 0.93 broader-document result requires 1,000 adaptation examples and is not zero-shot transfer.
