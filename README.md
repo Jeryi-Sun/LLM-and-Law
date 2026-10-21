@@ -6,6 +6,8 @@
 
 This repository tracks papers and resources about large language models (LLMs) in the legal domain.
 
+> Daily update 2026-10-21 (cs.CL): scanned all 159 papers on the dated list; added 1 title-deduplicated paper on exact legal-clause extraction from contracts. Category increments: Applications +1, Legal Reasoning Models +0, Legal Agent +0, Legal Problems +0, Data Resources +1, Law LLMs +0, Evaluation +1. Generic privacy, political-discourse analysis, fraud-risk screening without a legal task, and non-legal uses of “contract,” “policy,” or “judgment” were excluded. Exact copying is not legal interpretation or a correctness guarantee.
+
 > Daily update 2026-10-20 (cs.CL): scanned all 283 papers on the dated list; added 6 title-deduplicated papers on legal instruction-data selection, real-world legal-guidance queries, legal reranking, Dutch insolvency reasoning, court-document routing, and copyright guardrail evaluation. Category increments: Applications +5, Legal Reasoning Models +1, Legal Agent +0, Legal Problems +1, Data Resources +1, Law LLMs +0, Evaluation +6. Copyright reproduction is explicitly tested, not merely a motivation. Classifier agreement, LLM preferences, and copyright benchmark labels do not establish legal correctness; generic compliance, cultural constitutions, police keyword statistics, and non-legal uses of “law” or “license” were excluded.
 
 > Daily update 2026-10-19 (cs.CL): scanned all 146 papers on the dated list; added 3 title-deduplicated papers on Italian legislative-process extraction, Chinese probabilistic decisions with a tested legal subset, and Korean court-judgment de-identification. Category increments: Applications +3, Legal Reasoning Models +0, Legal Agent +0, Legal Problems +0, Data Resources +1, Law LLMs +0, Evaluation +2. The de-identification system uses pretrained encoder language models, not generative legal LLMs. Generic PII protection, financial advice, software contracts and incidental GDPR references were excluded.
@@ -36,6 +38,8 @@ This repository tracks papers and resources about large language models (LLMs) i
 - [Evaluation](#evaluation)
 
 ## Applications of Large Language Models in Legal Tasks
+
+- When Copying Is Hard: Copy-Constrained Decoding for Exact Span Reproduction [paper](https://arxiv.org/abs/2610.28393) — CopyGen controls copying and stopping for verbatim legal-clause extraction; the backbone is frozen but lightweight plugin heads are trained.
 
 - Hidden Cartographer: Hidden State Guided Data Selection for Dual Budgeted Instruction Tuning [paper](https://arxiv.org/abs/2610.25215) — Budgeted instruction-data selection is tested on legal examination, legal event detection, and case classification from DISC-Law-SFT; the legal setting annotates 20% of the pool and trains on 10%, not a new general legal-reasoning model.
 - Legal Guidance in the Wild: How Users Seek Legal Help in Real-World LLM Conversations [paper](https://arxiv.org/abs/2610.25159) — Classifies legal-guidance intent and domains in WildChat conversations using a multi-axis taxonomy; the enriched sample does not estimate legal-help prevalence among all users.
@@ -444,6 +448,8 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Data Resources for Large Language Models in Law
 
+- When Copying Is Hard: Copy-Constrained Decoding for Exact Span Reproduction [paper](https://arxiv.org/abs/2610.28393) — Constructs a contract-clause extraction benchmark from SEC EDGAR exhibits, with 658 training and 141 test examples; this is one domain of a broader exact-copy benchmark.
+
 - Legal Guidance in the Wild: How Users Seek Legal Help in Real-World LLM Conversations [paper](https://arxiv.org/abs/2610.25159) — Annotates 2,122 WildChat-1M conversations and supplies a 200-conversation human-reviewed gold set, with public annotations, checkpoints, and evaluation code.
 
 - The Italian lawmaking process: a unified and structured dataset [paper](https://arxiv.org/abs/2610.23741) — Reports procedural histories for 5,346 Italian laws enacted in 1985–2026, comprising 101,413 dated events extracted from institutional parliamentary records; scope and coverage follow the authors' report.
@@ -594,6 +600,8 @@ This repository tracks papers and resources about large language models (LLMs) i
 - Do Small Models Use the Law You Give Them? Context-Injected Fine-Tuning for Legal QA in Bangladesh [paper](https://papers.cool/arxiv/2607.23446)
 
 ## Evaluation
+
+- When Copying Is Hard: Copy-Constrained Decoding for Exact Span Reproduction [paper](https://arxiv.org/abs/2610.28393) — Evaluates exact span matching and decoding throughput, including legal contracts; aggregate four-domain gains are not legal-only scores, and copying fidelity does not establish legal validity.
 
 - Hidden Cartographer: Hidden State Guided Data Selection for Dual Budgeted Instruction Tuning [paper](https://arxiv.org/abs/2610.25215) — Evaluates three objective legal tasks on 1,500 held-out examples; the reported LLaMA-2-7B legal average is 44.65% versus 35.43% for random selection, without testing open-ended legal advice.
 - Legal Guidance in the Wild: How Users Seek Legal Help in Real-World LLM Conversations [paper](https://arxiv.org/abs/2610.25159) — Compares ModernBERT-base/large with a TF-IDF cascade on legal-query identification; it measures request classification, not the correctness of AI legal answers.
