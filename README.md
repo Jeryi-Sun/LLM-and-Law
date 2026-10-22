@@ -6,6 +6,8 @@
 
 This repository tracks papers and resources about large language models (LLMs) in the legal domain.
 
+> Daily update 2026-10-22 (cs.CL): scanned all 137 papers on the dated list; added 6 title-deduplicated papers on English–Mizo judgment translation, dated Norwegian statutory values, legal-factor representations, missing-authority abstention, police-interrogation summarization, and framing effects in legal/consumer-rights advice. Category increments: Applications +3, Legal Reasoning Models +1, Legal Agent +0, Legal Problems +2, Data Resources +3, Law LLMs +0, Evaluation +6. The summarization paper is admitted under the explicit dataset/benchmark rule, not presented as a new legal LLM. Internal police operating-policy conflicts, professional ethics alone, and software contracts were excluded under the strict legal-task gate; readout accuracy, ROUGE, and advice consistency do not establish legal correctness.
+
 > Daily update 2026-10-21 (cs.CL): scanned all 159 papers on the dated list; added 1 title-deduplicated paper on exact legal-clause extraction from contracts. Category increments: Applications +1, Legal Reasoning Models +0, Legal Agent +0, Legal Problems +0, Data Resources +1, Law LLMs +0, Evaluation +1. Generic privacy, political-discourse analysis, fraud-risk screening without a legal task, and non-legal uses of “contract,” “policy,” or “judgment” were excluded. Exact copying is not legal interpretation or a correctness guarantee.
 
 > Daily update 2026-10-20 (cs.CL): scanned all 283 papers on the dated list; added 6 title-deduplicated papers on legal instruction-data selection, real-world legal-guidance queries, legal reranking, Dutch insolvency reasoning, court-document routing, and copyright guardrail evaluation. Category increments: Applications +5, Legal Reasoning Models +1, Legal Agent +0, Legal Problems +1, Data Resources +1, Law LLMs +0, Evaluation +6. Copyright reproduction is explicitly tested, not merely a motivation. Classifier agreement, LLM preferences, and copyright benchmark labels do not establish legal correctness; generic compliance, cultural constitutions, police keyword statistics, and non-legal uses of “law” or “license” were excluded.
@@ -38,6 +40,10 @@ This repository tracks papers and resources about large language models (LLMs) i
 - [Evaluation](#evaluation)
 
 ## Applications of Large Language Models in Legal Tasks
+
+- Towards English - Mizo Legal Machine Translation: Corpus Creation, Analysis, and Benchmarks [paper](https://arxiv.org/abs/2610.29943) — Adapts NLLB-200-1.3B for Indian court-judgment translation; the reported 27.47 BLEU does not establish legal equivalence, and English borrowing remains above human levels.
+- Commit or Abstain? System One Decision Models, LLMs, and Missing Legal Authority [paper](https://arxiv.org/abs/2610.29961) — Combines typed decision models with generative LLMs to check candidate holdings and abstain when authority is missing; agreeing filters reduce wrong selections on CaseHOLD, not all forms of invalid legal authority.
+- Multi-level Encoder with Global Topic for Task-oriented Dialogue Summarization [paper](https://arxiv.org/abs/2610.29097) — Graph-based MLEGT summarizes Chinese police-interrogation records using global-topic guidance and a pointer decoder; it is a specialized summarizer, not a new legal foundation model.
 
 - When Copying Is Hard: Copy-Constrained Decoding for Exact Span Reproduction [paper](https://arxiv.org/abs/2610.28393) — CopyGen controls copying and stopping for verbatim legal-clause extraction; the backbone is frozen but lightweight plugin heads are trained.
 
@@ -263,6 +269,8 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Legal Reasoning Models
 
+- Commit or Abstain? System One Decision Models, LLMs, and Missing Legal Authority [paper](https://arxiv.org/abs/2610.29961) — Studies closed-set holding selection with an abstention option and probability distillation into Qwen3-8B; one English US-case-law task and single-run distillation limit generalization.
+
 - Machina Pauliana: A neuro-symbolic approach to the actio pauliana in Dutch insolvency law [paper](https://arxiv.org/abs/2610.26241) — LLM routines resolve factual and case-law-dependent inputs while the hand-written symbolic solver applies Articles 42, 43, and 45 Fw; the knowledge requirement remains difficult, and deeper retrieval shows no clear aggregate benefit.
 
 - Legal-R1: Agentic Retrieval for Evidence-Based Legal Reasoning [paper](https://arxiv.org/abs/2610.18611) — Masked SFT and trajectory-aware RL train a Lawyer agent to acquire sufficient legal evidence; the retrieval and answer-generation roles are separate agents.
@@ -359,6 +367,9 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Legal Problems of Large Language Models
 
+- Where Do Legal Factors Live in LLMs? [paper](https://arxiv.org/abs/2610.28799) — Probes 26 CATO trade-secret factors in three open models and localizes sparse readouts; decodability on controlled narratives does not demonstrate causal use in legal reasoning.
+- Same Probabilities, Different Advice: Gain-Loss Framing Effects in High-Stakes LLM Decision Support [paper](https://arxiv.org/abs/2610.29294) — Tests equivalent probability frames in advice, including workplace-dispute settlement and consumer remedies; consistent recommendations need not be legally correct.
+
 - Policy Is Not Capability: Some Safety Benchmarks Measure Which Definition of "Unsafe" You Trained On [paper](https://arxiv.org/abs/2610.25060) — Audits how supervision definitions change copyright-reproduction guardrail decisions; HarmBench-copyright scores reflect moderation taxonomies, not adjudicated infringement or jurisdiction-specific legal compliance.
 
 - In the Guise of Correction: How Framing and Cultural Adaptation Erode LLM Safety on Real-World Criminal Cases [paper](https://arxiv.org/abs/2610.21789) — GUISE tests criminal assistance using real cases and the UNODC ICCS taxonomy; framing and cultural adaptation expose refusal failures, not jurisdiction-specific legal judgments.
@@ -447,6 +458,10 @@ This repository tracks papers and resources about large language models (LLMs) i
 - Agentic Evaluation of Copyright Law Compliance [paper](https://papers.cool/arxiv/2607.21799)
 
 ## Data Resources for Large Language Models in Law
+
+- Towards English - Mizo Legal Machine Translation: Corpus Creation, Analysis, and Benchmarks [paper](https://arxiv.org/abs/2610.29943) — Introduces 13,168 manually aligned English–Mizo sentence pairs from Indian court judgments, professionally translated and independently reviewed.
+- norregel: a preregistered benchmark of dated numeric values in Norwegian law [paper](https://arxiv.org/abs/2610.29207) — Builds 916 dated statutory/regulatory/parliamentary-value items from Lovdata; item texts and answer keys are withheld, while IDs, answer classes, code and results are reported on Zenodo.
+- Same Probabilities, Different Advice: Gain-Loss Framing Effects in High-Stakes LLM Decision Support [paper](https://arxiv.org/abs/2610.29294) — FrameBench-HPS contains 2,880 prompts from 240 synthetic scenarios across four domains, including a concrete legal/consumer-rights subset; these totals are not legal-only counts.
 
 - When Copying Is Hard: Copy-Constrained Decoding for Exact Span Reproduction [paper](https://arxiv.org/abs/2610.28393) — Constructs a contract-clause extraction benchmark from SEC EDGAR exhibits, with 658 training and 141 test examples; this is one domain of a broader exact-copy benchmark.
 
@@ -600,6 +615,13 @@ This repository tracks papers and resources about large language models (LLMs) i
 - Do Small Models Use the Law You Give Them? Context-Injected Fine-Tuning for Legal QA in Bangladesh [paper](https://papers.cool/arxiv/2607.23446)
 
 ## Evaluation
+
+- Towards English - Mizo Legal Machine Translation: Corpus Creation, Analysis, and Benchmarks [paper](https://arxiv.org/abs/2610.29943) — NLLB adaptation improves BLEU by 7.16 points on a 1,000-pair legal test set, while English borrowing remains about three times the human rate.
+- norregel: a preregistered benchmark of dated numeric values in Norwegian law [paper](https://arxiv.org/abs/2610.29207) — Distinguishes correct, outdated, wrong and uninterpretable answers; support for the cutoff-related outdated-answer hypothesis is not robust to the preregistered most-recent-value sensitivity analysis.
+- Where Do Legal Factors Live in LLMs? [paper](https://arxiv.org/abs/2610.28799) — Reports all 26 factors linearly decodable and single-feature best-layer AUCs of 0.86–1.00 across three models; shared generation procedures and strong lexical baselines limit real-case inference.
+- Commit or Abstain? System One Decision Models, LLMs, and Missing Legal Authority [paper](https://arxiv.org/abs/2610.29961) — Replaces the correct holding in 1,670 of 5,314 CaseHOLD items; generative LLMs select an incorrect option in 38–86% of missing-authority cases, versus 30% for the most cautious decision model.
+- Multi-level Encoder with Global Topic for Task-oriented Dialogue Summarization [paper](https://arxiv.org/abs/2610.29097) — Evaluates on LCSPIRT police-interrogation summaries and Medical DS; LCSPIRT ROUGE-L reaches 83.34, but the shown output still changes a date and location digits.
+- Same Probabilities, Different Advice: Gain-Loss Framing Effects in High-Stakes LLM Decision Support [paper](https://arxiv.org/abs/2610.29294) — Across seven LLMs, framing changes recommendations in 32.4% of complete groups across all four domains; this is not a legal-only error rate or a legal-correctness measure.
 
 - When Copying Is Hard: Copy-Constrained Decoding for Exact Span Reproduction [paper](https://arxiv.org/abs/2610.28393) — Evaluates exact span matching and decoding throughput, including legal contracts; aggregate four-domain gains are not legal-only scores, and copying fidelity does not establish legal validity.
 
