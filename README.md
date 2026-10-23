@@ -6,6 +6,8 @@
 
 This repository tracks papers and resources about large language models (LLMs) in the legal domain.
 
+> Daily update 2026-10-23 (cs.CL): scanned all 117 papers on the dated list; added 2 title-deduplicated papers on French civil-cassation grounds and the evidence behind RAG copyright-protection claims. Category increments: Applications +0, Legal Reasoning Models +0, Legal Agent +0, Legal Problems +1, Data Resources +2, Law LLMs +0, Evaluation +2. The French resource uses deterministic extraction and language-model baselines, not a new legal LLM. The RAG survey explicitly audits a copyright/ownership subset; its technical endpoints do not determine infringement. Generic privacy, banking procedures, civil-rights history, and document-editing ethics without an explicit legal task were excluded.
+
 > Daily update 2026-10-22 (cs.CL): scanned all 137 papers on the dated list; added 6 title-deduplicated papers on English–Mizo judgment translation, dated Norwegian statutory values, legal-factor representations, missing-authority abstention, police-interrogation summarization, and framing effects in legal/consumer-rights advice. Category increments: Applications +3, Legal Reasoning Models +1, Legal Agent +0, Legal Problems +2, Data Resources +3, Law LLMs +0, Evaluation +6. The summarization paper is admitted under the explicit dataset/benchmark rule, not presented as a new legal LLM. Internal police operating-policy conflicts, professional ethics alone, and software contracts were excluded under the strict legal-task gate; readout accuracy, ROUGE, and advice consistency do not establish legal correctness.
 
 > Daily update 2026-10-21 (cs.CL): scanned all 159 papers on the dated list; added 1 title-deduplicated paper on exact legal-clause extraction from contracts. Category increments: Applications +1, Legal Reasoning Models +0, Legal Agent +0, Legal Problems +0, Data Resources +1, Law LLMs +0, Evaluation +1. Generic privacy, political-discourse analysis, fraud-risk screening without a legal task, and non-legal uses of “contract,” “policy,” or “judgment” were excluded. Exact copying is not legal interpretation or a correctness guarantee.
@@ -367,6 +369,8 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Legal Problems of Large Language Models
 
+- Protection Is Not One Event: A Survey of RAG Protection Research by Measured Endpoint [paper](https://arxiv.org/abs/2610.30193) — Audits copyright/ownership claims within a 118-paper RAG evidence map, distinguishing corpus-use detection from emitted expression; the copyright subset and its sensitivity analysis use technical labels, not legal infringement determinations.
+
 - Where Do Legal Factors Live in LLMs? [paper](https://arxiv.org/abs/2610.28799) — Probes 26 CATO trade-secret factors in three open models and localizes sparse readouts; decodability on controlled narratives does not demonstrate causal use in legal reasoning.
 - Same Probabilities, Different Advice: Gain-Loss Framing Effects in High-Stakes LLM Decision Support [paper](https://arxiv.org/abs/2610.29294) — Tests equivalent probability frames in advice, including workplace-dispute settlement and consumer remedies; consistent recommendations need not be legally correct.
 
@@ -458,6 +462,9 @@ This repository tracks papers and resources about large language models (LLMs) i
 - Agentic Evaluation of Copyright Law Compliance [paper](https://papers.cool/arxiv/2607.21799)
 
 ## Data Resources for Large Language Models in Law
+
+- A Grammar of French Civil Cassation: A Ground-Level Dataset and Tool [paper](https://arxiv.org/abs/2610.31116) — Releases 121,536 ground–reasons pairs from 86,464 French civil rulings, with rule-derived outcomes, doctrinal families, code, and a consultation tool; canonical-phrasing rules can miss unusual formulations.
+- Protection Is Not One Event: A Survey of RAG Protection Research by Measured Endpoint [paper](https://arxiv.org/abs/2610.30193) — Releases a human-coded RAG protection evidence map and coding protocols with an explicit copyright/ownership subset; the broader collection is not a corpus of legal judgments or an infringement-labelled dataset.
 
 - Towards English - Mizo Legal Machine Translation: Corpus Creation, Analysis, and Benchmarks [paper](https://arxiv.org/abs/2610.29943) — Introduces 13,168 manually aligned English–Mizo sentence pairs from Indian court judgments, professionally translated and independently reviewed.
 - norregel: a preregistered benchmark of dated numeric values in Norwegian law [paper](https://arxiv.org/abs/2610.29207) — Builds 916 dated statutory/regulatory/parliamentary-value items from Lovdata; item texts and answer keys are withheld, while IDs, answer classes, code and results are reported on Zenodo.
@@ -615,6 +622,9 @@ This repository tracks papers and resources about large language models (LLMs) i
 - Do Small Models Use the Law You Give Them? Context-Injected Fine-Tuning for Legal QA in Bangladesh [paper](https://papers.cool/arxiv/2607.23446)
 
 ## Evaluation
+
+- A Grammar of French Civil Cassation: A Ground-Level Dataset and Tool [paper](https://arxiv.org/abs/2610.31116) — Compares rule-based doctrinal labels with JuriBERT, CamemBERTv2, and zero-shot Qwen3-32B on held-out expert labels; models trained on silver labels inherit some rule errors, and post-hoc classification is not prospective judgment prediction.
+- Protection Is Not One Event: A Survey of RAG Protection Research by Measured Endpoint [paper](https://arxiv.org/abs/2610.30193) — Separates copyright-protection claim auditing from a controlled copying/fact-recovery testbed; reduced verbatim output does not establish privacy protection, legal similarity, or copyright compliance.
 
 - Towards English - Mizo Legal Machine Translation: Corpus Creation, Analysis, and Benchmarks [paper](https://arxiv.org/abs/2610.29943) — NLLB adaptation improves BLEU by 7.16 points on a 1,000-pair legal test set, while English borrowing remains about three times the human rate.
 - norregel: a preregistered benchmark of dated numeric values in Norwegian law [paper](https://arxiv.org/abs/2610.29207) — Distinguishes correct, outdated, wrong and uninterpretable answers; support for the cutoff-related outdated-answer hypothesis is not robust to the preregistered most-recent-value sensitivity analysis.
