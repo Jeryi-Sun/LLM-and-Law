@@ -6,6 +6,8 @@
 
 This repository tracks papers and resources about large language models (LLMs) in the legal domain.
 
+> Daily update 2026-10-26 (cs.CL): scanned all 106 papers on the dated list; added 1 title-deduplicated paper, AusClinBench, with an explicit National Law obligations subset. Category increments: Applications +0, Legal Reasoning Models +0, Legal Agent +0, Legal Problems +0, Data Resources +1, Law LLMs +0, Evaluation +1. The appendix tests health-service advertising permission and a statutory penalty; inclusion is not based on generic clinical policy alone. Answer keys lack independent review, and benchmark scores do not certify legal correctness or clinical-product safety. Generic compliance, incidental copyright notices, software contracts, and non-legal uses of “law” and “judgment” were excluded.
+
 > Daily update 2026-10-23 (cs.CL): scanned all 117 papers on the dated list; added 2 title-deduplicated papers on French civil-cassation grounds and the evidence behind RAG copyright-protection claims. Category increments: Applications +0, Legal Reasoning Models +0, Legal Agent +0, Legal Problems +1, Data Resources +2, Law LLMs +0, Evaluation +2. The French resource uses deterministic extraction and language-model baselines, not a new legal LLM. The RAG survey explicitly audits a copyright/ownership subset; its technical endpoints do not determine infringement. Generic privacy, banking procedures, civil-rights history, and document-editing ethics without an explicit legal task were excluded.
 
 > Daily update 2026-10-22 (cs.CL): scanned all 137 papers on the dated list; added 6 title-deduplicated papers on English–Mizo judgment translation, dated Norwegian statutory values, legal-factor representations, missing-authority abstention, police-interrogation summarization, and framing effects in legal/consumer-rights advice. Category increments: Applications +3, Legal Reasoning Models +1, Legal Agent +0, Legal Problems +2, Data Resources +3, Law LLMs +0, Evaluation +6. The summarization paper is admitted under the explicit dataset/benchmark rule, not presented as a new legal LLM. Internal police operating-policy conflicts, professional ethics alone, and software contracts were excluded under the strict legal-task gate; readout accuracy, ROUGE, and advice consistency do not establish legal correctness.
@@ -463,6 +465,8 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Data Resources for Large Language Models in Law
 
+- AusClinBench: a deterministically scored benchmark of large language models against current Australian clinical policy [paper](https://arxiv.org/abs/2610.31993) — Defines 142 policy items, including 13 Ahpra obligations items under the National Law; the paper says code and 30 sample items are available on request, while 112 items and raw outputs are not published. The full collection is not exclusively legal.
+
 - A Grammar of French Civil Cassation: A Ground-Level Dataset and Tool [paper](https://arxiv.org/abs/2610.31116) — Releases 121,536 ground–reasons pairs from 86,464 French civil rulings, with rule-derived outcomes, doctrinal families, code, and a consultation tool; canonical-phrasing rules can miss unusual formulations.
 - Protection Is Not One Event: A Survey of RAG Protection Research by Measured Endpoint [paper](https://arxiv.org/abs/2610.30193) — Releases a human-coded RAG protection evidence map and coding protocols with an explicit copyright/ownership subset; the broader collection is not a corpus of legal judgments or an infringement-labelled dataset.
 
@@ -622,6 +626,8 @@ This repository tracks papers and resources about large language models (LLMs) i
 - Do Small Models Use the Law You Give Them? Context-Injected Fine-Tuning for Legal QA in Bangladesh [paper](https://papers.cool/arxiv/2607.23446)
 
 ## Evaluation
+
+- AusClinBench: a deterministically scored benchmark of large language models against current Australian clinical policy [paper](https://arxiv.org/abs/2610.31993) — Tests 28 models with and without governing clauses, including a statutory advertising-permission/penalty example. Ahpra-subset pooled blind accuracy is 77.7%; keys lack independent review, serving routes differ, and supplying the exact clause is not a test of reliable real-world legal retrieval.
 
 - A Grammar of French Civil Cassation: A Ground-Level Dataset and Tool [paper](https://arxiv.org/abs/2610.31116) — Compares rule-based doctrinal labels with JuriBERT, CamemBERTv2, and zero-shot Qwen3-32B on held-out expert labels; models trained on silver labels inherit some rule errors, and post-hoc classification is not prospective judgment prediction.
 - Protection Is Not One Event: A Survey of RAG Protection Research by Measured Endpoint [paper](https://arxiv.org/abs/2610.30193) — Separates copyright-protection claim auditing from a controlled copying/fact-recovery testbed; reduced verbatim output does not establish privacy protection, legal similarity, or copyright compliance.
