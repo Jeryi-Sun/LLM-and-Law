@@ -6,6 +6,8 @@
 
 This repository tracks papers and resources about large language models (LLMs) in the legal domain.
 
+> Daily update 2026-10-27 (cs.CL): scanned all 232 papers on the dated list; added 2 title-deduplicated papers: PatEx-Gym and Can Language Models Learn While They Think? Category increments: Applications +1, Legal Reasoning Models +0, Legal Agent +1, Legal Problems +0, Data Resources +1, Law LLMs +1, Evaluation +2. The first addresses patent novelty examination; the second explicitly evaluates SCOTUS and ContractNLI and is included only under Evaluation. Generic policy ambiguity, privacy safeguards without a stated legal task, software contracts, and non-legal uses of “law” or “judge” were excluded. The archive date follows the dated cs.CL list, not the original submission date.
+
 > Daily update 2026-10-26 (cs.CL): scanned all 106 papers on the dated list; added 1 title-deduplicated paper, AusClinBench, with an explicit National Law obligations subset. Category increments: Applications +0, Legal Reasoning Models +0, Legal Agent +0, Legal Problems +0, Data Resources +1, Law LLMs +0, Evaluation +1. The appendix tests health-service advertising permission and a statutory penalty; inclusion is not based on generic clinical policy alone. Answer keys lack independent review, and benchmark scores do not certify legal correctness or clinical-product safety. Generic compliance, incidental copyright notices, software contracts, and non-legal uses of “law” and “judgment” were excluded.
 
 > Daily update 2026-10-23 (cs.CL): scanned all 117 papers on the dated list; added 2 title-deduplicated papers on French civil-cassation grounds and the evidence behind RAG copyright-protection claims. Category increments: Applications +0, Legal Reasoning Models +0, Legal Agent +0, Legal Problems +1, Data Resources +2, Law LLMs +0, Evaluation +2. The French resource uses deterministic extraction and language-model baselines, not a new legal LLM. The RAG survey explicitly audits a copyright/ownership subset; its technical endpoints do not determine infringement. Generic privacy, banking procedures, civil-rights history, and document-editing ethics without an explicit legal task were excluded.
@@ -44,6 +46,8 @@ This repository tracks papers and resources about large language models (LLMs) i
 - [Evaluation](#evaluation)
 
 ## Applications of Large Language Models in Legal Tasks
+
+- Novel or Not? PatEx-Gym: Agentic Prior-Art Search for Novelty Assessment in Patent Examination [paper](https://arxiv.org/abs/2610.33503) — Connects prior-art discovery with claim-level novelty assessment and Office Action generation; benchmark performance is not a patentability determination.
 
 - Towards English - Mizo Legal Machine Translation: Corpus Creation, Analysis, and Benchmarks [paper](https://arxiv.org/abs/2610.29943) — Adapts NLLB-200-1.3B for Indian court-judgment translation; the reported 27.47 BLEU does not establish legal equivalence, and English borrowing remains above human levels.
 - Commit or Abstain? System One Decision Models, LLMs, and Missing Legal Authority [paper](https://arxiv.org/abs/2610.29961) — Combines typed decision models with generative LLMs to check candidate holdings and abstain when authority is missing; agreeing filters reduce wrong selections on CaseHOLD, not all forms of invalid legal authority.
@@ -321,6 +325,8 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Legal Agent
 
+- Novel or Not? PatEx-Gym: Agentic Prior-Art Search for Novelty Assessment in Patent Examination [paper](https://arxiv.org/abs/2610.33503) — PatEx-Agent iterates search, document inspection, and examination reporting; missed examiner-cited references remain a limitation.
+
 - Legal-R1: Agentic Retrieval for Evidence-Based Legal Reasoning [paper](https://arxiv.org/abs/2610.18611) — Lawyer, Legal Assistant and Judge roles coordinate retrieval from normative sources and precedent cases; evaluation is on Chinese legal benchmarks.
 
 - APEX-Harm: Evaluating Agent Safety in Shared Professional Workspaces [paper](https://arxiv.org/abs/2610.13623) — A professional-agent safety benchmark with five Law-domain base tasks, including contract work; aggregate results mix law, banking and consulting and are not law-only estimates.
@@ -465,6 +471,8 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Data Resources for Large Language Models in Law
 
+- Novel or Not? PatEx-Gym: Agentic Prior-Art Search for Novelty Assessment in Patent Examination [paper](https://arxiv.org/abs/2610.33503) — PatEx-Bench contains 1,000 examination tasks with Patent-1M and Paper-52K retrieval corpora; PASS curates about 3,000 training trajectories.
+
 - AusClinBench: a deterministically scored benchmark of large language models against current Australian clinical policy [paper](https://arxiv.org/abs/2610.31993) — Defines 142 policy items, including 13 Ahpra obligations items under the National Law; the paper says code and 30 sample items are available on request, while 112 items and raw outputs are not published. The full collection is not exclusively legal.
 
 - A Grammar of French Civil Cassation: A Ground-Level Dataset and Tool [paper](https://arxiv.org/abs/2610.31116) — Releases 121,536 ground–reasons pairs from 86,464 French civil rulings, with rule-derived outcomes, doctrinal families, code, and a consultation tool; canonical-phrasing rules can miss unusual formulations.
@@ -595,6 +603,8 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Law LLMs
 
+- Novel or Not? PatEx-Gym: Agentic Prior-Art Search for Novelty Assessment in Patent Examination [paper](https://arxiv.org/abs/2610.33503) — PatEx-Agent is a patent-specialized Qwen3.5-4B model fine-tuned on search trajectories, not a general-purpose legal foundation model.
+
 - PATMT2: Two-stage domain adaptation for multilingual patent translation [paper](https://arxiv.org/abs/2610.16466) — Patent-specialized 7B translation model adapted with LoRA; included as a domain language model, not a general legal reasoning assistant.
 
 - Enhancing Legal Reasoning in Pre-trained Language Models via Knowledge Graph-Guided Multi-Task Pre-training [paper](https://arxiv.org/abs/2610.13722) — Adapts existing BERT-style legal/general encoders with KG-guided multi-task pre-training; these are encoder language models, not a new generative legal assistant.
@@ -626,6 +636,9 @@ This repository tracks papers and resources about large language models (LLMs) i
 - Do Small Models Use the Law You Give Them? Context-Injected Fine-Tuning for Legal QA in Bangladesh [paper](https://papers.cool/arxiv/2607.23446)
 
 ## Evaluation
+
+- Novel or Not? PatEx-Gym: Agentic Prior-Art Search for Novelty Assessment in Patent Examination [paper](https://arxiv.org/abs/2610.33503) — Separates decision accuracy, statutory grounds, and search/visit/selection recall; Office Action quality uses LLM judges, not independent legal certification.
+- Can Language Models Learn While They Think? Testing Gradient Adaptation Across Architectures [paper](https://arxiv.org/abs/2610.33025) — Includes SCOTUS classification, ContractNLI, and court-opinion citation completion. Under the tested recipe, updating weights on the document does not materially recover truncated-context performance; lower language-model loss is not evidence of better legal retrieval.
 
 - AusClinBench: a deterministically scored benchmark of large language models against current Australian clinical policy [paper](https://arxiv.org/abs/2610.31993) — Tests 28 models with and without governing clauses, including a statutory advertising-permission/penalty example. Ahpra-subset pooled blind accuracy is 77.7%; keys lack independent review, serving routes differ, and supplying the exact clause is not a test of reliable real-world legal retrieval.
 
