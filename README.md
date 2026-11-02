@@ -6,6 +6,8 @@
 
 This repository tracks papers and resources about large language models (LLMs) in the legal domain.
 
+> Daily update 2026-11-02 (cs.CL): scanned all 86 papers on the dated list; added 1 title-deduplicated paper, BILAL-BENCH, for its explicit 45-item Hanafi fiqh-ruling subset. Category increments: Applications +0, Legal Reasoning Models +0, Legal Agent +0, Legal Problems +0, Data Resources +1, Law LLMs +0, Evaluation +1. The 240-item collection is not exclusively legal, and source-fabrication scores are not national-law or court-decision accuracy. Generic privacy, fairness, and copyright/IP motivations without a concrete legal-task evaluation were excluded. The archive date follows the dated cs.CL list, not the original submission date.
+
 > Daily update 2026-10-30 (cs.CL): scanned all 175 papers on the dated list; added 6 title-deduplicated papers on Brazilian statutory-text tasks, Indian IPR question answering, agent-assisted bar-exam learning, Japanese legal modeling, advice under human-rights/legal constraints, and Arabic statutory retrieval. Category increments: Applications +3, Legal Reasoning Models +0, Legal Agent +1, Legal Problems +1, Data Resources +3, Law LLMs +1, Evaluation +6. HEARSAYBENCH includes concrete legal-recourse constraints, not just generic Constitutional AI; its full collection is not exclusively legal. Generic safety, organizational policies, political opinions, and mathematical uses of “law” were excluded. The archive date follows the dated cs.CL list, not the original submission date.
 
 > Daily update 2026-10-27 (cs.CL): scanned all 232 papers on the dated list; added 2 title-deduplicated papers: PatEx-Gym and Can Language Models Learn While They Think? Category increments: Applications +1, Legal Reasoning Models +0, Legal Agent +1, Legal Problems +0, Data Resources +1, Law LLMs +1, Evaluation +2. The first addresses patent novelty examination; the second explicitly evaluates SCOTUS and ContractNLI and is included only under Evaluation. Generic policy ambiguity, privacy safeguards without a stated legal task, software contracts, and non-legal uses of “law” or “judge” were excluded. The archive date follows the dated cs.CL list, not the original submission date.
@@ -481,6 +483,8 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Data Resources for Large Language Models in Law
 
+- Do Open Language Models Invent Scripture? BILAL-BENCH: Benchmarking Islamic-Source Fabrication in Bengali [paper](https://arxiv.org/abs/2610.40996) — A 240-item Bengali source-fabrication benchmark containing 45 Hanafi fiqh-ruling questions; inclusion is limited to this jurisprudence subset, not the entire religious-knowledge collection.
+
 - IndicIPR-QA: A Benchmark for Extractive Question Answering on Indian IPR Laws [paper](https://arxiv.org/abs/2610.40518) — Contains 4,462 generated QA pairs from 1,116 contexts across seven Indian IPR Acts, with automatic/LLM checks and a 200-pair human audit.
 - HEARSAYBENCH: Can AI Navigate from Abstract Human Rights to Lived Lives? [paper](https://arxiv.org/abs/2610.39062) — A 400-scenario human-authored benchmark; 236 scenarios fall under the authors' Public Policies & Law subtype, which should not be relabeled as 236 independently validated legal questions.
 - Statutory Article Retrieval from Arabic Judicial Narratives: Family Law and Law of Evidence in Saudi Arabia [paper](https://arxiv.org/abs/2610.38336) — Defines a benchmark with 200 synthetic Arabic judicial cases and 381 statutory articles; synthetic narratives do not substitute for real-case validation.
@@ -652,6 +656,8 @@ This repository tracks papers and resources about large language models (LLMs) i
 - Do Small Models Use the Law You Give Them? Context-Injected Fine-Tuning for Legal QA in Bangladesh [paper](https://papers.cool/arxiv/2607.23446)
 
 ## Evaluation
+
+- Do Open Language Models Invent Scripture? BILAL-BENCH: Benchmarking Islamic-Source Fabrication in Bengali [paper](https://arxiv.org/abs/2610.40996) — Evaluates seven models on sourced answers, including Hanafi fiqh rulings; school-specific reference judgments and fabrication labels do not establish validity across Islamic schools, national laws, or court practice.
 
 - Homebrewed SLMs: Autoregressive and Masked Diffusion Language Models Built at Home for Portuguese [paper](https://arxiv.org/abs/2610.40533) — Evaluates small language models on Brazilian statutory-text continuation, tampering detection, and cross-reference completion; results are mixed against n-gram/public-model baselines, and the blind human reading is not yet included.
 - IndicIPR-QA: A Benchmark for Extractive Question Answering on Indian IPR Laws [paper](https://arxiv.org/abs/2610.40518) — InLegalBERT reaches 85.02 token F1 versus BM25's 20.21 under the reported protocol; span extraction is not legal interpretation or advice.
