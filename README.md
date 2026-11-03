@@ -6,6 +6,8 @@
 
 This repository tracks papers and resources about large language models (LLMs) in the legal domain.
 
+> Daily update 2026-11-03 (cs.CL): scanned all 251 papers on the dated list; added 6 title-deduplicated papers on time-aware Thai legal QA, criminal-verdict extraction, ICJ citation resources, outdated Norwegian statutory values, Tajik legal retrieval, and fabricated citations with a US federal case-law subset. Category increments: Applications +2, Legal Reasoning Models +0, Legal Agent +0, Legal Problems +2, Data Resources +2, Law LLMs +0, Evaluation +6. The Tajik embedder is not law-specific, and the citation study's 900 questions span three domains. HIPAA-motivated access control was excluded because the paper explicitly studies an institutional rule rather than a legal test; generic policy, religious-food rules, and plagiarism detection were also excluded. The archive date follows the dated cs.CL list, not the original submission date.
+
 > Daily update 2026-11-02 (cs.CL): scanned all 86 papers on the dated list; added 1 title-deduplicated paper, BILAL-BENCH, for its explicit 45-item Hanafi fiqh-ruling subset. Category increments: Applications +0, Legal Reasoning Models +0, Legal Agent +0, Legal Problems +0, Data Resources +1, Law LLMs +0, Evaluation +1. The 240-item collection is not exclusively legal, and source-fabrication scores are not national-law or court-decision accuracy. Generic privacy, fairness, and copyright/IP motivations without a concrete legal-task evaluation were excluded. The archive date follows the dated cs.CL list, not the original submission date.
 
 > Daily update 2026-10-30 (cs.CL): scanned all 175 papers on the dated list; added 6 title-deduplicated papers on Brazilian statutory-text tasks, Indian IPR question answering, agent-assisted bar-exam learning, Japanese legal modeling, advice under human-rights/legal constraints, and Arabic statutory retrieval. Category increments: Applications +3, Legal Reasoning Models +0, Legal Agent +1, Legal Problems +1, Data Resources +3, Law LLMs +1, Evaluation +6. HEARSAYBENCH includes concrete legal-recourse constraints, not just generic Constitutional AI; its full collection is not exclusively legal. Generic safety, organizational policies, political opinions, and mathematical uses of “law” were excluded. The archive date follows the dated cs.CL list, not the original submission date.
@@ -50,6 +52,9 @@ This repository tracks papers and resources about large language models (LLMs) i
 - [Evaluation](#evaluation)
 
 ## Applications of Large Language Models in Legal Tasks
+
+- Unlocking Criminal Court Decisions: Flexible Information Extraction for Empirical Legal Research [paper](https://arxiv.org/abs/2611.03051) — Uses expert-refinable instructions for attribute exploration, span extraction, and value normalization in criminal verdicts involving DUI and driving despite a ban; repeatability is not extraction correctness.
+- Saidzoda-Tajik-E5-Large: Fine-Tuning a 560M Embedder for Tajik Retrieval [paper](https://arxiv.org/abs/2611.00592) — Adapts multilingual-e5-large-instruct with language-model-generated queries and explicitly tests retrieval from unseen Tajik laws; the model also covers general-domain text and is not a law-specific LLM.
 
 - AI Cosmos: An Agentic Infra for Situated Learning [paper](https://arxiv.org/abs/2610.40031) — Tests scenario-based agent interaction for civil/criminal-law bar-exam learning; student learning gains are not evidence of autonomous legal-practice competence.
 - XLaw-JP-27B: A Lightweight Open Model Specialized for Japanese Law [paper](https://arxiv.org/abs/2610.39227) — Combines statutory/case retrieval, light self-distillation, a contract adapter, and voting for Japanese legal tasks.
@@ -387,6 +392,9 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Legal Problems of Large Language Models
 
+- Does a Norwegian further-trained model give more outdated legal values than its base model? A preregistered paired comparison of Borealis 2 and Gemma 4 [paper](https://arxiv.org/abs/2611.02334) — Studies outdated numeric answers from Norwegian statutes and regulations; the paired released-model comparison does not isolate a causal effect of further training.
+- Are Fake Citations a Form of Reward Hacking? A Pre-Registered Study of Post-Training and Citation Cues [paper](https://arxiv.org/abs/2611.01313) — Tests citation fabrication with an explicit US federal case-law subset; prompt effects do not prove that reward hacking caused fabrication, and the 900-question collection is not exclusively legal.
+
 - HEARSAYBENCH: Can AI Navigate from Abstract Human Rights to Lived Lives? [paper](https://arxiv.org/abs/2610.39062) — Audits advice under constrained rights and legal recourse, including immigration restrictions and unsupported legal remedies; regional plausibility and model-judge scores do not certify legal correctness.
 
 - Protection Is Not One Event: A Survey of RAG Protection Research by Measured Endpoint [paper](https://arxiv.org/abs/2610.30193) — Audits copyright/ownership claims within a 118-paper RAG evidence map, distinguishing corpus-use detection from emitted expression; the copyright subset and its sensitivity analysis use technical labels, not legal infringement determinations.
@@ -482,6 +490,9 @@ This repository tracks papers and resources about large language models (LLMs) i
 - Agentic Evaluation of Copyright Law Compliance [paper](https://papers.cool/arxiv/2607.21799)
 
 ## Data Resources for Large Language Models in Law
+
+- NitiBench+: A Temporal Thai Legal Question Answering Benchmark Across 17 Domains [paper](https://arxiv.org/abs/2611.03576) — Provides 1,670 Thai legal QA items across 17 domains, pairing cited law at the decision date with current text and a versioned statutory retrieval corpus.
+- ICJ-Graph: A Citation Graph and a Layered Document Corpus of the International Court of Justice [paper](https://arxiv.org/abs/2611.02630) — Links 6,396 ICJ documents and 505 other legal documents to provisions and UN resolutions, preserving separate court-decision, written-pleading, and oral-record layers.
 
 - Do Open Language Models Invent Scripture? BILAL-BENCH: Benchmarking Islamic-Source Fabrication in Bengali [paper](https://arxiv.org/abs/2610.40996) — A 240-item Bengali source-fabrication benchmark containing 45 Hanafi fiqh-ruling questions; inclusion is limited to this jurisprudence subset, not the entire religious-knowledge collection.
 
@@ -656,6 +667,13 @@ This repository tracks papers and resources about large language models (LLMs) i
 - Do Small Models Use the Law You Give Them? Context-Injected Fine-Tuning for Legal QA in Bangladesh [paper](https://papers.cool/arxiv/2607.23446)
 
 ## Evaluation
+
+- NitiBench+: A Temporal Thai Legal Question Answering Benchmark Across 17 Domains [paper](https://arxiv.org/abs/2611.03576) — Evaluates 26 models on a 500-item held-out split under time-correct law; citation overlap alone misses substantive rule-change errors, and retrieval helps 20 models but harms six.
+- Unlocking Criminal Court Decisions: Flexible Information Extraction for Empirical Legal Research [paper](https://arxiv.org/abs/2611.03051) — Revised DUI annotation instructions are associated with extraction accuracy rising from 52% to 70%; this is not a randomized estimate of a general causal improvement.
+- ICJ-Graph: A Citation Graph and a Layered Document Corpus of the International Court of Justice [paper](https://arxiv.org/abs/2611.02630) — Tests five models on citation prediction for 199 decisions using documents available beforehand; higher citation F1 is not proof of legally correct reasoning.
+- Does a Norwegian further-trained model give more outdated legal values than its base model? A preregistered paired comparison of Borealis 2 and Gemma 4 [paper](https://arxiv.org/abs/2611.02334) — Among 411 jointly interpretable items out of 503, the outdated-answer difference is -0.2 percentage points, with a 95% interval of [-2.7, +2.5], within the preregistered +/-10-point equivalence region; the benchmark is closed.
+- Saidzoda-Tajik-E5-Large: Fine-Tuning a 560M Embedder for Tajik Retrieval [paper](https://arxiv.org/abs/2611.00592) — Reports top-10 passage recall of 93.6% on unseen laws versus 80.2% before adaptation; train and test queries share an LLM generator, limiting real-user generalization.
+- Are Fake Citations a Form of Reward Hacking? A Pre-Registered Study of Post-Training and Citation Cues [paper](https://arxiv.org/abs/2611.01313) — Four preregistered experiments include federal case law alongside scientific and medical questions; the citation-cue interaction is supported, while the predicted targeted reward-hacking pattern is not.
 
 - Do Open Language Models Invent Scripture? BILAL-BENCH: Benchmarking Islamic-Source Fabrication in Bengali [paper](https://arxiv.org/abs/2610.40996) — Evaluates seven models on sourced answers, including Hanafi fiqh rulings; school-specific reference judgments and fabrication labels do not establish validity across Islamic schools, national laws, or court practice.
 
