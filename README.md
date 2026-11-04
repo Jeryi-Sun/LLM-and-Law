@@ -6,6 +6,8 @@
 
 This repository tracks papers and resources about large language models (LLMs) in the legal domain.
 
+> Daily update 2026-11-04 (cs.CL): scanned all 85 papers on the dated list; added 2 title-deduplicated papers: PROSE and Say Less, Mean Better. Category increments: Applications +0, Legal Reasoning Models +1, Legal Agent +0, Legal Problems +1, Data Resources +1, Law LLMs +0, Evaluation +2. PROSE studies preservation-aware repair of false-guilty predictions. MinimalLM is included only under Evaluation for its explicitly tested civil-versus-criminal-law question; this is one illustrative query, not a legal benchmark or evidence of legal correctness. Generic privacy audits, organizational rules, and non-legal uses of contracts or judges were excluded. The archive date follows the dated cs.CL list, not the original submission date.
+
 > Daily update 2026-11-03 (cs.CL): scanned all 251 papers on the dated list; added 6 title-deduplicated papers on time-aware Thai legal QA, criminal-verdict extraction, ICJ citation resources, outdated Norwegian statutory values, Tajik legal retrieval, and fabricated citations with a US federal case-law subset. Category increments: Applications +2, Legal Reasoning Models +0, Legal Agent +0, Legal Problems +2, Data Resources +2, Law LLMs +0, Evaluation +6. The Tajik embedder is not law-specific, and the citation study's 900 questions span three domains. HIPAA-motivated access control was excluded because the paper explicitly studies an institutional rule rather than a legal test; generic policy, religious-food rules, and plagiarism detection were also excluded. The archive date follows the dated cs.CL list, not the original submission date.
 
 > Daily update 2026-11-02 (cs.CL): scanned all 86 papers on the dated list; added 1 title-deduplicated paper, BILAL-BENCH, for its explicit 45-item Hanafi fiqh-ruling subset. Category increments: Applications +0, Legal Reasoning Models +0, Legal Agent +0, Legal Problems +0, Data Resources +1, Law LLMs +0, Evaluation +1. The 240-item collection is not exclusively legal, and source-fabrication scores are not national-law or court-decision accuracy. Generic privacy, fairness, and copyright/IP motivations without a concrete legal-task evaluation were excluded. The archive date follows the dated cs.CL list, not the original submission date.
@@ -290,6 +292,8 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Legal Reasoning Models
 
+- PROSE: Preservation-Constrained Selective Editing for Guilty Bias in Legal Judgment Prediction [paper](https://arxiv.org/abs/2611.04921) — Applies preservation-regularized low-rank edits to correct unsupported guilty predictions while retaining matched supported verdicts; edited models use ordinary single-pass inference.
+
 - Commit or Abstain? System One Decision Models, LLMs, and Missing Legal Authority [paper](https://arxiv.org/abs/2610.29961) — Studies closed-set holding selection with an abstention option and probability distillation into Qwen3-8B; one English US-case-law task and single-run distillation limit generalization.
 
 - Machina Pauliana: A neuro-symbolic approach to the actio pauliana in Dutch insolvency law [paper](https://arxiv.org/abs/2610.26241) — LLM routines resolve factual and case-law-dependent inputs while the hand-written symbolic solver applies Articles 42, 43, and 45 Fw; the knowledge requirement remains difficult, and deeper retrieval shows no clear aggregate benefit.
@@ -392,6 +396,8 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Legal Problems of Large Language Models
 
+- PROSE: Preservation-Constrained Selective Editing for Guilty Bias in Legal Judgment Prediction [paper](https://arxiv.org/abs/2611.04921) — Studies guilty predictions that persist after a legally decisive condition changes; reducing false-guilty errors alone can hide damage to supported verdicts.
+
 - Does a Norwegian further-trained model give more outdated legal values than its base model? A preregistered paired comparison of Borealis 2 and Gemma 4 [paper](https://arxiv.org/abs/2611.02334) — Studies outdated numeric answers from Norwegian statutes and regulations; the paired released-model comparison does not isolate a causal effect of further training.
 - Are Fake Citations a Form of Reward Hacking? A Pre-Registered Study of Post-Training and Citation Cues [paper](https://arxiv.org/abs/2611.01313) — Tests citation fabrication with an explicit US federal case-law subset; prompt effects do not prove that reward hacking caused fabrication, and the 900-question collection is not exclusively legal.
 
@@ -490,6 +496,8 @@ This repository tracks papers and resources about large language models (LLMs) i
 - Agentic Evaluation of Copyright Law Compliance [paper](https://papers.cool/arxiv/2607.21799)
 
 ## Data Resources for Large Language Models in Law
+
+- PROSE: Preservation-Constrained Selective Editing for Guilty Bias in Legal Judgment Prediction [paper](https://arxiv.org/abs/2611.04921) — Introduces CAIL-MC with 11,478 legally reviewed matched pairs across 261 Chinese criminal charges, plus an evidence-sufficiency track built from LeCaRD and Criminal-S; these are controlled contrasts, not a prospective court-deployment study.
 
 - NitiBench+: A Temporal Thai Legal Question Answering Benchmark Across 17 Domains [paper](https://arxiv.org/abs/2611.03576) — Provides 1,670 Thai legal QA items across 17 domains, pairing cited law at the decision date with current text and a versioned statutory retrieval corpus.
 - ICJ-Graph: A Citation Graph and a Layered Document Corpus of the International Court of Justice [paper](https://arxiv.org/abs/2611.02630) — Links 6,396 ICJ documents and 505 other legal documents to provisions and UN resolutions, preserving separate court-decision, written-pleading, and oral-record layers.
@@ -667,6 +675,9 @@ This repository tracks papers and resources about large language models (LLMs) i
 - Do Small Models Use the Law You Give Them? Context-Injected Fine-Tuning for Legal QA in Bangladesh [paper](https://papers.cool/arxiv/2607.23446)
 
 ## Evaluation
+
+- PROSE: Preservation-Constrained Selective Editing for Guilty Bias in Legal Judgment Prediction [paper](https://arxiv.org/abs/2611.04921) — Tests repair, matched-verdict preservation, and evidence sensitivity on two base-model backbones. SFT remains strongest on matched pairs but degrades on the evidence-sufficiency track; PROSE reports a single fitting run, with bootstrap intervals rather than multi-seed fitting variance.
+- Say Less, Mean Better: Training-Free Verbosity Control for Language Models [paper](https://arxiv.org/abs/2611.04107) — MinimalLM's law example asks for the difference between civil and criminal law: Mistral-7B output falls from 429 to 286 tokens and 13.6 to 9.1 seconds. This is one query per domain; structural completeness and latency are not legal-answer accuracy or semantic completeness.
 
 - NitiBench+: A Temporal Thai Legal Question Answering Benchmark Across 17 Domains [paper](https://arxiv.org/abs/2611.03576) — Evaluates 26 models on a 500-item held-out split under time-correct law; citation overlap alone misses substantive rule-change errors, and retrieval helps 20 models but harms six.
 - Unlocking Criminal Court Decisions: Flexible Information Extraction for Empirical Legal Research [paper](https://arxiv.org/abs/2611.03051) — Revised DUI annotation instructions are associated with extraction accuracy rising from 52% to 70%; this is not a randomized estimate of a general causal improvement.
