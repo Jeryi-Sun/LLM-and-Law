@@ -6,6 +6,8 @@
 
 This repository tracks papers and resources about large language models (LLMs) in the legal domain.
 
+> Daily update 2026-11-05 (cs.CL): scanned all 90 papers on the dated list; added 5 title-deduplicated papers on rubric-evolving legal retrieval, banking conduct-rule testing, legislative-hearing parsing, contractual accountability for AI agents, and statutory AI-assurance duties. Category increments: Applications +1, Legal Reasoning Models +1, Legal Agent +1, Legal Problems +3, Data Resources +2, Law LLMs +0, Evaluation +3. Banking-manual violations are not necessarily violations of law. Grassroots Contracts is included for explicit accountability undertakings and proposed court recourse, not merely software contracts; the assurance paper is included for its substantive analysis of statutory testing, suspension and enforcement duties, not general policy-topic classification. Generic privacy, author impersonation without a concrete legal task, and non-judicial uses of judges or verdicts were excluded. The archive date follows the dated cs.CL list, not the original submission date.
+
 > Daily update 2026-11-04 (cs.CL): scanned all 85 papers on the dated list; added 2 title-deduplicated papers: PROSE and Say Less, Mean Better. Category increments: Applications +0, Legal Reasoning Models +1, Legal Agent +0, Legal Problems +1, Data Resources +1, Law LLMs +0, Evaluation +2. PROSE studies preservation-aware repair of false-guilty predictions. MinimalLM is included only under Evaluation for its explicitly tested civil-versus-criminal-law question; this is one illustrative query, not a legal benchmark or evidence of legal correctness. Generic privacy audits, organizational rules, and non-legal uses of contracts or judges were excluded. The archive date follows the dated cs.CL list, not the original submission date.
 
 > Daily update 2026-11-03 (cs.CL): scanned all 251 papers on the dated list; added 6 title-deduplicated papers on time-aware Thai legal QA, criminal-verdict extraction, ICJ citation resources, outdated Norwegian statutory values, Tajik legal retrieval, and fabricated citations with a US federal case-law subset. Category increments: Applications +2, Legal Reasoning Models +0, Legal Agent +0, Legal Problems +2, Data Resources +2, Law LLMs +0, Evaluation +6. The Tajik embedder is not law-specific, and the citation study's 900 questions span three domains. HIPAA-motivated access control was excluded because the paper explicitly studies an institutional rule rather than a legal test; generic policy, religious-food rules, and plagiarism detection were also excluded. The archive date follows the dated cs.CL list, not the original submission date.
@@ -54,6 +56,8 @@ This repository tracks papers and resources about large language models (LLMs) i
 - [Evaluation](#evaluation)
 
 ## Applications of Large Language Models in Legal Tasks
+
+- Discourse Analysis of Legislative Bill Discussions [paper](https://arxiv.org/abs/2611.05381) — Parses stages of California legislative bill hearings using discourse grammar, hand-crafted features, output masking and smoothing. The best tested classifier is logistic regression, not a generative legal LLM; language models assist annotation.
 
 - Unlocking Criminal Court Decisions: Flexible Information Extraction for Empirical Legal Research [paper](https://arxiv.org/abs/2611.03051) — Uses expert-refinable instructions for attribute exploration, span extraction, and value normalization in criminal verdicts involving DUI and driving despite a ban; repeatability is not extraction correctness.
 - Saidzoda-Tajik-E5-Large: Fine-Tuning a 560M Embedder for Tajik Retrieval [paper](https://arxiv.org/abs/2611.00592) — Adapts multilingual-e5-large-instruct with language-model-generated queries and explicitly tests retrieval from unseen Tajik laws; the model also covers general-domain text and is not a law-specific LLM.
@@ -292,6 +296,8 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Legal Reasoning Models
 
+- LegalEvolver: Agentic Legal Judgment Prediction via Rubric-Guided Self-Evolution [paper](https://arxiv.org/abs/2611.06381) — Alternates rubric refinement and query-level reinforcement learning using contrasts between legal-search trajectories, with rubrics specialized by retrieval tool and reasoning focus.
+
 - PROSE: Preservation-Constrained Selective Editing for Guilty Bias in Legal Judgment Prediction [paper](https://arxiv.org/abs/2611.04921) — Applies preservation-regularized low-rank edits to correct unsupported guilty predictions while retaining matched supported verdicts; edited models use ordinary single-pass inference.
 
 - Commit or Abstain? System One Decision Models, LLMs, and Missing Legal Authority [paper](https://arxiv.org/abs/2610.29961) — Studies closed-set holding selection with an abstention option and probability distillation into Qwen3-8B; one English US-case-law task and single-run distillation limit generalization.
@@ -341,6 +347,8 @@ This repository tracks papers and resources about large language models (LLMs) i
 - Reasoning Consensus: Structural Ensembling of LLM Reasoning via Weighted DAG Aggregation [paper](https://papers.cool/arxiv/2607.27783)
 
 ## Legal Agent
+
+- LegalEvolver: Agentic Legal Judgment Prediction via Rubric-Guided Self-Evolution [paper](https://arxiv.org/abs/2611.06381) — Optimizes intermediate searches over statutes, precedents, judicial interpretations and sentencing guidelines for charge, article and sentence prediction; benchmark gains do not establish autonomous judicial competence.
 
 - AI Cosmos: An Agentic Infra for Situated Learning [paper](https://arxiv.org/abs/2610.40031) — Role-specialized agents support situated legal education; this is a teaching application, not an autonomous lawyer or a newly trained legal reasoning model.
 
@@ -395,6 +403,10 @@ This repository tracks papers and resources about large language models (LLMs) i
 - From Obligation to Specification: A Survey on Validating EU AI Act Requirements in RE [paper](https://papers.cool/arxiv/2607.21608)
 
 ## Legal Problems of Large Language Models
+
+- The Harness Is the Model: Agent Scaffolding Changes a Fixed LLM's Compliance with Banking Conduct Rules, Unevenly Across Models [paper](https://arxiv.org/abs/2611.06116) — Separates executed actions from stated refusals under rules derived from EU consumer-credit, payments, investor-protection, data-protection and AML provisions. Some manual rules are stricter than the law, so the measured violations are not necessarily legal violations.
+- Corralling AI Risks with Grassroots Contracts [paper](https://arxiv.org/abs/2611.06374) — Proposes signed contractual undertakings allocating responsibility for AI-agent defects and reckless operation, with attribution records for court recourse. Protocol enforcement, attested evidence and external undertakings are distinct; jurisdiction-specific enforceability and successful legal remedies are not established.
+- Beyond accuracy: what AI assurance needs to establish in public services [paper](https://arxiv.org/abs/2611.06655) — Connects LLM reliability measurements to documentary analysis of statutory testing, oversight, suspension and enforcement duties, including EU AI Act provisions. Its 37-document sample mixes legal and non-binding material; it does not measure actual legal compliance or enforcement effectiveness.
 
 - PROSE: Preservation-Constrained Selective Editing for Guilty Bias in Legal Judgment Prediction [paper](https://arxiv.org/abs/2611.04921) — Studies guilty predictions that persist after a legally decisive condition changes; reducing false-guilty errors alone can hide damage to supported verdicts.
 
@@ -496,6 +508,9 @@ This repository tracks papers and resources about large language models (LLMs) i
 - Agentic Evaluation of Copyright Law Compliance [paper](https://papers.cool/arxiv/2607.21799)
 
 ## Data Resources for Large Language Models in Law
+
+- The Harness Is the Model: Agent Scaffolding Changes a Fixed LLM's Compliance with Banking Conduct Rules, Unevenly Across Models [paper](https://arxiv.org/abs/2611.06116) — Releases a simulated banking-conduct test suite with 156 cases across 11 rule families and 3,120 two-turn episode traces; rules are paraphrases plus internal controls, not a verbatim statutory benchmark.
+- Discourse Analysis of Legislative Bill Discussions [paper](https://arxiv.org/abs/2611.05381) — Annotates 2,619 utterances from 100 California bill hearings within Digital Democracy. Language-model-assisted labels were manually reviewed; the resource concerns legislative procedure and discourse stages, not adjudication labels.
 
 - PROSE: Preservation-Constrained Selective Editing for Guilty Bias in Legal Judgment Prediction [paper](https://arxiv.org/abs/2611.04921) — Introduces CAIL-MC with 11,478 legally reviewed matched pairs across 261 Chinese criminal charges, plus an evidence-sufficiency track built from LeCaRD and Criminal-S; these are controlled contrasts, not a prospective court-deployment study.
 
@@ -675,6 +690,10 @@ This repository tracks papers and resources about large language models (LLMs) i
 - Do Small Models Use the Law You Give Them? Context-Injected Fine-Tuning for Legal QA in Bangladesh [paper](https://papers.cool/arxiv/2607.23446)
 
 ## Evaluation
+
+- LegalEvolver: Agentic Legal Judgment Prediction via Rubric-Guided Self-Evolution [paper](https://arxiv.org/abs/2611.06381) — Tests article, charge and sentence prediction on balanced samples of 1,000 CAIL2018 and 2,000 CMDL cases covering 201 charge categories, with fixed-rubric and outcome-only training comparisons; jurisdiction-specific validation remains necessary.
+- The Harness Is the Model: Agent Scaffolding Changes a Fixed LLM's Compliance with Banking Conduct Rules, Unevenly Across Models [paper](https://arxiv.org/abs/2611.06116) — Compares four models and five harnesses using deterministic action-trace scoring. A same-model reviewer reduces manual-rule violations from 9.6% to 6.4%; the model-by-harness interaction is suggestive, not significant at the 5% level.
+- Discourse Analysis of Legislative Bill Discussions [paper](https://arxiv.org/abs/2611.05381) — Reports 55.21% grammar parse coverage and 52.8% macro-F1 for discourse-stage classification. These measure hearing-structure analysis, not correct statutory interpretation; evaluation is limited to California hearings and two classifier families.
 
 - PROSE: Preservation-Constrained Selective Editing for Guilty Bias in Legal Judgment Prediction [paper](https://arxiv.org/abs/2611.04921) — Tests repair, matched-verdict preservation, and evidence sensitivity on two base-model backbones. SFT remains strongest on matched pairs but degrades on the evidence-sufficiency track; PROSE reports a single fitting run, with bootstrap intervals rather than multi-seed fitting variance.
 - Say Less, Mean Better: Training-Free Verbosity Control for Language Models [paper](https://arxiv.org/abs/2611.04107) — MinimalLM's law example asks for the difference between civil and criminal law: Mistral-7B output falls from 429 to 286 tokens and 13.6 to 9.1 seconds. This is one query per domain; structural completeness and latency are not legal-answer accuracy or semantic completeness.
