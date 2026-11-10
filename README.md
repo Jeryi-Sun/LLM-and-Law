@@ -6,6 +6,8 @@
 
 This repository tracks papers and resources about large language models (LLMs) in the legal domain.
 
+> Daily update 2026-11-10 (cs.CL): scanned all 207 papers on the dated list; added 7 title-deduplicated papers on legal workflow evaluation, cross-jurisdiction patent drafting, Tajik legal retrieval, Vietnamese legal-citation provenance, and scraping compliance. Category increments: Applications +4, Legal Reasoning Models +0, Legal Agent +0, Legal Problems +1, Data Resources +4, Law LLMs +0, Evaluation +6. WorkflowArena has 22 legal tasks within a broader 145-task benchmark; the two embedders are not law-specific LLMs, and the ontology is included as a legal data resource. Website-policy compliance does not determine legality, retrieval scores do not certify legal answers, and reference similarity does not establish patent grantability. Generic moderation, privacy protection, clinical-design guidance, police-activity statistics, and non-legal uses of policy or contract were excluded. The archive date follows the dated cs.CL list, not the original submission date.
+
 > Daily update 2026-11-06 (cs.CL): scanned all 94 papers on the dated list; added 2 title-deduplicated papers on Arabic legal-model adaptation/compression and audits of rule-based benchmarks with explicit tax and statutory-exemption tasks. Category increments: Applications +0, Legal Reasoning Models +0, Legal Agent +0, Legal Problems +0, Data Resources +1, Law LLMs +1, Evaluation +2. Compression results are limited to Saudi Arabic legal tests; rescoring gains do not represent improved model responses, and BAR does not certify every revised legal target. Generic finance, social-engineering safety, training-data attribution, and non-legal uses of policy, judge or contract were excluded. The archive date follows the dated cs.CL list, not the original submission date.
 
 > Daily update 2026-11-05 (cs.CL): scanned all 90 papers on the dated list; added 5 title-deduplicated papers on rubric-evolving legal retrieval, banking conduct-rule testing, legislative-hearing parsing, contractual accountability for AI agents, and statutory AI-assurance duties. Category increments: Applications +1, Legal Reasoning Models +1, Legal Agent +1, Legal Problems +3, Data Resources +2, Law LLMs +0, Evaluation +3. Banking-manual violations are not necessarily violations of law. Grassroots Contracts is included for explicit accountability undertakings and proposed court recourse, not merely software contracts; the assurance paper is included for its substantive analysis of statutory testing, suspension and enforcement duties, not general policy-topic classification. Generic privacy, author impersonation without a concrete legal task, and non-judicial uses of judges or verdicts were excluded. The archive date follows the dated cs.CL list, not the original submission date.
@@ -58,6 +60,14 @@ This repository tracks papers and resources about large language models (LLMs) i
 - [Evaluation](#evaluation)
 
 ## Applications of Large Language Models in Legal Tasks
+
+- A Large-Scale Dataset for Cross-Lingual Multi-Jurisdiction Patent Drafting from Patent Cooperation Treaty Applications [paper](https://arxiv.org/abs/2611.11891) — Generates complete patent claim sets across Japanese/English, JPO/USPTO jurisdictions and prosecution stages. A shared QLoRA adapter is the strongest overall tested baseline; generated amendments still require supporting specifications and prosecution evidence.
+
+- Saidzoda-CA-EmbeddingGemma-300M: One Small Embedder for Tajik, Kazakh, Uzbek and Kyrgyz [paper](https://arxiv.org/abs/2611.11471) — Extends a Tajik embedder to four Central Asian languages and explicitly tests retention of Tajik law and tax retrieval. It is a general multilingual retriever, not a law-specific foundation model.
+
+- Saidzoda-Tajik-EmbeddingGemma-300M: Knowing Every Letter Is Not Reading Tajik [paper](https://arxiv.org/abs/2611.11243) — Fine-tunes a 300M embedder on generated question–passage pairs including laws and tax documents; tests retrieval on held-out laws, not legal advice or judicial decisions.
+
+- Cascading Circle Loss: Order-Preserving Contrastive Learning for Graded Legal Retrieval [paper](https://arxiv.org/abs/2611.10765) — Fine-tunes Qwen3-Embedding-0.6B with InfoNCE, graded-relevance ranking boundaries and negative-aware self-pacing for multilingual contractual-clause retrieval.
 
 - Discourse Analysis of Legislative Bill Discussions [paper](https://arxiv.org/abs/2611.05381) — Parses stages of California legislative bill hearings using discourse grammar, hand-crafted features, output masking and smoothing. The best tested classifier is logistic regression, not a generative legal LLM; language models assist annotation.
 
@@ -406,6 +416,8 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Legal Problems of Large Language Models
 
+- ScrapeBench: Evaluating Legal Compliance of AI Agents in Website Scraping [paper](https://arxiv.org/abs/2611.11306) — Studies agent adherence to website ToS and robots.txt in an explicit contractual/computer-security-law setting. The authors caution that these policy labels do not determine whether any particular action is legally permissible or unlawful.
+
 - The Harness Is the Model: Agent Scaffolding Changes a Fixed LLM's Compliance with Banking Conduct Rules, Unevenly Across Models [paper](https://arxiv.org/abs/2611.06116) — Separates executed actions from stated refusals under rules derived from EU consumer-credit, payments, investor-protection, data-protection and AML provisions. Some manual rules are stricter than the law, so the measured violations are not necessarily legal violations.
 - Corralling AI Risks with Grassroots Contracts [paper](https://arxiv.org/abs/2611.06374) — Proposes signed contractual undertakings allocating responsibility for AI-agent defects and reckless operation, with attribution records for court recourse. Protocol enforcement, attested evidence and external undertakings are distinct; jurisdiction-specific enforceability and successful legal remedies are not established.
 - Beyond accuracy: what AI assurance needs to establish in public services [paper](https://arxiv.org/abs/2611.06655) — Connects LLM reliability measurements to documentary analysis of statutory testing, oversight, suspension and enforcement duties, including EU AI Act provisions. Its 37-document sample mixes legal and non-binding material; it does not measure actual legal compliance or enforcement effectiveness.
@@ -510,6 +522,14 @@ This repository tracks papers and resources about large language models (LLMs) i
 - Agentic Evaluation of Copyright Law Compliance [paper](https://papers.cool/arxiv/2607.21799)
 
 ## Data Resources for Large Language Models in Law
+
+- WorkflowArena: Benchmarking Executable Workflow Orchestration in LLM-Based Multi-Agent Systems [paper](https://arxiv.org/abs/2611.12856) — Includes 13 merger-contract portfolio tasks and 9 multi-party adjudication tasks grounded in Chinese criminal judgments within a 145-task, eight-domain benchmark. It is not an exclusively legal dataset.
+
+- A Large-Scale Dataset for Cross-Lingual Multi-Jurisdiction Patent Drafting from Patent Cooperation Treaty Applications [paper](https://arxiv.org/abs/2611.11891) — Links 884,179 Japanese–English PCT-derived patent families into 4,067,168 directional claim-set instances across six configurations, with chronological, family-disjoint splits; four configurations form the core benchmark.
+
+- Vietnamese Legal Ontology: Every legal answer, traced to the article that grounds it [paper](https://arxiv.org/abs/2611.11426) — Integrates four open datasets into a provenance-bearing legal graph with 11.5 million nodes and 16.0 million edges. The abstract reports 61,487 version-resolved provisions out of 67,868 cited provisions, with 19,012 verbatim-confirmed; this is not complete legal-answer verification or a new LLM. Abstract-level verification only: HTML full text was unavailable.
+
+- ScrapeBench: Evaluating Legal Compliance of AI Agents in Website Scraping [paper](https://arxiv.org/abs/2611.11306) — Provides a snapshot of ToS/robots.txt annotations for 1,895 high-traffic, English, US-accessible websites: 1,626 prohibit scraping and 269 do not under the benchmark's labels. Terms can change, so future evaluations require revalidation.
 
 - Follow the Policy, Fail the Benchmark: Auditing and Revising Policy-Based Decision Benchmarks [paper](https://arxiv.org/abs/2611.07042) — BAR provides versioned audit evidence, 300 paired RuleArena Tax references, and revised scorers including LegalBench SARA; supported corrections are separated from conditional or unresolved targets, and not all nine audited benchmarks are legal.
 
@@ -696,6 +716,18 @@ This repository tracks papers and resources about large language models (LLMs) i
 - Do Small Models Use the Law You Give Them? Context-Injected Fine-Tuning for Legal QA in Bangladesh [paper](https://papers.cool/arxiv/2607.23446)
 
 ## Evaluation
+
+- WorkflowArena: Benchmarking Executable Workflow Orchestration in LLM-Based Multi-Agent Systems [paper](https://arxiv.org/abs/2611.12856) — Evaluates clause extraction, cross-contract synthesis, and joint legal/sentencing consistency alongside workflow organization. Each configuration runs once per task and model–harness effects are confounded; overall benchmark results are not legal-subset accuracy or autonomous judicial competence.
+
+- A Large-Scale Dataset for Cross-Lingual Multi-Jurisdiction Patent Drafting from Patent Cooperation Treaty Applications [paper](https://arxiv.org/abs/2611.11891) — Compares translation, prompting, two-stage pipelines and supervised adaptation. A 25-case human/LLM preference pilot explicitly excludes novelty, inventive step, grantability and amendment-law compliance; family-disjoint splits do not rule out pretraining exposure.
+
+- Saidzoda-CA-EmbeddingGemma-300M: One Small Embedder for Tajik, Kazakh, Uzbek and Kyrgyz [paper](https://arxiv.org/abs/2611.11471) — Retains Tajik law recall@10 at 92.2% versus 92.4% for its starting checkpoint, while law recall@1 falls by 4.4 points. Generated legal queries, one training seed, extra-training confounds and missing paired tests limit conclusions.
+
+- ScrapeBench: Evaluating Legal Compliance of AI Agents in Website Scraping [paper](https://arxiv.org/abs/2611.11306) — Reports below-5% compliance under neutral scraping prompts and a 180-participant human baseline. Reading ToS/robots.txt does not reliably translate into compliance; single-agent, single-trial, single-turn tests and website-policy labels do not establish general legal compliance.
+
+- Saidzoda-Tajik-EmbeddingGemma-300M: Knowing Every Letter Is Not Reading Tajik [paper](https://arxiv.org/abs/2611.11243) — Reports law recall@10 rising from 49.3% to 92.4% and tax recall@10 from 45.9% to 91.7%. Train/test queries share the same generator on disjoint documents; independent Belebele evaluation is not a legal-task validation, and test queries are available on request.
+
+- Cascading Circle Loss: Order-Preserving Contrastive Learning for Graded Legal Retrieval [paper](https://arxiv.org/abs/2611.10765) — Compares contrastive losses and ablations over three seeds on one proprietary, six-language contractual-clause dataset. Graded LLM labels lack measured agreement with legal experts; the evidence does not establish generalization across legal corpora or model architectures.
 
 - Compression Through a Context Lens: Evaluating Adaptation, Quantization, and Distillation in Arabic Legal LLMs [paper](https://arxiv.org/abs/2611.07988) — Compares with-context and no-context testing on 500 Saudi Arabic legal MCQs, plus 200 QA items. Four-bit quantization reduces memory by 64–71%; no-context MCQ accuracy changes by -3.2 to +1.6 points. Different teacher checkpoints confound direct quantization-versus-distillation comparisons; QA ROUGE-L is not legal correctness.
 - Follow the Policy, Fail the Benchmark: Auditing and Revising Policy-Based Decision Benchmarks [paper](https://arxiv.org/abs/2611.07042) — Correcting decimal parsing and zero handling raises acceptance by over 80 points on 96 LegalBench SARA numeric cases for each of three models without changing responses. Tax reference repair affects 27/300 cases. Semantic review lacks domain experts, and a controlled federal-exemption experiment changes the native task's premises.
