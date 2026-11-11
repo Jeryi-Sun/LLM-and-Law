@@ -6,6 +6,8 @@
 
 This repository tracks papers and resources about large language models (LLMs) in the legal domain.
 
+> Daily update 2026-11-11 (cs.CL): scanned all 112 papers on the dated list; added 2 title-deduplicated papers on statutory anti-corruption review of draft legislation and paragraph-level IFRS disclosure-requirement verification. Category increments: Applications +2, Legal Reasoning Models +0, Legal Agent +0, Legal Problems +0, Data Resources +2, Law LLMs +0, Evaluation +2. IFRS is included for concrete regulatory-clause verification, not generic finance or compliance; passage-level labels do not determine filing-level compliance or legal liability. The legislative review scores measure agreement with unverified model-extracted findings, not expert-validated legal accuracy. Generic privacy, civic-policy discussion, academic-integrity analysis, hate-speech detection, and non-legal uses of policy, judge, contract or tax were excluded. The archive date follows the dated cs.CL list, not the original submission date.
+
 > Daily update 2026-11-10 (cs.CL): scanned all 207 papers on the dated list; added 7 title-deduplicated papers on legal workflow evaluation, cross-jurisdiction patent drafting, Tajik legal retrieval, Vietnamese legal-citation provenance, and scraping compliance. Category increments: Applications +4, Legal Reasoning Models +0, Legal Agent +0, Legal Problems +1, Data Resources +4, Law LLMs +0, Evaluation +6. WorkflowArena has 22 legal tasks within a broader 145-task benchmark; the two embedders are not law-specific LLMs, and the ontology is included as a legal data resource. Website-policy compliance does not determine legality, retrieval scores do not certify legal answers, and reference similarity does not establish patent grantability. Generic moderation, privacy protection, clinical-design guidance, police-activity statistics, and non-legal uses of policy or contract were excluded. The archive date follows the dated cs.CL list, not the original submission date.
 
 > Daily update 2026-11-06 (cs.CL): scanned all 94 papers on the dated list; added 2 title-deduplicated papers on Arabic legal-model adaptation/compression and audits of rule-based benchmarks with explicit tax and statutory-exemption tasks. Category increments: Applications +0, Legal Reasoning Models +0, Legal Agent +0, Legal Problems +0, Data Resources +1, Law LLMs +1, Evaluation +2. Compression results are limited to Saudi Arabic legal tests; rescoring gains do not represent improved model responses, and BAR does not certify every revised legal target. Generic finance, social-engineering safety, training-data attribution, and non-legal uses of policy, judge or contract were excluded. The archive date follows the dated cs.CL list, not the original submission date.
@@ -60,6 +62,10 @@ This repository tracks papers and resources about large language models (LLMs) i
 - [Evaluation](#evaluation)
 
 ## Applications of Large Language Models in Legal Tasks
+
+- An AI Assistant for Automating Anti-Corruption Expertise of Draft Legislation Based on the TRACE Framework [paper](https://arxiv.org/abs/2611.14244) — Combines bill parsing, provision-level LLM risk qualification and deterministic factor assignment to support Ukrainian statutory anti-corruption review; official conclusions remain with human specialists. This is a structured assistant pipeline, not a newly trained legal LLM.
+
+- IFRS Compliance Verification: An Open Multi-LLM Benchmark and Content-Conditioned Ensemble Classifier [paper](https://arxiv.org/abs/2611.13595) — Retrieves financial disclosure–IFRS requirement pairs and classifies them using adapted embeddings and three LLMs' probability features. Inclusion is limited to explicit reporting-rule verification; paragraph labels do not establish company-level compliance or legal liability.
 
 - A Large-Scale Dataset for Cross-Lingual Multi-Jurisdiction Patent Drafting from Patent Cooperation Treaty Applications [paper](https://arxiv.org/abs/2611.11891) — Generates complete patent claim sets across Japanese/English, JPO/USPTO jurisdictions and prosecution stages. A shared QLoRA adapter is the strongest overall tested baseline; generated amendments still require supporting specifications and prosecution evidence.
 
@@ -523,6 +529,10 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Data Resources for Large Language Models in Law
 
+- An AI Assistant for Automating Anti-Corruption Expertise of Draft Legislation Based on the TRACE Framework [paper](https://arxiv.org/abs/2611.14244) — Builds 132 draft–agency-conclusion pairs (131 draft laws and one resolution) with 474 model-extracted findings from Ukraine's NAZK. The structured findings remain unverified draft labels, not human-curated legal ground truth.
+
+- IFRS Compliance Verification: An Open Multi-LLM Benchmark and Content-Conditioned Ensemble Classifier [paper](https://arxiv.org/abs/2611.13595) — Introduces 19,998 reporting-requirement/disclosure pairs: 11,161 unanimous LLM labels and 8,837 human labels for disagreements. The benchmark is retrieval-conditioned; code/data release is promised upon acceptance and IFRS-text licensing constraints apply.
+
 - WorkflowArena: Benchmarking Executable Workflow Orchestration in LLM-Based Multi-Agent Systems [paper](https://arxiv.org/abs/2611.12856) — Includes 13 merger-contract portfolio tasks and 9 multi-party adjudication tasks grounded in Chinese criminal judgments within a 145-task, eight-domain benchmark. It is not an exclusively legal dataset.
 
 - A Large-Scale Dataset for Cross-Lingual Multi-Jurisdiction Patent Drafting from Patent Cooperation Treaty Applications [paper](https://arxiv.org/abs/2611.11891) — Links 884,179 Japanese–English PCT-derived patent families into 4,067,168 directional claim-set instances across six configurations, with chronological, family-disjoint splits; four configurations form the core benchmark.
@@ -716,6 +726,10 @@ This repository tracks papers and resources about large language models (LLMs) i
 - Do Small Models Use the Law You Give Them? Context-Injected Fine-Tuning for Legal QA in Bangladesh [paper](https://papers.cool/arxiv/2607.23446)
 
 ## Evaluation
+
+- An AI Assistant for Automating Anti-Corruption Expertise of Draft Legislation Based on the TRACE Framework [paper](https://arxiv.org/abs/2611.14244) — Top-ten findings agreement is 0.28–0.30 on 100 acts in non-blind runs, versus 0.21 for the frozen blind baseline; none of 32 legal-collision findings is matched. References and judge labels lack human expert validation, so these scores are not legal correctness rates.
+
+- IFRS Compliance Verification: An Open Multi-LLM Benchmark and Content-Conditioned Ensemble Classifier [paper](https://arxiv.org/abs/2611.13595) — Reports 81.7% weighted F1 on the human-labeled disagreement subset and 45.3% Recall@15 for unseen requirements. Unanimous LLM labels lack human validation, annotator agreement is modest, and passage-level results do not assess complete filings.
 
 - WorkflowArena: Benchmarking Executable Workflow Orchestration in LLM-Based Multi-Agent Systems [paper](https://arxiv.org/abs/2611.12856) — Evaluates clause extraction, cross-contract synthesis, and joint legal/sentencing consistency alongside workflow organization. Each configuration runs once per task and model–harness effects are confounded; overall benchmark results are not legal-subset accuracy or autonomous judicial competence.
 
