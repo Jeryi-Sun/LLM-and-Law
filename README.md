@@ -6,6 +6,8 @@
 
 This repository tracks papers and resources about large language models (LLMs) in the legal domain.
 
+> Daily update 2026-11-17 (cs.CL): scanned all 236 papers on the dated list; added 6 title-deduplicated papers on Dutch judicial rhetorical roles, Singapore legal clarification, German public-law exams, statute-based preference synthesis, Indian GST agent tasks, and statutory-benefit denial explanations. Category increments: Applications +1, Legal Reasoning Models +1, Legal Agent +0, Legal Problems +1, Data Resources +5, Law LLMs +0, Evaluation +6. Broader-domain papers are included only for verified legal subtasks; pooled scores are not legal-only results, simplified rule ports do not certify current legal correctness, and model-graded scores are not expert legal judgments. Generic compliance and using legal corpora solely for decoding or translation-origin detection were excluded. The archive date follows the dated cs.CL list, not the original submission date.
+
 > Daily update 2026-11-13 (cs.CL): scanned all 135 papers on the dated list; added 6 title-deduplicated papers on Chinese judgment generation, legal reasoning training, contract definitions, contract decision revision, case-law topic refinement, and classical legal-text translation. Category increments: Applications +2, Legal Reasoning Models +1, Legal Agent +1, Legal Problems +2, Data Resources +1, Law LLMs +1, Evaluation +5. Broader-domain papers are included only for verified legal subtasks; pooled results are not relabeled as legal-only results, and translation/topic scores do not certify legal validity. Generic privacy, compliance and AI-policy discussion, and using legal text solely to benchmark decoding speed, were excluded. The archive date follows the dated cs.CL list, not the original submission date.
 
 > Daily update 2026-11-11 (cs.CL): scanned all 112 papers on the dated list; added 2 title-deduplicated papers on statutory anti-corruption review of draft legislation and paragraph-level IFRS disclosure-requirement verification. Category increments: Applications +2, Legal Reasoning Models +0, Legal Agent +0, Legal Problems +0, Data Resources +2, Law LLMs +0, Evaluation +2. IFRS is included for concrete regulatory-clause verification, not generic finance or compliance; passage-level labels do not determine filing-level compliance or legal liability. The legislative review scores measure agreement with unverified model-extracted findings, not expert-validated legal accuracy. Generic privacy, civic-policy discussion, academic-integrity analysis, hate-speech detection, and non-legal uses of policy, judge, contract or tax were excluded. The archive date follows the dated cs.CL list, not the original submission date.
@@ -64,6 +66,8 @@ This repository tracks papers and resources about large language models (LLMs) i
 - [Evaluation](#evaluation)
 
 ## Applications of Large Language Models in Legal Tasks
+
+- It Depends on the Task: Rethinking Rhetorical Segmentation of Dutch Judicial Decisions [paper](https://arxiv.org/abs/2611.20868) — Compares sentence-level legal-role classification, staged None detection and section-header priors in Dutch judgments. Precision/recall trade-offs depend on the task; the proposed downstream use-case mapping is not a downstream application evaluation.
 
 - Similar but Not Redundant: Embedding-Gated Refinement for High-Granularity Topic Models [paper](https://arxiv.org/abs/2611.17030) — Refines fine-grained topics in 3,890 Australian Federal Court case reports using embedding proposals and LLM merge decisions; distinguishes related legal concepts, such as contractual versus statutory interpretation, without treating similarity as redundancy.
 
@@ -320,6 +324,8 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Legal Reasoning Models
 
+- Criterion-Activated Preference Synthesis: Attribution-Preserving Preference Data from Explicit Standards [paper](https://arxiv.org/abs/2611.18663) — Synthesizes and filters preference pairs from explicit criteria, including Chinese statutes, for DPO. Included for statute-grounded legal training; correlated model judges and single-seed experiments limit attribution and generalization claims.
+
 - Towards Better Legal Reasoning LLMs: Signal Balancing and Reward Scheduling [paper](https://arxiv.org/abs/2611.15346) — JurisCoT-SFT balances reasoning and answer learning signals through length-normalized objectives; LABPO retires auxiliary rewards and rolls back checkpoints using development objectives. Tests cover selected ChJGBench, LawBench and LegalBench tasks, not every task in those suites.
 
 - LegalEvolver: Agentic Legal Judgment Prediction via Rubric-Guided Self-Evolution [paper](https://arxiv.org/abs/2611.06381) — Alternates rubric refinement and query-level reinforcement learning using contrasts between legal-search trajectories, with rubrics specialized by retrieval tool and reasoning focus.
@@ -432,6 +438,8 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Legal Problems of Large Language Models
 
+- Right Reason, Wrong Advice: Evaluating Recourse in LLM Explanations of Denied Requests [paper](https://arxiv.org/abs/2611.21545) — Distinguishes a true denial reason from changes sufficient to reverse the decision. Included for executable US statutory-benefit eligibility ports; broader access-control results are not legal-only findings, and valid recourse under a simplified port does not establish a real legal entitlement.
+
 - When Local Definitions Are Missing: Stable Errors in Language Models [paper](https://arxiv.org/abs/2611.15597) — CUAD contract questions show stable wrong answers when local definitions are omitted; repeated answers and stated confidence do not reliably reveal errors. Definitions can refer to absent exhibits or other clauses, and the separate error-ranking proxy uses answer keys.
 
 - When Expert Disagreement Hurts: Prestige and Selectivity in LLM Decision Revision [paper](https://arxiv.org/abs/2611.16694) — Studies contract-interpretation revisions under anonymous versus expert-labeled disagreement with fixed evidence. Correct-to-wrong and wrong-to-correct changes must be separated; sensitivity to an expert label does not imply that real legal expertise is generally harmful.
@@ -542,6 +550,12 @@ This repository tracks papers and resources about large language models (LLMs) i
 - Agentic Evaluation of Copyright Law Compliance [paper](https://papers.cool/arxiv/2607.21799)
 
 ## Data Resources for Large Language Models in Law
+
+- It Depends on the Task: Rethinking Rhetorical Segmentation of Dutch Judicial Decisions [paper](https://arxiv.org/abs/2611.20868) — Introduces 8,391 sentence annotations from 100 Dutch civil, criminal and administrative judgments, with four legal rhetorical roles and None. Agreement was assessed on a separate set, not by double-annotating every main-corpus judgment.
+- SG-LegalClarify: A Large-Scale Benchmark for Legal Reasoning and Ambiguity Recognition in Singapore Law [paper](https://arxiv.org/abs/2611.19643) — Contains 1,100 lawyer-authored questions across ten domains, yielding 1,860 specified/underspecified instances with IRAC rubrics and hidden-fact clarification. Public-split and pipeline release is promised, not verified here as completed.
+- GPBam: A Retrieval-Aware German Public Law Exam Benchmark [paper](https://arxiv.org/abs/2611.18981) — Pairs 81 private public-law exam cases and reference solutions with a 200-provision recitation task and cited-norm retrieval targets. Private case access and potentially mismatched statute versions constrain reproducibility and interpretation.
+- Criterion-Activated Preference Synthesis: Attribution-Preserving Preference Data from Explicit Standards [paper](https://arxiv.org/abs/2611.18663) — Constructs CAPS-Legal, 6,158 synthetic preference pairs from 2,019 provisions across six Chinese laws. These are model-generated training preferences, not expert-validated legal answers; release availability was not independently verified.
+- Navital Gym: Rule-Graded Agent Environments for Indian Workflows [paper](https://arxiv.org/abs/2611.20924) — Includes 50 GST invoicing/return tasks within 321 synthetic agent tasks. Included only for that tax-law subset; deterministic rules simplify Indian GST and omit several regimes, while the reported 7B adapter concerns UPI rather than GST.
 
 - ChJGBench: A Comprehensive Benchmark for Chinese Legal Judgment Generation with Diagnostic Evaluation [paper](https://arxiv.org/abs/2611.15639) — Uses 3,462 real Chinese civil, criminal and administrative judgments to evaluate reasoning and dispositive-section generation, with 13 case-type-aware diagnostic metric types covering statutes and outcome-critical elements.
 
@@ -744,6 +758,13 @@ This repository tracks papers and resources about large language models (LLMs) i
 - Do Small Models Use the Law You Give Them? Context-Injected Fine-Tuning for Legal QA in Bangladesh [paper](https://papers.cool/arxiv/2607.23446)
 
 ## Evaluation
+
+- It Depends on the Task: Rethinking Rhetorical Segmentation of Dutch Judicial Decisions [paper](https://arxiv.org/abs/2611.20868) — Header priors mainly help when None sentences are excluded; no strategy dominates precision and recall. Legal-role classification and illustrative task mappings do not establish improved legal reasoning or judgment prediction.
+- SG-LegalClarify: A Large-Scale Benchmark for Legal Reasoning and Ambiguity Recognition in Singapore Law [paper](https://arxiv.org/abs/2611.19643) — Tests 19 LLMs with and without web search; best mandatory-rubric satisfaction is 69.8% and 77.8%, respectively. Limited human validation, simulated clarification and heterogeneous search tools constrain conclusions; rubric satisfaction is not certified legal accuracy.
+- GPBam: A Retrieval-Aware German Public Law Exam Benchmark [paper](https://arxiv.org/abs/2611.18981) — Evaluates 32 models without retrieval and seven across eight retrieval settings. Retrieval yields modest essay-score gains; all essays are graded by three LLM judges without expert grades, and prompt changes and answer length complicate causal attribution.
+- Criterion-Activated Preference Synthesis: Attribution-Preserving Preference Data from Explicit Standards [paper](https://arxiv.org/abs/2611.18663) — Tests statute-based DPO on Chinese legal benchmarks and reports gains for Qwen3-8B/14B. Shared judge-family bias, single-seed training and additional-data confounds in the multi-provision experiment remain limitations; cross-jurisdiction transfer is not established.
+- Navital Gym: Rule-Graded Agent Environments for Indian Workflows [paper](https://arxiv.org/abs/2611.20924) — Scores agent actions against executable rules rather than an LLM judge, including 50 GST tasks. One run per task, simplified tax rules and a strong GST baseline limit difficulty and robustness claims; totals over 321 tasks are not GST-only performance.
+- Right Reason, Wrong Advice: Evaluating Recourse in LLM Explanations of Denied Requests [paper](https://arxiv.org/abs/2611.21545) — Evaluates 20 LLMs on seven rule systems, including SNAP, HUD housing and Title IV student-aid eligibility ports. Pooled failures span legal and access-control tasks; LLM-extracted reason labels, optimistic recourse assumptions and absence of a human-user study limit real-world conclusions.
 
 - ChJGBench: A Comprehensive Benchmark for Chinese Legal Judgment Generation with Diagnostic Evaluation [paper](https://arxiv.org/abs/2611.15639) — Hybrid diagnostics reveal no uniform legal-model advantage over general models, with civil and administrative cases still challenging. Public-judgment selection bias, evolving law and possible pretraining contamination limit conclusions; benchmark scores do not establish judicial readiness.
 
