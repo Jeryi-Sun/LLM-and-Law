@@ -6,6 +6,8 @@
 
 This repository tracks papers and resources about large language models (LLMs) in the legal domain.
 
+> Daily update 2026-11-19 (cs.CL): scanned all 72 papers on the dated list; added 2 title-deduplicated papers on independent-record evaluation of executable legal rules and proceeding-level criminal-court sequence modeling. Category increments: Applications +1, Legal Reasoning Models +0, Legal Agent +0, Legal Problems +0, Data Resources +2, Law LLMs +0, Evaluation +2. Corporate disclosures are not legal ground truth. The court model uses frozen BERT features rather than a new generative legal LLM; its main metric assumes the true label count, and source court records are not redistributed. Generic privacy, authorization checks, model judges and non-legal uses of policy or legal were excluded. The archive date follows the dated cs.CL list, not the original submission date.
+
 > Daily update 2026-11-18 (cs.CL): scanned all 102 papers on the dated list; added 2 title-deduplicated papers on citation-grounded Persian legal RAG and search-feedback training for Boolean patent prior-art retrieval. Category increments: Applications +2, Legal Reasoning Models +0, Legal Agent +0, Legal Problems +0, Data Resources +2, Law LLMs +0, Evaluation +2. Model-graded legal answers are not expert-verified legal advice; citation-containing set size is not total examiner workload or a patentability decision. The patent strategies are generated before execution, not interactively revised online. Generic governance/compliance, software contracts, cultural norms and incidental patent-application statements were excluded. The archive date follows the dated cs.CL list, not the original submission date.
 
 > Daily update 2026-11-17 (cs.CL): scanned all 236 papers on the dated list; added 6 title-deduplicated papers on Dutch judicial rhetorical roles, Singapore legal clarification, German public-law exams, statute-based preference synthesis, Indian GST agent tasks, and statutory-benefit denial explanations. Category increments: Applications +1, Legal Reasoning Models +1, Legal Agent +0, Legal Problems +1, Data Resources +5, Law LLMs +0, Evaluation +6. Broader-domain papers are included only for verified legal subtasks; pooled scores are not legal-only results, simplified rule ports do not certify current legal correctness, and model-graded scores are not expert legal judgments. Generic compliance and using legal corpora solely for decoding or translation-origin detection were excluded. The archive date follows the dated cs.CL list, not the original submission date.
@@ -68,6 +70,8 @@ This repository tracks papers and resources about large language models (LLMs) i
 - [Evaluation](#evaluation)
 
 ## Applications of Large Language Models in Legal Tasks
+
+- From Arraignment to Resolution: Transformer Models of Court Cases [paper](https://arxiv.org/abs/2611.23518) — Combines frozen BERT clerk-note features with a temporally masked sequence model to predict the next criminal-court proceeding's outcomes. Intended for retrospective aggregate oversight, not individual bail, charging, plea or sentencing decisions.
 
 - TUSI: A Citation-Grounded Graph-Based Benchmark [paper](https://arxiv.org/abs/2611.21823) — Combines dense retrieval with one-hop expansion over Iranian statutes, expert interpretations and judicial unification rulings for Persian legal QA. Graph quality and additional retrieved context affect results; model-graded answers do not establish legal correctness.
 - Teaching Language Models to Narrow Boolean Patent Searches from Search Feedback [paper](https://arxiv.org/abs/2611.22270) — Adapts a Qwen3.5-9B query generator with strategy-level preferences or per-line citation-preserving narrowing credit. Complete Boolean strategies are generated before execution; search feedback trains the generator offline rather than guiding an online legal agent.
@@ -556,6 +560,9 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Data Resources for Large Language Models in Law
 
+- Grading Executable Legal Rules Against Independent Records: Transitional Provisions and Korean SME Status [paper](https://arxiv.org/abs/2611.24055) — LexTemporis pairs 10,901 Korean firm-years with versioned legal rules and independent disclosure labels, with US tax and German hospital comparison cases. Disclosures are not legal ground truth; the German case table awaits redistribution clearance.
+- From Arraignment to Resolution: Transformer Models of Court Cases [paper](https://arxiv.org/abs/2611.23518) — Constructs 2,533 criminal cases with 19,459 proceedings and 20 extracted outcome labels. The authors release a pipeline and schema-matched synthetic data, not the source court records; extraction recall and record errors remain limitations.
+
 - TUSI: A Citation-Grounded Graph-Based Benchmark [paper](https://arxiv.org/abs/2611.21823) — Builds a knowledge layer of 7,261 articles from 50 Iranian statutes, 1,999 citation-grounded QA items and approximately 500 bar-exam questions. Experts review subsets during iterative filtering, not every item; TUSI-Bar has law-level rather than article-level links. The stated dataset endpoint returned HTTP 401 during verification, so public download was not confirmed.
 - Teaching Language Models to Narrow Boolean Patent Searches from Search Feedback [paper](https://arxiv.org/abs/2611.22270) — Curates 38,397 executable Japanese Patent Office search reports with query lines and citation associations, split by application into 37,668/373/356 train/development/test reports. Most test themes occur in training; public report sources do not imply the processed corpus or training implementation has been released.
 
@@ -766,6 +773,9 @@ This repository tracks papers and resources about large language models (LLMs) i
 - Do Small Models Use the Law You Give Them? Context-Injected Fine-Tuning for Legal QA in Bangladesh [paper](https://papers.cool/arxiv/2607.23446)
 
 ## Evaluation
+
+- Grading Executable Legal Rules Against Independent Records: Transitional Provisions and Korean SME Status [paper](https://arxiv.org/abs/2611.24055) — Evaluates LLM-synthesized legal programs against records independent of the author's interpretation. No retrieval condition wins across all four models in the preregistered comparison; exploratory gains can shrink under independent-record scoring.
+- From Arraignment to Resolution: Transformer Models of Court Cases [paper](https://arxiv.org/abs/2611.23518) — Reports proceeding-level micro-F1 .5715 for the transformer versus .5886 for a matched GRU. Main top-k evaluation uses the true label count, unknown in deployment; feature sensitivity does not establish demographic fairness.
 
 - TUSI: A Citation-Grounded Graph-Based Benchmark [paper](https://arxiv.org/abs/2611.21823) — Tests legal retrieval, citation-grounded generation and Iranian bar-exam QA. Gemma3 exam accuracy is 33.0% without RAG, 36.8% with flat RAG and 37.7% with graph expansion; open-ended answers are scored by DeepSeek-V4-Pro, not independently graded by lawyers.
 - Teaching Language Models to Narrow Boolean Patent Searches from Search Feedback [paper](https://arxiv.org/abs/2611.22270) — On 356 reports, iterative line-credit training reduces median citation-containing set size from 768 to 48.5, with recall below the expert reference. The metric selects each citation's smallest containing set, not the union of documents an examiner reads; one-seed, familiar-theme, Japanese-only evaluation limits generalization.
