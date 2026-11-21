@@ -71,6 +71,8 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Applications of Large Language Models in Legal Tasks
 
+- Quantifying Cultural-Psychological Constructs in Four Centuries of Ottoman Court Registers [paper](https://arxiv.org/abs/2611.24981) — Adapts masked-language encoders and an embedding model to Ottoman legal language through summary–court-record training. Included for legal-document representation and retrieval; its cultural-construct scores describe recorded legal discourse, not population-level psychological traits or legal correctness.
+
 - From Arraignment to Resolution: Transformer Models of Court Cases [paper](https://arxiv.org/abs/2611.23518) — Combines frozen BERT clerk-note features with a temporally masked sequence model to predict the next criminal-court proceeding's outcomes. Intended for retrospective aggregate oversight, not individual bail, charging, plea or sentencing decisions.
 
 - TUSI: A Citation-Grounded Graph-Based Benchmark [paper](https://arxiv.org/abs/2611.21823) — Combines dense retrieval with one-hop expansion over Iranian statutes, expert interpretations and judicial unification rulings for Persian legal QA. Graph quality and additional retrieved context affect results; model-graded answers do not establish legal correctness.
@@ -447,6 +449,8 @@ This repository tracks papers and resources about large language models (LLMs) i
 
 ## Legal Problems of Large Language Models
 
+- HireWatch: Evaluating LLM Compliance with U.S. Employment Law Under Contextual Pressure [paper](https://arxiv.org/abs/2611.24970) — Tests whether organizational pressure makes hiring assistants select interview questions labeled unlawful under US federal employment-law sources. Explicit legal reminders reduce but do not eliminate violations of the benchmark labels; binary labels cannot resolve every context-dependent legal distinction.
+
 - Right Reason, Wrong Advice: Evaluating Recourse in LLM Explanations of Denied Requests [paper](https://arxiv.org/abs/2611.21545) — Distinguishes a true denial reason from changes sufficient to reverse the decision. Included for executable US statutory-benefit eligibility ports; broader access-control results are not legal-only findings, and valid recourse under a simplified port does not establish a real legal entitlement.
 
 - When Local Definitions Are Missing: Stable Errors in Language Models [paper](https://arxiv.org/abs/2611.15597) — CUAD contract questions show stable wrong answers when local definitions are omitted; repeated answers and stated confidence do not reliably reveal errors. Definitions can refer to absent exhibits or other clauses, and the separate error-ranking proxy uses answer keys.
@@ -559,6 +563,9 @@ This repository tracks papers and resources about large language models (LLMs) i
 - Agentic Evaluation of Copyright Law Compliance [paper](https://papers.cool/arxiv/2607.21799)
 
 ## Data Resources for Large Language Models in Law
+
+- HireWatch: Evaluating LLM Compliance with U.S. Employment Law Under Contextual Pressure [paper](https://arxiv.org/abs/2611.24970) — Provides a 200-item interview-question bank with 50 unlawful and 150 lawful labels grounded in federal statutes, regulations and agency guidance, audited by nine licensed US attorneys. Label agreement is 86.7% for unlawful and 97.7% for lawful items; disagreement includes context-dependent interpretations. [Code and data](https://github.com/hnghiem-nlp/hirewatch_repo).
+- Quantifying Cultural-Psychological Constructs in Four Centuries of Ottoman Court Registers [paper](https://arxiv.org/abs/2611.24981) — Reuses 54,670 historical court records and adds a 440-document expert-annotated construct set and legal-language evaluation materials. The paper states that models, annotations and code are released, but the linked Zenodo download was not verified; full court texts are not redistributed because of copyright restrictions.
 
 - Grading Executable Legal Rules Against Independent Records: Transitional Provisions and Korean SME Status [paper](https://arxiv.org/abs/2611.24055) — LexTemporis pairs 10,901 Korean firm-years with versioned legal rules and independent disclosure labels, with US tax and German hospital comparison cases. Disclosures are not legal ground truth; the German case table awaits redistribution clearance.
 - From Arraignment to Resolution: Transformer Models of Court Cases [paper](https://arxiv.org/abs/2611.23518) — Constructs 2,533 criminal cases with 19,459 proceedings and 20 extracted outcome labels. The authors release a pipeline and schema-matched synthetic data, not the source court records; extraction recall and record errors remain limitations.
@@ -773,6 +780,9 @@ This repository tracks papers and resources about large language models (LLMs) i
 - Do Small Models Use the Law You Give Them? Context-Injected Fine-Tuning for Legal QA in Bangladesh [paper](https://papers.cool/arxiv/2607.23446)
 
 ## Evaluation
+
+- HireWatch: Evaluating LLM Compliance with U.S. Employment Law Under Contextual Pressure [paper](https://arxiv.org/abs/2611.24970) — Evaluates 18 LLMs across seven context/pressure conditions, four legal instructions and 20 jobs: 50,400 main trials, plus a temperature robustness suite bringing the total above 100,000. Measures unlawful-question selection from a fixed bank, not real hiring outcomes; empty outputs and refusals receive zero violation rate.
+- Quantifying Cultural-Psychological Constructs in Four Centuries of Ottoman Court Registers [paper](https://arxiv.org/abs/2611.24981) — Evaluates summary-to-court-record retrieval on 5,272 held-out records: Recall@1 is .843 for OTA-BERTurk and .918 for OTA-EmbeddingGemma-2. Splits group identical summaries but do not hold out courts or periods; model/context-length differences and construct-label imbalance limit broader comparisons.
 
 - Grading Executable Legal Rules Against Independent Records: Transitional Provisions and Korean SME Status [paper](https://arxiv.org/abs/2611.24055) — Evaluates LLM-synthesized legal programs against records independent of the author's interpretation. No retrieval condition wins across all four models in the preregistered comparison; exploratory gains can shrink under independent-record scoring.
 - From Arraignment to Resolution: Transformer Models of Court Cases [paper](https://arxiv.org/abs/2611.23518) — Reports proceeding-level micro-F1 .5715 for the transformer versus .5886 for a matched GRU. Main top-k evaluation uses the true label count, unknown in deployment; feature sensitivity does not establish demographic fairness.
